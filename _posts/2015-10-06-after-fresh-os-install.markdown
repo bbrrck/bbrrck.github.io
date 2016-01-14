@@ -2,7 +2,7 @@
 layout: post
 title:  "After a fresh OS install"
 date:   2015-10-06 14:30:00
-categories: fedora linux installation
+categories:
 ---
 In the past few months, I've experimented with various Linux distros, before sticking with Fedora-based <a href="https://kororaproject.org/">Korora</a> and Gnome 3 desktop. Korora comes with many pre-installed packages, including <code>vlc</code>, <code>audacity</code>, <code>deluge</code>, <code>gimp</code>, <code>inkscape</code> and <code>git</code>, which is great; still, each time I'm reinstalling my laptop, I spend too much time figuring out which additional applications, packages and libraries I need to install. To facilitate this rather tedious process in the future, I've compiled the following list, plus some pointers to useful web resources.
 

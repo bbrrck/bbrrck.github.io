@@ -2,7 +2,7 @@
 layout: post
 title:  "Fixing Fujitsu UH572 touchpad on Fedora"
 date:   2015-10-12 18:42:00
-categories: jekyll update
+categories:
 ---
 &hellip;that's a lot of F words. Here's the thing. 
 
