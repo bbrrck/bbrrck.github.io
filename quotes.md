@@ -1,8 +1,7 @@
 ---
 layout: page
-permalink: /about/quotes/
+permalink: /quotes/
 ---
-
 
 <blockquote>To know one's state is not a simple matter. One cannot look directly at one's own face with one's own eyes, for example. One has no choice but to look at one's reflection in the mirror. Thruogh experiences, we come to believe that the image is correct, but that is all.</blockquote>
 
