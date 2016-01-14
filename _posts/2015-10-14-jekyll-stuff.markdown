@@ -2,6 +2,8 @@
 layout: post
 title:  "Jekyll stuff"
 date:   2016-01-14 16:37:00
+comments: true
+draft: true
 ---
 Today, I've started using jekyll and github pages.
 
@@ -11,3 +13,4 @@ Today, I've started using jekyll and github pages.
 [markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  
 [SSL on github pages with custom domain](https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/)  
 [jekyll tutorial](http://joshualande.com/jekyll-github-pages-poole/)  
+[github pages DNS config](https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/)
