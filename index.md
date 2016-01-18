@@ -11,6 +11,6 @@ from [slovakia](https://www.youtube.com/watch?v=C6doVaI8N9c)
 &middot;
 living in [grenoble](http://2pattes.tiborstanko.sk/)
 &middot;
-{: style="color:#333; font-size: 95%; text-align: center;"}
+{: style="text-align: center;"}
 
-![me](./img/me.jpg)
+![me](./assets/me.jpg)

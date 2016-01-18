@@ -3,11 +3,11 @@
 ---
 @charset "utf-8";
 
-
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: 'Raleway', Helvetica, Arial, sans-serif;
+$base-font-size:   100%;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -42,6 +42,56 @@ $on-laptop:        800px;
     }
 }
 
+section.publications + section.publications {
+    margin-top: 2em;
+}
+
+section.publications title.year {
+    color: $brand-color;
+    clear: left;
+    font-size: 175%;
+    display: block;
+}
+
+section.publications:after, 
+section.publications section.publication:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+section.publications section.publication {
+    margin: 1em 0;
+}
+section.publications section.publication div.wrapper {
+    padding-left: 10em;
+}
+
+section.publications section.publication title {
+    font-size: 125%;
+    color: #111;
+    display: block;
+    font-family: 'Raleway';
+}
+
+section.publications section.publication img {
+    width: 8em;
+    float: left;
+    margin-right: 1.5em;
+    padding: 0;
+}
+section.publications section.publication .advisor {
+    color: #333;
+    font-style:italic;
+}
+section.publications section.publication .advisor:before {
+    content: "advised by ";
+}
+section.publications section.publication .type {
+    color: #333;
+}
+section.publications section.publication .links {
+    color: #777;
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
