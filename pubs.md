@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /pubs/
-title: Publications
+title: publications
 ---
 
 <section class="publications" id="y2014">

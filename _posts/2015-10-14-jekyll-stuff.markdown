@@ -2,8 +2,8 @@
 layout: post
 title:  "Jekyll stuff"
 date:   2016-01-14 16:37:00
-comments: true
 draft: true
+permalink: jekyll-stuff/
 ---
 Today, I've started using jekyll and github pages.
 

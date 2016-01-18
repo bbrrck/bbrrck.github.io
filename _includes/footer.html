@@ -4,14 +4,16 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
+        
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
+          <li>{{ site.description }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 
       <div class="footer-col  footer-col-2">
         <ul class="social-media-list">
+          
           {% if site.github_username %}
           <li>
             <a href="https://github.com/{{ site.github_username }}">
@@ -40,13 +42,24 @@
             </a>
           </li>
           {% endif %}
+          
         </ul>
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
-      </div>
+        <ul class="social-media-list">
         
+          <li>
+            <img style="margin-top: -0.15em; height:0.95em;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABJ0lEQVQ4T92T0VHDQAxEtXEBuAU6CBXgVABUQOggDfiksxtwB4QKmFQQ0wEd0EIowF5GN3bGBJNh4A993Ie1erpbyZA/BubqzWyZZdkNycLzANqu63Zm9nqq/wQws3yxWDyLSCqcibbv+zszO4y5I8CLAbwByEXkBUDTdV3rwizLCpIbEbkmeSB5OUKOgKqqXOyCqKo21z7GaABURNoQwio9z4+6rr3DnuROVW/P+To2ArAqy7JNgBjjFsB93/dXc0ZNgZNmT6q6ToCRGkKYncrpjaqqovsUQigweZfrHkguVdUN+xIxxgaAj/LRk+4XBloSpw9A4eQ5gN+UZDsYmST/BOBrefFLD97hPw4A3zBf5YZkHkLYfmPiGoCv8mZYafvR3M9t5gfsZNFOtHfyBgAAAABJRU5ErkJggg=="/>
+            <a href="http://www.last.fm/user/{{ site.lastfm_username }}">
+              {% assign track = site.data.recent.recenttracks.track[0] %}
+              <span style="padding-left: 0.1em;" class="username">
+              {{ track.artist['#text'] }} – {{ track.name }}</span>
+            </a>
+          </li>
+        </ul>
+    
+      </div>
     </div>
     
   </div>

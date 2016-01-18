@@ -5,8 +5,13 @@ description: > # this means to ignore newlines until "baseurl:"
   music, maths &amp; webdesign
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://tiborstanko.sk/" # the base hostname & protocol for your site
+
 twitter_username: tiborstanko
 github_username:  bbrrck
+lastfm_username: boberr
+
+# Outputting
+permalink: none
 
 # Build settings
 markdown: kramdown
