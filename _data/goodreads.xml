@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+      <key><![CDATA[ns4kzJMQkyXogLfo5OyZA]]></key>
+    <method><![CDATA[user_show]]></method>
+  </Request>
+  <user>
+  <id>6403898</id>
+  <name>Tibor Stanko</name>
+  <user_name>bbrrck</user_name>
+  <link><![CDATA[http://www.goodreads.com/user/show/6403898-tibor-stanko]]></link>
+  <image_url><![CDATA[http://d.gr-assets.com/users/1453128784p3/6403898.jpg]]></image_url>
+  <small_image_url><![CDATA[http://d.gr-assets.com/users/1453128784p2/6403898.jpg]]></small_image_url>
+    <about></about>
+    <age>25</age>
+    <gender>male</gender>
+    <location>Grenoble, France</location>
+    <website>http://tiborstanko.sk</website>
+    <joined>09/2011</joined>
+    <last_active>01/2016</last_active>
+    <interests></interests>
+    <favorite_books></favorite_books>
+    <favorite_authors>
+    </favorite_authors>
+    <updates_rss_url><![CDATA[http://www.goodreads.com/user/updates_rss/6403898?key=eUpt8wwDPOS4taudee2olTYOroOILRdM_TbxDXFEniuz-3KB]]></updates_rss_url>
+    <reviews_rss_url><![CDATA[http://www.goodreads.com/review/list_rss/6403898?key=eUpt8wwDPOS4taudee2olTYOroOILRdM_TbxDXFEniuz-3KB&shelf=%23ALL%23]]></reviews_rss_url>
+    <friends_count type="integer">18</friends_count>
+    <groups_count>1</groups_count>
+    <reviews_count type="integer">207</reviews_count>
+    <user_shelves type="array">
+  <user_shelf>
+    <id type="integer">21052661</id>
+    <name>read</name>
+    <book_count type="integer">105</book_count>
+    <exclusive_flag type="boolean">true</exclusive_flag>
+    <description nil="true"/>
+    <sort nil="true"/>
+    <order nil="true"/>
+    <per_page type="integer" nil="true"/>
+    <display_fields></display_fields>
+    <featured type="boolean">false</featured>
+    <recommend_for type="boolean">true</recommend_for>
+    <sticky type="boolean" nil="true"/>
+  </user_shelf>
+  <user_shelf>
+    <id type="integer">21052660</id>
+    <name>currently-reading</name>
+    <book_count type="integer">6</book_count>
+    <exclusive_flag type="boolean">true</exclusive_flag>
+    <description nil="true"/>
+    <sort nil="true"/>
+    <order nil="true"/>
+    <per_page type="integer" nil="true"/>
+    <display_fields></display_fields>
+    <featured type="boolean">false</featured>
+    <recommend_for type="boolean">true</recommend_for>
+    <sticky type="boolean" nil="true"/>
+  </user_shelf>
+  <user_shelf>
+    <id type="integer">21052659</id>
+    <name>to-read</name>
+    <book_count type="integer">96</book_count>
+    <exclusive_flag type="boolean">true</exclusive_flag>
+    <description nil="true"/>
+    <sort nil="true"/>
+    <order>a</order>
+    <per_page type="integer" nil="true"/>
+    <display_fields></display_fields>
+    <featured type="boolean">false</featured>
+    <recommend_for type="boolean">true</recommend_for>
+    <sticky type="boolean" nil="true"/>
+  </user_shelf>
+  <user_shelf>
+    <id type="integer">166970294</id>
+    <name>2016</name>
+    <book_count type="integer">20</book_count>
+    <exclusive_flag type="boolean">false</exclusive_flag>
+    <description nil="true"/>
+    <sort nil="true"/>
+    <order nil="true"/>
+    <per_page type="integer" nil="true"/>
+    <display_fields></display_fields>
+    <featured type="boolean">false</featured>
+    <recommend_for type="boolean">true</recommend_for>
+    <sticky type="boolean" nil="true"/>
+  </user_shelf>
+</user_shelves>
+      <updates type="array">
+      <update type="userstatus">
+      <action_text><![CDATA[is on page 116 of 368 of <a href="https://www.goodreads.com/book/show/23492671-the-rosie-effect">The Rosie Effect</a>]]></action_text>
+      <link>http://www.goodreads.com/user_status/show/85568814</link>
+      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Mon, 18 Jan 2016 23:59:32 -0800</updated_at>
+        <object>
+          <user_status>
+  <id type="integer">85568814</id>
+  <user_id type="integer">6403898</user_id>
+  <book_id type="integer">23492671</book_id>
+  <page type="integer">116</page>
+  <chapter type="integer" nil="true"/>
+  <comments_count type="integer">0</comments_count>
+  <body></body>
+  <created_at type="datetime">2016-01-19T07:59:32+00:00</created_at>
+  <updated_at type="datetime">2016-01-19T07:59:32+00:00</updated_at>
+  <last_comment_at type="datetime" nil="true"/>
+  <ratings_count type="integer">0</ratings_count>
+  <percent type="integer">31</percent>
+  <work_id type="integer">41326408</work_id>
+  <note_uri nil="true"/>
+  <note_updated_at type="datetime" nil="true"/>
+  <review_id type="integer">1496712337</review_id>
+  <book>
+    <id type="integer">23492671</id>
+    <work_id type="integer">41326408</work_id>
+    <isbn>1476767327</isbn>
+    <isbn13>9781476767321</isbn13>
+    <title>The Rosie Effect (Don Tillman, #2)</title>
+    <sort_by_title>rosie effect (don tillman, #2), the</sort_by_title>
+    <author_id type="integer">1895943</author_id>
+    <author_role nil="true"/>
+    <asin nil="true"/>
+    <description></description>
+    <format>Paperback</format>
+    <publication_year type="integer">2015</publication_year>
+    <publication_month type="integer">7</publication_month>
+    <publication_day type="integer">21</publication_day>
+    <num_pages type="integer">368</num_pages>
+    <publisher>Simon &amp; Schuster</publisher>
+    <language_code>eng</language_code>
+    <edition_information nil="true"/>
+    <url nil="true"/>
+    <source_url nil="true"/>
+    <image_uploaded_at type="datetime">2015-07-20T05:28:34+00:00</image_uploaded_at>
+    <s3_image_at type="datetime">2015-07-20T05:28:35+00:00</s3_image_at>
+    <reviews_count type="integer">17049</reviews_count>
+    <ratings_sum type="integer">30116</ratings_sum>
+    <ratings_count type="integer">8629</ratings_count>
+    <text_reviews_count type="integer">1037</text_reviews_count>
+    <book_authors_count type="integer">0</book_authors_count>
+    <updated_at type="datetime">2016-01-01T14:51:05+00:00</updated_at>
+    <created_at type="datetime">2014-11-03T02:40:30+00:00</created_at>
+    <author_id_updater_user_id type="integer">-44</author_id_updater_user_id>
+    <author_role_updater_user_id type="integer">-9</author_role_updater_user_id>
+    <description_updater_user_id type="integer">45618</description_updater_user_id>
+    <edition_information_updater_user_id type="integer" nil="true"/>
+    <format_updater_user_id type="integer">-44</format_updater_user_id>
+    <image_updater_user_id type="integer">-44</image_updater_user_id>
+    <isbn_updater_user_id type="integer">-44</isbn_updater_user_id>
+    <isbn13_updater_user_id type="integer">-44</isbn13_updater_user_id>
+    <language_updater_user_id type="integer">989638</language_updater_user_id>
+    <num_pages_updater_user_id type="integer">-44</num_pages_updater_user_id>
+    <publication_date_updater_user_id type="integer">-44</publication_date_updater_user_id>
+    <publisher_updater_user_id type="integer">-44</publisher_updater_user_id>
+    <title_updater_user_id type="integer">5949408</title_updater_user_id>
+    <url_updater_user_id type="integer" nil="true"/>
+    <title_language_code nil="true"/>
+    <publisher_language_code nil="true"/>
+    <description_language_code nil="true"/>
+    <asin_updater_user_id type="integer" nil="true"/>
+    <author>
+      <id type="integer">1895943</id>
+      <name>Graeme Simsion</name>
+      <updated_at type="datetime">2016-01-19T09:20:02+00:00</updated_at>
+      <created_at type="datetime">2008-09-05T06:13:53+00:00</created_at>
+      <searched_for_at type="datetime">2009-09-16T07:37:31+00:00</searched_for_at>
+      <image_uploaded_at type="datetime">2015-07-15T22:29:37+00:00</image_uploaded_at>
+      <user_id type="integer">16514642</user_id>
+      <gender>M</gender>
+      <country_code></country_code>
+      <born_at type="datetime" nil="true"/>
+      <died_at type="datetime" nil="true"/>
+      <about>Graeme Simsion is a former IT consultant and the author of two nonfiction books on database design who decided, at the age of fifty, to turn his hand to fiction. His first novel, &lt;i&gt;The Rosie Project,&lt;/i&gt; was published in 2013 and translation rights have been sold in over thirty-five languages. Graeme lives in Australia with his wife, Anne, and their two children. </about>
+      <uploader_user_id type="integer">4940203</uploader_user_id>
+      <image_copyright>Simonandschuster.net</image_copyright>
+      <influences></influences>
+      <url>http://rosieproject.com</url>
+      <genre1>Fiction</genre1>
+      <genre2>Romance</genre2>
+      <genre3></genre3>
+      <books_count type="integer">178</books_count>
+      <reviews_count type="integer">435533</reviews_count>
+      <ratings_sum type="integer">985894</ratings_sum>
+      <works_count type="integer">9</works_count>
+      <hometown></hometown>
+      <rating_dist>total:1|5:0|4:1|3:0|2:0|1:0|</rating_dist>
+      <s3_image_at type="datetime" nil="true"/>
+      <ratings_count type="integer">251249</ratings_count>
+      <text_reviews_count type="integer">30426</text_reviews_count>
+      <author_program_at type="datetime">2015-07-20T18:10:02+00:00</author_program_at>
+      <postal_code nil="true"/>
+      <fanships_count type="integer">749</fanships_count>
+      <best_book_id type="integer">16181775</best_book_id>
+      <name_language_code nil="true"/>
+      <sort_by_name>simsion, graeme</sort_by_name>
+      <shelf_display_name>Simsion, Graeme</shelf_display_name>
+      <gender_custom nil="true"/>
+      <gender_pronoun nil="true"/>
+    </author>
+  </book>
+</user_status>
+        </object>
+    </update>
+      <update type="readstatus">
+      <action_text><![CDATA[started reading <a only_path="false" href="http://www.goodreads.com/review/show/1496712337">The Rosie Effect (Don Tillman, #2)</a>]]></action_text>
+      <link>http://www.goodreads.com/read_statuses/1181216370</link>
+      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Sat, 16 Jan 2016 01:20:38 -0800</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">1181216370</id>
+  <review_id type="integer">1496712337</review_id>
+  <user_id type="integer">6403898</user_id>
+  <old_status>to-read</old_status>
+  <status>currently-reading</status>
+  <updated_at type="datetime">2016-01-16T09:20:38+00:00</updated_at>
+  <review>
+    <id type="integer">1496712337</id>
+    <user_id type="integer">6403898</user_id>
+    <book_id type="integer">23492671</book_id>
+    <rating type="integer">0</rating>
+    <read_status>currently-reading</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review nil="true"/>
+    <recommendation nil="true"/>
+    <read_at type="datetime" nil="true"/>
+    <updated_at type="datetime">2016-01-16T09:20:37+00:00</updated_at>
+    <created_at type="datetime">2016-01-05T19:39:08+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">0</weight>
+    <ratings_sum type="integer">0</ratings_sum>
+    <ratings_count type="integer">0</ratings_count>
+    <notes nil="true"/>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1 nil="true"/>
+    <work_id type="integer">41326408</work_id>
+    <read_count nil="true"/>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime">2016-01-16T09:20:37+00:00</started_at>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2016-01-16T09:20:37+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <book>
+      <id type="integer">23492671</id>
+      <work_id type="integer">41326408</work_id>
+      <isbn>1476767327</isbn>
+      <isbn13>9781476767321</isbn13>
+      <title>The Rosie Effect (Don Tillman, #2)</title>
+      <sort_by_title>rosie effect (don tillman, #2), the</sort_by_title>
+      <author_id type="integer">1895943</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description></description>
+      <format>Paperback</format>
+      <publication_year type="integer">2015</publication_year>
+      <publication_month type="integer">7</publication_month>
+      <publication_day type="integer">21</publication_day>
+      <num_pages type="integer">368</num_pages>
+      <publisher>Simon &amp; Schuster</publisher>
+      <language_code>eng</language_code>
+      <edition_information nil="true"/>
+      <url nil="true"/>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2015-07-20T05:28:34+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-07-20T05:28:35+00:00</s3_image_at>
+      <reviews_count type="integer">17049</reviews_count>
+      <ratings_sum type="integer">30116</ratings_sum>
+      <ratings_count type="integer">8629</ratings_count>
+      <text_reviews_count type="integer">1037</text_reviews_count>
+      <book_authors_count type="integer">0</book_authors_count>
+      <updated_at type="datetime">2016-01-01T14:51:05+00:00</updated_at>
+      <created_at type="datetime">2014-11-03T02:40:30+00:00</created_at>
+      <author_id_updater_user_id type="integer">-44</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer">-9</author_role_updater_user_id>
+      <description_updater_user_id type="integer">45618</description_updater_user_id>
+      <edition_information_updater_user_id type="integer" nil="true"/>
+      <format_updater_user_id type="integer">-44</format_updater_user_id>
+      <image_updater_user_id type="integer">-44</image_updater_user_id>
+      <isbn_updater_user_id type="integer">-44</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">-44</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">989638</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">-44</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">-44</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">-44</publisher_updater_user_id>
+      <title_updater_user_id type="integer">5949408</title_updater_user_id>
+      <url_updater_user_id type="integer" nil="true"/>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <author>
+        <id type="integer">1895943</id>
+        <name>Graeme Simsion</name>
+        <updated_at type="datetime">2016-01-19T09:20:02+00:00</updated_at>
+        <created_at type="datetime">2008-09-05T06:13:53+00:00</created_at>
+        <searched_for_at type="datetime">2009-09-16T07:37:31+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2015-07-15T22:29:37+00:00</image_uploaded_at>
+        <user_id type="integer">16514642</user_id>
+        <gender>M</gender>
+        <country_code></country_code>
+        <born_at type="datetime" nil="true"/>
+        <died_at type="datetime" nil="true"/>
+        <about>Graeme Simsion is a former IT consultant and the author of two nonfiction books on database design who decided, at the age of fifty, to turn his hand to fiction. His first novel, &lt;i&gt;The Rosie Project,&lt;/i&gt; was published in 2013 and translation rights have been sold in over thirty-five languages. Graeme lives in Australia with his wife, Anne, and their two children. </about>
+        <uploader_user_id type="integer">4940203</uploader_user_id>
+        <image_copyright>Simonandschuster.net</image_copyright>
+        <influences></influences>
+        <url>http://rosieproject.com</url>
+        <genre1>Fiction</genre1>
+        <genre2>Romance</genre2>
+        <genre3></genre3>
+        <books_count type="integer">178</books_count>
+        <reviews_count type="integer">435533</reviews_count>
+        <ratings_sum type="integer">985894</ratings_sum>
+        <works_count type="integer">9</works_count>
+        <hometown></hometown>
+        <rating_dist>total:1|5:0|4:1|3:0|2:0|1:0|</rating_dist>
+        <s3_image_at type="datetime" nil="true"/>
+        <ratings_count type="integer">251249</ratings_count>
+        <text_reviews_count type="integer">30426</text_reviews_count>
+        <author_program_at type="datetime">2015-07-20T18:10:02+00:00</author_program_at>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">749</fanships_count>
+        <best_book_id type="integer">16181775</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>simsion, graeme</sort_by_name>
+        <shelf_display_name>Simsion, Graeme</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 4 stars to <a href="http://www.goodreads.com/book/show/16181775-the-rosie-project">The Rosie Project (Don Tillman #1)</a> by <a href="http://www.goodreads.com/author/show/1895943.Graeme_Simsion">Graeme Simsion</a>]]></action_text>
+      <link>http://www.goodreads.com/review/show/1496711798</link>
+      <image_url>http://d.gr-assets.com/books/1371651741s/16181775.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Sat, 16 Jan 2016 01:15:16 -0800</updated_at>
+          <action type="rating">
+            <rating>4</rating>
+          </action>
+        <object>
+          <book>
+            <id>16181775</id>
+            <title><![CDATA[The Rosie Project (Don Tillman #1)]]></title>
+            <link>http://www.goodreads.com/book/show/16181775-the-rosie-project</link>
+            <authors>
+<author>
+<id>1895943</id>
+<name>Graeme Simsion</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[http://d.gr-assets.com/authors/1436999377p5/1895943.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[http://d.gr-assets.com/authors/1436999377p2/1895943.jpg]]>
+</small_image_url>
+<link><![CDATA[http://www.goodreads.com/author/show/1895943.Graeme_Simsion]]></link>
+<average_rating>3.92</average_rating>
+<ratings_count>251249</ratings_count>
+<text_reviews_count>30426</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+    </update>
+      <update type="readstatus">
+      <action_text><![CDATA[started reading <a only_path="false" href="http://www.goodreads.com/review/show/1496711798">The Rosie Project (Don Tillman #1)</a>]]></action_text>
+      <link>http://www.goodreads.com/read_statuses/1174466469</link>
+      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Tue, 12 Jan 2016 23:57:42 -0800</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">1174466469</id>
+  <review_id type="integer">1496711798</review_id>
+  <user_id type="integer">6403898</user_id>
+  <old_status>to-read</old_status>
+  <status>currently-reading</status>
+  <updated_at type="datetime">2016-01-13T07:57:42+00:00</updated_at>
+  <review>
+    <id type="integer">1496711798</id>
+    <user_id type="integer">6403898</user_id>
+    <book_id type="integer">16181775</book_id>
+    <rating type="integer">4</rating>
+    <read_status>read</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review nil="true"/>
+    <recommendation nil="true"/>
+    <read_at type="datetime">2016-01-16T09:15:16+00:00</read_at>
+    <updated_at type="datetime">2016-01-16T09:15:16+00:00</updated_at>
+    <created_at type="datetime">2016-01-05T19:38:44+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">0</weight>
+    <ratings_sum type="integer">0</ratings_sum>
+    <ratings_count type="integer">0</ratings_count>
+    <notes nil="true"/>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1 nil="true"/>
+    <work_id type="integer">22084678</work_id>
+    <read_count nil="true"/>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime">2016-01-13T07:57:42+00:00</started_at>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2016-01-16T09:15:16+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <book>
+      <id type="integer">16181775</id>
+      <work_id type="integer">22084678</work_id>
+      <isbn>1476729085</isbn>
+      <isbn13>9781476729084</isbn13>
+      <title>The Rosie Project (Don Tillman #1)</title>
+      <sort_by_title>rosie project, the (don tillman #1)</sort_by_title>
+      <author_id type="integer">1895943</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description>An international sensation, this hilarious, feel-good novel is narrated by an oddly charming and socially challenged genetics professor on an unusual quest: to find out if he is capable of true love.
+
+Don Tillman, professor of genetics, has never been on a second date. He is a man who can count all his friends on the fingers of one hand, whose lifelong difficulty with social rituals has convinced him that he is simply not wired for romance. So when an acquaintance informs him that he would make a “wonderful” husband, his first reaction is shock. Yet he must concede to the statistical probability that there is someone for everyone, and he embarks upon The Wife Project. In the orderly, evidence-based manner with which he approaches all things, Don sets out to find the perfect partner. She will be punctual and logical—most definitely not a barmaid, a smoker, a drinker, or a late-arriver.
+
+Yet Rosie Jarman is all these things. She is also beguiling, fiery, intelligent—and on a quest of her own. She is looking for her biological father, a search that a certain DNA expert might be able to help her with. Don's Wife Project takes a back burner to the Father Project and an unlikely relationship blooms, forcing the scientifically minded geneticist to confront the spontaneous whirlwind that is Rosie—and the realization that love is not always what looks good on paper.
+
+&lt;i&gt;The Rosie Project&lt;/i&gt; is a moving and hilarious novel for anyone who has ever tenaciously gone after life or love in the face of overwhelming challenges.</description>
+      <format>Hardcover</format>
+      <publication_year type="integer">2013</publication_year>
+      <publication_month type="integer">10</publication_month>
+      <publication_day type="integer">1</publication_day>
+      <num_pages type="integer">304</num_pages>
+      <publisher>Simon &amp; Schuster</publisher>
+      <language_code>eng</language_code>
+      <edition_information nil="true"/>
+      <url>http://www.rosieproject.com</url>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2013-06-19T14:22:21+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-06-16T03:01:29+00:00</s3_image_at>
+      <reviews_count type="integer">302230</reviews_count>
+      <ratings_sum type="integer">690009</ratings_sum>
+      <ratings_count type="integer">172722</ratings_count>
+      <text_reviews_count type="integer">20019</text_reviews_count>
+      <book_authors_count type="integer">0</book_authors_count>
+      <updated_at type="datetime">2015-09-17T09:12:58+00:00</updated_at>
+      <created_at type="datetime">2012-11-30T15:40:37+00:00</created_at>
+      <author_id_updater_user_id type="integer">1365572</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer" nil="true"/>
+      <description_updater_user_id type="integer">4940203</description_updater_user_id>
+      <edition_information_updater_user_id type="integer" nil="true"/>
+      <format_updater_user_id type="integer">1365572</format_updater_user_id>
+      <image_updater_user_id type="integer">4940203</image_updater_user_id>
+      <isbn_updater_user_id type="integer">1365572</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">1365572</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">346303</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">3615945</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">5136858</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">1365572</publisher_updater_user_id>
+      <title_updater_user_id type="integer">5915376</title_updater_user_id>
+      <url_updater_user_id type="integer">4940203</url_updater_user_id>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <author>
+        <id type="integer">1895943</id>
+        <name>Graeme Simsion</name>
+        <updated_at type="datetime">2016-01-19T09:20:02+00:00</updated_at>
+        <created_at type="datetime">2008-09-05T06:13:53+00:00</created_at>
+        <searched_for_at type="datetime">2009-09-16T07:37:31+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2015-07-15T22:29:37+00:00</image_uploaded_at>
+        <user_id type="integer">16514642</user_id>
+        <gender>M</gender>
+        <country_code></country_code>
+        <born_at type="datetime" nil="true"/>
+        <died_at type="datetime" nil="true"/>
+        <about>Graeme Simsion is a former IT consultant and the author of two nonfiction books on database design who decided, at the age of fifty, to turn his hand to fiction. His first novel, &lt;i&gt;The Rosie Project,&lt;/i&gt; was published in 2013 and translation rights have been sold in over thirty-five languages. Graeme lives in Australia with his wife, Anne, and their two children. </about>
+        <uploader_user_id type="integer">4940203</uploader_user_id>
+        <image_copyright>Simonandschuster.net</image_copyright>
+        <influences></influences>
+        <url>http://rosieproject.com</url>
+        <genre1>Fiction</genre1>
+        <genre2>Romance</genre2>
+        <genre3></genre3>
+        <books_count type="integer">178</books_count>
+        <reviews_count type="integer">435533</reviews_count>
+        <ratings_sum type="integer">985894</ratings_sum>
+        <works_count type="integer">9</works_count>
+        <hometown></hometown>
+        <rating_dist>total:1|5:0|4:1|3:0|2:0|1:0|</rating_dist>
+        <s3_image_at type="datetime" nil="true"/>
+        <ratings_count type="integer">251249</ratings_count>
+        <text_reviews_count type="integer">30426</text_reviews_count>
+        <author_program_at type="datetime">2015-07-20T18:10:02+00:00</author_program_at>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">749</fanships_count>
+        <best_book_id type="integer">16181775</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>simsion, graeme</sort_by_name>
+        <shelf_display_name>Simsion, Graeme</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
+      <update type="readstatus">
+      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1504412738">The Black Swan: The Impact of the Highly Improbable</a>]]></action_text>
+      <link>http://www.goodreads.com/read_statuses/1168600458</link>
+      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Sun, 10 Jan 2016 14:06:23 -0800</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">1168600458</id>
+  <review_id type="integer">1504412738</review_id>
+  <user_id type="integer">6403898</user_id>
+  <old_status>read</old_status>
+  <status>to-read</status>
+  <updated_at type="datetime">2016-01-10T22:06:23+00:00</updated_at>
+  <review>
+    <id type="integer">1504412738</id>
+    <user_id type="integer">6403898</user_id>
+    <book_id type="integer">242472</book_id>
+    <rating type="integer">0</rating>
+    <read_status>to-read</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review nil="true"/>
+    <recommendation nil="true"/>
+    <read_at type="datetime" nil="true"/>
+    <updated_at type="datetime">2016-01-10T22:06:25+00:00</updated_at>
+    <created_at type="datetime">2016-01-10T22:06:22+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">0</weight>
+    <ratings_sum type="integer">0</ratings_sum>
+    <ratings_count type="integer">0</ratings_count>
+    <notes nil="true"/>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1 nil="true"/>
+    <work_id type="integer">2157806</work_id>
+    <read_count nil="true"/>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime" nil="true"/>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2016-01-10T22:06:25+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <book>
+      <id type="integer">242472</id>
+      <work_id type="integer">2157806</work_id>
+      <isbn>1400063515</isbn>
+      <isbn13>9781400063512</isbn13>
+      <title>The Black Swan: The Impact of the Highly Improbable</title>
+      <sort_by_title>black swan: the impact of the highly improbable, the</sort_by_title>
+      <author_id type="integer">21559</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description>A black swan is a highly improbable event with three principal characteristics: It is unpredictable; it carries a massive impact; and, after the fact, we concoct an explanation that makes it appear less random, and more predictable, than it was. 
+
+The astonishing success of Google was a black swan; so was 9/11. For Nassim Nicholas Taleb, black swans underlie almost everything about our world, from the rise of religions to events in our own personal lives.
+
+Why do we not acknowledge the phenomenon of black swans until after they occur? Part of the answer, according to Taleb, is that humans are hardwired to learn specifics when they should be focused on generalities. 
+
+We concentrate on things we already know and time and time again fail to take into consideration what we don’t know. We are, therefore, unable to truly estimate opportunities, too vulnerable to the impulse to simplify, narrate, and categorize, and not open enough to rewarding those who can imagine the “impossible.”
+
+For years, Taleb has studied how we fool ourselves into thinking we know more than we actually do. We restrict our thinking to the irrelevant and inconsequential, while large events continue to surprise us and shape our world. Now, in this revelatory book, Taleb explains everything we know about what we don’t know. He offers surprisingly simple tricks for dealing with black swans and benefiting from them.
+
+Elegant, startling, and universal in its applications 'The Black Swan' will change the way you look at the world. Taleb is a vastly entertaining writer, with wit, irreverence, and unusual stories to tell. He has a polymathic command of subjects ranging from cognitive science to business to probability theory. 
+
+'The Black Swan' is a landmark book – itself a black swan.
+
+The book also contains a 4-page glossary; 19 pages of notes; and, a 28-page bibliography in addition to an index.</description>
+      <format>Hardcover</format>
+      <publication_year type="integer">2007</publication_year>
+      <publication_month type="integer">5</publication_month>
+      <publication_day type="integer">15</publication_day>
+      <num_pages type="integer">305</num_pages>
+      <publisher>Random House </publisher>
+      <language_code>eng</language_code>
+      <edition_information nil="true"/>
+      <url nil="true"/>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2013-12-13T09:04:31+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-05-16T15:26:24+00:00</s3_image_at>
+      <reviews_count type="integer">99973</reviews_count>
+      <ratings_sum type="integer">172146</ratings_sum>
+      <ratings_count type="integer">44594</ratings_count>
+      <text_reviews_count type="integer">2329</text_reviews_count>
+      <book_authors_count type="integer">0</book_authors_count>
+      <updated_at type="datetime">2015-05-16T15:26:24+00:00</updated_at>
+      <created_at type="datetime">2007-03-05T00:54:09+00:00</created_at>
+      <author_id_updater_user_id type="integer">-50</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer">1019021</author_role_updater_user_id>
+      <description_updater_user_id type="integer">29536471</description_updater_user_id>
+      <edition_information_updater_user_id type="integer" nil="true"/>
+      <format_updater_user_id type="integer">-50</format_updater_user_id>
+      <image_updater_user_id type="integer">-9</image_updater_user_id>
+      <isbn_updater_user_id type="integer">-50</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">-50</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">3669238</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">29536471</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">-50</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">1910836</publisher_updater_user_id>
+      <title_updater_user_id type="integer">18423957</title_updater_user_id>
+      <url_updater_user_id type="integer" nil="true"/>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <author>
+        <id type="integer">21559</id>
+        <name>Nassim Nicholas Taleb</name>
+        <updated_at type="datetime">2016-01-19T10:32:25+00:00</updated_at>
+        <created_at type="datetime">2007-01-18T16:30:31+00:00</created_at>
+        <searched_for_at type="datetime">2007-03-10T23:32:23+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2008-03-20T15:13:13+00:00</image_uploaded_at>
+        <user_id type="integer">16509954</user_id>
+        <gender>M</gender>
+        <country_code>LB</country_code>
+        <born_at type="date">1960-01-01</born_at>
+        <died_at type="datetime" nil="true"/>
+        <about>Taleb has devoted his life to problems of uncertainty, probability, and knowledge. He spent two decades as a trader before becoming a philosophical essayist and academic researcher in probability theory. Although he now spends most of his time either working in intense seclusion in his study, or as a flâneur meditating in cafés across the planet, he is currently Distinguished Professor of Risk Engineering at New York University's Polytechnic Institute. His main subject matter is "decision making under opacity", that is, a map and a protocol on how we should live in a world we don't understand.
+
+His works are grouped under the general title Incerto (latin for uncertainty), composed of a trilogy accessible in any order (Antifragile, The Black Swan, and Fooled by Randomness) plus two addenda: a book of philosophical aphorisms (The Bed of Procrustes) and a freely available Technical Companion. 
+
+Taleb believes that prizes, honorary degrees, awards, and ceremonialism debase knowledge by turning it into a spectator sport.
+
+ See &lt;ahref="http://en.wikipedia.org/wiki/Nassim_Taleb"&gt;Wikipedia&lt;/a&gt; for more details.</about>
+        <uploader_user_id type="integer">339562</uploader_user_id>
+        <image_copyright>From Wikipedia, which has the same standards for uploaded photos.</image_copyright>
+        <influences>[a:Sextus Empiricus|302857|Sextus Empiricus|http://www.goodreads.com/assets/nophoto/nophoto-M-50x66-e07624dc012f2cce49c7d9aa6500c6c0.jpg], [a:Michel de Montaigne|17241|Michel de Montaigne|http://d202m5krfqbpi5.cloudfront.net/authors/1332479195p2/17241.jpg], [a:Raymond Poincare|1696257|Raymond Poincare|http://www.goodreads.com/assets/nophoto/nophoto-U-50x66-251a730d696018971ef4a443cdeaae05.jpg], A.N.Kolmogorov</influences>
+        <url>http://www.fooledbyrandomness.com/</url>
+        <genre1>Philosophy</genre1>
+        <genre2>Business &amp; Investing</genre2>
+        <genre3></genre3>
+        <books_count type="integer">214</books_count>
+        <reviews_count type="integer">198905</reviews_count>
+        <ratings_sum type="integer">340424</ratings_sum>
+        <works_count type="integer">19</works_count>
+        <hometown>Amioun</hometown>
+        <rating_dist>5:1919|4:2664|3:1759|2:696|1:279|total:7317</rating_dist>
+        <s3_image_at type="datetime">2015-05-14T23:02:07+00:00</s3_image_at>
+        <ratings_count type="integer">86983</ratings_count>
+        <text_reviews_count type="integer">5011</text_reviews_count>
+        <author_program_at type="datetime">2013-08-06T20:58:10+00:00</author_program_at>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">957</fanships_count>
+        <best_book_id type="integer">242472</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>taleb, nassim nicholas</sort_by_name>
+        <shelf_display_name>Taleb, Nassim Nicholas</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
+      <update type="readstatus">
+      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1504412305">So You&#39;ve Been Publicly Shamed</a>]]></action_text>
+      <link>http://www.goodreads.com/read_statuses/1168599702</link>
+      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Sun, 10 Jan 2016 14:06:06 -0800</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">1168599702</id>
+  <review_id type="integer">1504412305</review_id>
+  <user_id type="integer">6403898</user_id>
+  <old_status>read</old_status>
+  <status>to-read</status>
+  <updated_at type="datetime">2016-01-10T22:06:05+00:00</updated_at>
+  <review>
+    <id type="integer">1504412305</id>
+    <user_id type="integer">6403898</user_id>
+    <book_id type="integer">22571552</book_id>
+    <rating type="integer">0</rating>
+    <read_status>to-read</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review nil="true"/>
+    <recommendation nil="true"/>
+    <read_at type="datetime" nil="true"/>
+    <updated_at type="datetime">2016-01-10T22:06:07+00:00</updated_at>
+    <created_at type="datetime">2016-01-10T22:06:05+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">0</weight>
+    <ratings_sum type="integer">0</ratings_sum>
+    <ratings_count type="integer">0</ratings_count>
+    <notes nil="true"/>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1 nil="true"/>
+    <work_id type="integer">43062778</work_id>
+    <read_count nil="true"/>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime" nil="true"/>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2016-01-10T22:06:07+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <book>
+      <id type="integer">22571552</id>
+      <work_id type="integer">43062778</work_id>
+      <isbn>1594487138</isbn>
+      <isbn13>9781594487132</isbn13>
+      <title>So You've Been Publicly Shamed</title>
+      <sort_by_title>so you've been publicly shamed</sort_by_title>
+      <author_id type="integer">1218</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description nil="true"/>
+      <format>Hardcover</format>
+      <publication_year type="integer">2015</publication_year>
+      <publication_month type="integer">3</publication_month>
+      <publication_day type="integer">31</publication_day>
+      <num_pages type="integer">290</num_pages>
+      <publisher>Riverhead Books</publisher>
+      <language_code>eng</language_code>
+      <edition_information nil="true"/>
+      <url nil="true"/>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2014-10-19T20:13:34+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-06-16T07:36:47+00:00</s3_image_at>
+      <reviews_count type="integer">37543</reviews_count>
+      <ratings_sum type="integer">42964</ratings_sum>
+      <ratings_count type="integer">11112</ratings_count>
+      <text_reviews_count type="integer">1467</text_reviews_count>
+      <book_authors_count type="integer">0</book_authors_count>
+      <updated_at type="datetime">2015-06-16T07:36:47+00:00</updated_at>
+      <created_at type="datetime">2014-06-23T19:26:07+00:00</created_at>
+      <author_id_updater_user_id type="integer">-50</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer">-9</author_role_updater_user_id>
+      <description_updater_user_id type="integer">3236194</description_updater_user_id>
+      <edition_information_updater_user_id type="integer" nil="true"/>
+      <format_updater_user_id type="integer">-50</format_updater_user_id>
+      <image_updater_user_id type="integer">-51</image_updater_user_id>
+      <isbn_updater_user_id type="integer">-50</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">-50</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">3236194</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">128591</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">-50</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">-50</publisher_updater_user_id>
+      <title_updater_user_id type="integer">3236194</title_updater_user_id>
+      <url_updater_user_id type="integer" nil="true"/>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <author>
+        <id type="integer">1218</id>
+        <name>Jon Ronson</name>
+        <updated_at type="datetime">2016-01-19T09:15:45+00:00</updated_at>
+        <created_at type="datetime">2006-09-22T21:14:34+00:00</created_at>
+        <searched_for_at type="datetime">2007-01-16T03:44:08+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2015-04-03T01:11:51+00:00</image_uploaded_at>
+        <user_id type="integer" nil="true"/>
+        <gender>M</gender>
+        <country_code>GB</country_code>
+        <born_at type="date">1967-05-10</born_at>
+        <died_at type="datetime" nil="true"/>
+        <about>Jon Ronson is a writer and documentary film maker. His books, Them: Adventures With Extremists and The Men Who Stare At Goats were international bestsellers. The Men Who Stare At Goats was adapted into a major motion picture starring George Clooney, Ewan McGregor, Kevin Spacey and Jeff Bridges.
+ 
+He's written the popular "Human Zoo" and "Out of the Ordinary" columns for The Guardian, where he still contributes features. He currently writes and presents the twice Sony nominated BBC Radio 4 series, Jon Ronson On...
+ 
+For Channel 4, Jon has made a number of films including the acclaimed five part series the Secret Rulers of the World and the multi-award-winning Tottenham Ayatollah. His most recent documentaries are Reverend Death (Channel 4), Citizen Kubrick (More4) and Robbie Williams and Jon Ronson Journey to the Other Side (Radio 4). 
+ 
+In the US, he is a contributor to Public Radio International's This American Life.</about>
+        <uploader_user_id type="integer">603238</uploader_user_id>
+        <image_copyright>Photo Credit: Emli Bendixen. Image provided by publisher.</image_copyright>
+        <influences></influences>
+        <url>http://www.jonronson.com/</url>
+        <genre1>Nonfiction</genre1>
+        <genre2></genre2>
+        <genre3></genre3>
+        <books_count type="integer">182</books_count>
+        <reviews_count type="integer">277253</reviews_count>
+        <ratings_sum type="integer">398310</ratings_sum>
+        <works_count type="integer">15</works_count>
+        <hometown>Cardiff, Wales</hometown>
+        <rating_dist>5:586|4:1285|3:951|2:220|1:50|total:3092</rating_dist>
+        <s3_image_at type="datetime">2015-05-14T22:53:29+00:00</s3_image_at>
+        <ratings_count type="integer">103015</ratings_count>
+        <text_reviews_count type="integer">8676</text_reviews_count>
+        <author_program_at type="datetime" nil="true"/>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">802</fanships_count>
+        <best_book_id type="integer">12391521</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>ronson, jon</sort_by_name>
+        <shelf_display_name>Ronson, Jon</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
+      <update type="readstatus">
+      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1504380115">Man Meets Dog</a>]]></action_text>
+      <link>http://www.goodreads.com/read_statuses/1168543419</link>
+      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Sun, 10 Jan 2016 13:42:15 -0800</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">1168543419</id>
+  <review_id type="integer">1504380115</review_id>
+  <user_id type="integer">6403898</user_id>
+  <old_status>read</old_status>
+  <status>to-read</status>
+  <updated_at type="datetime">2016-01-10T21:42:15+00:00</updated_at>
+  <review>
+    <id type="integer">1504380115</id>
+    <user_id type="integer">6403898</user_id>
+    <book_id type="integer">13963</book_id>
+    <rating type="integer">0</rating>
+    <read_status>to-read</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review nil="true"/>
+    <recommendation nil="true"/>
+    <read_at type="datetime" nil="true"/>
+    <updated_at type="datetime">2016-01-10T21:42:17+00:00</updated_at>
+    <created_at type="datetime">2016-01-10T21:42:14+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">0</weight>
+    <ratings_sum type="integer">0</ratings_sum>
+    <ratings_count type="integer">0</ratings_count>
+    <notes nil="true"/>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1 nil="true"/>
+    <work_id type="integer">2186647</work_id>
+    <read_count nil="true"/>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime" nil="true"/>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2016-01-10T21:42:17+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <book>
+      <id type="integer">13963</id>
+      <work_id type="integer">2186647</work_id>
+      <isbn>0415267455</isbn>
+      <isbn13>9780415267458</isbn13>
+      <title>Man Meets Dog</title>
+      <sort_by_title>man meets dog</sort_by_title>
+      <author_id type="integer">8674</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description>In this wonderful book, the famous scientist and best-selling author, Konrad Lorenz, 'the man who talked with animals', enlightens and entertains us with his illustrated account of the unique relationship between humans and their pets. Displaying Lorenz's customary humanity and expert knowledge of animals, Man Meets Dog is also a deeply personal and entertaining account of his relationships with his own four-legged friends. With charming sketches on almost every page, Man Meets Dog offers a delightful insight into animal and human thinking and feeling. An essential companion for all lovers of dogs (and cats!).</description>
+      <format>Paperback</format>
+      <publication_year type="integer">2002</publication_year>
+      <publication_month type="integer">5</publication_month>
+      <publication_day type="integer">9</publication_day>
+      <num_pages type="integer">226</num_pages>
+      <publisher>Routledge</publisher>
+      <language_code>eng</language_code>
+      <edition_information nil="true"/>
+      <url nil="true"/>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2012-12-25T13:58:34+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-05-16T14:52:47+00:00</s3_image_at>
+      <reviews_count type="integer">600</reviews_count>
+      <ratings_sum type="integer">1170</ratings_sum>
+      <ratings_count type="integer">294</ratings_count>
+      <text_reviews_count type="integer">17</text_reviews_count>
+      <book_authors_count type="integer">0</book_authors_count>
+      <updated_at type="datetime">2015-05-16T14:52:47+00:00</updated_at>
+      <created_at type="datetime">2006-12-20T00:41:15+00:00</created_at>
+      <author_id_updater_user_id type="integer">-51</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer">-10</author_role_updater_user_id>
+      <description_updater_user_id type="integer">-51</description_updater_user_id>
+      <edition_information_updater_user_id type="integer" nil="true"/>
+      <format_updater_user_id type="integer">-51</format_updater_user_id>
+      <image_updater_user_id type="integer">-51</image_updater_user_id>
+      <isbn_updater_user_id type="integer">-51</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">-51</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">-10</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">-51</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">-51</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">-51</publisher_updater_user_id>
+      <title_updater_user_id type="integer">-51</title_updater_user_id>
+      <url_updater_user_id type="integer" nil="true"/>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <author>
+        <id type="integer">8674</id>
+        <name>Konrad Lorenz</name>
+        <updated_at type="datetime">2016-01-16T19:32:58+00:00</updated_at>
+        <created_at type="datetime">2006-12-20T00:41:15+00:00</created_at>
+        <searched_for_at type="datetime">2007-04-21T14:41:52+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2008-04-17T09:02:35+00:00</image_uploaded_at>
+        <user_id type="integer" nil="true"/>
+        <gender>M</gender>
+        <country_code></country_code>
+        <born_at type="date">1903-11-07</born_at>
+        <died_at type="date">1989-02-27</died_at>
+        <about></about>
+        <uploader_user_id type="integer">1015035</uploader_user_id>
+        <image_copyright>http://upload.wikimedia.org/wikipedia/en/f/f9/Lorenz.gif</image_copyright>
+        <influences></influences>
+        <url></url>
+        <genre1></genre1>
+        <genre2></genre2>
+        <genre3></genre3>
+        <books_count type="integer">231</books_count>
+        <reviews_count type="integer">6934</reviews_count>
+        <ratings_sum type="integer">13221</ratings_sum>
+        <works_count type="integer">43</works_count>
+        <hometown>Vienna</hometown>
+        <rating_dist>5:153|4:173|3:103|2:17|1:2|total:448</rating_dist>
+        <s3_image_at type="datetime">2015-05-14T22:57:55+00:00</s3_image_at>
+        <ratings_count type="integer">3224</ratings_count>
+        <text_reviews_count type="integer">213</text_reviews_count>
+        <author_program_at type="datetime" nil="true"/>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">50</fanships_count>
+        <best_book_id type="integer">13965</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>lorenz, konrad</sort_by_name>
+        <shelf_display_name>Lorenz, Konrad</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
+      <update type="readstatus">
+      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1504359957">Zrada</a>]]></action_text>
+      <link>http://www.goodreads.com/read_statuses/1168508343</link>
+      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Sun, 10 Jan 2016 13:26:58 -0800</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">1168508343</id>
+  <review_id type="integer">1504359957</review_id>
+  <user_id type="integer">6403898</user_id>
+  <old_status>read</old_status>
+  <status>to-read</status>
+  <updated_at type="datetime">2016-01-10T21:26:58+00:00</updated_at>
+  <review>
+    <id type="integer">1504359957</id>
+    <user_id type="integer">6403898</user_id>
+    <book_id type="integer">16124355</book_id>
+    <rating type="integer">0</rating>
+    <read_status>to-read</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review nil="true"/>
+    <recommendation nil="true"/>
+    <read_at type="datetime" nil="true"/>
+    <updated_at type="datetime">2016-01-10T21:27:01+00:00</updated_at>
+    <created_at type="datetime">2016-01-10T21:26:57+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">0</weight>
+    <ratings_sum type="integer">0</ratings_sum>
+    <ratings_count type="integer">0</ratings_count>
+    <notes nil="true"/>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1 nil="true"/>
+    <work_id type="integer">1487876</work_id>
+    <read_count nil="true"/>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime" nil="true"/>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2016-01-10T21:27:01+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <book>
+      <id type="integer">16124355</id>
+      <work_id type="integer">1487876</work_id>
+      <isbn>8055118048</isbn>
+      <isbn13>9788055118048</isbn13>
+      <title>Zrada</title>
+      <sort_by_title>zrada</sort_by_title>
+      <author_id type="integer">904719</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description></description>
+      <format>Hardcover</format>
+      <publication_year type="integer">2008</publication_year>
+      <publication_month type="integer">8</publication_month>
+      <publication_day type="integer">12</publication_day>
+      <num_pages type="integer">398</num_pages>
+      <publisher>Ikar</publisher>
+      <language_code>slo</language_code>
+      <edition_information nil="true"/>
+      <url nil="true"/>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2012-11-02T19:53:29+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-06-16T02:58:53+00:00</s3_image_at>
+      <reviews_count type="integer">23</reviews_count>
+      <ratings_sum type="integer">56</ratings_sum>
+      <ratings_count type="integer">13</ratings_count>
+      <text_reviews_count type="integer">0</text_reviews_count>
+      <book_authors_count type="integer">1</book_authors_count>
+      <updated_at type="datetime">2015-06-16T02:58:53+00:00</updated_at>
+      <created_at type="datetime">2012-11-02T19:52:42+00:00</created_at>
+      <author_id_updater_user_id type="integer">3276709</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer" nil="true"/>
+      <description_updater_user_id type="integer">4015835</description_updater_user_id>
+      <edition_information_updater_user_id type="integer" nil="true"/>
+      <format_updater_user_id type="integer">7471321</format_updater_user_id>
+      <image_updater_user_id type="integer">7471321</image_updater_user_id>
+      <isbn_updater_user_id type="integer">8801116</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">7471321</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">7471321</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">7471321</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">8801116</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">7471321</publisher_updater_user_id>
+      <title_updater_user_id type="integer">7471321</title_updater_user_id>
+      <url_updater_user_id type="integer" nil="true"/>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <author>
+        <id type="integer">904719</id>
+        <name>Jo Nesbø</name>
+        <updated_at type="datetime">2016-01-19T12:57:01+00:00</updated_at>
+        <created_at type="datetime">2007-10-03T22:34:05+00:00</created_at>
+        <searched_for_at type="datetime">2007-12-10T14:44:47+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2011-08-14T10:11:20+00:00</image_uploaded_at>
+        <user_id type="integer" nil="true"/>
+        <gender>M</gender>
+        <country_code>NO</country_code>
+        <born_at type="date">1960-03-29</born_at>
+        <died_at type="datetime" nil="true"/>
+        <about>Jo Nesbø is a bestselling Norwegian author and musician. He was born in Oslo and grew up in Molde. Nesbø graduated from the Norwegian School of Economics with a degree in economics. Nesbø is primarily famous for his crime novels about Detective Harry Hole, but he is also the main vocals and songwriter for the Norwegian rock band Di Derre. In 2007 Nesbø also released his first children's book, Doktor Proktors Prompepulver.
+
+&lt;b&gt;Series:&lt;/b&gt;
+* &lt;a href="http://www.goodreads.com/series/51155-harry-hole"&gt;Harry Hole&lt;/a&gt;
+* &lt;a href="http://www.goodreads.com/series/66741-doktor-proktor"&gt;Doktor Proktor&lt;/a&gt;</about>
+        <uploader_user_id type="integer">3440556</uploader_user_id>
+        <image_copyright>http://blogs.mollat.com/litterature/files/jo-nesbo.jpg</image_copyright>
+        <influences></influences>
+        <url>http://jonesbo.com/</url>
+        <genre1>Mystery &amp; Thrillers</genre1>
+        <genre2>Children's Books</genre2>
+        <genre3></genre3>
+        <books_count type="integer">1486</books_count>
+        <reviews_count type="integer">515338</reviews_count>
+        <ratings_sum type="integer">1277350</ratings_sum>
+        <works_count type="integer">46</works_count>
+        <hometown>Oslo</hometown>
+        <rating_dist>5:1613|4:3505|3:1699|2:294|1:69|total:7180</rating_dist>
+        <s3_image_at type="datetime">2015-05-15T00:44:05+00:00</s3_image_at>
+        <ratings_count type="integer">325043</ratings_count>
+        <text_reviews_count type="integer">26044</text_reviews_count>
+        <author_program_at type="datetime" nil="true"/>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">3367</fanships_count>
+        <best_book_id type="integer">465226</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>nesbø, jo</sort_by_name>
+        <shelf_display_name>Nesbø, Jo</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 5 stars to <a href="http://www.goodreads.com/book/show/27260932-pono-ky-pred-odletom">Ponožky pred odletom (Hardcover)</a> by <a href="http://www.goodreads.com/author/show/4601156.Du_an_Du_ek">Dušan Dušek</a>]]></action_text>
+      <link>http://www.goodreads.com/review/show/1496719249</link>
+      <image_url>http://d.gr-assets.com/books/1445605190s/27260932.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Wed, 06 Jan 2016 07:41:09 -0800</updated_at>
+          <action type="rating">
+            <rating>5</rating>
+          </action>
+        <object>
+          <book>
+            <id>27260932</id>
+            <title>Ponožky pred odletom</title>
+            <link>http://www.goodreads.com/book/show/27260932-pono-ky-pred-odletom</link>
+            <authors>
+<author>
+<id>4601156</id>
+<name>Dušan Dušek</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[http://d.gr-assets.com/authors/1371579476p5/4601156.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[http://d.gr-assets.com/authors/1371579476p2/4601156.jpg]]>
+</small_image_url>
+<link><![CDATA[http://www.goodreads.com/author/show/4601156.Du_an_Du_ek]]></link>
+<average_rating>3.73</average_rating>
+<ratings_count>194</ratings_count>
+<text_reviews_count>9</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+    </update>
+</updates>
+    <user_statuses>
+        <user_status>
+  <id type="integer">85568814</id>
+  <page type="integer">116</page>
+  <chapter type="integer" nil="true"/>
+  <comments_count type="integer">0</comments_count>
+  <body></body>
+  <created_at type="datetime">2016-01-19T07:59:32+00:00</created_at>
+  <updated_at type="datetime">2016-01-19T07:59:32+00:00</updated_at>
+  <last_comment_at type="datetime" nil="true"/>
+  <ratings_count type="integer">0</ratings_count>
+  <percent type="integer">31</percent>
+  <work_id type="integer">41326408</work_id>
+  <note_uri nil="true"/>
+  <note_updated_at type="datetime" nil="true"/>
+  <review_id type="integer">1496712337</review_id>
+  <book>
+    <id type="integer">23492671</id>
+    <title>The Rosie Effect (Don Tillman, #2)</title>
+    <num_pages type="integer">368</num_pages>
+    <image_url>http://d.gr-assets.com/books/1437370114m/23492671.jpg</image_url>
+    <small_image_url>http://d.gr-assets.com/books/1437370114s/23492671.jpg</small_image_url>
+<authors><author>    <id>1895943</id>
+    <name>Graeme Simsion</name>
+</author></authors>  </book>
+</user_status>
+    </user_statuses>
+</user>
+
+</GoodreadsResponse>

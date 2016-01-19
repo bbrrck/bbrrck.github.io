@@ -1,0 +1,28 @@
+<div class="page-content random-quote">
+  <div class="wrapper">
+    <div id="randomquote">
+        {% assign randomi = site.time | date: "%s%N" | modulo: site.data.quotes.size %}
+        {% assign randomq = site.data.quotes[randomi] %}
+        <blockquote>
+            <span class="quote">{{ randomq.quote }}</span>
+            <span class="author">
+            ―
+            {% if randomq.goodreads_author_id %}
+                <a title="{{ randomq.author }} on goodreads" href="https://www.goodreads.com/author/show/{{ randomq.goodreads_author_id }}">{{ randomq.author }}</a>
+            {% else %}
+                {{ randomq.author }}
+            {% endif %}
+            {% if randomq.title %}
+                in
+                {% if randomq.goodreads_title_id %}
+                    <a title="{% if randomq.long_title %}{{ randomq.long_title }}{% else %}{{ randomq.title }}{% endif %}" 
+                       href="https://www.goodreads.com/book/show/{{ randomq.goodreads_title_id }}">{{ randomq.title }}</a>
+                {% else %}
+                    {{ randomq.title }}
+                {% endif %}
+            {% endif %}
+            </span>
+        </blockquote>
+    </div>
+  </div>
+</div>

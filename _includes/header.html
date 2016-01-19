@@ -14,11 +14,8 @@
       </a>
 
       <div class="trigger">
-        {% assign pages = site.pages | sort:'title' 'last'  %}
-        {% for p in pages %}
-          {% if p.title %}
+        {% for p in site.links %}
           <a style="text-transform:lowercase;" class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-          {% endif %}
         {% endfor %}
       </div>
     </nav>

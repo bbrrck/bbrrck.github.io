@@ -89,11 +89,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $link-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $visited-color;
     }
 
     &:hover {
@@ -107,19 +107,37 @@ a {
 /**
  * Blockquotes
  */
-blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
 
-    > :last-child {
-        margin-bottom: 0;
+.page-content.random-quote {
+    margin:0;
+    padding:0;
+    background-color:$quote-back;
+    color: $quote-text;
+}
+blockquote {    
+    padding: 1em 2em 0.5em;
+    font-size: 90%;
+    span.quote {
+        &:before {content: '“'; }
+        &:after  {content: '”'; }
+    }
+    span.author {
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 0 1em;
+        float: right;
+    }
+    
+    a {
+        color: $quote-link-color;
+        &:visited {
+            color: $quote-visited-color;
+        }
+        &:hover {
+            color: $quote-text;
+        }
     }
 }
-
 
 
 /**

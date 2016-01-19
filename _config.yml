@@ -2,16 +2,30 @@
 title: Tibor Stanko
 email: contact@tiborstanko.sk
 description: > # this means to ignore newlines until "baseurl:"
-  music, maths &amp; webdesign
+  music, maths &amp; webdesign .
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://tiborstanko.sk/" # the base hostname & protocol for your site
 
 twitter_username: tiborstanko
 github_username:  bbrrck
 lastfm_username: boberr
+goodreads_username: 6403898-tibor-stanko
+instagram_username : bbrrck
+linkedin_cc: sk
+linkedin_username: tiborstanko 
+
+# Navigation
+links:
+- url: /pubs/
+  title: publications
+- url: /notes/
+  title: notes
 
 # Outputting
 permalink: none
 
 # Build settings
 markdown: kramdown
+
+gems:
+ - jekyll-coffeescript
