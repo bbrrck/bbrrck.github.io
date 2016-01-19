@@ -137,6 +137,11 @@ blockquote {
             color: $quote-text;
         }
     }
+    
+    @include media-query($on-palm) {
+        padding: 1em 0;
+        font-size: 80%;
+    }
 }
 
 

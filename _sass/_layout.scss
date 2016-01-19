@@ -92,7 +92,9 @@ html {
   position: relative;
   min-height: 100%;
 }
-body {margin-bottom: $footer-height + 2*$spacing-unit;}
+body {
+    margin-bottom: $footer-height + 2*$spacing-unit;
+}
 /**
  * Site footer
  */
@@ -104,6 +106,14 @@ body {margin-bottom: $footer-height + 2*$spacing-unit;}
     width: 100%;
     height: $footer-height;
     background-color: lighten($grey-color-light,5%);
+    
+    @include media-query($on-laptop) {
+        position: relative;
+        height: auto;
+        padding: 0.5em 0 0;
+        
+        .footer-col {margin-bottom:0;}
+    }
 }
 body.home .site-footer {
     position: relative;
@@ -153,13 +163,20 @@ body.home .page-content.main {
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
+    
+    @include media-query($on-laptop) {
+        display: none;
+    }
 }
 
 @include media-query($on-laptop) {
-    .footer-col-1,
+    .footer-col-1  {
+        width: -webkit-calc(60% - (#{$spacing-unit} / 2));
+        width:         calc(60% - (#{$spacing-unit} / 2));
+    }
     .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(40% - (#{$spacing-unit} / 2));
+        width:         calc(40% - (#{$spacing-unit} / 2));
     }
 
     .footer-col-3 {
@@ -168,13 +185,13 @@ body.home .page-content.main {
     }
 }
 
-@include media-query($on-palm) {
+/*@include media-query($on-palm) {
     .footer-col {
         float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
     }
-}
+}*/
 
 
 
