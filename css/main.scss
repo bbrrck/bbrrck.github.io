@@ -78,17 +78,28 @@ section.publications {
     
     + section.publications {
         margin-top: 2em;
+        
+        @include media-query($on-laptop) {
+            margin-top: 1em;
+        }
     }
     title.year {
         color: $grey-color;
         clear: left;
         font-size: 150%;
         display: block;
-        padding-left: 6.66em;
+        padding-left: 6.2em;
+        @include media-query($on-laptop) {
+            padding: 0
+        }
         //border-bottom: 1px solid $grey-color-light;
     }
     section.publication {
         margin: 1em 0;
+        
+        @include media-query($on-laptop) {
+            margin-top: 0;
+        }
         
         title {
             font-size: 120%;
@@ -96,16 +107,44 @@ section.publications {
             display: block;
             font-family: 'Raleway';
         }
-        img {
-            width: 8em;
-            float: left;
-            margin-right: 1.5em;
-            padding: 0;
-        }
         .advisor, .type {color: #333;}
         .links {color: #777;}
         .advisor:before {content: "advised by ";}
-        div.wrapper {padding-left: 10em;}
+        
+        .pub-image {
+            float:left;
+            position: relative;
+            padding-right: $spacing-unit;
+            width: -webkit-calc(20% - (#{$spacing-unit}));
+            width:         calc(20% - (#{$spacing-unit}));
+            img {
+                width: 100%;
+            }
+            @include media-query($on-laptop) {
+                width: -webkit-calc(20% - (#{$spacing-unit}));
+                width:         calc(20% - (#{$spacing-unit}));
+            }
+            @include media-query($on-palm) {
+                display:none;
+            }
+        }
+        .pub-wrapper {
+            float: left;
+            width: -webkit-calc(80% - (#{$spacing-unit}));
+            width:         calc(80% - (#{$spacing-unit}));
+            @include media-query($on-laptop) {
+                width: -webkit-calc(80% - (#{$spacing-unit}));
+                width:         calc(80% - (#{$spacing-unit}));
+            }
+            @include media-query($on-palm) {
+                width: -webkit-calc(100% - (#{$spacing-unit}));
+                width:         calc(100% - (#{$spacing-unit}));
+                
+                title {
+                    font-size: 100%;
+                }
+            }
+        }
     }
 }
 section.publications:after, 

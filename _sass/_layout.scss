@@ -94,6 +94,10 @@ html {
 }
 body {
     margin-bottom: $footer-height + 2*$spacing-unit;
+    
+    @include media-query($on-laptop) {
+        margin-bottom: 0;
+    }
 }
 /**
  * Site footer

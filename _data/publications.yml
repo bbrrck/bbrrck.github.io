@@ -1,0 +1,28 @@
+---
+- year: 2014
+  items:
+    - title: "Refining procedures on mesh via algebraic fitting"
+      type: thesis
+      description: "master's thesis"
+      advisor: Pavel Chalmovianský
+      advisor_url: http://www.sccg.sk/~chalmo/
+      slug: 2014-msc
+      pdf_size: 5.9
+
+    - title: "Refining procedures on mesh via algebraic fitting"
+      type: paper
+      description: "CESCG 2014 paper"
+      slug: 2014-cescg
+      pdf_size: 2.4
+
+- year: 2012
+  items:
+    - title: "Online application for data visualisation"
+      type: thesis
+      description: "bachelor's thesis"
+      advisor: Matej Novotný
+      advisor_url: http://www.sccg.sk/~mnovotny/
+      slug: 2012-bsc
+      pdf_size: 2.3
+      www: http://grafit.tiborstanko.sk/
+...
