@@ -60,41 +60,7 @@ $homepic-small:    $homepic-big / 2;
         @content;
     }
 }
-
-#homepic {
-    background-image:url(/assets/me.jpg);
-    background-size:cover;
-    background-position:50% 65%;
-}
-#homepic div {
-    background-color: rgba(255,255,255,0.2);
-}
-#homepic,
-#homepic div {
-    width: 100%;
-    height:$homepic-big;
-    @include media-query($on-laptop) {
-        height:$homepic-small;
-    }
-}
-
-ul#nowplay-currentread li {
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: #333;
-}
-
-ul.social-media-list img, 
-ul.social-media-list svg {
-    margin-right: 0.2em;
-}
-
-ul li.nowplaying path {
-    animation: nowplaying 2.5s ease-out infinite;
-}
-
+// nowplaying animation
 @keyframes nowplaying {
   0% {
     fill: #828282;
@@ -106,8 +72,6 @@ ul li.nowplaying path {
     fill: #828282;
   }
 }
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",

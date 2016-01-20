@@ -76,11 +76,9 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $link-color;
     text-decoration: none;
-
     &:visited {
         color: $visited-color;
     }
-
     &:hover {
         color: $text-color;
         text-decoration: underline;
