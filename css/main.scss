@@ -4,13 +4,21 @@
 @charset "utf-8";
 @import url(https://fonts.googleapis.com/css?family=Alegreya:400);
 
+$serif-family: 'Alegreya';
+
 // Our variables
-$base-font-family: 'Alegreya', 'Georgia', serif;
+$base-font-family: $serif-family, 'Georgia', serif;
 $base-font-size:   125%;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
+$laptop-font-size: 115%;
+$palm-font-size:   110%;
+
 $spacing-unit:     30px;
+
+$footer-height:    4em;
+$footer-spacing-unit: 1em;
 
 $text-color:       #111;
 $background-color: #fff;
@@ -40,8 +48,6 @@ $on-laptop:        1000px;
 $homepic-big:      600px;
 $homepic-small:    $homepic-big / 2;
 
-$footer-height:    90px;
-
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -60,11 +66,9 @@ $footer-height:    90px;
     background-size:cover;
     background-position:50% 65%;
 }
-
 #homepic div {
     background-color: rgba(255,255,255,0.2);
 }
-
 #homepic,
 #homepic div {
     width: 100%;
@@ -72,86 +76,6 @@ $footer-height:    90px;
     @include media-query($on-laptop) {
         height:$homepic-small;
     }
-}
-
-section.publications {
-    
-    + section.publications {
-        margin-top: 2em;
-        
-        @include media-query($on-laptop) {
-            margin-top: 1em;
-        }
-    }
-    title.year {
-        color: $grey-color;
-        clear: left;
-        font-size: 150%;
-        display: block;
-        padding-left: 6.2em;
-        @include media-query($on-laptop) {
-            padding: 0
-        }
-        //border-bottom: 1px solid $grey-color-light;
-    }
-    section.publication {
-        margin: 1em 0;
-        
-        @include media-query($on-laptop) {
-            margin-top: 0;
-        }
-        
-        title {
-            font-size: 120%;
-            color: #111;
-            display: block;
-            font-family: 'Raleway';
-        }
-        .advisor, .type {color: #333;}
-        .links {color: #777;}
-        .advisor:before {content: "advised by ";}
-        
-        .pub-image {
-            float:left;
-            position: relative;
-            padding-right: $spacing-unit;
-            width: -webkit-calc(20% - (#{$spacing-unit}));
-            width:         calc(20% - (#{$spacing-unit}));
-            img {
-                width: 100%;
-            }
-            @include media-query($on-laptop) {
-                width: -webkit-calc(20% - (#{$spacing-unit}));
-                width:         calc(20% - (#{$spacing-unit}));
-            }
-            @include media-query($on-palm) {
-                display:none;
-            }
-        }
-        .pub-wrapper {
-            float: left;
-            width: -webkit-calc(80% - (#{$spacing-unit}));
-            width:         calc(80% - (#{$spacing-unit}));
-            @include media-query($on-laptop) {
-                width: -webkit-calc(80% - (#{$spacing-unit}));
-                width:         calc(80% - (#{$spacing-unit}));
-            }
-            @include media-query($on-palm) {
-                width: -webkit-calc(100% - (#{$spacing-unit}));
-                width:         calc(100% - (#{$spacing-unit}));
-                
-                title {
-                    font-size: 100%;
-                }
-            }
-        }
-    }
-}
-section.publications:after, 
-section.publications section.publication:after {
-    content: "";
-    clear: both;
-    display: table;
 }
 
 ul#nowplay-currentread li {
@@ -168,10 +92,10 @@ ul.social-media-list svg {
 }
 
 ul li.nowplaying path {
-    animation: pulse 2.5s ease-out infinite;
+    animation: nowplaying 2.5s ease-out infinite;
 }
 
-@keyframes pulse {
+@keyframes nowplaying {
   0% {
     fill: #828282;
   }
@@ -188,5 +112,6 @@ ul li.nowplaying path {
 @import
         "base",
         "layout",
+        "pubs",
         "syntax-highlighting"
 ;

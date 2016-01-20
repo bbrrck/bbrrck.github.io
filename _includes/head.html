@@ -20,8 +20,12 @@
             title = track.name;
             
             $('#lastfm').html(artist + ' — ' + title);
-            if( track['@attr']['nowplaying'] ) 
-                $('#lastfm').parent().addClass('nowplaying');
+            if(typeof track['@attr'] !== 'undefined'){
+                if( track['@attr']['nowplaying'] )
+                    $('#lastfm').parent().addClass('nowplaying');
+            } else {
+                $('#lastfm').prop('title', 'played on ' + track.date['#text']);
+            }
         });
     });
     </script>

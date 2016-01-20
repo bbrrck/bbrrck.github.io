@@ -93,32 +93,34 @@ html {
   min-height: 100%;
 }
 body {
-    margin-bottom: $footer-height + 2*$spacing-unit;
-    
-    @include media-query($on-laptop) {
-        margin-bottom: 0;
-    }
+    margin-bottom: $footer-height + 2*$footer-spacing-unit;
 }
 /**
  * Site footer
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    padding: $footer-spacing-unit 0;
     position: absolute;
     bottom: 0;
     width: 100%;
     height: $footer-height;
     background-color: lighten($grey-color-light,5%);
-    
-    @include media-query($on-laptop) {
+}
+@include media-query($on-palm) {
+    body {
+        margin-bottom: 0;
+    }
+    .site-footer {
         position: relative;
         height: auto;
         padding: 0.5em 0 0;
-        
-        .footer-col {margin-bottom:0;}
+        .footer-col {
+            margin-bottom:0;
+        }
     }
 }
+
 body.home .site-footer {
     position: relative;
 }
@@ -243,7 +245,7 @@ body.home .page-content.main {
     line-height: 1;
     color: $brand-color;
     @include media-query($on-laptop) {
-        font-size: 250%;
+        font-size: 200%;
     }
 }
 
@@ -255,7 +257,7 @@ body.home .page-content.main {
         color: #111;
         margin: 0.75em 0 0.25em;
         @include media-query($on-laptop) {
-            font-size: 200%;
+            font-size: 150%;
         }
     }
 
@@ -264,14 +266,14 @@ body.home .page-content.main {
         color: $grey-color-dark;
         margin: 1em 0 0.5em;
         @include media-query($on-laptop) {
-            font-size: 150%;
+            font-size: 125%;
         }
     }
 
     h4 {
         font-size: 125%;
         @include media-query($on-laptop) {
-            font-size: 125%;
+            font-size: 110%;
         }
     }
 }

@@ -21,6 +21,12 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    @include media-query($on-laptop) {
+        font-size: $laptop-font-size;
+    }
+    @include media-query($on-palm) {
+        font-size: $palm-font-size;
+    }
 }
 
 
