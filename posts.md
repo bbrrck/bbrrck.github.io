@@ -1,6 +1,6 @@
 ---
 layout: posts
-permalink: /notes/
+permalink: /posts/
 ---
 
 

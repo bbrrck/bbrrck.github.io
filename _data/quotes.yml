@@ -2,7 +2,7 @@
   goodreads_author_id: 3354.Haruki_Murakami 
   title: The Wind-Up Bird Chronicle
   goodreads_title_id: 11275.The_Wind_Up_Bird_Chronicle
-  quote : To know one's state is not a simple matter. One cannot look directly at one's own face with one's own eyes, for example. One has no choice but to look at one's reflection in the mirror. Thruogh experiences, we come to believe that the image is correct, but that is all.
+  quote : "To know one's state is not a simple matter. One cannot look directly at one's own face with one's own eyes, for example. One has no choice but to look at one's reflection in the mirror. Thruogh experiences, we come to believe that the image is correct, but that is all."
   
 - author: Haruki Murakami
   goodreads_author_id: 3354.Haruki_Murakami 
@@ -15,23 +15,58 @@
   title: Quiet
   long_title: "Quiet: The Power of Introverts in a World That Can't Stop Talking"
   goodreads_title_id: 8520610-quiet
-  quote : There's zero correlation between being the best talker and having the best ideas.
+  quote : "There's zero correlation between being the best talker and having the best ideas."
   
 - author: Susan Cain
   goodreads_author_id: 4101935.Susan_Cain
   title: Quiet
   long_title: "Quiet: The Power of Introverts in a World That Can't Stop Talking"
   goodreads_title_id: 8520610-quiet
-  quote : The secret to life is to put yourself in the right lighting. For some, it's a Broadway spotlight; for others, a lamplit desk. Use your natural powers – of persistence, concentration, and insight – to do work you love and work that matters. Solve problems. Make art, think deeply.
+  quote : "The secret to life is to put yourself in the right lighting. For some, it's a Broadway spotlight; for others, a lamplit desk. Use your natural powers – of persistence, concentration, and insight – to do work you love and work that matters. Solve problems. Make art, think deeply."
   
 - author: Edward Frenkel
   goodreads_author_id: 578230.Edward_Frenkel
   title: Love and Math
   goodreads_title_id: 17290683-love-and-math
-  quote : People tend to think that mathematicians always work in sterile conditions, sitting around and staring at the screen of a computer, or at a ceiling, in a pristine office. But in fact, some of the best ideas come when you least expect them, possibly through annoying industrial noise.
+  quote : "People tend to think that mathematicians always work in sterile conditions, sitting around and staring at the screen of a computer, or at a ceiling, in a pristine office. But in fact, some of the best ideas come when you least expect them, possibly through annoying industrial noise."
   
 - author: Goethe
-  quote : Mathematicians are like Frenchmen; whatever you say to them they translate into their own language, and forthwith it is something entirely different.
+  quote : "Mathematicians are like Frenchmen; whatever you say to them they translate into their own language, and forthwith it is something entirely different."
   
 - author: John Milnor
-  quote : If I can give an abstract proof of something, I'm reasonably happy. But if I can get a concrete, computational proof and actually produce numbers I'm much happier. I'm rather an addict of doing things on the computer, because that gives you an explicit criterion of what's going on. I have a visual way of thinking, and I'm happy if I can see a picture of what I'm working with. 
+  quote : "If I can give an abstract proof of something, I'm reasonably happy. But if I can get a concrete, computational proof and actually produce numbers I'm much happier. I'm rather an addict of doing things on the computer, because that gives you an explicit criterion of what's going on. I have a visual way of thinking, and I'm happy if I can see a picture of what I'm working with."
+  
+- author: Ed Catmull
+  goodreads_author_id: 5618463.Ed_Catmull
+  title: "Creativity, Inc."
+  long_title: "Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration"
+  goodreads_title_id: 25384143-creativity-inc-overcoming-the-unseen-forces-that-stand-in-the-way-of
+  quote: "Failure isn’t a necessary evil. In fact, it isn’t evil at all. It is a necessary consequence of doing something new."
+ 
+- author: Malcolm Gladwell
+  goodreads_author_id: 1439.Malcolm_Gladwell
+  title: Blink
+  long_title: "Blink: The Power of Thinking Without Thinking"
+  goodreads_title_id: 40102.Blink
+  quote: "The key to good decision making is not knowledge. It is understanding. We are swimming in the former. We are desperately lacking in the latter."
+ 
+- author: Malcolm Gladwell
+  goodreads_author_id: 1439.Malcolm_Gladwell
+  title: Outliers
+  long_title: "Outliers: The Story of Success"
+  goodreads_title_id: 3228917-outliers
+  quote: "It's not how much money we make that ultimately makes us happy between nine and five. It's whether or not our work fulfills us. Being a teacher is meaningful."
+
+- author: Lev Tolstoy
+  goodreads_author_id: 128382.Leo_Tolstoy
+  title: War and Peace
+  goodreads_title_id: 656.War_and_Peace
+  quote: "If we admit that human life can be ruled by reason, then all possibility of life is destroyed."
+
+#- author:
+#  goodreads_author_id:
+#  title:
+#  long_title:
+#  goodreads_title_id:
+#  quote:
+#

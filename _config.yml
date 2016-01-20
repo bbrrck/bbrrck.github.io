@@ -4,7 +4,8 @@ email: contact@tiborstanko.sk
 description: > # this means to ignore newlines until "baseurl:"
   music, maths &amp; webdesign .
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tiborstanko.sk/" # the base hostname & protocol for your site
+url: https://tiborstanko.sk # the base hostname & protocol for your site
+enforce_ssl: tiborstanko.sk # without any protocol
 
 twitter_username: tiborstanko
 github_username:  bbrrck
@@ -16,9 +17,9 @@ linkedin_username: tiborstanko
 
 # Navigation
 links:
-- url: /pubs/
+- url: /publications/
   title: publications
-- url: /notes/
+- url: /posts/
   title: posts
 
 # Outputting
@@ -26,6 +27,3 @@ permalink: none
 
 # Build settings
 markdown: kramdown
-
-#gems:
-# - jekyll-coffeescript

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /pubs/
+permalink: /publications/
 ---
 
 {% assign pubs = site.data.publications %}
