@@ -21,7 +21,7 @@
   <script type="text/javascript">
     // last.fm stats for footer
     $( document ).ready(function() {
-        $.getJSON('http://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=boberr&api_key=fc6c043aa63445c8de873576e0fbabf0&format=json&limit=1', function(data) {
+        $.getJSON('https://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=boberr&api_key=fc6c043aa63445c8de873576e0fbabf0&format=json&limit=1', function(data) {
             //data is the JSON string
             track = data.recenttracks.track[0];
             artist = track.artist['#text'];
