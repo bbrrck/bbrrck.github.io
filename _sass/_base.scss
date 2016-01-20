@@ -7,9 +7,6 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
-
-
-
 /**
  * Basic styling
  */
@@ -28,9 +25,6 @@ body {
         font-size: $palm-font-size;
     }
 }
-
-
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -40,9 +34,6 @@ ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
-
-
-
 /**
  * Images
  */
@@ -50,9 +41,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
-
-
 /**
  * Figures
  */
@@ -63,9 +51,6 @@ figure > img {
 figcaption {
     font-size: $small-font-size;
 }
-
-
-
 /**
  * Lists
  */
@@ -79,18 +64,12 @@ li {
          margin-bottom: 0;
     }
 }
-
-
-
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
-
-
-
 /**
  * Links
  */
@@ -107,9 +86,6 @@ a {
         text-decoration: underline;
     }
 }
-
-
-
 /**
  * Blockquotes
  */
@@ -149,8 +125,6 @@ blockquote {
         font-size: 80%;
     }
 }
-
-
 /**
  * Code formatting
  */
@@ -161,11 +135,9 @@ code {
     border-radius: 3px;
     background-color: #eef;
 }
-
 code {
     padding: 1px 5px;
 }
-
 pre {
     padding: 8px 12px;
     overflow-x: scroll;
@@ -176,9 +148,6 @@ pre {
         padding-left: 0;
     }
 }
-
-
-
 /**
  * Wrapper
  */
@@ -190,7 +159,6 @@ pre {
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
-
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
@@ -198,34 +166,25 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
-
-
-
 /**
  * Clearfix
  */
 %clearfix {
-
     &:after {
         content: "";
         display: table;
         clear: both;
     }
 }
-
-
-
 /**
  * Icons
  */
 .icon {
-
     > svg {
         display: inline-block;
         width: 16px;
         height: 16px;
         vertical-align: middle;
-
         path {
             fill: $grey-color;
         }

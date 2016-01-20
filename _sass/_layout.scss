@@ -5,7 +5,6 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -15,8 +14,6 @@
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
-
     &,
     &:visited {
         color: $grey-color-dark;
@@ -26,21 +23,17 @@
 .site-nav {
     float: right;
     line-height: 56px;
-
     .menu-icon {
         display: none;
     }
-
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
         }
     }
-
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
@@ -49,7 +42,6 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
-
         .menu-icon {
             display: block;
             float: right;
@@ -58,27 +50,22 @@
             line-height: 0;
             padding-top: 10px;
             text-align: center;
-
             > svg {
                 width: 18px;
                 height: 15px;
-
                 path {
                     fill: $grey-color-dark;
                 }
             }
         }
-
         .trigger {
             clear: both;
             display: none;
         }
-
         &:hover .trigger {
             display: block;
             padding-bottom: 5px;
         }
-
         .page-link {
             display: block;
             padding: 5px 10px;
@@ -120,7 +107,6 @@ body {
         }
     }
 }
-
 body.home .site-footer {
     position: relative;
 }
@@ -131,41 +117,34 @@ body.home .page-content.main {
     padding:1em 0 0.5em;
     color:#111;
 }
-
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
 }
-
 .contact-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
 }
-
 .footer-col-wrapper {
     font-size: 80%;
     color: $grey-color-dark;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
-
 .footer-col {
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
 }
-
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
 }
-
 .footer-col-2 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
     width:         calc(20% - (#{$spacing-unit} / 2));
 }
-
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
@@ -174,7 +153,6 @@ body.home .page-content.main {
         display: none;
     }
 }
-
 @include media-query($on-laptop) {
     .footer-col-1  {
         width: -webkit-calc(60% - (#{$spacing-unit} / 2));
@@ -184,34 +162,20 @@ body.home .page-content.main {
         width: -webkit-calc(40% - (#{$spacing-unit} / 2));
         width:         calc(40% - (#{$spacing-unit} / 2));
     }
-
     .footer-col-3 {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
-/*@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-}*/
-
-
-
 /**
  * Page content
  */
 .page-content {
     padding: $spacing-unit 0;
 }
-
 .page-heading {
     font-size: 20px;
 }
-
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -220,25 +184,16 @@ body.home .page-content.main {
         margin-bottom: $spacing-unit;
     }
 }
-
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
 }
-
-.post-link {
-    display: block;
-}
-
-
-
 /**
  * Posts
  */
 .post-header {
     margin-bottom: $spacing-unit;
 }
-
 .post-title {
     font-size: 250%;
     letter-spacing: -1px;
@@ -248,10 +203,8 @@ body.home .page-content.main {
         font-size: 200%;
     }
 }
-
 .post-content {
     margin-bottom: $spacing-unit;
-
     h2 {
         font-size: 200%;
         color: #111;
@@ -260,7 +213,6 @@ body.home .page-content.main {
             font-size: 150%;
         }
     }
-
     h3 {
         font-size: 150%;
         color: $grey-color-dark;
@@ -269,7 +221,6 @@ body.home .page-content.main {
             font-size: 125%;
         }
     }
-
     h4 {
         font-size: 125%;
         @include media-query($on-laptop) {
