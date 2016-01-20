@@ -1,0 +1,113 @@
+$pub-img-full: 20%;
+$pub-img-laptop: 8em;
+$pub-img-palm: 8em;
+            
+.pubs {
+    + .pubs {
+        margin-top: 2em;
+    }
+    h2 {
+        font-size: 150%;
+        color: $grey-color;
+        clear: left;
+        display: block;
+        padding: 0;
+        margin-left: $pub-img-full;
+    }
+    .pub {
+        margin: 1em 0;
+        
+        &:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        img {
+            float:left;
+            position: relative;
+            display: block;
+            margin: 0.5em $spacing-unit 0 0;
+            width: -webkit-calc(#{$pub-img-full} - (#{$spacing-unit}));
+            width:         calc(#{$pub-img-full} - (#{$spacing-unit}));
+        }
+        .pub-content {
+            float: left;
+            width: -webkit-calc(100% - #{$pub-img-full} - (#{$spacing-unit}));
+            width:         calc(100% - #{$pub-img-full} - (#{$spacing-unit}));
+            h3 {
+                font-size: 120%;
+                color: #111;
+                display: block;
+                margin: 0;
+            }
+            .advisor:before {
+                content: "advised by ";
+            }
+            .advisor,
+            .description {
+                color: $grey-color-dark;
+            }
+            .links {
+                color: $grey-color;
+            }
+        }
+    }
+}
+
+@include media-query($on-laptop) {
+    .pubs {
+        +.pubs {
+            margin-top: 1em;
+        }
+        h2 {
+            margin-left: 0.66 * $pub-img-laptop;
+            &:first-child {
+                margin-top: -$spacing-unit;
+            }
+        }
+        .pub {
+            margin-top: 0;
+            
+            img {
+                width: -webkit-calc(#{$pub-img-laptop} - (#{$spacing-unit}));
+                width:         calc(#{$pub-img-laptop} - (#{$spacing-unit}));
+            }
+            .pub-content {
+                width: -webkit-calc(100% - #{$pub-img-laptop} - (#{$spacing-unit}));
+                width:         calc(100% - #{$pub-img-laptop} - (#{$spacing-unit}));
+            }
+        }
+    }
+}
+
+@include media-query($on-palm) {
+    .pubs {
+        h2 {
+            margin: 0 (-$spacing-unit);
+            padding: 0 1em;
+            background-color: $grey-color-light;
+        }   
+        .pub {
+            padding-bottom: 1em;
+            margin-bottom: 1em;
+            border-bottom: 1px solid $grey-color-light;
+            img {
+                width: -webkit-calc(#{$pub-img-palm} - (#{$spacing-unit}));
+                width:         calc(#{$pub-img-palm} - (#{$spacing-unit}));
+                margin: 0.5em 0 0.5em;
+                
+            }
+            .pub-content {
+                width: -webkit-calc(100% - (#{$spacing-unit}));
+                width:         calc(100% - (#{$spacing-unit}));
+                h3 {
+                    font-size: 100%;
+                }
+            }
+            &:last-child {
+                border: 0;
+                padding-bottom: 0;
+            }
+        }
+    }
+}
