@@ -35,8 +35,11 @@
                 $('#lastfm').prop('title', 'played on ' + track.date['#text']);
             }
         });
+        
+        $('.bibtex a').click(function( event ) {
+            event.preventDefault();
+        });
     });
   </script>
-  
   {% include analytics.html %}
 </head>
