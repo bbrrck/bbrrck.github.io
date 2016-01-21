@@ -86,13 +86,24 @@ body {
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    //border-top: 1px solid $grey-color-light;
     padding: $footer-spacing-unit 0;
     position: absolute;
     bottom: 0;
     width: 100%;
     height: $footer-height;
-    background-color: lighten($grey-color-light,5%);
+    //background-color: lighten($grey-color-light,5%);
+    color: $footer-text;
+    background-color: $footer-back;
+    a {
+        color: $footer-link;
+        &:visited {
+            color: $footer-visited;
+        }
+        &:hover {
+            color: $footer-text;
+        }
+    }
 }
 @include media-query($on-palm) {
     body {
@@ -131,7 +142,6 @@ body {
 }
 .footer-col-wrapper {
     font-size: 80%;
-    color: $grey-color-dark;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -189,15 +199,8 @@ body {
         height:$homepic-small;
     }
 }
-body.home .site-footer {
-    position: relative;
-}
-body.home {
-    margin-bottom:0;
-}
 body.home .page-content.main {
-    padding:1em 0 0.5em;
-    color:#111;
+    padding: 1em 0 0.5em;
 }
 /**
  * Page content

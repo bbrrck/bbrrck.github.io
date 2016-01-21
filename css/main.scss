@@ -33,11 +33,18 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+// Footer
+$footer-back:    $grey-color-dark;
+$footer-text:    #999;
+$footer-link:    lighten($footer-text,25%);
+$footer-visited: $footer-link;
+$footer-icon-color: $footer-text;
+
 // Blockquotes
-$quote-back:         $grey-color-dark;
-$quote-text:         invert($quote-back);
-$quote-link-color:   lighten($brand-color,25%);
-$quote-visited-color:lighten($brand-color,15%);
+$quote-back:    #fff;
+$quote-text:    #111;
+$quote-link:    $visited-color;
+$quote-visited: $quote-link;
 
 // Width of the content area
 $content-width:    1000px;
