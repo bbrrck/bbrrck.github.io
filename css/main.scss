@@ -39,6 +39,7 @@ $footer-text:    #999;
 $footer-link:    lighten($footer-text,25%);
 $footer-visited: $footer-link;
 $footer-icon-color: $footer-text;
+$footer-icon-pulse: lighten($brand-color,15%);
 
 // Blockquotes
 $quote-back:    #fff;
@@ -66,18 +67,6 @@ $homepic-small:    $homepic-big / 2;
     @media screen and (max-width: $device) {
         @content;
     }
-}
-// nowplaying animation
-@keyframes nowplaying {
-  0% {
-    fill: #828282;
-  }
-  50% {
-    fill: darken($brand-color,20%);
-  }
-  100% {
-    fill: #828282;
-  }
 }
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

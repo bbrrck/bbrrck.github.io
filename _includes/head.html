@@ -27,6 +27,8 @@
             artist = track.artist['#text'];
             title = track.name;
             
+            $('#lastfm').parent().addClass('nowplaying');
+            
             $('#lastfm').html(artist + ' — ' + title);
             if(typeof track['@attr'] !== 'undefined'){
                 if( track['@attr']['nowplaying'] )
