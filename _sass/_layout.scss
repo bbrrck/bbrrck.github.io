@@ -134,7 +134,7 @@ body {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        color: #333;
+        color: $footer-icon-color;
     }
     // nowplaying animation
     @keyframes nowplaying {
