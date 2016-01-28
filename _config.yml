@@ -19,8 +19,10 @@ linkedin_username: tiborstanko
 links:
 - url: /publications/
   title: publications
+#- url: /teaching/
+#  title: teaching
 - url: /posts/
-  title: posts
+  title: blog
 
 # Outputting
 permalink: none
