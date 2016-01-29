@@ -4,7 +4,7 @@ title:  "Fixing Fujitsu UH572 touchpad on Fedora"
 date:   2015-10-12 18:42:00
 permalink: fixing-fujitsu-fedora/
 ---
-&hellip;that's a lot of F words. Here's the thing. 
+&hellip;that's a lot of F-words. Here's the thing. 
 
 1. Open the `grub` config file.
 
