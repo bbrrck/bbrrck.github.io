@@ -80,10 +80,13 @@
             <a id="goodreads" title="currently reading" href="https://www.goodreads.com/user/show/{{ site.goodreads_username }}">
             {% assign updates = site.data.goodreads.GoodreadsResponse.user.updates.update %}
             {% for update in updates %}
-                {% if update['@type'] == 'readstatus' %} 
-                    {% assign book = update.object.read_status.review.book %}
-                    {{ book.author.name['#text'] }} — {{ book.title['#text'] }}
-                    {% break %}
+                {% if update['@type'] == 'readstatus' %}
+                    {% assign status = update.object.read_status.status %}
+                    {% if status['#text'] == 'currently-reading' %}
+                        {% assign book = update.object.read_status.review.book %}
+                        {{ book.author.name['#text'] }} — {{ book.title['#text'] }}
+                        {% break %}
+                    {% endif %}
                 {% endif %}
             {% endfor %}
             </a>

@@ -134,7 +134,16 @@ body {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        color: #333;
+        color: $footer-icon-color;
+    }
+    // nowplaying animation
+    @keyframes nowplaying {
+        0%, 100% {
+            fill: $footer-icon-color;
+        }
+        50% {
+            fill: $footer-icon-pulse;
+        }
     }
     li.nowplaying path {
         animation: nowplaying 2.5s ease-out infinite;
