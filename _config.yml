@@ -19,8 +19,8 @@ linkedin_username: tiborstanko
 links:
 - url: /publications/
   title: publications
-#- url: /teaching/
-#  title: teaching
+- url: /teaching/
+  title: teaching
 - url: /posts/
   title: blog
 
