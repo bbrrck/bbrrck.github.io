@@ -27,11 +27,7 @@
     <reviews_rss_url><![CDATA[http://www.goodreads.com/review/list_rss/6403898?key=eUpt8wwDPOS4taudee2olTYOroOILRdM_TbxDXFEniuz-3KB&shelf=%23ALL%23]]></reviews_rss_url>
     <friends_count type="integer">18</friends_count>
     <groups_count>1</groups_count>
-<<<<<<< HEAD
     <reviews_count type="integer">215</reviews_count>
-=======
-    <reviews_count type="integer">210</reviews_count>
->>>>>>> refs/remotes/origin/master
     <user_shelves type="array">
   <user_shelf>
     <id type="integer">21052661</id>
@@ -64,11 +60,7 @@
   <user_shelf>
     <id type="integer">21052659</id>
     <name>to-read</name>
-<<<<<<< HEAD
     <book_count type="integer">102</book_count>
-=======
-    <book_count type="integer">99</book_count>
->>>>>>> refs/remotes/origin/master
     <exclusive_flag type="boolean">true</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -95,585 +87,6 @@
   </user_shelf>
 </user_shelves>
       <updates type="array">
-<<<<<<< HEAD
-=======
-      <update type="readstatus">
-      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1517920026">War and Peace</a>]]></action_text>
-      <link>http://www.goodreads.com/read_statuses/1191999630</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Wed, 20 Jan 2016 05:00:09 -0800</updated_at>
-        <object>
-          <read_status>
-  <id type="integer">1191999630</id>
-  <review_id type="integer">1517920026</review_id>
-  <user_id type="integer">6403898</user_id>
-  <old_status>read</old_status>
-  <status>to-read</status>
-  <updated_at type="datetime">2016-01-20T13:00:09+00:00</updated_at>
-  <review>
-    <id type="integer">1517920026</id>
-    <user_id type="integer">6403898</user_id>
-    <book_id type="integer">656</book_id>
-    <rating type="integer">0</rating>
-    <read_status>to-read</read_status>
-    <sell_flag type="boolean">false</sell_flag>
-    <review nil="true"/>
-    <recommendation nil="true"/>
-    <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2016-01-20T13:00:09+00:00</updated_at>
-    <created_at type="datetime">2016-01-20T13:00:08+00:00</created_at>
-    <comments_count type="integer">0</comments_count>
-    <weight type="integer">0</weight>
-    <ratings_sum type="integer">0</ratings_sum>
-    <ratings_count type="integer">0</ratings_count>
-    <notes nil="true"/>
-    <spoiler_flag type="boolean">false</spoiler_flag>
-    <recommender_user_id1 type="integer">0</recommender_user_id1>
-    <recommender_user_name1 nil="true"/>
-    <work_id type="integer">4912783</work_id>
-    <read_count nil="true"/>
-    <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime" nil="true"/>
-    <hidden_flag type="boolean">false</hidden_flag>
-    <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2016-01-20T13:00:09+00:00</last_revision_at>
-    <non_friends_rating_count type="integer">0</non_friends_rating_count>
-    <book>
-      <id type="integer">656</id>
-      <work_id type="integer">4912783</work_id>
-      <isbn>0192833987</isbn>
-      <isbn13>9780192833983</isbn13>
-      <title>War and Peace</title>
-      <sort_by_title>war and peace</sort_by_title>
-      <author_id type="integer">128382</author_id>
-      <author_role nil="true"/>
-      <asin nil="true"/>
-      <description>Tolstoy's epic masterpiece intertwines the lives of private and public individuals during the time of the Napoleonic wars and the French invasion of Russia. The fortunes of the Rostovs and the Bolkonskys, of Pierre, Natasha, and Andrei, are intimately connected with the national history that is played out in parallel with their lives. Balls and soirees alternate with councils of war and the machinations of statesmen and generals, scenes of violent battles with everyday human passions in a work whose extraordinary imaginative power has never been surpassed. 
-
-The prodigious cast of characters, seem to act and move as if connected by threads of destiny as the novel relentlessly questions ideas of free will, fate, and providence. Yet Tolstoy's portrayal of marital relations and scenes of domesticity is as truthful and poignant as the grand themes that underlie them.</description>
-      <format>Paperback</format>
-      <publication_year type="integer">1998</publication_year>
-      <publication_month type="integer">6</publication_month>
-      <publication_day type="integer">25</publication_day>
-      <num_pages type="integer">1392</num_pages>
-      <publisher>Oxford University Press</publisher>
-      <language_code>eng</language_code>
-      <edition_information nil="true"/>
-      <url nil="true"/>
-      <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2014-10-13T15:58:50+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-05-16T14:49:07+00:00</s3_image_at>
-      <reviews_count type="integer">327235</reviews_count>
-      <ratings_sum type="integer">535213</ratings_sum>
-      <ratings_count type="integer">131118</ratings_count>
-      <text_reviews_count type="integer">4023</text_reviews_count>
-      <book_authors_count type="integer">3</book_authors_count>
-      <updated_at type="datetime">2015-05-16T14:49:07+00:00</updated_at>
-      <created_at type="datetime">2006-09-01T04:44:36+00:00</created_at>
-      <author_id_updater_user_id type="integer">1323157</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer">1</author_role_updater_user_id>
-      <description_updater_user_id type="integer">6141500</description_updater_user_id>
-      <edition_information_updater_user_id type="integer" nil="true"/>
-      <format_updater_user_id type="integer">171430</format_updater_user_id>
-      <image_updater_user_id type="integer">20605222</image_updater_user_id>
-      <isbn_updater_user_id type="integer">-51</isbn_updater_user_id>
-      <isbn13_updater_user_id type="integer">-51</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">974210</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">-51</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">-51</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">6078800</publisher_updater_user_id>
-      <title_updater_user_id type="integer">1388162</title_updater_user_id>
-      <url_updater_user_id type="integer" nil="true"/>
-      <title_language_code nil="true"/>
-      <publisher_language_code nil="true"/>
-      <description_language_code nil="true"/>
-      <asin_updater_user_id type="integer" nil="true"/>
-      <author>
-        <id type="integer">128382</id>
-        <name>Leo Tolstoy</name>
-        <updated_at type="datetime">2016-01-21T22:24:09+00:00</updated_at>
-        <created_at type="datetime">2007-03-02T02:41:19+00:00</created_at>
-        <searched_for_at type="datetime">2008-08-11T05:14:47+00:00</searched_for_at>
-        <image_uploaded_at type="datetime">2015-12-18T16:52:38+00:00</image_uploaded_at>
-        <user_id type="integer" nil="true"/>
-        <gender>M</gender>
-        <country_code>RU</country_code>
-        <born_at type="date">1828-09-09</born_at>
-        <died_at type="date">1910-11-20</died_at>
-        <about>&lt;b&gt;Lev Nikolayevich Tolstoy&lt;/b&gt; (Russian: [a:Лев Николаевич Толстой|13603215]; commonly &lt;b&gt;Leo Tolstoy&lt;/b&gt; in Anglophone countries) was a Russian writer who primarily wrote novels and short stories. Later in life, he also wrote plays and essays. His two most famous works, the novels &lt;i&gt;War and Peace&lt;/i&gt; and &lt;i&gt;Anna Karenina&lt;/i&gt;, are acknowledged as two of the greatest novels of all time and a pinnacle of realist fiction. Many consider Tolstoy to have been one of the world's greatest novelists. Tolstoy is equally known for his complicated and paradoxical persona and for his extreme moralistic and ascetic views, which he adopted after a moral crisis and spiritual awakening in the 1870s, after which he also became noted as a moral thinker and social reformer.
-
-His literal interpretation of the ethical teachings of Jesus, centering on the Sermon on the Mount, caused him in later life to become a fervent Christian anarchist and anarcho-pacifist. His ideas on nonviolent resistance, expressed in such works as &lt;i&gt;The Kingdom of God Is Within You&lt;/i&gt;, were to have a profound impact on such pivotal twentieth-century figures as Mohandas Gandhi and Martin Luther King, Jr.</about>
-        <uploader_user_id type="integer">3506881</uploader_user_id>
-        <image_copyright>http://russiapedia.rt.com/prominent-russians/literature/leo-tolstoy/</image_copyright>
-        <influences>[a:Alexander Pushkin|16070], [a:Henry David Thoreau|10264], [a:Victor Hugo|13661], [a:Nikolai Gogol|232932], [a:Stendhal|1481537], [a:Pierre-Joseph Proudhon|114439],  [a:Charles Dickens|239579], [a:Schopenhauer|11682], [a:Kropotkin|34296],  [a:Plato|879], [a:Socrates|275648]</influences>
-        <url></url>
-        <genre1>Fiction</genre1>
-        <genre2>Religion</genre2>
-        <genre3></genre3>
-        <books_count type="integer">6965</books_count>
-        <reviews_count type="integer">1474555</reviews_count>
-        <ratings_sum type="integer">2696616</ratings_sum>
-        <works_count type="integer">1572</works_count>
-        <hometown>Yasnaya Polyana, Tula</hometown>
-        <rating_dist nil="true"/>
-        <s3_image_at type="datetime" nil="true"/>
-        <ratings_count type="integer">671170</ratings_count>
-        <text_reviews_count type="integer">29862</text_reviews_count>
-        <author_program_at type="datetime" nil="true"/>
-        <postal_code nil="true"/>
-        <fanships_count type="integer">5536</fanships_count>
-        <best_book_id type="integer">15823480</best_book_id>
-        <name_language_code nil="true"/>
-        <sort_by_name>tolstoy, leo</sort_by_name>
-        <shelf_display_name>Tolstoy, Leo</shelf_display_name>
-        <gender_custom nil="true"/>
-        <gender_pronoun nil="true"/>
-      </author>
-    </book>
-  </review>
-</read_status>
-
-        </object>
-    </update>
-      <update type="userquote">
-      <action_text>liked a quote</action_text>
-      <link>http://www.goodreads.com/quotes/82958</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Wed, 20 Jan 2016 04:59:04 -0800</updated_at>
-        <body><![CDATA[If we admit that human life can be ruled by reason, then all possibility of life is destroyed.]]></body>
-    </update>
-      <update type="readstatus">
-      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1517918393">Into the Wild</a>]]></action_text>
-      <link>http://www.goodreads.com/read_statuses/1191996477</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Wed, 20 Jan 2016 04:57:43 -0800</updated_at>
-        <object>
-          <read_status>
-  <id type="integer">1191996477</id>
-  <review_id type="integer">1517918393</review_id>
-  <user_id type="integer">6403898</user_id>
-  <old_status>read</old_status>
-  <status>to-read</status>
-  <updated_at type="datetime">2016-01-20T12:57:43+00:00</updated_at>
-  <review>
-    <id type="integer">1517918393</id>
-    <user_id type="integer">6403898</user_id>
-    <book_id type="integer">1845</book_id>
-    <rating type="integer">0</rating>
-    <read_status>to-read</read_status>
-    <sell_flag type="boolean">false</sell_flag>
-    <review nil="true"/>
-    <recommendation nil="true"/>
-    <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2016-01-20T12:57:42+00:00</updated_at>
-    <created_at type="datetime">2016-01-20T12:57:42+00:00</created_at>
-    <comments_count type="integer">0</comments_count>
-    <weight type="integer">0</weight>
-    <ratings_sum type="integer">0</ratings_sum>
-    <ratings_count type="integer">0</ratings_count>
-    <notes nil="true"/>
-    <spoiler_flag type="boolean">false</spoiler_flag>
-    <recommender_user_id1 type="integer">0</recommender_user_id1>
-    <recommender_user_name1 nil="true"/>
-    <work_id type="integer">3284484</work_id>
-    <read_count nil="true"/>
-    <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime" nil="true"/>
-    <hidden_flag type="boolean">false</hidden_flag>
-    <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2016-01-20T12:57:42+00:00</last_revision_at>
-    <non_friends_rating_count type="integer">0</non_friends_rating_count>
-    <book>
-      <id type="integer">1845</id>
-      <work_id type="integer">3284484</work_id>
-      <isbn>0385486804</isbn>
-      <isbn13>9780385486804</isbn13>
-      <title>Into the Wild</title>
-      <sort_by_title>into the wild</sort_by_title>
-      <author_id type="integer">1235</author_id>
-      <author_role nil="true"/>
-      <asin nil="true"/>
-      <description>In April 1992 a young man from a well-to-do family hitchhiked to Alaska and walked alone into the wilderness north of Mt. McKinley. His name was Christopher Johnson McCandless. He had given $25,000 in savings to charity, abandoned his car and most of his possessions, burned all the cash in his wallet, and invented a new life for himself. Four months later, his decomposed body was found by a party of moose hunters.  How McCandless came to die is the unforgettable story of Into the Wild.
-
-Immediately after graduating from college in 1991, McCandless had roamed through the West and Southwest on a vision quest like those made by his heroes Jack London and John Muir.  In the Mojave Desert he abandoned his car, stripped it of its license plates, and burned all of his  cash.  He would give himself a new name, Alexander Supertramp, and , unencumbered by money and belongings, he would be free to wallow in the raw, unfiltered experiences that nature presented.  Craving a blank spot on the map, McCandless simply threw the maps away.  Leaving behind his desperate parents and sister, he vanished into the wild.</description>
-      <format>Paperback</format>
-      <publication_year type="integer">1997</publication_year>
-      <publication_month type="integer">1</publication_month>
-      <publication_day type="integer">20</publication_day>
-      <num_pages type="integer">207</num_pages>
-      <publisher>Anchor</publisher>
-      <language_code>eng</language_code>
-      <edition_information nil="true"/>
-      <url nil="true"/>
-      <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2014-06-19T10:33:06+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-05-16T14:51:01+00:00</s3_image_at>
-      <reviews_count type="integer">790261</reviews_count>
-      <ratings_sum type="integer">2063056</ratings_sum>
-      <ratings_count type="integer">526840</ratings_count>
-      <text_reviews_count type="integer">13235</text_reviews_count>
-      <book_authors_count type="integer">0</book_authors_count>
-      <updated_at type="datetime">2015-05-16T14:51:01+00:00</updated_at>
-      <created_at type="datetime">2006-09-22T21:19:19+00:00</created_at>
-      <author_id_updater_user_id type="integer">4540522</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer">4540522</author_role_updater_user_id>
-      <description_updater_user_id type="integer">990463</description_updater_user_id>
-      <edition_information_updater_user_id type="integer" nil="true"/>
-      <format_updater_user_id type="integer">4540522</format_updater_user_id>
-      <image_updater_user_id type="integer">-51</image_updater_user_id>
-      <isbn_updater_user_id type="integer">-50</isbn_updater_user_id>
-      <isbn13_updater_user_id type="integer">-50</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">990463</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">4306122</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">-50</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">-50</publisher_updater_user_id>
-      <title_updater_user_id type="integer">4540522</title_updater_user_id>
-      <url_updater_user_id type="integer" nil="true"/>
-      <title_language_code nil="true"/>
-      <publisher_language_code nil="true"/>
-      <description_language_code nil="true"/>
-      <asin_updater_user_id type="integer" nil="true"/>
-      <author>
-        <id type="integer">1235</id>
-        <name>Jon Krakauer</name>
-        <updated_at type="datetime">2016-01-23T16:24:21+00:00</updated_at>
-        <created_at type="datetime">2006-09-22T21:19:19+00:00</created_at>
-        <searched_for_at type="datetime">2007-01-02T14:28:51+00:00</searched_for_at>
-        <image_uploaded_at type="datetime">2015-05-05T20:06:19+00:00</image_uploaded_at>
-        <user_id type="integer">42804670</user_id>
-        <gender>M</gender>
-        <country_code>US</country_code>
-        <born_at type="date">1954-04-12</born_at>
-        <died_at type="datetime" nil="true"/>
-        <about>Jon Krakauer is an American writer and mountaineer, well-known for outdoor and mountain-climbing writing.
-
-https://www.facebook.com/jonkrakauer</about>
-        <uploader_user_id type="integer">42804670</uploader_user_id>
-        <image_copyright>Photo: Linda Moore</image_copyright>
-        <influences></influences>
-        <url>http://www.jonkrakauer.com</url>
-        <genre1>Nonfiction</genre1>
-        <genre2>Travel</genre2>
-        <genre3>Nature</genre3>
-        <books_count type="integer">313</books_count>
-        <reviews_count type="integer">1476228</reviews_count>
-        <ratings_sum type="integer">3872624</ratings_sum>
-        <works_count type="integer">24</works_count>
-        <hometown>Brookline, Massachusetts</hometown>
-        <rating_dist>5:91250|4:107120|3:66987|2:19671|1:14609|total:299637</rating_dist>
-        <s3_image_at type="datetime">2015-05-14T22:53:31+00:00</s3_image_at>
-        <ratings_count type="integer">975506</ratings_count>
-        <text_reviews_count type="integer">38239</text_reviews_count>
-        <author_program_at type="datetime">2015-05-05T19:59:47+00:00</author_program_at>
-        <postal_code nil="true"/>
-        <fanships_count type="integer">3121</fanships_count>
-        <best_book_id type="integer">1845</best_book_id>
-        <name_language_code nil="true"/>
-        <sort_by_name>krakauer, jon</sort_by_name>
-        <shelf_display_name>Krakauer, Jon</shelf_display_name>
-        <gender_custom nil="true"/>
-        <gender_pronoun nil="true"/>
-      </author>
-    </book>
-  </review>
-</read_status>
-
-        </object>
-    </update>
-      <update type="readstatus">
-      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1517862267">The Tipping Point: How Little Things Can Make a Big Difference</a>]]></action_text>
-      <link>http://www.goodreads.com/read_statuses/1191891837</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Wed, 20 Jan 2016 03:30:14 -0800</updated_at>
-        <object>
-          <read_status>
-  <id type="integer">1191891837</id>
-  <review_id type="integer">1517862267</review_id>
-  <user_id type="integer">6403898</user_id>
-  <old_status>read</old_status>
-  <status>to-read</status>
-  <updated_at type="datetime">2016-01-20T11:30:14+00:00</updated_at>
-  <review>
-    <id type="integer">1517862267</id>
-    <user_id type="integer">6403898</user_id>
-    <book_id type="integer">2612</book_id>
-    <rating type="integer">0</rating>
-    <read_status>to-read</read_status>
-    <sell_flag type="boolean">false</sell_flag>
-    <review nil="true"/>
-    <recommendation nil="true"/>
-    <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2016-01-20T11:30:14+00:00</updated_at>
-    <created_at type="datetime">2016-01-20T11:30:14+00:00</created_at>
-    <comments_count type="integer">0</comments_count>
-    <weight type="integer">0</weight>
-    <ratings_sum type="integer">0</ratings_sum>
-    <ratings_count type="integer">0</ratings_count>
-    <notes nil="true"/>
-    <spoiler_flag type="boolean">false</spoiler_flag>
-    <recommender_user_id1 type="integer">0</recommender_user_id1>
-    <recommender_user_name1 nil="true"/>
-    <work_id type="integer">2124255</work_id>
-    <read_count nil="true"/>
-    <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime" nil="true"/>
-    <hidden_flag type="boolean">false</hidden_flag>
-    <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2016-01-20T11:30:14+00:00</last_revision_at>
-    <non_friends_rating_count type="integer">0</non_friends_rating_count>
-    <book>
-      <id type="integer">2612</id>
-      <work_id type="integer">2124255</work_id>
-      <isbn>0316346624</isbn>
-      <isbn13>9780316346627</isbn13>
-      <title>The Tipping Point: How Little Things Can Make a Big Difference</title>
-      <sort_by_title>tipping point: how little things can make a big difference, the</sort_by_title>
-      <author_id type="integer">1439</author_id>
-      <author_role nil="true"/>
-      <asin nil="true"/>
-      <description>The tipping point is that magic moment when an idea, trend, or social behavior crosses a threshold, tips, and spreads like wildfire. Just as a single sick person can start an epidemic of the flu, so too can a small but precisely targeted push cause a fashion trend, the popularity of a new product, or a drop in the crime rate. This widely acclaimed bestseller, in which Malcolm Gladwell explores and brilliantly illuminates the tipping point phenomenon, is already changing the way people throughout the world think about selling products and disseminating ideas.
-
-Gladwell introduces us to the particular personality types who are natural pollinators of new ideas and trends, the people who create the phenomenon of word of mouth. He analyzes fashion trends, smoking, children's television, direct mail, and the early days of the American Revolution for clues about making ideas infectious, and visits a religious commune, a successful high-tech company, and one of the world's greatest salesmen to show how to start and sustain social epidemics.</description>
-      <format>Paperback</format>
-      <publication_year type="integer">2002</publication_year>
-      <publication_month type="integer">1</publication_month>
-      <publication_day type="integer">7</publication_day>
-      <num_pages type="integer">301</num_pages>
-      <publisher>Back Bay Books</publisher>
-      <language_code>eng</language_code>
-      <edition_information nil="true"/>
-      <url nil="true"/>
-      <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2015-09-14T22:45:11+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-09-14T22:45:12+00:00</s3_image_at>
-      <reviews_count type="integer">633582</reviews_count>
-      <ratings_sum type="integer">1502199</ratings_sum>
-      <ratings_count type="integer">388187</ratings_count>
-      <text_reviews_count type="integer">8912</text_reviews_count>
-      <book_authors_count type="integer">0</book_authors_count>
-      <updated_at type="datetime">2016-01-22T02:18:48+00:00</updated_at>
-      <created_at type="datetime">2006-10-17T18:19:40+00:00</created_at>
-      <author_id_updater_user_id type="integer">4860547</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer">3889465</author_role_updater_user_id>
-      <description_updater_user_id type="integer">2650335</description_updater_user_id>
-      <edition_information_updater_user_id type="integer" nil="true"/>
-      <format_updater_user_id type="integer">2044729</format_updater_user_id>
-      <image_updater_user_id type="integer">-9</image_updater_user_id>
-      <isbn_updater_user_id type="integer">-46</isbn_updater_user_id>
-      <isbn13_updater_user_id type="integer">-46</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">30523872</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">4972190</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">-46</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">-46</publisher_updater_user_id>
-      <title_updater_user_id type="integer">30523872</title_updater_user_id>
-      <url_updater_user_id type="integer" nil="true"/>
-      <title_language_code nil="true"/>
-      <publisher_language_code nil="true"/>
-      <description_language_code nil="true"/>
-      <asin_updater_user_id type="integer" nil="true"/>
-      <author>
-        <id type="integer">1439</id>
-        <name>Malcolm Gladwell</name>
-        <updated_at type="datetime">2016-01-23T17:07:15+00:00</updated_at>
-        <created_at type="datetime">2006-10-11T00:38:23+00:00</created_at>
-        <searched_for_at type="datetime">2006-10-17T18:19:40+00:00</searched_for_at>
-        <image_uploaded_at type="datetime">2008-10-21T15:10:38+00:00</image_uploaded_at>
-        <user_id type="integer" nil="true"/>
-        <gender>M</gender>
-        <country_code>GB</country_code>
-        <born_at type="date">1963-09-03</born_at>
-        <died_at type="datetime" nil="true"/>
-        <about>Malcolm Gladwell is a United Kingdom-born, Canadian-raised journalist now based in New York City. He is a former business and science writer at the Washington Post. He has been a staff writer for The New Yorker since 1996. He is best known as the author of the books &lt;i&gt;The Tipping Point: How Little Things Can Make a Big Difference&lt;/i&gt; (2000), &lt;i&gt;Blink: The Power of Thinking Without Thinking&lt;/i&gt; (2005), &lt;i&gt;Outliers: The Story of Success&lt;/i&gt; (2008) and &lt;i&gt;David and Goliath: Underdogs, Misfits and the Art of Battling Giants&lt;/i&gt; (2013).</about>
-        <uploader_user_id type="integer">54456</uploader_user_id>
-        <image_copyright>Courtesy of Hachette Book group</image_copyright>
-        <influences></influences>
-        <url>http://www.gladwell.com</url>
-        <genre1>Business</genre1>
-        <genre2>Non-fiction</genre2>
-        <genre3>Psychology</genre3>
-        <books_count type="integer">461</books_count>
-        <reviews_count type="integer">1927763</reviews_count>
-        <ratings_sum type="integer">4410383</ratings_sum>
-        <works_count type="integer">17</works_count>
-        <hometown>London, England</hometown>
-        <rating_dist>5:44580|4:71592|3:50621|2:13986|1:7563|total:188342</rating_dist>
-        <s3_image_at type="datetime">2015-05-14T22:54:09+00:00</s3_image_at>
-        <ratings_count type="integer">1125378</ratings_count>
-        <text_reviews_count type="integer">47112</text_reviews_count>
-        <author_program_at type="datetime" nil="true"/>
-        <postal_code nil="true"/>
-        <fanships_count type="integer">6363</fanships_count>
-        <best_book_id type="integer">2612</best_book_id>
-        <name_language_code nil="true"/>
-        <sort_by_name>gladwell, malcolm</sort_by_name>
-        <shelf_display_name>Gladwell, Malcolm</shelf_display_name>
-        <gender_custom nil="true"/>
-        <gender_pronoun nil="true"/>
-      </author>
-    </book>
-  </review>
-</read_status>
-
-        </object>
-    </update>
-      <update type="userquote">
-      <action_text>liked a quote</action_text>
-      <link>http://www.goodreads.com/quotes/249175</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Wed, 20 Jan 2016 03:29:13 -0800</updated_at>
-        <body><![CDATA[It's not how much money we make that ultimately makes us happy between nine and five. It's whether or not our work fulfills us. Being a teacher is meaningful.]]></body>
-    </update>
-      <update type="userstatus">
-      <action_text><![CDATA[is on page 116 of 368 of <a href="https://www.goodreads.com/book/show/23492671-the-rosie-effect">The Rosie Effect</a>]]></action_text>
-      <link>http://www.goodreads.com/user_status/show/85568814</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Mon, 18 Jan 2016 23:59:32 -0800</updated_at>
-        <object>
-          <user_status>
-  <id type="integer">85568814</id>
-  <user_id type="integer">6403898</user_id>
-  <book_id type="integer">23492671</book_id>
-  <page type="integer">116</page>
-  <chapter type="integer" nil="true"/>
-  <comments_count type="integer">0</comments_count>
-  <body></body>
-  <created_at type="datetime">2016-01-19T07:59:32+00:00</created_at>
-  <updated_at type="datetime">2016-01-19T07:59:32+00:00</updated_at>
-  <last_comment_at type="datetime" nil="true"/>
-  <ratings_count type="integer">0</ratings_count>
-  <percent type="integer">31</percent>
-  <work_id type="integer">41326408</work_id>
-  <note_uri nil="true"/>
-  <note_updated_at type="datetime" nil="true"/>
-  <review_id type="integer">1496712337</review_id>
-  <book>
-    <id type="integer">23492671</id>
-    <work_id type="integer">41326408</work_id>
-    <isbn>1476767327</isbn>
-    <isbn13>9781476767321</isbn13>
-    <title>The Rosie Effect (Don Tillman, #2)</title>
-    <sort_by_title>rosie effect (don tillman, #2), the</sort_by_title>
-    <author_id type="integer">1895943</author_id>
-    <author_role nil="true"/>
-    <asin nil="true"/>
-    <description></description>
-    <format>Paperback</format>
-    <publication_year type="integer">2015</publication_year>
-    <publication_month type="integer">7</publication_month>
-    <publication_day type="integer">21</publication_day>
-    <num_pages type="integer">368</num_pages>
-    <publisher>Simon &amp; Schuster</publisher>
-    <language_code>eng</language_code>
-    <edition_information nil="true"/>
-    <url nil="true"/>
-    <source_url nil="true"/>
-    <image_uploaded_at type="datetime">2015-07-20T05:28:34+00:00</image_uploaded_at>
-    <s3_image_at type="datetime">2015-07-20T05:28:35+00:00</s3_image_at>
-    <reviews_count type="integer">17375</reviews_count>
-    <ratings_sum type="integer">30763</ratings_sum>
-    <ratings_count type="integer">8815</ratings_count>
-    <text_reviews_count type="integer">1065</text_reviews_count>
-    <book_authors_count type="integer">0</book_authors_count>
-    <updated_at type="datetime">2016-01-01T14:51:05+00:00</updated_at>
-    <created_at type="datetime">2014-11-03T02:40:30+00:00</created_at>
-    <author_id_updater_user_id type="integer">-44</author_id_updater_user_id>
-    <author_role_updater_user_id type="integer">-9</author_role_updater_user_id>
-    <description_updater_user_id type="integer">45618</description_updater_user_id>
-    <edition_information_updater_user_id type="integer" nil="true"/>
-    <format_updater_user_id type="integer">-44</format_updater_user_id>
-    <image_updater_user_id type="integer">-44</image_updater_user_id>
-    <isbn_updater_user_id type="integer">-44</isbn_updater_user_id>
-    <isbn13_updater_user_id type="integer">-44</isbn13_updater_user_id>
-    <language_updater_user_id type="integer">989638</language_updater_user_id>
-    <num_pages_updater_user_id type="integer">-44</num_pages_updater_user_id>
-    <publication_date_updater_user_id type="integer">-44</publication_date_updater_user_id>
-    <publisher_updater_user_id type="integer">-44</publisher_updater_user_id>
-    <title_updater_user_id type="integer">5949408</title_updater_user_id>
-    <url_updater_user_id type="integer" nil="true"/>
-    <title_language_code nil="true"/>
-    <publisher_language_code nil="true"/>
-    <description_language_code nil="true"/>
-    <asin_updater_user_id type="integer" nil="true"/>
-    <author>
-      <id type="integer">1895943</id>
-      <name>Graeme Simsion</name>
-      <updated_at type="datetime">2016-01-23T14:23:40+00:00</updated_at>
-      <created_at type="datetime">2008-09-05T06:13:53+00:00</created_at>
-      <searched_for_at type="datetime">2009-09-16T07:37:31+00:00</searched_for_at>
-      <image_uploaded_at type="datetime">2015-07-15T22:29:37+00:00</image_uploaded_at>
-      <user_id type="integer">16514642</user_id>
-      <gender>M</gender>
-      <country_code></country_code>
-      <born_at type="datetime" nil="true"/>
-      <died_at type="datetime" nil="true"/>
-      <about>Graeme Simsion is a former IT consultant and the author of two nonfiction books on database design who decided, at the age of fifty, to turn his hand to fiction. His first novel, &lt;i&gt;The Rosie Project,&lt;/i&gt; was published in 2013 and translation rights have been sold in over thirty-five languages. Graeme lives in Australia with his wife, Anne, and their two children. </about>
-      <uploader_user_id type="integer">4940203</uploader_user_id>
-      <image_copyright>Simonandschuster.net</image_copyright>
-      <influences></influences>
-      <url>http://rosieproject.com</url>
-      <genre1>Fiction</genre1>
-      <genre2>Romance</genre2>
-      <genre3></genre3>
-      <books_count type="integer">178</books_count>
-      <reviews_count type="integer">437737</reviews_count>
-      <ratings_sum type="integer">991136</ratings_sum>
-      <works_count type="integer">9</works_count>
-      <hometown></hometown>
-      <rating_dist>total:1|5:0|4:1|3:0|2:0|1:0|</rating_dist>
-      <s3_image_at type="datetime" nil="true"/>
-      <ratings_count type="integer">252593</ratings_count>
-      <text_reviews_count type="integer">30555</text_reviews_count>
-      <author_program_at type="datetime">2015-07-20T18:10:02+00:00</author_program_at>
-      <postal_code nil="true"/>
-      <fanships_count type="integer">749</fanships_count>
-      <best_book_id type="integer">16181775</best_book_id>
-      <name_language_code nil="true"/>
-      <sort_by_name>simsion, graeme</sort_by_name>
-      <shelf_display_name>Simsion, Graeme</shelf_display_name>
-      <gender_custom nil="true"/>
-      <gender_pronoun nil="true"/>
-    </author>
-  </book>
-</user_status>
-        </object>
-    </update>
->>>>>>> refs/remotes/origin/master
       <update type="readstatus">
       <action_text><![CDATA[started reading <a only_path="false" href="http://www.goodreads.com/review/show/1491479936">Medzerový plod</a>]]></action_text>
       <link>http://www.goodreads.com/read_statuses/1217900477</link>
@@ -742,21 +155,12 @@ Gladwell introduces us to the particular personality types who are natural polli
       <edition_information nil="true"/>
       <url>http://www.slovart.sk/knihy-v-slovencine-a-cestine/beletria/medzerovy-plod.html?page_id=15266</url>
       <source_url nil="true"/>
-<<<<<<< HEAD
       <image_uploaded_at type="datetime">2015-03-19T11:25:17+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2015-06-16T08:32:38+00:00</s3_image_at>
       <reviews_count type="integer">56</reviews_count>
       <ratings_sum type="integer">121</ratings_sum>
       <ratings_count type="integer">28</ratings_count>
       <text_reviews_count type="integer">8</text_reviews_count>
-=======
-      <image_uploaded_at type="datetime">2015-07-20T05:28:34+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-07-20T05:28:35+00:00</s3_image_at>
-      <reviews_count type="integer">17375</reviews_count>
-      <ratings_sum type="integer">30763</ratings_sum>
-      <ratings_count type="integer">8815</ratings_count>
-      <text_reviews_count type="integer">1065</text_reviews_count>
->>>>>>> refs/remotes/origin/master
       <book_authors_count type="integer">0</book_authors_count>
       <updated_at type="datetime">2016-01-13T12:02:20+00:00</updated_at>
       <created_at type="datetime">2015-03-19T11:25:17+00:00</created_at>
@@ -779,7 +183,6 @@ Gladwell introduces us to the particular personality types who are natural polli
       <description_language_code nil="true"/>
       <asin_updater_user_id type="integer" nil="true"/>
       <author>
-<<<<<<< HEAD
         <id type="integer">5822413</id>
         <name>Veronika Šikulová</name>
         <updated_at type="datetime">2016-01-26T23:58:07+00:00</updated_at>
@@ -790,18 +193,6 @@ Gladwell introduces us to the particular personality types who are natural polli
         <gender>F</gender>
         <country_code>SK</country_code>
         <born_at type="date">1967-03-15</born_at>
-=======
-        <id type="integer">1895943</id>
-        <name>Graeme Simsion</name>
-        <updated_at type="datetime">2016-01-23T14:23:40+00:00</updated_at>
-        <created_at type="datetime">2008-09-05T06:13:53+00:00</created_at>
-        <searched_for_at type="datetime">2009-09-16T07:37:31+00:00</searched_for_at>
-        <image_uploaded_at type="datetime">2015-07-15T22:29:37+00:00</image_uploaded_at>
-        <user_id type="integer">16514642</user_id>
-        <gender>M</gender>
-        <country_code></country_code>
-        <born_at type="datetime" nil="true"/>
->>>>>>> refs/remotes/origin/master
         <died_at type="datetime" nil="true"/>
         <about>Veronika Šikulová je prozaička, autorka kníh pre deti a mládež.Pôsobila ako novinárka a popritom sa venovala písaniu próz. Prvé prózy publikovala v literárnej prílohe denníka Smena, v literárnych časopisoch Romboid, Slovenské pohľady a v zborníku mladých autorov Druhý dych (1985). Žije a tvorí v Modre.Ocenenia: Prémia Literárneho fondu za pôvodnú literárnu tvorbu za rok 2009 za román Domček jedným ťahom. Prémia Literárneho fondu za pôvodnú literárnu tvorbu za rok 2011 za prózu Miesta v sieti (2011) </about>
         <uploader_user_id type="integer">3729776</uploader_user_id>
@@ -811,7 +202,6 @@ Gladwell introduces us to the particular personality types who are natural polli
         <genre1>Poetry</genre1>
         <genre2>Fiction</genre2>
         <genre3></genre3>
-<<<<<<< HEAD
         <books_count type="integer">14</books_count>
         <reviews_count type="integer">179</reviews_count>
         <ratings_sum type="integer">379</ratings_sum>
@@ -822,18 +212,6 @@ Gladwell introduces us to the particular personality types who are natural polli
         <ratings_count type="integer">101</ratings_count>
         <text_reviews_count type="integer">13</text_reviews_count>
         <author_program_at type="datetime" nil="true"/>
-=======
-        <books_count type="integer">178</books_count>
-        <reviews_count type="integer">437737</reviews_count>
-        <ratings_sum type="integer">991136</ratings_sum>
-        <works_count type="integer">9</works_count>
-        <hometown></hometown>
-        <rating_dist>total:1|5:0|4:1|3:0|2:0|1:0|</rating_dist>
-        <s3_image_at type="datetime" nil="true"/>
-        <ratings_count type="integer">252593</ratings_count>
-        <text_reviews_count type="integer">30555</text_reviews_count>
-        <author_program_at type="datetime">2015-07-20T18:10:02+00:00</author_program_at>
->>>>>>> refs/remotes/origin/master
         <postal_code nil="true"/>
         <fanships_count type="integer">0</fanships_count>
         <best_book_id type="integer">25174272</best_book_id>
@@ -881,13 +259,8 @@ Gladwell introduces us to the particular personality types who are natural polli
 </small_image_url>
 <link><![CDATA[http://www.goodreads.com/author/show/1895943.Graeme_Simsion]]></link>
 <average_rating>3.92</average_rating>
-<<<<<<< HEAD
-<ratings_count>255592</ratings_count>
-<text_reviews_count>30804</text_reviews_count>
-=======
-<ratings_count>252593</ratings_count>
-<text_reviews_count>30555</text_reviews_count>
->>>>>>> refs/remotes/origin/master
+<ratings_count>255616</ratings_count>
+<text_reviews_count>30805</text_reviews_count>
 </author>
 </authors>
           </book>
@@ -906,7 +279,6 @@ Gladwell introduces us to the particular personality types who are natural polli
       <updated_at>Sun, 24 Jan 2016 12:00:51 -0800</updated_at>
         <object>
           <read_status>
-<<<<<<< HEAD
   <id type="integer">1202156471</id>
   <review_id type="integer">1523675134</review_id>
   <user_id type="integer">6403898</user_id>
@@ -925,26 +297,6 @@ Gladwell introduces us to the particular personality types who are natural polli
     <read_at type="datetime" nil="true"/>
     <updated_at type="datetime">2016-01-24T20:00:51+00:00</updated_at>
     <created_at type="datetime">2016-01-24T20:00:51+00:00</created_at>
-=======
-  <id type="integer">1174466469</id>
-  <review_id type="integer">1496711798</review_id>
-  <user_id type="integer">6403898</user_id>
-  <old_status>to-read</old_status>
-  <status>currently-reading</status>
-  <updated_at type="datetime">2016-01-13T07:57:42+00:00</updated_at>
-  <review>
-    <id type="integer">1496711798</id>
-    <user_id type="integer">6403898</user_id>
-    <book_id type="integer">16181775</book_id>
-    <rating type="integer">4</rating>
-    <read_status>read</read_status>
-    <sell_flag type="boolean">false</sell_flag>
-    <review nil="true"/>
-    <recommendation nil="true"/>
-    <read_at type="datetime">2016-01-16T09:15:16+00:00</read_at>
-    <updated_at type="datetime">2016-01-16T09:15:16+00:00</updated_at>
-    <created_at type="datetime">2016-01-05T19:38:44+00:00</created_at>
->>>>>>> refs/remotes/origin/master
     <comments_count type="integer">0</comments_count>
     <weight type="integer">0</weight>
     <ratings_sum type="integer">0</ratings_sum>
@@ -953,7 +305,6 @@ Gladwell introduces us to the particular personality types who are natural polli
     <spoiler_flag type="boolean">false</spoiler_flag>
     <recommender_user_id1 type="integer">0</recommender_user_id1>
     <recommender_user_name1 nil="true"/>
-<<<<<<< HEAD
     <work_id type="integer">89514</work_id>
     <read_count nil="true"/>
     <last_comment_at type="datetime" nil="true"/>
@@ -1034,7 +385,7 @@ Kelby is a photographer, designer, and the award-winning author of more than 40 
         <genre2>Computers &amp; Internet</genre2>
         <genre3>Arts &amp; Photography</genre3>
         <books_count type="integer">469</books_count>
-        <reviews_count type="integer">23415</reviews_count>
+        <reviews_count type="integer">23414</reviews_count>
         <ratings_sum type="integer">49508</ratings_sum>
         <works_count type="integer">173</works_count>
         <hometown>Lakeland, Florida</hometown>
@@ -1442,72 +793,11 @@ Kelby is a photographer, designer, and the award-winning author of more than 40 
       <publisher_updater_user_id type="integer">-10</publisher_updater_user_id>
       <title_updater_user_id type="integer">-10</title_updater_user_id>
       <url_updater_user_id type="integer" nil="true"/>
-=======
-    <work_id type="integer">22084678</work_id>
-    <read_count nil="true"/>
-    <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime">2016-01-13T07:57:42+00:00</started_at>
-    <hidden_flag type="boolean">false</hidden_flag>
-    <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2016-01-16T09:15:16+00:00</last_revision_at>
-    <non_friends_rating_count type="integer">0</non_friends_rating_count>
-    <book>
-      <id type="integer">16181775</id>
-      <work_id type="integer">22084678</work_id>
-      <isbn>1476729085</isbn>
-      <isbn13>9781476729084</isbn13>
-      <title>The Rosie Project (Don Tillman #1)</title>
-      <sort_by_title>rosie project, the (don tillman #1)</sort_by_title>
-      <author_id type="integer">1895943</author_id>
-      <author_role nil="true"/>
-      <asin nil="true"/>
-      <description>An international sensation, this hilarious, feel-good novel is narrated by an oddly charming and socially challenged genetics professor on an unusual quest: to find out if he is capable of true love.
-
-Don Tillman, professor of genetics, has never been on a second date. He is a man who can count all his friends on the fingers of one hand, whose lifelong difficulty with social rituals has convinced him that he is simply not wired for romance. So when an acquaintance informs him that he would make a “wonderful” husband, his first reaction is shock. Yet he must concede to the statistical probability that there is someone for everyone, and he embarks upon The Wife Project. In the orderly, evidence-based manner with which he approaches all things, Don sets out to find the perfect partner. She will be punctual and logical—most definitely not a barmaid, a smoker, a drinker, or a late-arriver.
-
-Yet Rosie Jarman is all these things. She is also beguiling, fiery, intelligent—and on a quest of her own. She is looking for her biological father, a search that a certain DNA expert might be able to help her with. Don's Wife Project takes a back burner to the Father Project and an unlikely relationship blooms, forcing the scientifically minded geneticist to confront the spontaneous whirlwind that is Rosie—and the realization that love is not always what looks good on paper.
-
-&lt;i&gt;The Rosie Project&lt;/i&gt; is a moving and hilarious novel for anyone who has ever tenaciously gone after life or love in the face of overwhelming challenges.</description>
-      <format>Hardcover</format>
-      <publication_year type="integer">2013</publication_year>
-      <publication_month type="integer">10</publication_month>
-      <publication_day type="integer">1</publication_day>
-      <num_pages type="integer">304</num_pages>
-      <publisher>Simon &amp; Schuster</publisher>
-      <language_code>eng</language_code>
-      <edition_information nil="true"/>
-      <url>http://www.rosieproject.com</url>
-      <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2013-06-19T14:22:21+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-06-16T03:01:29+00:00</s3_image_at>
-      <reviews_count type="integer">303692</reviews_count>
-      <ratings_sum type="integer">693350</ratings_sum>
-      <ratings_count type="integer">173557</ratings_count>
-      <text_reviews_count type="integer">20089</text_reviews_count>
-      <book_authors_count type="integer">0</book_authors_count>
-      <updated_at type="datetime">2015-09-17T09:12:58+00:00</updated_at>
-      <created_at type="datetime">2012-11-30T15:40:37+00:00</created_at>
-      <author_id_updater_user_id type="integer">1365572</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer" nil="true"/>
-      <description_updater_user_id type="integer">4940203</description_updater_user_id>
-      <edition_information_updater_user_id type="integer" nil="true"/>
-      <format_updater_user_id type="integer">1365572</format_updater_user_id>
-      <image_updater_user_id type="integer">4940203</image_updater_user_id>
-      <isbn_updater_user_id type="integer">1365572</isbn_updater_user_id>
-      <isbn13_updater_user_id type="integer">1365572</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">346303</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">3615945</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">5136858</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">1365572</publisher_updater_user_id>
-      <title_updater_user_id type="integer">5915376</title_updater_user_id>
-      <url_updater_user_id type="integer">4940203</url_updater_user_id>
->>>>>>> refs/remotes/origin/master
       <title_language_code nil="true"/>
       <publisher_language_code nil="true"/>
       <description_language_code nil="true"/>
       <asin_updater_user_id type="integer" nil="true"/>
       <author>
-<<<<<<< HEAD
         <id type="integer">11186</id>
         <name>Reinhold Messner</name>
         <updated_at type="datetime">2016-02-01T09:18:03+00:00</updated_at>
@@ -1543,43 +833,6 @@ Yet Rosie Jarman is all these things. She is also beguiling, fiery, intelligent�
         <name_language_code nil="true"/>
         <sort_by_name>messner, reinhold</sort_by_name>
         <shelf_display_name>Messner, Reinhold</shelf_display_name>
-=======
-        <id type="integer">1895943</id>
-        <name>Graeme Simsion</name>
-        <updated_at type="datetime">2016-01-23T14:23:40+00:00</updated_at>
-        <created_at type="datetime">2008-09-05T06:13:53+00:00</created_at>
-        <searched_for_at type="datetime">2009-09-16T07:37:31+00:00</searched_for_at>
-        <image_uploaded_at type="datetime">2015-07-15T22:29:37+00:00</image_uploaded_at>
-        <user_id type="integer">16514642</user_id>
-        <gender>M</gender>
-        <country_code></country_code>
-        <born_at type="datetime" nil="true"/>
-        <died_at type="datetime" nil="true"/>
-        <about>Graeme Simsion is a former IT consultant and the author of two nonfiction books on database design who decided, at the age of fifty, to turn his hand to fiction. His first novel, &lt;i&gt;The Rosie Project,&lt;/i&gt; was published in 2013 and translation rights have been sold in over thirty-five languages. Graeme lives in Australia with his wife, Anne, and their two children. </about>
-        <uploader_user_id type="integer">4940203</uploader_user_id>
-        <image_copyright>Simonandschuster.net</image_copyright>
-        <influences></influences>
-        <url>http://rosieproject.com</url>
-        <genre1>Fiction</genre1>
-        <genre2>Romance</genre2>
-        <genre3></genre3>
-        <books_count type="integer">178</books_count>
-        <reviews_count type="integer">437737</reviews_count>
-        <ratings_sum type="integer">991136</ratings_sum>
-        <works_count type="integer">9</works_count>
-        <hometown></hometown>
-        <rating_dist>total:1|5:0|4:1|3:0|2:0|1:0|</rating_dist>
-        <s3_image_at type="datetime" nil="true"/>
-        <ratings_count type="integer">252593</ratings_count>
-        <text_reviews_count type="integer">30555</text_reviews_count>
-        <author_program_at type="datetime">2015-07-20T18:10:02+00:00</author_program_at>
-        <postal_code nil="true"/>
-        <fanships_count type="integer">749</fanships_count>
-        <best_book_id type="integer">16181775</best_book_id>
-        <name_language_code nil="true"/>
-        <sort_by_name>simsion, graeme</sort_by_name>
-        <shelf_display_name>Simsion, Graeme</shelf_display_name>
->>>>>>> refs/remotes/origin/master
         <gender_custom nil="true"/>
         <gender_pronoun nil="true"/>
       </author>
@@ -1589,7 +842,6 @@ Yet Rosie Jarman is all these things. She is also beguiling, fiery, intelligent�
 
         </object>
     </update>
-<<<<<<< HEAD
       <update type="userstatus">
       <action_text><![CDATA[is on page 200 of 368 of <a href="https://www.goodreads.com/book/show/23492671-the-rosie-effect">The Rosie Effect</a>]]></action_text>
       <link>http://www.goodreads.com/user_status/show/86022922</link>
@@ -1607,13 +859,6 @@ Yet Rosie Jarman is all these things. She is also beguiling, fiery, intelligent�
   <user_id type="integer">6403898</user_id>
   <book_id type="integer">23492671</book_id>
   <page type="integer">200</page>
-=======
-</updates>
-    <user_statuses>
-        <user_status>
-  <id type="integer">85568814</id>
-  <page type="integer">116</page>
->>>>>>> refs/remotes/origin/master
   <chapter type="integer" nil="true"/>
   <comments_count type="integer">0</comments_count>
   <body></body>
@@ -1649,10 +894,10 @@ Yet Rosie Jarman is all these things. She is also beguiling, fiery, intelligent�
     <source_url nil="true"/>
     <image_uploaded_at type="datetime">2015-07-20T05:28:34+00:00</image_uploaded_at>
     <s3_image_at type="datetime">2015-07-20T05:28:35+00:00</s3_image_at>
-    <reviews_count type="integer">18084</reviews_count>
-    <ratings_sum type="integer">32239</ratings_sum>
-    <ratings_count type="integer">9231</ratings_count>
-    <text_reviews_count type="integer">1103</text_reviews_count>
+    <reviews_count type="integer">18097</reviews_count>
+    <ratings_sum type="integer">32252</ratings_sum>
+    <ratings_count type="integer">9235</ratings_count>
+    <text_reviews_count type="integer">1104</text_reviews_count>
     <book_authors_count type="integer">0</book_authors_count>
     <updated_at type="datetime">2016-01-01T14:51:05+00:00</updated_at>
     <created_at type="datetime">2014-11-03T02:40:30+00:00</created_at>
@@ -1695,14 +940,14 @@ Yet Rosie Jarman is all these things. She is also beguiling, fiery, intelligent�
       <genre2>Romance</genre2>
       <genre3></genre3>
       <books_count type="integer">178</books_count>
-      <reviews_count type="integer">442051</reviews_count>
-      <ratings_sum type="integer">1002896</ratings_sum>
+      <reviews_count type="integer">442093</reviews_count>
+      <ratings_sum type="integer">1002984</ratings_sum>
       <works_count type="integer">9</works_count>
       <hometown></hometown>
       <rating_dist>total:1|5:0|4:1|3:0|2:0|1:0|</rating_dist>
       <s3_image_at type="datetime" nil="true"/>
-      <ratings_count type="integer">255592</ratings_count>
-      <text_reviews_count type="integer">30804</text_reviews_count>
+      <ratings_count type="integer">255616</ratings_count>
+      <text_reviews_count type="integer">30805</text_reviews_count>
       <author_program_at type="datetime">2015-07-20T18:10:02+00:00</author_program_at>
       <postal_code nil="true"/>
       <fanships_count type="integer">749</fanships_count>
