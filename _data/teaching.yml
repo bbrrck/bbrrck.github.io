@@ -1,38 +1,51 @@
 ---      
 - name    : "Géométrie numérique"
+  code    : "GINF42C6"
+  url     : "http://ufrima.imag.fr/ue/WebFormation/ue.php?code=GINF42C6&ismat=&lang=fr"
+  info    : 'This page is dedicated to the practical part of the <em>Géométrie Numérique</em> course,
+             with lectures given by <a href="http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/">Georges-Pierre Bonneau</a>.
+             <br />Assignements (and some theory) for each TP will be published here.'
+  slug    : geo-num-2016
   meta    :
     - semester: "spring 2016"
       type    : "TP"
-      day     : "Friday"
-      time    : "15h15 – 16h45"
       group   : "M1 Info"
-      room    : "F217"
-      org     : "UFR IM²AG"
-      address : "60 Rue de la Chimie, 38400 Saint-Martin-d'Hères"
+      time    : "Friday, 15h15 – 16h45"
+      room    : "F217, UFR IM²AG"
   syllabus:
-    - date  : 05/02
+    - date  : 2016-02-05 15:15:00
       title : "Bézier curves, De Casteljau’s algorithm"
-    - date  : 12/02
-      title : "&hellip;"
-    - date  : 19/02
-      title : "&hellip;"
-    - date  : 26/02
+      number: 1
+    - date  : 2016-02-12 15:15:00
+      number: 2
+    - date  : 2016-02-19 15:15:00
+      number: 3
+    - date  : 2016-02-26 15:15:00
       title : "winter break"
-    - date  : 04/03
-      title : "&hellip;"
-    - date  : 11/03
-      title : "&hellip;"
-    - date  : 18/03
-      title : "&hellip;"
-    - date  : 25/03
-      title : "&hellip;"
-    - date  : 01/04
-      title : "&hellip;"
-    - date  : 08/04
-      title : "&hellip;"
-    - date  : 15/04
-      title : "&hellip;"
-    - date  : 22/04
+      break : true
+    - date  : 2016-03-04 15:15:00
+      number: 4
+    - date  : 2016-03-11 15:15:00
+      number: 5
+    - date  : 2016-03-18 15:15:00
+      number: 6
+    - date  : 2016-03-25 15:15:00
+      number: 7
+    - date  : 2016-04-01 15:15:00
+      number: 8
+    - date  : 2016-04-08 15:15:00
+      number: 9
+    - date  : 2016-04-15 15:15:00
+      number: 10
+    - date  : 2016-04-22 15:15:00
       title : "spring break"
-    - date  : 29/04
-      title : "&hellip;"
+      break : true
+    - date  : 2016-04-29 15:15:00
+      number: 11
+  past:
+    - year : 2015
+      who  : Ulysse Vimont
+      url  : https://team.inria.fr/imagine/geometrie-numerique-m1-info-im2ag-20142015/
+    - year : 2014
+      who  : Pierre-Luc Manteaux
+      url  : https://team.inria.fr/imagine/pierre-luc-manteaux/

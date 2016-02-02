@@ -1,4 +1,4 @@
 ---
 layout: page
-ppermalink: /foto/
+permalink: /foto/
 ---

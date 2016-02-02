@@ -1,0 +1,125 @@
+section.course {
+    img {
+        max-width: 100%;
+        width: 16em;
+        margin: 0 0 0 0.5em;
+        display: block;
+        float: right;
+    }
+    h2 {
+        margin: 0;
+    }
+    h2 a {
+        margin-left: .5em;
+        font-size: 40%;
+    }
+    h3 {
+        font-size: 120%;
+        color: #666;
+    }
+    h3:before {
+        content: ". ";
+    }
+    .meta {
+        span + span:before {
+            content: "|";
+            margin: 0 0.4em 0 0.2em;
+            color: #ccc;
+        }
+    }
+    ul {
+        list-style-type: none;
+        list-style-position: outside;
+        margin: 0 0 0 1em;
+    }
+    .meta {
+        color: invert($brand-color);
+    }
+    .meta, ul .date {
+        display: inline-block;
+        font-size: 90%;
+    }
+    ul .date {
+        color: #666;
+        font-family: monospace;
+        margin-right: 0.5em;
+        &:before {
+            content: "[ ";
+        }
+        &:after {
+            content: " ]";
+        }
+    }
+    ul .title {
+        display:inline-block;
+        margin-left: .5em;
+    }
+    ul li.break {
+        .date {
+            text-decoration: line-through;
+        }
+        .title {
+            color: #777;
+            font-size: 80%;
+        }
+    }
+}
+
+section.course-tp {
+    .meta {
+        color: #666;
+        margin: 0 0 1em;
+    }
+    .backlink {
+        font-size: 90%;
+        color: #666;
+        &:before {
+            content: "« ";
+        }
+    }
+    h1 {
+        font-size: 180%;
+        color: $brand-color;
+        margin: 1em 0 0;
+    }
+    h2 {
+        font-size: 150%;
+        margin-top: 2em; 
+    }
+    h2.first {
+        margin: 0;
+    }
+    ul {
+        list-style-type: none;
+        list-style-position: outside;
+        margin: 0;
+    }
+    ul.reading {
+        list-style-type: lower-roman;
+    }
+    figure {
+        width: 100%;
+        margin: 0.5em auto 1em;
+        text-align: center;
+        padding: 1em;
+        img {
+            display: inline-block;
+            width: 25em;
+            max-width: 100%;
+        }
+        div.title {
+            display: block;
+            font-style: italic;
+            background-color: #fff;
+            padding: 1em 5em 0;
+        }
+    }
+    ul.algorithm {
+        padding: 1em 1.5em 0.2em;
+        margin: 0 0 1em;
+        background-color: #eee;
+        span.algo-part {
+            font-family: monospace;
+        }
+    }
+}

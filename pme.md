@@ -1,4 +1,0 @@
----
-layout: me
-permalink: /me/
----

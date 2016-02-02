@@ -3,14 +3,13 @@ layout: post
 title:  "Converting subtitles to UTF-8"
 date:   2016-01-29 15:00:00
 permalink: subtitles-utf8
-draft: true
 ---
 
 [Plex](https://plex.tv/) and
 [chromecast](www.google.com/chromecast)
 is quite a powerful combination. No more HDMI cables!
 
-One thing that sucks is watching 
+One thing that sucks is watching
 [Bron/Broen](http://www.imdb.com/title/tt1733785/)
 
 {% highlight bash %}
