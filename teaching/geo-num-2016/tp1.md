@@ -30,7 +30,7 @@ The Bézier points $\mathbf b_i \in \mathbb R^d$ form the <em>control polygon</e
     </li>
     <li>
         <span class="algo-part">compute&nbsp;: </span> Set $\mathbf b_i^0 = \mathbf b_i$ and compute the points
-    $$ \mathbf b_i^r (t) = (1-t) \mathbf b_i^{r-1} + t \mathbf b_{i-1}^{r-1} \qquad 
+    $$ \mathbf b_i^r (t) = (1-t) \mathbf b_i^{r-1} + t \mathbf b_{i+1}^{r-1} \qquad 
        \text{for} \qquad r=1,\dots,n, \quad i=0,\dots,n-r. $$
     </li>
 </ul>
@@ -38,7 +38,7 @@ The Bézier points $\mathbf b_i \in \mathbb R^d$ form the <em>control polygon</e
 The <a href="https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm">De Casteljau’s algorithm</a> provides an efficient means for evaluating a Bézier curve $\mathbf{x}(t)$.
 <figure>
     <img src="casteljau-curve.png" />
-    <div class="title">Visualisation of the steps of De Casteljau's algorithm, $t=0.5$</div>
+    <div class="title">Visualisation of the steps of the De Casteljau's algorithm, $t=0.5$</div>
 </figure>
 
 It is useful to look at this algorithm in its schematic form. For instance, a quintic curve ($n=5$) :
