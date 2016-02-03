@@ -41,24 +41,30 @@ The <a href="https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm">De Castel
     <div class="title">Visualisation of the steps of the De Casteljau's algorithm, $t=0.5$</div>
 </figure>
 
-It is useful to look at this algorithm in its schematic form. For instance, a quintic curve ($n=5$) :
-
-<figure style="width:100%;">
-    <img style="width: 60%;max-width:500px;float:right;" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/BezierCurve.gif" />
-    <div style="width: 40%;">
-\begin{array}{cccccc}
-\mathbf b_0 = \mathbf b_0^0 &               &               &               &               & \\
-\mathbf b_1 = \mathbf b_1^0 & \mathbf b_0^1 &               &               &               & \\
-\mathbf b_2 = \mathbf b_2^0 & \mathbf b_1^1 & \mathbf b_0^2 &               &               & \\
-\mathbf b_3 = \mathbf b_3^0 & \mathbf b_2^1 & \mathbf b_1^2 & \mathbf b_0^3 &               & \\
-\mathbf b_4 = \mathbf b_4^0 & \mathbf b_3^1 & \mathbf b_2^2 & \mathbf b_1^3 & \mathbf b_0^4 & \\
-\mathbf b_5 = \mathbf b_5^0 & \mathbf b_4^1 & \mathbf b_3^2 & \mathbf b_2^3 & \mathbf b_1^4 & \mathbf b_0^5 \\
+It is useful to look at this algorithm in its schematic form. For a qartic curve ($n=4$) :
+\begin{array}{c}
+\mathbf b_0 = \mathbf b_0^0 &        &               &        &               &        &               &        & \\
+                            & \ddots &               &        &               &        &               &        & \\
+\mathbf b_1 = \mathbf b_1^0 & \dots  & \mathbf b_0^1 &        &               &        &               &        & \\
+                            & \ddots &               & \ddots &               &        &               &        & \\
+\mathbf b_2 = \mathbf b_2^0 & \dots  & \mathbf b_1^1 & \dots  & \mathbf b_0^2 &        &               &        & \\
+                            & \ddots &               & \ddots &               & \ddots &               &        & \\
+\mathbf b_3 = \mathbf b_3^0 & \dots  & \mathbf b_2^1 & \dots  & \mathbf b_1^2 & \dots  & \mathbf b_0^3 &        & \\
+                            & \ddots &               & \ddots &               & \ddots &               & \ddots & \\
+\mathbf b_4 = \mathbf b_4^0 & \dots  & \mathbf b_3^1 & \dots  & \mathbf b_2^2 & \dots  & \mathbf b_1^3 & \dots  & \mathbf b_0^4 = \mathbf x(t) 
 \end{array}
+
+<figure style="text-align:center;">
+    <img style="width:100%;max-width:600px;" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/BezierCurve.gif" />
+    <div class="title" style="clear:both;">Animation of the De Casteljau algorithm on a quintic Bézier curve ($n=5$)
+    <br />[from <a href="https://en.wikipedia.org/wiki/User:Sam_Derbyshire/Gallery">wikpedia</a> by Sam Derbyshire]
     </div>
-    <div class="title" style="clear:both;">Animation of a quintic Bézier curve from <a href="https://en.wikipedia.org/wiki/User:Sam_Derbyshire/Gallery">wikpedia</a> by Sam Derbyshire</div>
 </figure>
 
-<h2>assignements</h2>
+<h2>Assignements</h2>
+<p>
+<a href="https://github.com/bbrrck/geo-num-2016">C++ codebase </a> is provided, but not obligatory; you can choose any programming language that suits you.
+</p>
 <ol class="assignements">
 <li></li>
 <li></li>
@@ -66,10 +72,9 @@ It is useful to look at this algorithm in its schematic form. For instance, a qu
 </ol>
 
 
-<h2>resources & interesting stuff</h2>
+<h2>Resources</h2>
 <ul class="reading">
-<li>(book) <a href="http://www.farinhansford.com/books/cagd/">Curves and Surfaces for CAGD</a> by Gerald Farin</li>
-<li>(book) <a href="http://www.sciencedirect.com/science/book/9780444511041">Handbook of CAGD</a>, edited by Gerald Farin, Josef Hoschek, Myung-Soo Kim</li>
+<li><a href="http://www.sciencedirect.com/science/book/9780444511041">Handbook of CAGD</a>, edited by Gerald Farin, Josef Hoschek, Myung-Soo Kim</li>
 <li><a href="http://pomax.github.io/bezierinfo/">A Primer on Bézier Curves</a> by Pomax</li>
 <li><a href="http://jeremykun.com/2013/05/11/bezier-curves-and-picasso/">Bézier curves and Picasso</a> by Jeremy Kun</li>
 <li><a href="http://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/">Bézier Curves and Type Design: A Tutorial</a> by Fábio Duarte Martins</li>
