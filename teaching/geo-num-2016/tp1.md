@@ -62,9 +62,6 @@ It is useful to look at this algorithm in its schematic form. For a qartic curve
 </figure>
 
 <h2>Assignements</h2>
-<p>
-<a href="https://github.com/bbrrck/geo-num-2016">C++ codebase </a> is provided, but not obligatory; you can choose any programming language that suits you.
-</p>
 <ol class="assignements">
 <li></li>
 <li></li>
