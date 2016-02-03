@@ -13,28 +13,24 @@ title: teaching
 <div class="meta">
  {% for metas in course.meta %}
   {% for meta in metas %}
-   <span>{{ meta[1] }}</span>
+   <span class="{{ meta[0] }}">{{ meta[1] }}</span>
    {% if meta[0] == 'type' %}{% assign type = meta[1] %}{% endif %}
   {% endfor %}
  {% endfor %}
 </div>
 
+<h3>Description</h3>
 <img src="/assets/teapot.png" alt="Utah teapot" title="Utah teapot" />
-<h3>description</h3>
-{{ course.info | prettyprint | paragraph }}
-
-<h3>assignements</h3>
 <p>
-You can either work alone or in pairs. A <a href="https://github.com/bbrrck/geo-num-2016">github codebase</a> is provided, but not obligatory – use your favourite language in case you're not a fan of c++.
-For rendering, take a look at <a href="http://gnuplot.info/">gnuplot</a> or <a href="http://matplotlib.org/">matplotlib</a> (or any similar library).
-</p>
-<p>
-After each TP, send your code and a short report with images to <code>tibor.stanko@inria.fr</code>.
-Put everything into an archive and name it <code>LastName.zip</code> or <code>LastName1_LastName2.zip</code>.
-Use <code>[GeoNum2016] TPxx</code> as the subject of your mail.
+This page is dedicated to the practical part of the <em>Géométrie Numérique</em> course, with lectures given by <a href="http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/">Georges-Pierre Bonneau</a>. Assignements (and some theory) will be published here.
 </p>
 
-<h3>planning</h3>
+<h3>Assignements</h3>
+<p>
+You can either work alone or in pairs. A <a href="https://github.com/bbrrck/geo-num-2016">c++ codebase</a> is provided, but not obligatory – use your favourite language in case you're not a fan of C++ . After each TP, send your code and a short report (in English or French) with images to <code>tibor.stanko@inria.fr</code>. Zip everything as <code>LastName.zip</code> or <code>LastName1_LastName2.zip</code> and use <code>[GeoNum2016] TPxx</code> as the subject of your mail.
+</p>
+
+<h3>Syllabus</h3>
  <ul class="calendar">
  {% for class in course.syllabus %}
    <li{% if class.break %} class="break"{% endif %}>
@@ -51,7 +47,7 @@ Use <code>[GeoNum2016] TPxx</code> as the subject of your mail.
  {% endfor %}
  </ul>
 
-<h3>past years</h3>
+<h3>Past years</h3>
  <ul class="past">
  {% for past in course.past %}
  <li>

@@ -2,9 +2,6 @@
 - name    : "Géométrie numérique"
   code    : "GINF42C6"
   url     : "http://ufrima.imag.fr/ue/WebFormation/ue.php?code=GINF42C6&ismat=&lang=fr"
-  info    : 'This page is dedicated to the practical part of the <em>Géométrie Numérique</em> course,
-             with lectures given by <a href="http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/">Georges-Pierre Bonneau</a>.
-             <br />Assignements (and some theory) for each TP will be published here.'
   slug    : geo-num-2016
   meta    :
     - semester: "spring 2016"

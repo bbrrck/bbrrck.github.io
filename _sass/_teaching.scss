@@ -15,25 +15,27 @@ section.course {
     }
     h3 {
         font-size: 120%;
-        color: #666;
+        color: #333;
     }
     h3:before {
-        content: ". ";
+        content: "";
     }
     .meta {
+        color: invert($brand-color);
+        margin-left: 0.5em;
         span + span:before {
             content: "|";
             margin: 0 0.4em 0 0.2em;
             color: #ccc;
+        }
+        .semester {
+            color: #000;
         }
     }
     ul {
         list-style-type: none;
         list-style-position: outside;
         margin: 0 0 0 1em;
-    }
-    .meta {
-        color: invert($brand-color);
     }
     .meta, ul .date {
         display: inline-block;
@@ -84,18 +86,28 @@ section.course-tp {
     }
     h2 {
         font-size: 150%;
-        margin-top: 2em; 
+        margin-top: 1.5em; 
     }
     h2.first {
         margin: 0;
     }
-    ul {
-        list-style-type: none;
-        list-style-position: outside;
-        margin: 0;
+    h2.resources {
+        font-size: 110%;
     }
-    ul.reading {
-        list-style-type: lower-roman;
+    ul, ol {
+        margin: 0 2em;
+        list-style-position: outside;
+        
+        &.assignements li {
+            margin-bottom: 0.25em;
+            &:nth-of-type(2n) {
+                color: #444;
+            }
+        }
+        &.resources {
+            list-style-type: lower-roman;
+            font-size: 80%;
+        }
     }
     figure {
         width: 100%;
@@ -111,7 +123,7 @@ section.course-tp {
             display: block;
             font-style: italic;
             background-color: #fff;
-            padding: 1em 5em 0;
+            padding: 0.5em 1em 0;
         }
     }
     ul.algorithm {

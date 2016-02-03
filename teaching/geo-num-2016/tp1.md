@@ -30,8 +30,8 @@ The Bézier points $\mathbf b_i \in \mathbb R^d$ form the <em>control polygon</e
     </li>
     <li>
         <span class="algo-part">compute&nbsp;: </span> Set $\mathbf b_i^0 = \mathbf b_i$ and compute the points
-    $$ \mathbf b_i^r (t) = (1-t) \mathbf b_i^{r-1} + t \mathbf b_{i+1}^{r-1} \qquad 
-       \text{for} \qquad r=1,\dots,n, \quad i=0,\dots,n-r. $$
+    $$ \mathbf b_i^k (t) = (1-t) \mathbf b_i^{k-1} + t \mathbf b_{i+1}^{k-1} \qquad 
+       \text{for} \qquad k=1,\dots,n, \quad i=0,\dots,n-k. $$
     </li>
 </ul>
 
@@ -41,7 +41,7 @@ The <a href="https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm">De Castel
     <div class="title">Visualisation of the steps of the De Casteljau's algorithm, $t=0.5$</div>
 </figure>
 
-It is useful to look at this algorithm in its schematic form. For a qartic curve ($n=4$) :
+It is useful to look at this algorithm in its schematic form. For a quartic curve ($n=4$) :
 \begin{array}{c}
 \mathbf b_0 = \mathbf b_0^0 &        &               &        &               &        &               &        & \\
                             & \ddots &               &        &               &        &               &        & \\
@@ -61,19 +61,39 @@ It is useful to look at this algorithm in its schematic form. For a qartic curve
     </div>
 </figure>
 
-<h2>Assignements</h2>
+<h2>Code</h2>
+A <a href="https://github.com/bbrrck/geo-num-2016">c++ codebase</a> is provided to facilitate the implementation.
+{% highlight bash %}
+git clone https://github.com/bbrrck/geo-num-2016.git
+cd geo-num-2016/TP1
+mkdir build
+cd build
+cmake ..
+make
+./geonum_TP1
+{% endhighlight %}
+For rendering, you can use <a href="http://www.gnuplot.info/">gnuplot</a> or <a href="http://matplotlib.org/">matplotlib</a>.
+While still in the <code>build/</code> directory, test them by running :
+{% highlight bash %}
+gnuplot -p ../plots/plot.gnu
+python ../plots/plot.py
+{% endhighlight %}
+
+<h2>ToDo List</h2>
 <ol class="assignements">
-<li></li>
-<li></li>
-<li></li>
+<li>Implement the computation of a curve point $\mathbf x(t)$ using Bernstein polynomials.</li>
+<li>Implement the De Casteljau algorithm for a parameter $t$.</li>
+<li>Evaluate the curve using both methods and compare their performance for various sampling densities.</li>
+<li>Visualise the curve and its Bézier polygon.</li>
+<li>Visualise the intermediate polygons $\mathbf b_i^k$ from the De Casteljau algorithm.</li>
 </ol>
 
 
-<h2>Resources</h2>
-<ul class="reading">
+<h2 class="resources">Resources</h2>
+<ul class="resources">
 <li><a href="http://www.sciencedirect.com/science/book/9780444511041">Handbook of CAGD</a>, edited by Gerald Farin, Josef Hoschek, Myung-Soo Kim</li>
 <li><a href="http://pomax.github.io/bezierinfo/">A Primer on Bézier Curves</a> by Pomax</li>
-<li><a href="http://jeremykun.com/2013/05/11/bezier-curves-and-picasso/">Bézier curves and Picasso</a> by Jeremy Kun</li>
+<li><a href="http://jeremykun.com/2013/05/11/bezier-curves-and-picasso/">Bézier Curves and Picasso</a> by Jeremy Kun</li>
 <li><a href="http://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/">Bézier Curves and Type Design: A Tutorial</a> by Fábio Duarte Martins</li>
 <li><a href="http://bezier.method.ac/">The Bézier Game</li>
 <li><a href="http://tholman.com/bezier-curve-simulation/">Bézier Curve Simulation</li>
