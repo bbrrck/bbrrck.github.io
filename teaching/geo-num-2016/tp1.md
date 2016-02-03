@@ -79,7 +79,7 @@ gnuplot -p ../plots/plot.gnu
 python ../plots/plot.py
 {% endhighlight %}
 
-<h2>ToDo List</h2>
+<h2>ToDo</h2>
 <ol class="assignements">
 <li>Implement the computation of a curve point $\mathbf x(t)$ using Bernstein polynomials.</li>
 <li>Implement the De Casteljau algorithm for a parameter $t$.</li>

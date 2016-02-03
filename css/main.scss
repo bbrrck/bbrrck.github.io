@@ -3,11 +3,14 @@
 ---
 @charset "utf-8";
 @import url(https://fonts.googleapis.com/css?family=Alegreya:400);
+@import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
 
-$serif-family: 'Alegreya';
+$base-family: 'Alegreya';
+$header-family: 'Sorts Mill Goudy';
 
 // Our variables
-$base-font-family: $serif-family, 'Georgia', serif;
+$base-font-family: $base-family, 'Georgia', serif;
+$header-font-family: $header-family, $base-family, 'Georgia', serif;
 $base-font-size:   125%;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;

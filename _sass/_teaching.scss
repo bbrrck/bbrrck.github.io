@@ -14,11 +14,9 @@ section.course {
         font-size: 40%;
     }
     h3 {
+        margin-top: 1.5em;
         font-size: 120%;
-        color: #333;
-    }
-    h3:before {
-        content: "";
+        color: #111;
     }
     .meta {
         color: invert($brand-color);
@@ -91,9 +89,6 @@ section.course-tp {
     h2.first {
         margin: 0;
     }
-    h2.resources {
-        font-size: 110%;
-    }
     ul, ol {
         margin: 0 2em;
         list-style-position: outside;
@@ -106,7 +101,6 @@ section.course-tp {
         }
         &.resources {
             list-style-type: lower-roman;
-            font-size: 80%;
         }
     }
     figure {
