@@ -125,6 +125,9 @@ section.course-tp {
             background-color: #fff;
             padding: 0.5em 1em 0;
         }
+        &.highlight {
+            text-align: left;
+        }
     }
     ul.algorithm {
         padding: 1em 1.5em 0.2em;
