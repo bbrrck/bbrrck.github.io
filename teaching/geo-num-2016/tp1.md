@@ -10,6 +10,8 @@ date:   2016-02-05 15:15:00
 <h1>TP1 : Bézier curves, De Casteljau’s algorithm</h1>
 <div class="meta">{{ page.date | date: "%B %-d, %Y"  }}</div>
 
+{% include news-geo-num-2016.html %}
+
 <h2 class="first">Bézier curves</h2> 
  
 A degree $n$ <a href="https://en.wikipedia.org/wiki/B%C3%A9zier_curve">Bézier curve</a> takes the form
@@ -79,13 +81,13 @@ gnuplot -p ../plots/plot.gnu
 python ../plots/plot.py
 {% endhighlight %}
 
-<h2>ToDo</h2>
+<h2 id="todo">ToDo</h2>
 <ol class="assignements">
 <li><del>Implement the computation of a curve point $\mathbf x(t)$ using Bernstein polynomials.</del></li>
 <li>Implement the De Casteljau algorithm for a parameter $t$.</li>
 <li>Evaluate the curve using <del>both methods and compare their performance</del> the De Casteljau for various sampling densities.</li>
-<li>Visualise the curve and its Bézier polygon.</li>
-<li>Visualise the intermediate polygons $\mathbf b_i^k$ from the De Casteljau algorithm.</li>
+<li>Visualise the curve and its Bézier polygon.<br />(Use all input files from the <code>data/</code> folder.)</li>
+<li>Visualise the intermediate polygons $\mathbf b_i^k$ from the De Casteljau algorithm.<br />(Only the <code>simple.bcv</code> is enough.)</li>
 </ol>
 
 

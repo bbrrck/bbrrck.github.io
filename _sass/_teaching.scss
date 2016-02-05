@@ -34,6 +34,9 @@ section.course {
         list-style-type: none;
         list-style-position: outside;
         margin: 0 0 0 1em;
+        &.submissions {
+            list-style-type:circle;
+        }
     }
     .meta, ul .date {
         display: inline-block;

@@ -19,6 +19,8 @@ title: teaching
  {% endfor %}
 </div>
 
+{% include news-geo-num-2016.html %}
+
 <h3>Description</h3>
 <img src="/assets/teapot.png" alt="Utah teapot" title="Utah teapot" />
 <p>
@@ -27,8 +29,23 @@ This page is dedicated to the practical part of the <em>Géométrie Numérique</
 
 <h3>Assignements</h3>
 <p>
-You can either work alone or in pairs. A <a href="https://github.com/bbrrck/geo-num-2016">c++ codebase</a> is provided, but not obligatory – use your favourite language in case you're not a fan of c++ . After each TP, send your code and a short report (in English or French) with images to <code>tibor.stanko@inria.fr</code>. Zip everything as <code>LastName.zip</code> or <code>LastName1_LastName2.zip</code> and use <code>[GeoNum2016] TPxx</code> as the subject of your mail.
+You can either work alone or in pairs. A <a href="https://github.com/bbrrck/geo-num-2016">c++ codebase</a> is provided, but not obligatory – use your favourite language in case you're not a fan of c++ .
 </p>
+
+<h3 id="submissions">Submission &amp; Grading</h3>
+After each TP, you are required to submit your work, namely :
+<ol>
+    <li>your <strong>code</strong>, just the files you've modified, no need to include everything ;</li>
+    <li>a <strong>pdf report with pictures</strong> and additional comments if needed (in English or French).</li>
+</ol>
+
+These are the general rules for submission :
+<ul class="submissions">
+    <li>Don't submit partial work; send <strong>only one mail</strong> (when you're sure you won't be adding anything else).</li>
+    <li>Zip everything as <code>LastName.zip</code> or <code>LastName1_LastName2.zip</code>.</li>
+    <li>Use <code>[GeoNum2016] TPxx</code> as the subject.</li>
+    <li>Send your mail to <code>tibor.stanko@inria.fr</code>.</li>
+</ul>
 
 <h3>Syllabus</h3>
  <ul class="calendar">
