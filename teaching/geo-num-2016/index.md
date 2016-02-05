@@ -27,7 +27,7 @@ This page is dedicated to the practical part of the <em>Géométrie Numérique</
 
 <h3>Assignements</h3>
 <p>
-You can either work alone or in pairs. A <a href="https://github.com/bbrrck/geo-num-2016">c++ codebase</a> is provided, but not obligatory – use your favourite language in case you're not a fan of C++ . After each TP, send your code and a short report (in English or French) with images to <code>tibor.stanko@inria.fr</code>. Zip everything as <code>LastName.zip</code> or <code>LastName1_LastName2.zip</code> and use <code>[GeoNum2016] TPxx</code> as the subject of your mail.
+You can either work alone or in pairs. A <a href="https://github.com/bbrrck/geo-num-2016">c++ codebase</a> is provided, but not obligatory – use your favourite language in case you're not a fan of c++ . After each TP, send your code and a short report (in English or French) with images to <code>tibor.stanko@inria.fr</code>. Zip everything as <code>LastName.zip</code> or <code>LastName1_LastName2.zip</code> and use <code>[GeoNum2016] TPxx</code> as the subject of your mail.
 </p>
 
 <h3>Syllabus</h3>
