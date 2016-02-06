@@ -85,9 +85,9 @@ python ../plots/plot.py
 <ol class="assignements">
 <li><del>Implement the computation of a curve point $\mathbf x(t)$ using Bernstein polynomials.</del></li>
 <li>Implement the De Casteljau algorithm for a parameter $t$.</li>
-<li>Evaluate the curve using <del>both methods and compare their performance</del> the De Casteljau for various sampling densities.</li>
-<li>Visualise the curve and its Bézier polygon.<br />(Use all input files from the <code>data/</code> folder.)</li>
-<li>Visualise the intermediate polygons $\mathbf b_i^k$ from the De Casteljau algorithm.<br />(Only the <code>simple.bcv</code> is enough.)</li>
+<li>Evaluate the curve using <del>both methods and compare their performance</del> the De Casteljau algorithm for various sampling densities.</li>
+<li>Visualise the curve and its Bézier polygon. Use all input files from the <code>data/</code> folder.</li>
+<li>Visualise the intermediate polygons $\mathbf b_i^k$ from the De Casteljau algorithm for a fixed parameter $t$. (Only the <code>simple.bcv</code> is enough.)</li>
 </ol>
 
 

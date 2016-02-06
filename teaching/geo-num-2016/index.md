@@ -44,7 +44,7 @@ These are the general rules for submission :
     <li>Don't submit partial work; send <strong>only one mail</strong> (when you're sure you won't be adding anything else).</li>
     <li>Zip everything as <code>LastName.zip</code> or <code>LastName1_LastName2.zip</code>.</li>
     <li>Use <code>[GeoNum2016] TPxx</code> as the subject.</li>
-    <li>Send your mail to <code>tibor.stanko@inria.fr</code>.</li>
+    <li>Send your mail to {% include email.html %}.</li>
 </ul>
 
 <h3>Syllabus</h3>
