@@ -29,10 +29,14 @@ This page is dedicated to the practical part of the <em>Géométrie Numérique</
 
 <h3>Assignements</h3>
 <p>
-You can either work alone or in pairs. A <a href="https://github.com/bbrrck/geo-num-2016">c++ codebase</a> is provided, but not obligatory – use your favourite language in case you're not a fan of c++ .
+You can either work alone or in pairs.
+A <a href="https://github.com/bbrrck/geo-num-2016">c++ codebase</a> is provided, but not obligatory – use your favourite language in case you're not a fan of c++ .
+For linear algebra (vectors, matrices), we'll be using the Eigen library; take a look at its 
+<a href="http://eigen.tuxfamily.org/index.php?title=Main_Page">docs</a>. Here's also a very useful
+<a href="http://eigen.tuxfamily.org/dox-devel/AsciiQuickReference.txt">quick reference for Eigen</a>.
 </p>
 
-<h3 id="submissions">Submission &amp; Grading</h3>
+<h3 id="submissions">Submissions</h3>
 After each TP, you are required to submit your work, namely :
 <ol>
     <li>your <strong>code</strong>, just the files you've modified, no need to include everything ;</li>

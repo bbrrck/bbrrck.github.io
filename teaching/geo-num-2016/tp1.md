@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "TP1 : Bézier curves, De Casteljau’s algorithm (Géométrie numérique)"
-date:   2016-02-05 15:15:00
+date:   2016-02-05 00:00:00
 ---
 
 <section class="course-tp">
@@ -64,7 +64,6 @@ It is useful to look at this algorithm in its schematic form. For a quartic curv
 </figure>
 
 <h2>Code</h2>
-A <a href="https://github.com/bbrrck/geo-num-2016">c++ codebase</a> is provided to facilitate the implementation.
 {% highlight bash %}
 git clone https://github.com/bbrrck/geo-num-2016.git
 cd geo-num-2016/TP1
@@ -80,6 +79,10 @@ While still in the <code>build/</code> directory, test them by running :
 gnuplot -p ../plots/plot.gnu
 python ../plots/plot.py
 {% endhighlight %}
+Many of you have reported problems with <code>gnuplot</code> due to the line <code>set terminal qt</code>.
+Change it to something else to make things work, e.g. <code>set terminal x11</code>.
+For a complete list of terminals available on your machine, execute <code>echo "set terminal" | gnuplot</code>.
+
 
 <h2 id="todo">ToDo</h2>
 <ol class="assignements">
