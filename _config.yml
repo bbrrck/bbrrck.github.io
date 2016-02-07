@@ -1,6 +1,6 @@
 # Site settings
 title: Tibor Stanko
-email: contact@tiborstanko.sk
+email: "&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#116;&#105;&#098;&#111;&#114;&#115;&#116;&#097;&#110;&#107;&#111;&#046;&#115;&#107;"
 description: > # this means to ignore newlines until "baseurl:"
   music, maths &amp; webdesign .
 baseurl: "" # the subpath of your site, e.g. /blog/

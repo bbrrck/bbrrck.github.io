@@ -16,5 +16,4 @@ permalink: /teaching/geo-num-2016/tp2.html
 <h2 class="first">First H2</h2> 
  
 
-
 </section>
