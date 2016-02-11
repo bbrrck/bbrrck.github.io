@@ -14,6 +14,7 @@
       title : "Bézier curves, De Casteljau’s algorithm"
       number: 1
     - date  : 2016-02-12 15:15:00
+      title : "Bézier splines, $C^k$ smoothness"
       number: 2
     - date  : 2016-02-19 15:15:00
       number: 3

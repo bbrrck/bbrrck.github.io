@@ -39,7 +39,7 @@ The Bézier points $\mathbf b_i \in \mathbb R^d$ form the <em>control polygon</e
 
 The <a href="https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm">De Casteljau’s algorithm</a> provides an efficient means for evaluating a Bézier curve $\mathbf{x}(t)$.
 <figure>
-    <img src="casteljau-curve.png" />
+    <img src="/assets/geo-num-2016/casteljau-curve.png" alt="Visualisation of the steps of the De Casteljau's algorithm" />
     <div class="title">Visualisation of the steps of the De Casteljau's algorithm, $t=0.5$</div>
 </figure>
 
