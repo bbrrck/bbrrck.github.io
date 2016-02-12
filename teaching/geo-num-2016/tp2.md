@@ -31,7 +31,7 @@ but you can as well use your own implementation.
 </p>
 
 <p>
-Here are a few tips to make you Eigen code easier to read.
+Here are a few tips to make the Eigen code easier to read.
 {% highlight c++ %}
 // if A, B have the same number of cols,
 // don't do this
