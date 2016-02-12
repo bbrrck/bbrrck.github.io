@@ -291,7 +291,8 @@ D \\
 \]
 
 <h2>ToDo$^2$</h2>
-The seconds part of today's TP is about implementing $\mathcal C^2$ cubic spline by solving the 
+The seconds part of today's TP is about implementing $\mathcal C^2$ cubic spline by solving the above system.
+More info is in the code, don't hesitate to ask if things are not clear.
 
 <ol start="3" class="assignements">
 <li>Implement the computation of control points of a cubic interpolating Bézier spline for a given sequence of points $\mathbf p_i$.</li>
