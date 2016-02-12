@@ -151,9 +151,14 @@ Later, you can change its position to see how it affects the computed spline.
 </p>
 
 <ol class="assignements">
-<li>Implement the computation of control points of a quadratic interpolating Bézier spline for a given sequence of points $\mathbf p_i$.
-(function <code>computeSplineC1</code>)</li>
-<li>Evaluate and visualise the computed quadratic spline. (function: <code>evaluateSpline</code>)</li>
+<li>
+    Implement the computation of control points of a quadratic interpolating Bézier spline for a given sequence of points $\mathbf p_i$.
+    (<code>computeSplineC1</code>)
+</li>
+<li>
+    Evaluate and visualise the computed quadratic spline.
+    (<code>evaluateSpline</code>)
+</li>
 </ol>
 
 
@@ -306,8 +311,13 @@ The seconds part of today's TP is about implementing $\mathcal C^2$ cubic spline
 More info is in the code, don't hesitate to ask if things are not clear.
 
 <ol start="3" class="assignements">
-<li>Implement the computation of control points of a cubic interpolating Bézier spline for a given sequence of points $\mathbf p_i$. (function: <code>computeSplineC2</code>)</li>
-<li>Evaluate and visualise the computed cubic spline.</li>
+<li>
+    Implement the computation of control points of a cubic interpolating Bézier spline for a given sequence of points $\mathbf p_i$.
+    (<code>computeSplineC2</code>)
+</li>
+<li>
+    Evaluate and visualise the computed cubic spline.
+</li>
 </ol>
 
 
