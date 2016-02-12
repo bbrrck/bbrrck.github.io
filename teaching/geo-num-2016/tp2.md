@@ -290,9 +290,9 @@ J
 \left[
 \begin{array}{@{}cc@{}}
 A \\
-B \\
-C \\
 D \\
+G \\
+J \\
    \hline
 \mathbf 0 \\
 \mathbf 0 \\
