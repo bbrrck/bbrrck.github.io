@@ -182,7 +182,7 @@ That is why, to compute an interpolating cubic spline in this part, we will adop
 <p>
 To do that, take a situation much like the one before: given a sequence of points $\mathbf p_i, i=0,\dots,n$,
 find a $\mathcal C^2$ cubic spline (i.e. $n$ cubic curves) which interpolates these datapoints.
-This time, there will be two unknown interior control points for each curve (and not one as in the quadratic case.)
+This time, there will be two unknown interior control points for each curve, not one as in the quadratic case.
 </p>
 
 <p>
@@ -223,16 +223,11 @@ D = & D \\
 G = & G \\
 J = & J
 \end{align}
-Seems pretty obvious, right?</p>
-
-<p>Now, we have two joints, that means two equations for $\mathcal C^1$:
+Seems pretty obvious, right? We have two joints, that means two equations for $\mathcal C^1$:
 \begin{align}
 D - C =& E - D \\
 G - F =& H - G
 \end{align}
-</p>
-
-<p>
 And two equations for $\mathcal C^2$:
 \begin{align}
 D - 2C + B =& F - 2E + D  \\
@@ -241,10 +236,7 @@ G - 2F + E =& I - 2H + G
 </p>
 
 <p>
-If you've counted well, this makes 8 equations for 10 points; we need two more equations to be able to solve the system.
-(In general, this is $(n+1)+(n-1)+(n-1)=3n-1$ equations for $3n+1$ points and we still need two more equations.)
-One example is the so-called natural spline with vanishing second derivatives at the endpoints
-(i.e. $\ddot{\mathbf x}_0(0) = \mathbf 0 = \ddot{\mathbf x}_{n-1}(0)$):
+If you've counted well, this makes 8 equations for 10 points; we need two more equations to be able to solve the system. (In general, this is $(n+1)+(n-1)+(n-1)=3n-1$ equations for $3n+1$ points and we still need two more equations.) One example is the so-called natural spline with vanishing second derivatives at the endpoints, i.e. $\ddot{\mathbf x}_0(0) = \mathbf 0 = \ddot{\mathbf x}_{n-1}(1)$ :
 \begin{align}
 A - 2B + C =& \mathbf 0 \\
 H - 2I + J =& \mathbf 0
