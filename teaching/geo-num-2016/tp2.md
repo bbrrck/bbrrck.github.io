@@ -251,8 +251,8 @@ And that's it! Everything's much clearer using the matrix notation:
    &   &   &   &   &   & 1 &   &   &   \\
    &   &   &   &   &   &   &   &   & 1 \\
    \hline
-   &1  &-2 &  1&   &   &   &   &   &   \\
-   &   &   &   &  1& -2& 1 &   &   &   \\
+   &   & 1 & -2& 1 &   &   &   &   &   \\
+   &   &   &   &   & 1 & -2& 1 &   &   \\
    \hline
    & 1 &-2 &   & 2 & -1&   &   &   &   \\
    &   &   &   &  1& -2&   & 2 &-1 &   \\
