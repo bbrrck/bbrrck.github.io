@@ -299,7 +299,7 @@ J \\
 \]
 
 <h2>ToDo$^2$ (bonus)</h2>
-The seconds part of today's TP is about implementing $\mathcal C^2$ cubic spline by solving the above system.
+The second part of today's TP is about implementing $\mathcal C^2$ cubic spline by solving the above system.
 More info is in the code, don't hesitate to ask if things are not clear.
 
 <ol start="3" class="assignements">
