@@ -2,6 +2,7 @@
 layout: page
 title: "TP1 : Bézier curves, De Casteljau’s algorithm (Géométrie numérique)"
 date:   2016-02-05 00:00:00
+permalink: /teaching/geo-num-2016/tp1.html
 ---
 
 <section class="course-tp">

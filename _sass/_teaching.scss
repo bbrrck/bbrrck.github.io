@@ -129,11 +129,21 @@ section.course-tp {
         }
     }
     ul.algorithm {
-        padding: 1em 1.5em 0.2em;
+        padding: 1em 0.5em 0.2em;
         margin: 0 0 1em;
         background-color: #eee;
+        list-style-type: none;
+        li {
+            clear:both;
+        }
         span.algo-part {
+            display: block;
             font-family: monospace;
+            color: $brand-color;
+        }
+        span.algo-content {
+            display: block;
+            padding: 0.5em 1em 1em;
         }
     }
 }
