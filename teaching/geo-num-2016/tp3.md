@@ -78,13 +78,10 @@ De Boor is here to help you!
 <p>
 
 <figure>
-    <img style="width:100%;margin:0 0 1.5em;" src="/assets/geo-num-2016/bspline_basis/0.png" alt="" />
-    <img style="width:100%;margin:0 0 1.5em;" src="/assets/geo-num-2016/bspline_basis/1.png" alt="" />
-    <img style="width:100%;margin:0 0 1.5em;" src="/assets/geo-num-2016/bspline_basis/2.png" alt="" />
-    <img style="width:100%;margin:0 0 1.5em;" src="/assets/geo-num-2016/bspline_basis/3.png" alt="" />
-    <img style="width:100%;margin:0 0 1.5em;" src="/assets/geo-num-2016/bspline_basis/4.png" alt="" />
-    <img style="width:100%;margin:0 0 1.5em;" src="/assets/geo-num-2016/bspline_basis/5.png" alt="" />
-    <img style="width:100%;margin:0 0 1.5em;" src="/assets/geo-num-2016/bspline_basis/6.png" alt="" />
+    <img style="width:100%;" src="/assets/geo-num-2016/bbasis.gif" alt="" />
+    <div class="title">
+    B-spline basis functions $N^k_j$ up to degree 5 for the knot sequence $(0,1,2,3,4,5,6,7)$.
+    </div>
 </figure>
 
 <h2>De Boor's algorithm</h2>
