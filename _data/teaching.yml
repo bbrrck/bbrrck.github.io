@@ -17,6 +17,7 @@
       title : "Bézier splines, $C^k$ smoothness"
       number: 2
     - date  : 2016-02-19 15:15:00
+      title : "B-splines, De Boor's algorithm"
       number: 3
     - date  : 2016-02-26 15:15:00
       title : "winter break"
