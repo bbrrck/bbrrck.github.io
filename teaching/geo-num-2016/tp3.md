@@ -78,9 +78,13 @@ De Boor is here to help you!
 <p>
 
 <figure>
-    <img style="max-width:15em;width:100%;margin:1em;" src="/assets/geo-num-2016/spiral_B.png" alt="" />
-    <img style="max-width:15em;width:100%;margin:1em;" src="/assets/geo-num-2016/spiral_B_2.png" alt="" />
-    <div class="title">A cubic B-spline with 16 segments and endpoint interpolation.</div>
+    <img style="width:100%;margin:0 0 1.5em;" src="/assets/geo-num-2016/bspline_basis/0.png" alt="" />
+    <img style="width:100%;margin:0 0 1.5em;" src="/assets/geo-num-2016/bspline_basis/1.png" alt="" />
+    <img style="width:100%;margin:0 0 1.5em;" src="/assets/geo-num-2016/bspline_basis/2.png" alt="" />
+    <img style="width:100%;margin:0 0 1.5em;" src="/assets/geo-num-2016/bspline_basis/3.png" alt="" />
+    <img style="width:100%;margin:0 0 1.5em;" src="/assets/geo-num-2016/bspline_basis/4.png" alt="" />
+    <img style="width:100%;margin:0 0 1.5em;" src="/assets/geo-num-2016/bspline_basis/5.png" alt="" />
+    <img style="width:100%;margin:0 0 1.5em;" src="/assets/geo-num-2016/bspline_basis/6.png" alt="" />
 </figure>
 
 <h2>De Boor's algorithm</h2>
@@ -128,6 +132,12 @@ in terms of the points at depth $r-1$;
 that is why there is the $r-1$ everywhere in the formula.
 (It becomes much more elegant if we express $r+1$ in terms of $r$.)
 This might be a bit annoying, but I think it's also more practical for the implementation.
+
+<figure>
+    <img style="max-width:15em;width:100%;margin:1em;" src="/assets/geo-num-2016/spiral_B.png" alt="" />
+    <img style="max-width:15em;width:100%;margin:1em;" src="/assets/geo-num-2016/spiral_B_2.png" alt="" />
+    <div class="title">A cubic B-spline with 16 segments and endpoint interpolation.</div>
+</figure>
 
 <h2>ToDo</h2>
 
@@ -203,7 +213,8 @@ Much like before, this is done with
 </li>
 <li>
 <a href="http://web.mit.edu/hyperbook/Patrikalakis-Maekawa-Cho/node17.html">1.4.2 B-spline curve</a> and <a href="http://web.mit.edu/hyperbook/Patrikalakis-Maekawa-Cho/node18.html">1.4.3 Algorithms for B-spline curves</a>,
-online chapters from the book <em>Shape Interrogation for Computer Aided Design and Manufacturing</em>
+online chapters from the book <em>Shape Interrogation for Computer
+ Aided Design and Manufacturing</em>
 by N. Patrikalakis, T. Maekawa &amp; W. Cho
 </li>
 <li>
