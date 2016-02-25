@@ -1,51 +1,54 @@
 ---
-layout: page
-title: "TP1 : Bézier curves, De Casteljau’s algorithm (Géométrie numérique)"
-date:   2016-02-05 00:00:00
+layout: tp-geo-num-2016
+title: "TP1 : Bézier curves, De Casteljau’s algorithm"
+date:   2016-02-05
 permalink: /teaching/geo-num-2016/tp1.html
 ---
 
-<section class="course-tp">
- 
-<div class="backlink">back to <a href="/teaching/geo-num-2016/">Géométrie numérique, 2016</a></div>
-<h1>TP1 : Bézier curves, De Casteljau’s algorithm</h1>
-<div class="meta">{{ page.date | date: "%B %-d, %Y"  }}</div>
+[casteljau-algo]: {{ site.url }}/assets/geo-num-2016/casteljau-curve.png
+[casteljau-gif]: https://upload.wikimedia.org/wikipedia/commons/0/0b/BezierCurve.gif
 
-{% include news-geo-num-2016.html %}
+## Bézier curves
+A degree $n$ [Bézier curve](https://en.wikipedia.org/wiki/B%C3%A9zier_curve) takes the form
 
-<h2 class="first">Bézier curves</h2> 
- 
-A degree $n$ <a href="https://en.wikipedia.org/wiki/B%C3%A9zier_curve">Bézier curve</a> takes the form
-$$ \mathbf x(t) = \sum_{i=0}^{n} \mathbf b_i B_i^n(t) \qquad t \in [0,1] $$
+$$
+\mathbf x(t) = \sum_{i=0}^{n} \mathbf b_i B_i^n(t) \qquad t \in [0,1]
+$$
+
 where
-$$ B_{i}^{n}(t) = \begin{pmatrix}n \\ i\end{pmatrix} (1-t)^{n-i} t^i $$
-are the degree $n$ <a href="https://en.wikipedia.org/wiki/Bernstein_polynomial">Bernstein polynomials</a>, and the binomial coefficients are defined as
-$$ \begin{pmatrix}n \\ i\end{pmatrix} = \frac{n!}{(n-i)! i!}.$$
-The Bézier points $\mathbf b_i \in \mathbb R^d$ form the <em>control polygon</em>.
 
-<h2>De Casteljau’s algorithm</h2>
-<ul class="algorithm">
-    <li>
-        <span class="algo-part">input&nbsp;&nbsp;&nbsp;: </span> Bézier points $\mathbf b_i$ for $i = 0, \dots, n$, and parameter $t \in [0,1]$.
-    </li>
-    <li>
-        <span class="algo-part">output&nbsp;&nbsp;: </span> The point $\mathbf b_0^n$ on the curve.
-    </li>
-    <li>
-        <span class="algo-part">compute&nbsp;: </span> Set $\mathbf b_i^0 = \mathbf b_i$ and compute the points
-    $$ \mathbf b_i^k (t) = (1-t) \mathbf b_i^{k-1} + t \mathbf b_{i+1}^{k-1} \qquad 
-       \text{for} \qquad k=1,\dots,n, \quad i=0,\dots,n-k. $$
-    </li>
-</ul>
+$$
+B_{i}^{n}(t) = \begin{pmatrix}n \\ i\end{pmatrix} (1-t)^{n-i} t^i
+$$
 
-The <a href="https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm">De Casteljau’s algorithm</a> provides an efficient means for evaluating a Bézier curve $\mathbf{x}(t)$.
-<figure>
-    <img src="/assets/geo-num-2016/casteljau-curve.png" alt="Visualisation of the steps of the De Casteljau's algorithm" />
-    <div class="title">Visualisation of the steps of the De Casteljau's algorithm, $t=0.5$</div>
-</figure>
+are the degree $n$ [Bernstein polynomials](https://en.wikipedia.org/wiki/Bernstein_polynomial), and the binomial coefficients are defined as
 
-It is useful to look at this algorithm in its schematic form. For a quartic curve ($n=4$) :
-\begin{array}{c}
+$$
+\begin{pmatrix}n \\ i\end{pmatrix} = \frac{n!}{(n-i)! i!}.
+$$
+
+The Bézier points $\mathbf b_i \in \mathbb R^d$ form the *control polygon*.
+
+## De Casteljau’s algorithm
+
+{:.algorithm}
+* <span class="algo-part">input</span> <span class="algo-content">Bézier points $\mathbf b_i$ for $i = 0, \dots, n$, and parameter $t \in [0,1]$.</span>
+* <span class="algo-part">output</span> <span class="algo-content">The point $\mathbf b_0^n$ on the curve.</span>
+* <span class="algo-part">compute</span> <span class="algo-content">Set $\mathbf b_i^0 = \mathbf b_i$ and compute the points</span>
+   
+   $$\mathbf b_i^k (t) = (1-t) \mathbf b_i^{k-1} + t \mathbf b_{i+1}^{k-1} \qquad \text{for} \qquad k=1,\dots,n, \quad i=0,\dots,n-k.$$
+
+{:.img600}
+![Visualisation of the steps of the De Casteljau's algorithm][casteljau-algo]
+
+{:.imgCaption}
+Visualisation of the steps of the De Casteljau's algorithm, $t=0.5$.
+
+The [De Casteljau’s algorithm](https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm) provides an efficient means for evaluating a Bézier curve $\mathbf{x}(t)$.
+It is useful to look at this algorithm in its schematic form. For a quartic curve ($n=4$):
+
+$$
+\begin{array}{ccccccccc}
 \mathbf b_0 = \mathbf b_0^0 &        &               &        &               &        &               &        & \\
                             & \ddots &               &        &               &        &               &        & \\
 \mathbf b_1 = \mathbf b_1^0 & \dots  & \mathbf b_0^1 &        &               &        &               &        & \\
@@ -56,15 +59,15 @@ It is useful to look at this algorithm in its schematic form. For a quartic curv
                             & \ddots &               & \ddots &               & \ddots &               & \ddots & \\
 \mathbf b_4 = \mathbf b_4^0 & \dots  & \mathbf b_3^1 & \dots  & \mathbf b_2^2 & \dots  & \mathbf b_1^3 & \dots  & \mathbf b_0^4 = \mathbf x(t) 
 \end{array}
+$$
 
-<figure style="text-align:center;">
-    <img style="width:100%;max-width:600px;" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/BezierCurve.gif" />
-    <div class="title" style="clear:both;">Animation of the De Casteljau algorithm on a quintic Bézier curve ($n=5$)
-    <br />[from <a href="https://en.wikipedia.org/wiki/User:Sam_Derbyshire/Gallery">wikpedia</a> by Sam Derbyshire]
-    </div>
-</figure>
+{:.img600}
+![Animation of the De Casteljau's algorithm for a quintic curve][casteljau-gif]
 
-<h2>Code</h2>
+{:.imgCaption}
+Animation of the De Casteljau's algorithm for a quintic curve ($n=5$).
+
+## Code
 {% highlight bash %}
 git clone https://github.com/bbrrck/geo-num-2016.git
 cd geo-num-2016/TP1
@@ -74,35 +77,34 @@ cmake ..
 make
 ./geonum_TP1
 {% endhighlight %}
-For rendering, you can use <a href="http://www.gnuplot.info/">gnuplot</a> or <a href="http://matplotlib.org/">matplotlib</a>.
-While still in the <code>build/</code> directory, test them by running :
+
+For rendering, you can use [gnuplot](http://www.gnuplot.info/) or [matplotlib](http://matplotlib.org/).
+While still in the `build/` directory, test them by running :
 {% highlight bash %}
 gnuplot -p ../plots/plot.gnu
 python ../plots/plot.py
 {% endhighlight %}
-Many of you have reported problems with <code>gnuplot</code> due to the line <code>set terminal qt</code>.
-Change it to something else to make things work, e.g. <code>set terminal x11</code>.
-For a complete list of terminals available on your machine, execute <code>echo "set terminal" | gnuplot</code>.
+
+Many of you have reported problems with `gnuplot` due to the line `set terminal qt`.
+Change it to something else to make things work, e.g. `set terminal x11`.
+For a complete list of terminals available on your machine, execute `echo "set terminal" | gnuplot`.
 
 
-<h2 id="todo">ToDo</h2>
-<ol class="assignements">
-<li><del>Implement the computation of a curve point $\mathbf x(t)$ using Bernstein polynomials.</del></li>
-<li>Implement the De Casteljau algorithm for a parameter $t$.</li>
-<li>Evaluate the curve using <del>both methods and compare their performance</del> the De Casteljau algorithm for various sampling densities.</li>
-<li>Visualise the curve and its Bézier polygon. Use all input files from the <code>data/</code> folder.</li>
-<li>Visualise the intermediate polygons $\mathbf b_i^k$ from the De Casteljau algorithm for a fixed parameter $t$. (Only the <code>simple.bcv</code> is enough.)</li>
-</ol>
+## ToDo
 
+{:.assignements}
+1. <del>Implement the computation of a curve point $\mathbf x(t)$ using Bernstein polynomials.</del>
+2. Implement the De Casteljau algorithm for a parameter $t$.
+3. Evaluate the curve using <del>both methods and compare their performance</del> the De Casteljau algorithm for various sampling densities.
+4. Visualise the curve and its Bézier polygon. Use all input files from the `data/` folder.
+5. Visualise the intermediate polygons $\mathbf b_i^k$ from the De Casteljau algorithm for a fixed parameter $t$. (Only the `simple.bcv` is enough.)
 
-<h2 class="resources">Resources</h2>
-<ul class="resources">
-<li><a href="http://www.sciencedirect.com/science/book/9780444511041">Handbook of CAGD</a>, edited by Gerald Farin, Josef Hoschek, Myung-Soo Kim</li>
-<li><a href="http://pomax.github.io/bezierinfo/">A Primer on Bézier Curves</a> by Pomax</li>
-<li><a href="http://jeremykun.com/2013/05/11/bezier-curves-and-picasso/">Bézier Curves and Picasso</a> by Jeremy Kun</li>
-<li><a href="http://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/">Bézier Curves and Type Design: A Tutorial</a> by Fábio Duarte Martins</li>
-<li><a href="http://bezier.method.ac/">The Bézier Game</li>
-<li><a href="http://tholman.com/bezier-curve-simulation/">Bézier Curve Simulation</li>
-</ul>
+## Resources
 
-</section>
+{:.resources}
+* [Handbook of CAGD](http://www.sciencedirect.com/science/book/9780444511041), edited by Gerald Farin, Josef Hoschek, Myung-Soo Kim
+* [A Primer on Bézier Curves](http://pomax.github.io/bezierinfo/) by Pomax
+* [Bézier Curves and Picasso](http://jeremykun.com/2013/05/11/bezier-curves-and-picasso/) by Jeremy Kun
+* [Bézier Curves and Type Design: A Tutorial](http://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/) by Fábio Duarte Martins
+* [The Bézier Game](http://bezier.method.ac/)
+* [Bézier Curve Simulation](http://tholman.com/bezier-curve-simulation/)

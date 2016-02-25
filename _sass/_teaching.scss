@@ -68,82 +68,101 @@ section.course {
     }
 }
 
-section.course-tp {
-    .meta {
-        color: #666;
-        margin: 0 0 1em;
-    }
-    .backlink {
+.img2grid {width:100%;text-align:center;img{width:45%;margin:1%;float:left;}}
+.img3grid {width:100%;text-align:center;img{width:30%;margin:1%;float:left;}}
+
+.img100 {text-align:center; img{width:100px; max-width:100%;}}
+.img200 {text-align:center; img{width:200px; max-width:100%;}}
+.img300 {text-align:center; img{width:300px; max-width:100%;}}
+.img400 {text-align:center; img{width:400px; max-width:100%;}}
+.img500 {text-align:center; img{width:500px; max-width:100%;}}
+.img600 {text-align:center; img{width:600px; max-width:100%;}}
+.img700 {text-align:center; img{width:700px; max-width:100%;}}
+.img800 {text-align:center; img{width:800px; max-width:100%;}}
+.img900 {text-align:center; img{width:900px; max-width:100%;}}
+.imgfull{text-align:center; img{width:100%;  max-width:100%;}}
+.imgCaption {clear:both;text-align:center;font-style:italic;padding: 0.5em 1em 1em;}
+
+.tp-geo-num-2016 {
+    .tp-backlink {
         font-size: 90%;
         color: #666;
         &:before {
             content: "« ";
         }
     }
-    h1 {
-        font-size: 180%;
-        color: $brand-color;
-        margin: 1em 0 0;
+    .tp-header {
+        h1 {
+            font-size: 150%;
+            color: $brand-color;
+            margin: 1em 0 0;
+        }
+        .meta {
+            color: #666;
+            margin: 0 0 1em;
+        }
     }
-    h2 {
-        font-size: 150%;
-        margin-top: 1.5em; 
-    }
-    h2.first {
-        margin: 0;
-    }
-    ul, ol {
-        margin: 0 2em;
-        list-style-position: outside;
-        
-        &.assignements li {
-            margin-bottom: 0.25em;
-            &:nth-of-type(2n) {
-                color: #444;
+    .tp-text {
+        h2 {
+            font-size: 150%;
+            margin-top: 1.5em; 
+        }
+        h2:first-child {
+            margin: 0;
+        }
+        ul, ol {
+            margin: 0 2em;
+            list-style-position: outside;
+            
+            &.assignements li {
+                margin-bottom: 0.25em;
+                &:nth-of-type(2n) {
+                    color: #444;
+                }
+            }
+            &.resources {
+                list-style-type: lower-roman;
             }
         }
-        &.resources {
-            list-style-type: lower-roman;
+        figure {
+            width: 100%;
+            margin: 0.5em auto 1em;
+            text-align: center;
+            padding: 1em;
+            img {
+                display: inline-block;
+                width: 25em;
+                max-width: 100%;
+            }
+            div.title {
+                display: block;
+                font-style: italic;
+                background-color: #fff;
+                padding: 0.5em 1em 0;
+            }
+            &.highlight {
+                text-align: left;
+                padding: 0;
+                margin: 0.5em;
+            }
         }
-    }
-    figure {
-        width: 100%;
-        margin: 0.5em auto 1em;
-        text-align: center;
-        padding: 1em;
-        img {
-            display: inline-block;
-            width: 25em;
-            max-width: 100%;
-        }
-        div.title {
-            display: block;
-            font-style: italic;
-            background-color: #fff;
-            padding: 0.5em 1em 0;
-        }
-        &.highlight {
-            text-align: left;
-            padding: 0;
-            margin: 0.5em;
-        }
-    }
-    ul.algorithm {
-        padding: 1em 0.5em 0.2em;
-        margin: 0 0 1em;
-        background-color: #eee;
-        list-style-type: none;
-        li {
-            clear:both;
-        }
-        span.algo-part {
-            display: block;
-            font-family: monospace;
-            color: $brand-color;
-        }
-        span.algo-content {
-            display: block;
-            padding: 0.5em 1em 1em;
+        ul.algorithm {
+            padding: 1em 0.5em 0.2em;
+            margin: 0 0 1em;
+            background-color: #eee;
+            list-style-type: none;
+            li {
+                clear:both;
+            }
+            .algo-part {
+                display: block;
+                font-family: monospace;
+                color: $brand-color;
+            }
+            .algo-content {
+                display: block;
+                padding: 0.5em 1em 1em;
+            }
         }
     }
 }
