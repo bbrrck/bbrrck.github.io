@@ -4,6 +4,8 @@ title: "TP2 : Bézier splines, $C^k$ smoothness"
 date:   2016-02-12
 permalink: /teaching/geo-num-2016/tp2.html
 ---
+[eigen]: http://eigen.tuxfamily.org/
+[eigen-quick]: http://eigen.tuxfamily.org/dox-devel/AsciiQuickReference.txt
  
 ## Code
 If you have the git repo from TP1, update it by executing
@@ -14,11 +16,12 @@ Otherwise, do the
 {% highlight bash %}
 git clone https://github.com/bbrrck/geo-num-2016.git
 {% endhighlight %}
-Then `cd TP2`. We're still using <a href="http://eigen.tuxfamily.org/">Eigen</a>
-so keep the <a href="http://eigen.tuxfamily.org/dox-devel/AsciiQuickReference.txt">quick reference</a> open and ready.
+Then `cd TP2`. 
+We're still using [Eigen][eigen] so keep the [quick reference][eigen-quick] open and ready.
 Python script for rendering is included in the `plots/` folder.
 If you want to use gnuplot, you will need to modify the script from TP1 yourself.
-The de Casteljau algorithm is included in the <a href="https://github.com/bbrrck/geo-num-2016/blob/master/TP2/TP2.h">`TP2.h`</a>
+The de Casteljau algorithm is included in the
+(`TP2.h`)[https://github.com/bbrrck/geo-num-2016/blob/master/TP2/TP2.h]
 but you can as well use your own implementation.
 
 Here are a few tips to make the Eigen code easier to read.
@@ -67,7 +70,8 @@ The most commonly used is the $\mathcal C^k$ smoothness.
 {:.imgCaption}
 A collection of &nbsp; $ \mathcal C^k$-smooth splines, row-wise interpolating the same data, left to right $k=0,1,2$.
 
-Mathematically speaking, two parametric curves $\mathbf x_0(t), \mathbf x_1(t), t \in [0,1]$ are $\mathcal C^k$ smooth if they are also $\mathcal C^{k-1}$,
+Mathematically speaking, two parametric curves $\mathbf x_0(t), \mathbf x_1(t), t \in [0,1]$
+are $\mathcal C^k$ smooth if they are also $\mathcal C^{k-1}$,
 and the following condition holds:
 $$
 \frac{d^k}{dt^k} \mathbf x_0\left(1\right) = \frac{d^k}{dt^k} \mathbf x_1\left(0\right).

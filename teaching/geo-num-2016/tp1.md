@@ -4,8 +4,6 @@ title: "TP1 : Bézier curves, De Casteljau’s algorithm"
 date:   2016-02-05
 permalink: /teaching/geo-num-2016/tp1.html
 ---
-
-[casteljau-algo]: {{ site.url }}/assets/geo-num-2016/casteljau-curve.png
 [casteljau-gif]: https://upload.wikimedia.org/wikipedia/commons/0/0b/BezierCurve.gif
 
 ## Bézier curves
@@ -39,12 +37,13 @@ The Bézier points $\mathbf b_i \in \mathbb R^d$ form the *control polygon*.
    $$\mathbf b_i^k (t) = (1-t) \mathbf b_i^{k-1} + t \mathbf b_{i+1}^{k-1} \qquad \text{for} \qquad k=1,\dots,n, \quad i=0,\dots,n-k.$$
 
 {:.img600}
-![Visualisation of the steps of the De Casteljau's algorithm][casteljau-algo]
+![Visualisation of the steps of the De Casteljau's algorithm](/assets/geo-num-2016/casteljau-curve.png)
 
 {:.imgCaption}
 Visualisation of the steps of the De Casteljau's algorithm, $t=0.5$.
 
-The [De Casteljau’s algorithm](https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm) provides an efficient means for evaluating a Bézier curve $\mathbf{x}(t)$.
+The [De Casteljau’s algorithm](https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm)
+provides an efficient means for evaluating a Bézier curve $\mathbf{x}(t)$.
 It is useful to look at this algorithm in its schematic form. For a quartic curve ($n=4$):
 
 $$
