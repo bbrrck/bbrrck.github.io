@@ -23,6 +23,7 @@
       title : "winter break"
       break : true
     - date  : 2016-03-04 15:15:00
+      title : "Subdivision Curves"
       number: 4
     - date  : 2016-03-11 15:15:00
       number: 5
