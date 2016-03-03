@@ -68,7 +68,7 @@ $$
 
 ## ToDo
 1. Implement the three subdivision schemes for closed curves.
-2. Test your implementation on the `simple` and `infinity` datasets.
+2. Test your implementation on the `simple` and `infinity` datasets.  
    Visualise by `python ../plots/plot.py infinity`.
 3. Experiment with different values of $a,b$ in corner cutting. Specifically, try using
      - $b=a+\frac12$
