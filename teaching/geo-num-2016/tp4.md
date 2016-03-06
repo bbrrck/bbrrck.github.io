@@ -90,5 +90,5 @@ You should get $\mathcal C^1$ limit curves for $\omega \in \left[0,(\sqrt 5 - 1)
 ## Resources
 
 {:.resources}
-* [Subdivision curves](http://www.numerical-tours.com/matlab/meshwav_1_subdivision_curves/) on Numerical Tours by Gabriel Peyré.
+* [Subdivision curves](http://www.numerical-tours.com/matlab/meshwav_1_subdivision_curves/) on Numerical Tours by Gabriel Peyré
 * [Lecture on subdivision curves](https://www.cs.utexas.edu/~fussell/courses/cs384g/lectures/lecture17-Subdivision_curves.pdf) by Don Fussell
