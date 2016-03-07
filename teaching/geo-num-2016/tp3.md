@@ -49,7 +49,7 @@ $$
 \begin{array}{ll}
 N_j^{0}(t) =&
     \begin{cases}
-    1 \quad t\in[t_j, t_j+1) \\ \\
+    1 \quad t\in[t_j, t_{j+1}) \\ \\
     0 \quad \text{ otherwise }
     \end{cases}
 \\
