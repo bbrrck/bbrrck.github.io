@@ -85,7 +85,7 @@ De Boor is here to help you!
             <br />
             knot vector $t_0 \leq t_1 \leq \dots \leq t_m$ with $m = n+k+1$
             <br />
-            parameter $t \in [t_j, t_{j+1}) \quad k \leq j \leq n$
+            parameter $t \in [t_i, t_{i+1}) \quad k \leq i \leq n$
         </span>
 * <span class="algo-part">output :</span>
    <span class="algo-content"> The point $\mathbf S(t) = \mathbf d_j^k$ on the curve.</span>
