@@ -33,7 +33,6 @@ have a look at the [basis](tp3.html#uniform_bspline_basis) induced by such vecto
 Your today's task will be to implement these *uniform B-splines* as subdivision curves.
 
 ## Subdivision algorithm
-
 For a given degree $k$, the following constitutes one subdivision step
 passing from a polygon with $p$ points
     $\left\lbrace x_i^n \right\rbrace_{i=0}^{p-1}$
@@ -61,6 +60,9 @@ $$
 x_i^{n+1} = d_i^k  \quad \text{for} \quad i=0,\dots,2p-1
 $$
 
+
+This procedure is sometimes refered to as the Lane–Riesenfeld algorithm.
+
 {:.img500}
 ![bunny](/assets/geo-num-2016/uniform_bunny.gif)
 
@@ -76,3 +78,4 @@ With increasing degree, the Stanford bunny becomes smoother and smoother. Here, 
 
 {:.resources}
 * [Subdivision curves](http://www.numerical-tours.com/matlab/meshwav_1_subdivision_curves/) on Numerical Tours by Gabriel Peyré
+* [Subdivision spline curves](https://www.ibiblio.org/e-notes/Splines/subdivision.html)
