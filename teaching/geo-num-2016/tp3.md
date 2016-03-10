@@ -40,7 +40,7 @@ and the knot vector $t_0 \leq t_1 \leq \dots \leq t_m$
 with $m = n+k+1$, the B-spline curve $S(t)$ is defined as
 
 $$
-S(t) = \sum_{j=0}^n \mathbf d_j N_j^k(t), \quad t\in[t_k, t_n+1).
+S(t) = \sum_{j=0}^n \mathbf d_j N_j^k(t), \quad t\in[t_k, t_{n+1}).
 $$
 
 The $N_j^k$ are the recursively-defined *basis* functions (hence the name B-spline)
@@ -65,12 +65,13 @@ Looks complicated? Don't worry if you cannot get your head around all the indice
 De Boor is here to help you!
 
 
-<figure>
-    <img style="width:100%;" src="/assets/geo-num-2016/bbasis.gif" alt="" />
-    <div class="title">
-    B-spline basis functions $N^k_j$ up to degree 5 for the knot sequence $(0,1,2,3,4,5,6,7)$.
-    </div>
-</figure>
+{:.imgfull}
+{:#uniform_bspline_basis}
+![B-spline Basis](/assets/geo-num-2016/bbasis.gif)
+
+{:.imgCaption}
+B-spline basis functions $N^k_j$ up to degree 5 for the knot sequence $(0,1,2,3,4,5,6,7)$.
+
 
 ## De Boor's algorithm
 &hellip; also called the De Boor-Cox algorithm. It can be seen as the generalization of the de Casteljau.
@@ -91,20 +92,23 @@ De Boor is here to help you!
    <span class="algo-content"> The point $\mathbf S(t) = \mathbf d_j^k$ on the curve.</span>
 * <span class="algo-part">compute :</span>
    <span class="algo-content">
-        Set $\mathbf d_j^0 = \mathbf d_j$ and compute the points
-        $$
-        \mathbf d_{j}^{r} =
-        (1-w_{j,k-(r-1)}) \mathbf d_{j-1}^{r-1}
-        +
-           w_{j,k-(r-1)}  \mathbf d_{j  }^{r-1}
-        $$
+        For $j=i-k, \dots, i,$ set $\mathbf d_j^0 = \mathbf d_j$. Then compute the points
+        \begin{align}
+            \mathbf d_{j}^{r} &=
+            (1-w_{j,k-(r-1)}) \mathbf d_{j-1}^{r-1} + w_{j,k-(r-1)}  \mathbf d_{j  }^{r-1}
+        \end{align}
+        for
+        \begin{align}
+            \quad r = 1,\dots,k,
+            \quad \quad j = i-k+r,\dots,i
+        \end{align}
         with
-        $$
-        w_{j,k-(r-1)} = \frac{ t - t_j }{ t_{j+k-(r-1)} - t_j }.
-        $$
-       </span>
+        \begin{align}
+            w_{j,k-(r-1)} &= \frac{ t - t_j }{ t_{j+k-(r-1)} - t_j }.
+        \end{align}
+    </span>
 
-Be careful about the indices! Here I've expressed the point at depth $r$
+Be careful with the indices! Here I've expressed the point at depth $r$
 in terms of the points at depth $r-1$;
 that is why there is the $r-1$ everywhere in the formula.
 (It becomes much more elegant if we express $r+1$ in terms of $r$.)
