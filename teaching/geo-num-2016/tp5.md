@@ -78,4 +78,4 @@ With increasing degree, the Stanford bunny becomes smoother and smoother. Here, 
 
 {:.resources}
 * [Subdivision curves](http://www.numerical-tours.com/matlab/meshwav_1_subdivision_curves/) on Numerical Tours by Gabriel Peyré
-* [Subdivision spline curves](https://www.ibiblio.org/e-notes/Splines/subdivision.html)
+* [Subdivision spline curves](https://www.ibiblio.org/e-notes/Splines/subdivision.html) 
