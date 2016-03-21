@@ -3,12 +3,11 @@ layout: page
 title: teaching
 ---
 
-{% assign courses = site.data.teaching %}
+{% assign course = site.data.teaching-geonum2016 %}
 
-{% for course in courses %}
 <section class="course">
  
-<h2>{{ course.name }} <a href="{{ course.url }}">{{ course.code }}</a></h2>
+<h1>{{ course.name }} <a href="{{ course.url }}">{{ course.code }}</a></h1>
 
 <div class="meta">
  {% for metas in course.meta %}
@@ -19,15 +18,17 @@ title: teaching
  {% endfor %}
 </div>
 
-{% include news-geo-num-2016.html %}
 
-<h3>Description</h3>
+{% include teaching-geonum2016-news.html %}
+
+
+<h2>Description</h2>
 <img src="/assets/geo-num-2016/teapot.png" alt="Utah teapot" title="Utah teapot" />
 <p>
 This page is dedicated to the practical part of the <em>Géométrie Numérique</em> course, with lectures given by <a href="http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/">Georges-Pierre Bonneau</a>. Assignements (and some theory) will be published here.
 </p>
 
-<h3>Assignements</h3>
+<h2>Assignements</h2>
 <p>
 You can either work alone or in pairs.
 A <a href="https://github.com/bbrrck/geo-num-2016">c++ codebase</a> is provided, but not obligatory – use your favourite language in case you're not a fan of c++ .
@@ -36,7 +37,7 @@ For linear algebra (vectors, matrices), we'll be using the Eigen library; take a
 <a href="http://eigen.tuxfamily.org/dox-devel/AsciiQuickReference.txt">quick reference for Eigen</a>.
 </p>
 
-<h3 id="submissions">Submissions</h3>
+<h2 id="submissions">Submissions</h2>
 After each TP, you are required to submit your work, namely :
 <ol>
     <li>your <strong>code</strong>, just the files you've modified, no need to include everything ;</li>
@@ -51,7 +52,7 @@ These are the general rules for submission :
     <li>Send your mail to {% include email.html %}.</li>
 </ul>
 
-<h3>Syllabus</h3>
+<h2>Syllabus</h2>
  <ul class="calendar">
  {% for class in course.syllabus %}
    <li{% if class.break %} class="break"{% endif %}>
@@ -68,7 +69,7 @@ These are the general rules for submission :
  {% endfor %}
  </ul>
 
-<h3>Past years</h3>
+<h2>Past years</h2>
  <ul class="past">
  {% for past in course.past %}
  <li>
@@ -79,5 +80,4 @@ These are the general rules for submission :
  </ul>
 
 </section>
-{% endfor %}
 

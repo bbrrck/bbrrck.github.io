@@ -1,5 +1,5 @@
 ---
-layout: tp-geo-num-2016
+layout: teaching-geonum2016
 title: "TP5 : Uniform B-splines as Subvidision Curves"
 date:   2016-03-11
 permalink: /teaching/geo-num-2016/tp5.html

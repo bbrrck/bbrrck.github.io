@@ -1,5 +1,5 @@
 ---
-layout: tp-geo-num-2016
+layout: teaching-geonum2016
 title: "TP6 : Bézier Surfaces"
 date:   2016-03-18
 permalink: /teaching/geo-num-2016/tp6.html

@@ -1,5 +1,5 @@
 ---
-layout: tp-geo-num-2016
+layout: teaching-geonum2016
 title: "TP2 : Bézier splines, $C^k$ smoothness"
 date:   2016-02-12
 permalink: /teaching/geo-num-2016/tp2.html

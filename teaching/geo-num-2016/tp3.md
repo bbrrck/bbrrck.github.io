@@ -1,5 +1,5 @@
 ---
-layout: tp-geo-num-2016
+layout: teaching-geonum2016
 title: "TP3 : B-splines, De Boor's algorithm"
 date:   2016-02-19
 permalink: /teaching/geo-num-2016/tp3.html

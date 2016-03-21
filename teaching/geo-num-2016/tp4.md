@@ -1,5 +1,5 @@
 ---
-layout: tp-geo-num-2016
+layout: teaching-geonum2016
 title: "TP4 : Subdivision curves"
 date:   2016-03-04
 permalink: /teaching/geo-num-2016/tp4.html

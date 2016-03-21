@@ -1,5 +1,5 @@
 ---
-layout: tp-geo-num-2016
+layout: teaching-geonum2016
 title: "TP1 : Bézier curves, De Casteljau’s algorithm"
 date:   2016-02-05
 permalink: /teaching/geo-num-2016/tp1.html
