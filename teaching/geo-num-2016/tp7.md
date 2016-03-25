@@ -27,11 +27,9 @@ To test the viewer, try running
 {% highlight bash %}
 ./geonum_TP7 simple
 {% endhighlight %}
-If everything goes well, you should see a cube.
+If everything goes well, you should see a cube. The viewer can be controlled with the mouse: click and drag to rotate, scroll to zoom (also works with pageup/pagedown keys).
 
-The viewer can be controlled with the mouse: click and drag to rotate, scroll to zoom (also works with pageup/pagedown keys).
-
-In case the SimpleViewer does not work
+In case the SimpleViewer does not work, you can still export and visualise the surfaces via the python script, included in <code>plots/<code>.
 
 
 ## B-spline curves revisited
