@@ -89,10 +89,11 @@ $$
 Each patch needs to be evaluated individually, then stored in one big matrix (per coordinate).
 
 ## Evaluation
-We'll use the same paradigm as in the previous TP, i.e. coordinates are stored in matrices X, Y, Z.
+To evaluate a point on a B-spline surface, use the same principle as in the last TP: first, evaluate in the $u$ direction $n+1$ times; then use the computed points as the control polygon for a curve in the $v$ direction.
+As always, this can be done iteratively or recursively.
+My recursive implementation of the DeBoor's algorithm is included in <code>todo.h</code>, but it is strongly advised to use you own (from TP3).
 
-Try to reuse your implementation for B-spline curves.
-A recursive implementation of the DeBoor's algorithm is included in <code>TP7.h</code>.
+We will use the same paradigm as in the previous TP, i.e. the points will be stored coordinate-wise; in matrices X, Y, Z (or netX, netY, netZ for the control net). 
 
 ## ToDo
 1. Implement the evaluation of B-spline surfaces.
