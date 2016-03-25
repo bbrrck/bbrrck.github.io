@@ -141,6 +141,8 @@ They are saved in the BPT format; some datafiles are taken from the website of [
 The discontinuity in isophotes shows the piecewise Bézier Utah teapot is not $\mathcal C^1$.
 
 ## ToDo
+
+{:.assignements}
 1. Implement the evaluation of Bézier surfaces for $(u,v) \in [0,1]^2$. For the first tests, use `simple` and `simple2` (as these contain only one patch).
 2. When you're sure the implementation works for the simple cases, test your algorithm on datasets with multiple patches:
 `heart` (2),  `sphere` (8),  `teapot` (32) and `gumby` (128). Don't set the `num_samples` parameter too high, always start with smaller values (e.g. 5 or 10).
