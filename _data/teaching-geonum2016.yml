@@ -74,6 +74,7 @@ syllabus:
     number: 6
     
   - date  : 2016-03-25 15:15:00
+    title : "B-spline Surfaces"
     number: 7
     
   - date  : 2016-04-01 15:15:00

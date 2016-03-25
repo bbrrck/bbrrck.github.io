@@ -50,7 +50,7 @@ To test the viewer, try running
 ./geonum_TP6 simple
 {% endhighlight %}
 If everything goes well, you should see a cube.
-The viewer can be controlled with the mouse: click and drag to rotate, scroll to zoom (also work with pageup/pagedown keys).
+The viewer can be controlled with the mouse: click and drag to rotate, scroll to zoom (also works with pageup/pagedown keys).
 
 **Note:**
 If you experience problems compiling the program with all the new libraries, there is an alternative way: use the `cmake/CMakeLists2.txt` file
