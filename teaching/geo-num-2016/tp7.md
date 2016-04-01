@@ -114,7 +114,7 @@ for i in (k,k+1,...,m) :
 
 {:.assignements}
 1. Implement the evaluation of B-spline surfaces.
-2. Modify the knots vectors for the <code>simple</code> dataset. Experiment with various configurations. How does the surface change?
+2. Modify the knot vectors for the <code>simple</code> dataset. Experiment with various configurations. How does the surface change?
 3. *[Bonus]* A NURBS surface (**N**on-**U**niform **R**ational **B**-**S**pline) can be used to represent a sphere, the same way we used a NURBS curve to represent the unit circle in [TP3](tp3.html). Modify your implementation of B-spline surfaces in order to compute a NURBS surface. The control points and weights for representing a sphere can be found in [Representing a Circle or a Sphere with NURBS](http://www.geometrictools.com/Documentation/NURBSCircleSphere.pdf) by David Eberly.
 
 <br />

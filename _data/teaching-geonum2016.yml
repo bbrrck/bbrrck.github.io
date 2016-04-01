@@ -78,6 +78,7 @@ syllabus:
     number: 7
     
   - date  : 2016-04-01 15:15:00
+    title : "Uniform B-splines as Subdivision Surfaces"
     number: 8
     
   - date  : 2016-04-08 15:15:00
