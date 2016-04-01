@@ -52,7 +52,7 @@ $$
 **Important**: If the surface is closed (cyclic) in the direction $u$, the subscripts $\scriptstyle i+1$ of $V^k$ are taken modulo the number of vertices in the direction $u$. The same applies for the direction $v$ and the subscripts $\scriptstyle j+1$.
 
 
-{:.img500}
+{:.img700}
 ![subdivision](/assets/geo-num-2016/tp8/closed.gif)
 
 {:.imgCaption}
