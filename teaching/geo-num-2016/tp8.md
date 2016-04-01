@@ -51,12 +51,25 @@ $$
 
 **Important**: If the surface is closed (cyclic) in the direction $u$, the subscripts $\scriptstyle i+1$ of $V^k$ are taken modulo the number of vertices in the direction $u$. The same applies for the direction $v$ and the subscripts $\scriptstyle j+1$.
 
-
-{:.img700}
-![subdivision](/assets/geo-num-2016/tp8/closed.gif)
+{:.img3grid}
+![open 1](/assets/geo-num-2016/tp8/open/1.png)
+![open 2](/assets/geo-num-2016/tp8/open/2.png)
+![open 3](/assets/geo-num-2016/tp8/open/3.png)
 
 {:.imgCaption}
-A subdivision step, surface closed in one direction.
+A subdivision step, open surface.
+
+{:.img3grid}
+![closed 1](/assets/geo-num-2016/tp8/closed/1.png)
+![closed 2](/assets/geo-num-2016/tp8/closed/2.png)
+![closed 3](/assets/geo-num-2016/tp8/closed/3.png)
+
+{:.img3grid}
+![closed 4](/assets/geo-num-2016/tp8/closed/4.png)
+![closed 5](/assets/geo-num-2016/tp8/closed/5.png)
+
+{:.imgCaption}
+A subdivision step, surface closed in the $u$ direction.
 
 
 ## Implementation
@@ -74,9 +87,3 @@ Start by implementing the algorithm for a surface closed in both directions as t
 or in both directions <code>[grid]</code>.
 
 <br />
-
-{:.img500}
-![subdivision](/assets/geo-num-2016/tp8/open.gif)
-
-{:.imgCaption}
-A subdivision step, open surface.
