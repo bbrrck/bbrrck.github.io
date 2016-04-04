@@ -6,7 +6,7 @@ permalink: /teaching/geo-num-2016/tp9.html
 ---
 
 <div style="text-align:center;">
-    <video width="700" height="388" poster="/assets/teapot.gif" autoplay loop>
+    <video width="700" height="388" autoplay loop>
         <source src="/assets//geo-num-2016/tp9/loop.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
