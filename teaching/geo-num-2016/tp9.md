@@ -43,15 +43,32 @@ rotate       : (mouse click & drag)
 More info on how to configure everything is at the [end of the text](#pyopengl).
 
 
+## Subdivision surfaces
+Mesh subdivision is a powerful tool, extensively used in modern geometric modeling.
+Unlike B-spline subdivision you implemented in [TP8](tp8.html), they are not limited to rectangular topology;
+in fact they provide the means for representing surfaces of *arbitrary* topology.
+
+Almost every current animated movie uses subdivision surfaces to some extent.
+Even though their mathematical foundations date back to 1978,
+Pixar's short *Geri's Game* (1997) is considered to be the first 'real' application.
+
+{:.img600}
+![Geri's game](/assets/geo-num-2016/tp9/geri.png)
+
+{:.imgCaption}
+Geri's game, an Academy award-winning short movie by Pixar.
+
+
 ## Loop Subdivision Scheme
-Today, you'll be implementing the Loop subdivision scheme for triangle meshes. The scheme consists of two general steps:
+Today, you'll be implementing the Loop subdivision scheme for triangle meshes. Like every surface subdivision scheme,
+it consists of two general steps:
 
 1. Split the topology; each triangle is replaced by four smaller triangles.
-2. Computation new vertex positions from the old positions.
+2. **Compute the new vertex positions from the old positions.**
 
 <br />
 
-The first step is already provided in the code, only the second part needs to be implemented.
+The first step is already provided in the code; only the second part needs to be implemented.
 
 To compute the new geometry, two sets of vertices are recognized, each with its own rules:
 new edge midpoints and old vertices. The masks for both groups are visualised below.
@@ -82,30 +99,89 @@ $$
 
 ## Implementation
 To represent a triangle mesh with arbitrary topology, we use two matrices.
-Matrix V stores the geometry, its i-th row corresponds to the position of the i-th vertex.
-Matrix F stores topology, its j-th row corresponds to the indices of three vertices in j-th triangle.
 
-## ToDo
-
-{:.assignements}
-1. Implement the computation of new geometry in the Loop subdivision scheme using the original weights $\beta$.
-2. Use the simplified weights by Warren and compare the results.
+* geometry <code>V</code> — <code>V.row(i)</code> is the position of the vertex <code>i</code>.
+* topology <code>F</code> — <code>F.row(j)</code> are the indices of three vertices in triangle <code>j</code>.
 
 <br />
 
-<div style="text-align:center;">
-    <video width="500" height="500" autoplay loop>
+### Example: sphere
+
+<div style="width:40%; float:left;">
+{% highlight matlab %}
+V = [
+   0.0000  -1.0000   0.0000
+   0.7236  -0.4472   0.5257
+  -0.2764  -0.4472   0.8506 
+  -0.8944  -0.4472   0.0000
+  -0.2764  -0.4472  -0.8506
+   0.7236  -0.4472  -0.5257
+   0.2764   0.4472   0.8506
+  -0.7236   0.4472   0.5257
+  -0.7236   0.4472  -0.5257
+   0.2764   0.4472  -0.8506
+   0.8944   0.4472   0.0000
+   0.0000   1.0000   0.0000
+];
+
+F = [
+  0  1  2
+  1  0  5
+  0  2  3
+  0  3  4
+  0  4  5
+  1  5 10
+  2  1  6
+  3  2  7
+  4  3  8
+  5  4  9
+  1 10  6
+  2  6  7
+  3  7  8
+  4  8  9
+  5  9 10
+  6 10 11
+  7  6 11
+  8  7 11
+  9  8 11
+ 10  9 11
+];
+{% endhighlight %}
+</div>
+
+<div style="width:55%; text-align:center; margin: 1%; float:left;">
+    <img style="width:80%;margin:0.5em 0 1.5em;" alt="icosphere mesh" src="/assets/geo-num-2016/tp9/icosphere.png" />
+    <video width="320" height="320" autoplay loop controls>
         <source src="/assets//geo-num-2016/tp9/loop.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
+    
+    <div class="imgCaption" style="font-size: 90%;">
+    Four iterations of the Loop scheme on the sphere.
+    </div>
 </div>
 
-{:.imgCaption}
-First few iterations of Loop.
+<div style="clear:both;"></div>
+
+## ToDo
+
+
+{:.assignements}
+1. Implement the computation of new geometry in the Loop subdivision scheme using the original weights $\beta$.
+2. Use the simplified weights (Warren) and compare the results.
+3. Subdivide the sphere and cube five times. Which surface is closer to the real sphere? Why?
+
 
 
 ## Test Surfaces
 This is the list of all provided test surfaces, with vertex and face counts.
+
+Don't apply too many iterations on surfaces with more faces, as the number of faces grows exponentially.
+Take the horse mesh with 1000 faces for instance: we get 4000 faces after one iteration, 16000 after two, and 64000 after three.
+
+In general, three iterations are sufficient.
+For the sphere and cube, up to five iterations should work.
+If you get a failed assertion somewhere, it probably means there are too many vertices in the mesh.
 
 |          | #V  |  #F |
 |----------|-----|-----|
