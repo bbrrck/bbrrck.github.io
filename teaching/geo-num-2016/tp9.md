@@ -45,15 +45,16 @@ More info on how to configure everything is at the [end of the text](#pyopengl).
 
 ## Subdivision surfaces
 Mesh subdivision is a powerful tool, extensively used in modern geometric modeling.
-Unlike B-spline subdivision you implemented in [TP8](tp8.html), they are not limited to rectangular topology;
+Unlike B-spline subdivision you implemented in [TP8](tp8.html), subdivision surfaces are not limited to rectangular topology;
 in fact they provide the means for representing surfaces of *arbitrary* topology.
 
 Almost every current animated movie uses subdivision surfaces to some extent.
 Even though their mathematical foundations date back to 1978,
 Pixar's short *Geri's Game* (1997) is considered to be the first 'real' application.
 
-{:.img600}
+{:.img2gridH}
 ![Geri's game](/assets/geo-num-2016/tp9/geri.png)
+![Geri mesh](/assets/geo-num-2016/tp9/geri-mesh.jpg)
 
 {:.imgCaption}
 Geri's game, an Academy award-winning short movie by Pixar.
@@ -162,6 +163,18 @@ F = [
 </div>
 
 <div style="clear:both;"></div>
+
+
+The topological step is implemented in the function <code>triangleSplit( F0,V0, F1,V1, VertexAdjacency, MidpointAdjacency );</code>.
+After the execution of this function, the last two arguments contain indices necessary to compute the new geometry.
+
+If v, e is the number of vertices and edges in V0, then
+
+* <code>VertexAdjacency</code> is a matrix with v rows, row i contains adjacency information for old vertex i.
+Column 0: n, number of adjacent vertices, columns 1 to n: indices of adjacent vertices (weight $\beta$).
+* <code>MidpointAdjacency</code> is a matrix with e rows, row j contains adjacency information for new midpoint vertex j.
+Columns 0 and 1: indices of adjacent edge vertices (weight $\frac38$), columns 2 and 3: indices of opposite vertices (weight $\frac18$).
+
 
 ## ToDo
 

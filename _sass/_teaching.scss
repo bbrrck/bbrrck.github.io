@@ -89,6 +89,10 @@ section.course {
 .imgfull{text-align:center; img{width:100%;  max-width:100%;}}
 .imgCaption {clear:both;text-align:center;font-style:italic;padding: 0.5em 1em 1em;}
 
+.img100H {text-align:center; img{height:100px; max-width:100%;}}
+
+.img2gridH {width:100%;text-align:center;img, video{height:300px;margin:1%;}}
+
 .teaching-deadline {
     color:#c00;margin:1em 0.5em;font-size:90%;
 }
