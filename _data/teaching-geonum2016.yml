@@ -97,14 +97,9 @@ syllabus:
     number: 9
     
   - date  : 2016-04-15 15:15:00
+    title : "revisions"
+    nolink: true
     number: 10
-    
-  - date  : 2016-04-22 15:15:00
-    title : "spring break"
-    break : true
-    
-  - date  : 2016-04-29 15:15:00
-    number: 11
     
 past:
   - year : 2015

@@ -58,7 +58,7 @@ These are the general rules for submission :
    <li{% if class.break %} class="break"{% endif %}>
    <span class="date">{{ class.date | date: "%b %d" }}</span>
    <span class="title">
-   {% if class.break %}
+   {% if class.break or class.nolink %}
    {{ class.title }}
    {% else %}
    {{ type }} {{ class.number }} :
