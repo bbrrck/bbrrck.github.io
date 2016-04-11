@@ -13,6 +13,12 @@ meta    :
     
 news      :
 
+  - date  : 2016-04-11 12:00:00
+    type  : 'deadline'
+    text  : "There is no lecture this Friday and the TP will start at 13h30.
+             We won't begin a new topic; instead, you can finish tasks from TP1 to TP9 or revise your reports.
+             The deadline for submitting your <a href='/teaching/geo-num-2016/tp9.html'>TP9</a> is Thursday, April 14, 23h59."
+
   - date  : 2016-04-04 12:00:00
     type  : 'deadline'
     text  : 'The deadline for submitting your <a href="/teaching/geo-num-2016/tp8.html">TP8</a> is Thursday, April 7, 23h59.'

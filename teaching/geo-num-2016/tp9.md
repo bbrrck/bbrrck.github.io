@@ -60,7 +60,7 @@ Pixar's short *Geri's Game* (1997) is considered to be the first 'real' applicat
 Geri's game, an Academy award-winning short movie by Pixar.
 
 
-## Loop Subdivision Scheme
+## Loop subdivision scheme
 Today, you'll be implementing the Loop subdivision scheme for triangle meshes. Like every surface subdivision scheme,
 it consists of two general steps:
 
@@ -190,7 +190,7 @@ columns 2 and 3: indices of opposite vertices (weight $\frac18$)
 
 
 
-## Test Surfaces
+## Test surfaces
 This is the list of all provided test surfaces, with vertex and face counts.
 
 Don't apply too many iterations on surfaces with more faces, as the number of faces grows exponentially.
