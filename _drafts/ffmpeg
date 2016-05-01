@@ -1,0 +1,1 @@
+ffmpeg -i cone_real_speedup.mp4  -i cone_matlab_crop.m4v -strict -2 -filter_complex overlay=x=main_w-overlay_w:y=main_h-overlay_h output.mp4
