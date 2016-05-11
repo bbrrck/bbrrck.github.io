@@ -6,32 +6,30 @@ bibtex-indent: "  "
 ---
 
 {% assign pubs = site.data.publications %}
-{% for section in pubs %}
-  <section class="pubs" id="y{{ section.year }}">
-    <h2>{{ section.year }}</h2>
-  {% for item in section.items %}
-    <section class="pub" id="p-{{ item.pdf[0].slug }}">
-        <img src="/assets/{{ item.pdf[0].slug }}.png" />
+
+{% for year in pubs %}
+  <section class="pubs" id="y{{ year.year }}">
+  <h2>{{ year.year }}</h2>
+  {% for item in year.items %}
+    <section class="pub" id="p-{{ item.pdf.file }}">
+        <img src="/assets/{{ item.pdf.file }}.png" />
         <div class="pub-content">
-            <h3>{{ item.title }}</h3>
-            {% if item.advisor %}<div class="advisor">
-                {% for adv in item.advisor %}
-                <a href="{{ adv.url }}">{{ adv.name }}</a>
-                {% endfor %}
-            </div>{% endif %}
+            <h3>{{ item.bibtex.title }}</h3>
+            <div class="author">{% for author in item.bibtex.authors %}{% if author.last == 'Stanko' %}TS{% else %}{% if author.url %}<a href="{{ author.url }}">{% endif %}{% assign firstparts = {author.first | split: '-'} %}{% for fpart in firstparts %}{{ fpart | split: '' | first }}{% endfor %} {{ author.last }}{% if author.url %}</a>{% endif %}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</div>
+            {% if item.advisor %}<div class="advisor"><a href="{{ item.advisor.url }}">{{ item.advisor.name }}</a></div>{% endif %}
             <div class="description">{{ item.description }}</div>
             <div class="links">
-                [ <a href="/assets/{{ item.pdf[0].slug }}.pdf">pdf</a> ~ {{ item.pdf[0].size }} MB ]
+                [ <a href="/assets/{{ item.pdf.file }}.pdf">pdf</a> ~ {{ item.pdf.size }} MB ]
                 {% if item.url %}
                     [ <a href="{{ item.url }}">www</a> ]
                 {% endif %}
                 <div class="bibtex">
                     [ <a href="#">bibtex</a> ]
-<pre id="bibtex-{{ item.pdf[0].slug }}">
-@{{ item.bibtex }}&#123; {{ item.slug }},
-{% for prop in item %}{% unless prop[0] == 'bibtex' or prop[0] == 'advisor' or prop[0] == 'pdf' or prop[0] == 'slug' or prop[0] == 'description'  %}{{ page.bibtex-indent }}{{ prop[0] }} = &#123;{{ prop[1] }}&#125;,
-{% endunless %}{% endfor %}{{ page.bibtex-indent }}year = &#123;{{ section.year }}&#125;
-&#125;
+<pre id="bibtex-{{ item.pdf.slug }}">
+@{{ item.type }}&#123; {{ item.slug }},
+{% for prop in item.bibtex %}{% if prop[0] == 'authors' %}{{ page.bibtex-indent }}author = &#123;{% for author in item.bibtex.authors %}{{ author.first }} {{ author.last }}{% if forloop.last == false %} and {% endif %}{% endfor %}&#125;,
+{% else %}{% unless prop[0] == 'type' or prop[0] == 'slug'  or prop[0] == 'authors'  %}{{ page.bibtex-indent }}{{ prop[0] }} = &#123;{{ prop[1] }}&#125;{% if forloop.last == false %},{% endif %}
+{% endunless %}{% endif %}{% endfor %}&#125;
 </pre>
                 </div>
             </div>
@@ -39,4 +37,5 @@ bibtex-indent: "  "
     </section>
   {% endfor %}
   </section>
+
 {% endfor %}
