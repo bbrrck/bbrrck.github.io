@@ -18,7 +18,7 @@
     <location>Grenoble, France</location>
     <website>http://tiborstanko.sk</website>
     <joined>09/2011</joined>
-    <last_active>02/2016</last_active>
+    <last_active>04/2016</last_active>
     <interests></interests>
     <favorite_books></favorite_books>
     <favorite_authors>
@@ -27,12 +27,12 @@
     <reviews_rss_url><![CDATA[http://www.goodreads.com/review/list_rss/6403898?key=eUpt8wwDPOS4taudee2olTYOroOILRdM_TbxDXFEniuz-3KB&shelf=%23ALL%23]]></reviews_rss_url>
     <friends_count type="integer">18</friends_count>
     <groups_count>1</groups_count>
-    <reviews_count type="integer">215</reviews_count>
+    <reviews_count type="integer">217</reviews_count>
     <user_shelves type="array">
   <user_shelf>
     <id type="integer">21052661</id>
     <name>read</name>
-    <book_count type="integer">106</book_count>
+    <book_count type="integer">108</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -46,7 +46,7 @@
   <user_shelf>
     <id type="integer">21052660</id>
     <name>currently-reading</name>
-    <book_count type="integer">7</book_count>
+    <book_count type="integer">5</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -60,7 +60,7 @@
   <user_shelf>
     <id type="integer">21052659</id>
     <name>to-read</name>
-    <book_count type="integer">102</book_count>
+    <book_count type="integer">104</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -87,6 +87,400 @@
   </user_shelf>
 </user_shelves>
       <updates type="array">
+      <update type="review">
+      <action_text><![CDATA[gave 5 stars to <a href="http://www.goodreads.com/book/show/18077903-creativity-inc">Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration (Hardcover)</a> by <a href="http://www.goodreads.com/author/show/5618463.Ed_Catmull">Ed Catmull</a>]]></action_text>
+      <link>http://www.goodreads.com/review/show/1384619569</link>
+      <image_url>http://d.gr-assets.com/books/1400863577s/18077903.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Sat, 16 Apr 2016 15:11:30 -0700</updated_at>
+          <action type="rating">
+            <rating>5</rating>
+          </action>
+        <object>
+          <book>
+            <id>18077903</id>
+            <title><![CDATA[Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration]]></title>
+            <link>http://www.goodreads.com/book/show/18077903-creativity-inc</link>
+            <authors>
+<author>
+<id>5618463</id>
+<name>Ed Catmull</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[http://d.gr-assets.com/authors/1404701341p5/5618463.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[http://d.gr-assets.com/authors/1404701341p2/5618463.jpg]]>
+</small_image_url>
+<link><![CDATA[http://www.goodreads.com/author/show/5618463.Ed_Catmull]]></link>
+<average_rating>4.21</average_rating>
+<ratings_count>17170</ratings_count>
+<text_reviews_count>1545</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+    </update>
+      <update type="readstatus">
+      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1598912813">Akoby si kameň jedla</a>]]></action_text>
+      <link>http://www.goodreads.com/read_statuses/1302432504</link>
+      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Sat, 02 Apr 2016 23:40:18 -0700</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">1302432504</id>
+  <review_id type="integer">1598912813</review_id>
+  <user_id type="integer">6403898</user_id>
+  <old_status nil="true"/>
+  <status>to-read</status>
+  <updated_at type="datetime">2016-04-03T06:40:18+00:00</updated_at>
+  <review>
+    <id type="integer">1598912813</id>
+    <user_id type="integer">6403898</user_id>
+    <book_id type="integer">25698220</book_id>
+    <rating type="integer">0</rating>
+    <read_status>to-read</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review nil="true"/>
+    <recommendation nil="true"/>
+    <read_at type="datetime" nil="true"/>
+    <updated_at type="datetime">2016-04-03T06:40:18+00:00</updated_at>
+    <created_at type="datetime">2016-04-03T06:40:18+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">0</weight>
+    <ratings_sum type="integer">0</ratings_sum>
+    <ratings_count type="integer">0</ratings_count>
+    <notes nil="true"/>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1 nil="true"/>
+    <work_id type="integer">6668867</work_id>
+    <read_count nil="true"/>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime" nil="true"/>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2016-04-03T06:40:18+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <book>
+      <id type="integer">25698220</id>
+      <work_id type="integer">6668867</work_id>
+      <isbn nil="true"/>
+      <isbn13>9788097182311</isbn13>
+      <title>Akoby si kameň jedla</title>
+      <sort_by_title>akoby si kameň jedla</sort_by_title>
+      <author_id type="integer">557612</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description>V rámci edície &lt;i&gt;Prekliati reportéri&lt;/i&gt; prinášame knihu reportáží z Bosny W. L. Tochmana &lt;i&gt;Akoby si kameň jedla&lt;/i&gt;. Autor bol za knihu zaradený medzi finalistov literárnej ceny Nike a taktiež na ocenenie Prix Témoin du Monde, ktoré udeľuje Radio France International. Tento prvý preklad Tochmanovho diela do slovenčiny rozširuje počet jazykov, do ktorých bol preložený na dvanásť.
+
+Bosna, roky deväťdesiate. Vojna, etnická nenávisť, smrť, masové exekúcie, koncentračné tábory. Desiatky reportérov a televíznych štábov z celého sveta vyrážajú na Balkán, aby mohli podať svedectvo o zverstvách páchaných v rozpadajúcej sa Juhoslávií. Z médií presakujú znepokojujúce obrazy, zaznievajú hlasy katov i obetí, slová expertov i politikov. Každá vojna sa však jedného dňa končí. Novinári odchádzajú, experti miznú v informačnom šume, pozornosť médií sa obracia k iným vojnám, k iným nešťastiam. 
+
+Čo sa deje v krajine, ktorou štyri roky zmietala vojna? 
+Ako sa so stratou blízkych vyrovnávajú tí, čo prežili? 
+Čo cítia a o čom premýšľajú? 
+Kde hľadajú svojich mŕtvych? A ako ich nachádzajú? 
+
+To sú otázky, na ktoré sa pokúša priniesť odpoveď kniha poľského reportéra Wojciecha Tochmana, ktorý sa o osudy ľudí žijúcich v Bosne zaujímal nielen počas vojny, ale aj po nej. V roku 1999 sa vracia na miesto činu, pozoruje pri práci antropologičku Ewu Klonowskú, ktorá zbiera a skladá pozostatky ľudských tiel vykopaných z masovch hrobov a na základe DNA identifikuje obete. Rozpráva sa s tými, čo prežili a z rozprávania o kostiach, ktoré patria ich blízkym, rekonštruuje vojnové osudy jednotlivcov i celých rodín, živých aj mŕtvych. Prostým jazykom rozpráva o veciach tragických, neskutočných, strašných. Jeho svedectvo núti zamyslieť sa nad hrôzami vojny, dvojznačnosťou ľudskej prirodzenosti a hlbokou ľudskou potrebou pochovať a oplakať svojich mŕtvych.</description>
+      <format>Paperback</format>
+      <publication_year type="integer">2015</publication_year>
+      <publication_month type="integer">5</publication_month>
+      <publication_day type="integer">27</publication_day>
+      <num_pages type="integer">112</num_pages>
+      <publisher>Absynt</publisher>
+      <language_code>slo</language_code>
+      <edition_information>Prekliati reportéri</edition_information>
+      <url>http://akobysikamenjedla.absynt.sk</url>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2015-07-29T09:32:54+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-07-29T09:32:55+00:00</s3_image_at>
+      <reviews_count type="integer">93</reviews_count>
+      <ratings_sum type="integer">299</ratings_sum>
+      <ratings_count type="integer">62</ratings_count>
+      <text_reviews_count type="integer">10</text_reviews_count>
+      <book_authors_count type="integer">1</book_authors_count>
+      <updated_at type="datetime">2015-08-24T11:44:31+00:00</updated_at>
+      <created_at type="datetime">2015-06-10T08:16:24+00:00</created_at>
+      <author_id_updater_user_id type="integer">12553134</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer" nil="true"/>
+      <description_updater_user_id type="integer">12553134</description_updater_user_id>
+      <edition_information_updater_user_id type="integer">22549736</edition_information_updater_user_id>
+      <format_updater_user_id type="integer">22549736</format_updater_user_id>
+      <image_updater_user_id type="integer">12553134</image_updater_user_id>
+      <isbn_updater_user_id type="integer" nil="true"/>
+      <isbn13_updater_user_id type="integer">22549736</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">22549736</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">22549736</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">12553134</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">22549736</publisher_updater_user_id>
+      <title_updater_user_id type="integer">22549736</title_updater_user_id>
+      <url_updater_user_id type="integer">12553134</url_updater_user_id>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <author>
+        <id type="integer">557612</id>
+        <name>Wojciech Tochman</name>
+        <updated_at type="datetime">2016-05-01T17:45:36+00:00</updated_at>
+        <created_at type="datetime">2007-06-08T02:25:04+00:00</created_at>
+        <searched_for_at type="datetime">2008-04-19T08:48:11+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2009-04-19T21:43:36+00:00</image_uploaded_at>
+        <user_id type="integer" nil="true"/>
+        <gender>M</gender>
+        <country_code>PL</country_code>
+        <born_at type="datetime" nil="true"/>
+        <died_at type="datetime" nil="true"/>
+        <about>Reporter, non-fiction writer. He has twice been shortlisted for the NIKE Literary Prize and has won the Polish Book Publishers Association Award.
+He began his career as a reporter at the youth weekly Na przełaj before leaving school, and soon after he joined the first reporting team at Gazeta Wyborcza. His reports from this period were published in a book, Stairs Don’t Burn (2000, 2006). Before he got his masters degree at Warsaw University he went to Bosnia with a convoy organised by humanitarian aid worker Janina Ochojska. He then went back to the Balkans repeatedly for many years, and the book Like Eating A Stone is the result of those journeys. His next book was Dear Daughter (2005), the moving account of his efforts to find out what had happened to his missing friend, a reporter called Beata Pawlak, who turned out to have been killed in a terrorist attack on the island of Bali.
+For several years Tochman was involved in activities aimed at finding missing people. From 1996 to 2002, he ran a programme called “Anyone Who Saw, Anyone Who Knows” on the Telewizja Polska TV channel. In 1999 he founded the ITAKA Centre for the Search for Missing People.</about>
+        <uploader_user_id type="integer">1245448</uploader_user_id>
+        <image_copyright>http://pogranicze.sejny.pl/archiwum/wydawnictwo/obrazki/foto/tochman1.jpg</image_copyright>
+        <influences></influences>
+        <url>http://www.tochman.com.pl</url>
+        <genre1>Nonfiction</genre1>
+        <genre2>Short Stories</genre2>
+        <genre3></genre3>
+        <books_count type="integer">28</books_count>
+        <reviews_count type="integer">3432</reviews_count>
+        <ratings_sum type="integer">7772</ratings_sum>
+        <works_count type="integer">15</works_count>
+        <hometown>Kraków</hometown>
+        <rating_dist>5:6|4:14|3:5|2:3|1:0|total:28</rating_dist>
+        <s3_image_at type="datetime">2015-05-15T00:03:02+00:00</s3_image_at>
+        <ratings_count type="integer">1806</ratings_count>
+        <text_reviews_count type="integer">107</text_reviews_count>
+        <author_program_at type="datetime" nil="true"/>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">23</fanships_count>
+        <best_book_id type="integer">9678182</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>tochman, wojciech</sort_by_name>
+        <shelf_display_name>Tochman, Wojciech</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 2 stars to <a href="http://www.goodreads.com/book/show/25174272-medzerov-plod">Medzerový plod (Hardcover)</a> by <a href="http://www.goodreads.com/author/show/5822413.Veronika_ikulov_">Veronika Šikulová</a>]]></action_text>
+      <link>http://www.goodreads.com/review/show/1491479936</link>
+      <image_url>http://d.gr-assets.com/books/1426764317s/25174272.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Sat, 02 Apr 2016 23:39:44 -0700</updated_at>
+          <action type="rating">
+            <rating>2</rating>
+          </action>
+        <object>
+          <book>
+            <id>25174272</id>
+            <title>Medzerový plod</title>
+            <link>http://www.goodreads.com/book/show/25174272-medzerov-plod</link>
+            <authors>
+<author>
+<id>5822413</id>
+<name>Veronika Šikulová</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[http://d.gr-assets.com/authors/1421952031p5/5822413.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[http://d.gr-assets.com/authors/1421952031p2/5822413.jpg]]>
+</small_image_url>
+<link><![CDATA[http://www.goodreads.com/author/show/5822413.Veronika_ikulov_]]></link>
+<average_rating>3.86</average_rating>
+<ratings_count>124</ratings_count>
+<text_reviews_count>16</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+    </update>
+      <update type="readstatus">
+      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1562122441">A Study in Scarlet (Sherlock Holmes, #1)</a>]]></action_text>
+      <link>http://www.goodreads.com/read_statuses/1254905560</link>
+      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Sat, 27 Feb 2016 04:02:15 -0800</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">1254905560</id>
+  <review_id type="integer">1562122441</review_id>
+  <user_id type="integer">6403898</user_id>
+  <old_status nil="true"/>
+  <status>to-read</status>
+  <updated_at type="datetime">2016-02-27T12:02:15+00:00</updated_at>
+  <review>
+    <id type="integer">1562122441</id>
+    <user_id type="integer">6403898</user_id>
+    <book_id type="integer">102868</book_id>
+    <rating type="integer">0</rating>
+    <read_status>to-read</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review nil="true"/>
+    <recommendation nil="true"/>
+    <read_at type="datetime" nil="true"/>
+    <updated_at type="datetime">2016-02-27T12:02:15+00:00</updated_at>
+    <created_at type="datetime">2016-02-27T12:02:14+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">0</weight>
+    <ratings_sum type="integer">0</ratings_sum>
+    <ratings_count type="integer">0</ratings_count>
+    <notes nil="true"/>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1 nil="true"/>
+    <work_id type="integer">1997473</work_id>
+    <read_count nil="true"/>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime" nil="true"/>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2016-02-27T12:02:15+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <book>
+      <id type="integer">102868</id>
+      <work_id type="integer">1997473</work_id>
+      <isbn>1420925539</isbn>
+      <isbn13>9781420925531</isbn13>
+      <title>A Study in Scarlet (Sherlock Holmes, #1)</title>
+      <sort_by_title>study in scarlet, a (sherlock holmes, #1)</sort_by_title>
+      <author_id type="integer">2448</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description nil="true"/>
+      <format>Paperback</format>
+      <publication_year type="integer">2005</publication_year>
+      <publication_month type="integer">1</publication_month>
+      <publication_day type="integer">1</publication_day>
+      <num_pages type="integer">108</num_pages>
+      <publisher>Digireads.com</publisher>
+      <language_code>eng</language_code>
+      <edition_information nil="true"/>
+      <url nil="true"/>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2012-09-23T01:03:56+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-05-16T15:04:57+00:00</s3_image_at>
+      <reviews_count type="integer">249496</reviews_count>
+      <ratings_sum type="integer">704379</ratings_sum>
+      <ratings_count type="integer">169649</ratings_count>
+      <text_reviews_count type="integer">4096</text_reviews_count>
+      <book_authors_count type="integer">0</book_authors_count>
+      <updated_at type="datetime">2016-01-18T18:47:59+00:00</updated_at>
+      <created_at type="datetime">2007-02-14T21:14:40+00:00</created_at>
+      <author_id_updater_user_id type="integer">903390</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer">4540522</author_role_updater_user_id>
+      <description_updater_user_id type="integer">5263888</description_updater_user_id>
+      <edition_information_updater_user_id type="integer" nil="true"/>
+      <format_updater_user_id type="integer">-51</format_updater_user_id>
+      <image_updater_user_id type="integer">-110</image_updater_user_id>
+      <isbn_updater_user_id type="integer">-51</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">-51</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">1134884</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">-51</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">-51</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">-51</publisher_updater_user_id>
+      <title_updater_user_id type="integer">28214210</title_updater_user_id>
+      <url_updater_user_id type="integer" nil="true"/>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <author>
+        <id type="integer">2448</id>
+        <name>Arthur Conan Doyle</name>
+        <updated_at type="datetime">2016-05-12T16:12:51+00:00</updated_at>
+        <created_at type="datetime">2006-11-20T17:58:33+00:00</created_at>
+        <searched_for_at type="datetime">2006-12-14T20:09:11+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2010-11-15T15:56:01+00:00</image_uploaded_at>
+        <user_id type="integer" nil="true"/>
+        <gender>M</gender>
+        <country_code>GB</country_code>
+        <born_at type="date">1859-05-22</born_at>
+        <died_at type="date">1930-07-07</died_at>
+        <about>Arthur Conan Doyle was born the third of ten siblings on 22 May 1859 in Edinburgh, Scotland. His father, Charles Altamont Doyle, was born in England of Irish descent, and his mother, born Mary Foley, was Irish. They were married in 1855.
+
+Although he is now referred to as "Conan Doyle", the origin of this compound surname (if that is how he meant it to be understood) is uncertain. His baptism record in the registry of St Mary's Cathedral in Edinburgh gives 'Arthur Ignatius Conan' as his Christian name, and simply 'Doyle' as his surname. It also names Michael Conan as his godfather.
+
+At the age of nine Conan Doyle was sent to the Roman Catholic Jesuit preparatory school, Hodder Place, Stonyhurst. He then went on to Stonyhurst College, leaving in 1875.
+
+From 1876 to 1881 he studied medicine at the University of Edinburgh. This required that he provide periodic medical assistance in the towns of Aston (now a district of Birmingham) and Sheffield. While studying, Conan Doyle began writing short stories. His first published story appeared in "&lt;i&gt;Chambers's Edinburgh Journal&lt;/i&gt;" before he was 20. Following his graduation, he was employed as a ship's doctor on the SS Mayumba during a voyage to the West African coast. He completed his doctorate on the subject of tabes dorsalis in 1885.
+
+In 1885 Conan Doyle married Louisa (or Louise) Hawkins, known as "Touie". She suffered from tuberculosis and died on 4 July 1906. The following year he married Jean Elizabeth Leckie, whom he had first met and fallen in love with in 1897. Due to his sense of loyalty he had maintained a purely platonic relationship with Jean while his first wife was alive. Jean died in London on 27 June 1940.
+
+Conan Doyle fathered five children. Two with his first wife—Mary Louise (28 January 1889 – 12 June 1976), and Arthur Alleyne Kingsley, known as Kingsley (15 November 1892 – 28 October 1918). With his second wife he had three children—Denis Percy Stewart (17 March 1909 – 9 March 1955), second husband in 1936 of Georgian Princess Nina Mdivani (circa 1910 – 19 February 1987; former sister-in-law of Barbara Hutton); Adrian Malcolm (19 November 1910–3 June 1970) and Jean Lena Annette (21 December 1912–18 November 1997).
+
+Conan Doyle was found clutching his chest in the hall of Windlesham, his house in Crowborough, East Sussex, on 7 July 1930. He had died of a heart attack at age 71. His last words were directed toward his wife: "You are wonderful." The epitaph on his gravestone in the churchyard at Minstead in the New Forest, Hampshire, reads:
+
+STEEL TRUE
+BLADE STRAIGHT
+ARTHUR CONAN DOYLE
+KNIGHT
+PATRIOT, PHYSICIAN &amp; MAN OF LETTERS
+
+Conan Doyle's house, Undershaw, located in  Hindhead, south of London, where he had lived for a decade, had been a hotel and restaurant between 1924 and 2004. It now stands empty while conservationists and Conan Doyle fans fight to preserve it.
+
+A statue honours Conan Doyle at Crowborough Cross in Crowborough, where Conan Doyle lived for 23 years. There is also a statue of Sherlock Holmes in Picardy Place, Edinburgh, close to the house where Conan Doyle was born.
+
+&lt;b&gt;Series:&lt;/b&gt;
+* &lt;a href="http://www.goodreads.com/series/49996-sherlock-holmes"&gt;Sherlock Holmes&lt;/a&gt;</about>
+        <uploader_user_id type="integer">4505862</uploader_user_id>
+        <image_copyright>http://www.google.ru/imglanding?q=conan+doyle&amp;um=1&amp;hl=ru&amp;sa=N&amp;tbs=isch:1&amp;tbnid=to4if9mFpeHplM:&amp;imgrefurl=http://danliterature.wordpress.com/the-adventure-of-the-bruce-partington-plans-by-sir-arthur-co</image_copyright>
+        <influences>[a:Joseph McCabe|208362], [a:Edgar Allan Poe|4624490], [a:Jules Verne|696805], [a:Walter Scott|4345], [a:Thomas Babington Macaulay|234077]</influences>
+        <url>http://www.sherlockholmesonline.org/</url>
+        <genre1>Fiction</genre1>
+        <genre2>Crime</genre2>
+        <genre3>Thriller</genre3>
+        <books_count type="integer">14948</books_count>
+        <reviews_count type="integer">1870406</reviews_count>
+        <ratings_sum type="integer">4901602</ratings_sum>
+        <works_count type="integer">3219</works_count>
+        <hometown>Edinburgh, Scotland</hometown>
+        <rating_dist>5:37074|4:40805|3:23020|2:3314|1:511|total:104724</rating_dist>
+        <s3_image_at type="datetime">2015-05-14T22:54:52+00:00</s3_image_at>
+        <ratings_count type="integer">1166849</ratings_count>
+        <text_reviews_count type="integer">33522</text_reviews_count>
+        <author_program_at type="datetime" nil="true"/>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">10545</fanships_count>
+        <best_book_id type="integer">102868</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>doyle, arthur conan</sort_by_name>
+        <shelf_display_name>Doyle, Arthur Conan</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
       <update type="readstatus">
       <action_text><![CDATA[started reading <a only_path="false" href="http://www.goodreads.com/review/show/1491479936">Medzerový plod</a>]]></action_text>
       <link>http://www.goodreads.com/read_statuses/1217900477</link>
@@ -110,13 +504,13 @@
     <id type="integer">1491479936</id>
     <user_id type="integer">6403898</user_id>
     <book_id type="integer">25174272</book_id>
-    <rating type="integer">0</rating>
-    <read_status>currently-reading</read_status>
+    <rating type="integer">2</rating>
+    <read_status>read</read_status>
     <sell_flag type="boolean">false</sell_flag>
     <review nil="true"/>
     <recommendation nil="true"/>
-    <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2016-02-01T14:19:18+00:00</updated_at>
+    <read_at type="datetime">2016-04-03T06:39:51+00:00</read_at>
+    <updated_at type="datetime">2016-04-03T06:39:51+00:00</updated_at>
     <created_at type="datetime">2016-01-02T23:21:59+00:00</created_at>
     <comments_count type="integer">0</comments_count>
     <weight type="integer">0</weight>
@@ -132,7 +526,7 @@
     <started_at type="datetime">2016-02-01T14:19:18+00:00</started_at>
     <hidden_flag type="boolean">false</hidden_flag>
     <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2016-02-01T14:19:18+00:00</last_revision_at>
+    <last_revision_at type="datetime">2016-04-03T06:39:51+00:00</last_revision_at>
     <non_friends_rating_count type="integer">0</non_friends_rating_count>
     <book>
       <id type="integer">25174272</id>
@@ -157,10 +551,10 @@
       <source_url nil="true"/>
       <image_uploaded_at type="datetime">2015-03-19T11:25:17+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2015-06-16T08:32:38+00:00</s3_image_at>
-      <reviews_count type="integer">56</reviews_count>
-      <ratings_sum type="integer">121</ratings_sum>
-      <ratings_count type="integer">28</ratings_count>
-      <text_reviews_count type="integer">8</text_reviews_count>
+      <reviews_count type="integer">67</reviews_count>
+      <ratings_sum type="integer">150</ratings_sum>
+      <ratings_count type="integer">35</ratings_count>
+      <text_reviews_count type="integer">9</text_reviews_count>
       <book_authors_count type="integer">0</book_authors_count>
       <updated_at type="datetime">2016-01-13T12:02:20+00:00</updated_at>
       <created_at type="datetime">2015-03-19T11:25:17+00:00</created_at>
@@ -185,7 +579,7 @@
       <author>
         <id type="integer">5822413</id>
         <name>Veronika Šikulová</name>
-        <updated_at type="datetime">2016-01-26T23:58:07+00:00</updated_at>
+        <updated_at type="datetime">2016-02-13T13:39:42+00:00</updated_at>
         <created_at type="datetime">2012-04-23T21:36:47+00:00</created_at>
         <searched_for_at type="datetime" nil="true"/>
         <image_uploaded_at type="datetime">2015-01-22T18:40:31+00:00</image_uploaded_at>
@@ -202,15 +596,15 @@
         <genre1>Poetry</genre1>
         <genre2>Fiction</genre2>
         <genre3></genre3>
-        <books_count type="integer">14</books_count>
-        <reviews_count type="integer">179</reviews_count>
-        <ratings_sum type="integer">379</ratings_sum>
-        <works_count type="integer">10</works_count>
+        <books_count type="integer">16</books_count>
+        <reviews_count type="integer">211</reviews_count>
+        <ratings_sum type="integer">479</ratings_sum>
+        <works_count type="integer">15</works_count>
         <hometown>Modra</hometown>
         <rating_dist nil="true"/>
         <s3_image_at type="datetime">2015-05-15T10:21:31+00:00</s3_image_at>
-        <ratings_count type="integer">101</ratings_count>
-        <text_reviews_count type="integer">13</text_reviews_count>
+        <ratings_count type="integer">124</ratings_count>
+        <text_reviews_count type="integer">16</text_reviews_count>
         <author_program_at type="datetime" nil="true"/>
         <postal_code nil="true"/>
         <fanships_count type="integer">0</fanships_count>
@@ -259,8 +653,8 @@
 </small_image_url>
 <link><![CDATA[http://www.goodreads.com/author/show/1895943.Graeme_Simsion]]></link>
 <average_rating>3.92</average_rating>
-<ratings_count>255616</ratings_count>
-<text_reviews_count>30805</text_reviews_count>
+<ratings_count>281491</ratings_count>
+<text_reviews_count>32838</text_reviews_count>
 </author>
 </authors>
           </book>
@@ -336,10 +730,10 @@
       <source_url nil="true"/>
       <image_uploaded_at type="datetime">2012-09-19T23:32:38+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2015-05-16T15:03:08+00:00</s3_image_at>
-      <reviews_count type="integer">6127</reviews_count>
-      <ratings_sum type="integer">13692</ratings_sum>
-      <ratings_count type="integer">3340</ratings_count>
-      <text_reviews_count type="integer">309</text_reviews_count>
+      <reviews_count type="integer">6350</reviews_count>
+      <ratings_sum type="integer">14117</ratings_sum>
+      <ratings_count type="integer">3438</ratings_count>
+      <text_reviews_count type="integer">315</text_reviews_count>
       <book_authors_count type="integer">0</book_authors_count>
       <updated_at type="datetime">2015-05-16T15:03:08+00:00</updated_at>
       <created_at type="datetime">2007-02-12T03:29:40+00:00</created_at>
@@ -364,7 +758,7 @@
       <author>
         <id type="integer">53283</id>
         <name>Scott Kelby</name>
-        <updated_at type="datetime">2016-02-01T14:04:14+00:00</updated_at>
+        <updated_at type="datetime">2016-05-12T11:09:52+00:00</updated_at>
         <created_at type="datetime">2007-02-12T03:29:40+00:00</created_at>
         <searched_for_at type="datetime">2007-05-21T10:05:18+00:00</searched_for_at>
         <image_uploaded_at type="datetime">2011-04-28T11:15:50+00:00</image_uploaded_at>
@@ -384,15 +778,15 @@ Kelby is a photographer, designer, and the award-winning author of more than 40 
         <genre1>Professional &amp; Technical</genre1>
         <genre2>Computers &amp; Internet</genre2>
         <genre3>Arts &amp; Photography</genre3>
-        <books_count type="integer">469</books_count>
-        <reviews_count type="integer">23414</reviews_count>
-        <ratings_sum type="integer">49508</ratings_sum>
-        <works_count type="integer">173</works_count>
+        <books_count type="integer">492</books_count>
+        <reviews_count type="integer">24558</reviews_count>
+        <ratings_sum type="integer">51943</ratings_sum>
+        <works_count type="integer">187</works_count>
         <hometown>Lakeland, Florida</hometown>
         <rating_dist>5:764|4:806|3:292|2:70|1:15|total:1947</rating_dist>
         <s3_image_at type="datetime">2015-05-14T23:09:29+00:00</s3_image_at>
-        <ratings_count type="integer">12005</ratings_count>
-        <text_reviews_count type="integer">790</text_reviews_count>
+        <ratings_count type="integer">12582</ratings_count>
+        <text_reviews_count type="integer">807</text_reviews_count>
         <author_program_at type="datetime" nil="true"/>
         <postal_code nil="true"/>
         <fanships_count type="integer">134</fanships_count>
@@ -479,10 +873,10 @@ Kelby is a photographer, designer, and the award-winning author of more than 40 
       <source_url nil="true"/>
       <image_uploaded_at type="datetime">2011-11-05T17:41:09+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2015-05-16T15:10:53+00:00</s3_image_at>
-      <reviews_count type="integer">5763</reviews_count>
-      <ratings_sum type="integer">13422</ratings_sum>
-      <ratings_count type="integer">3119</ratings_count>
-      <text_reviews_count type="integer">306</text_reviews_count>
+      <reviews_count type="integer">5964</reviews_count>
+      <ratings_sum type="integer">13869</ratings_sum>
+      <ratings_count type="integer">3221</ratings_count>
+      <text_reviews_count type="integer">309</text_reviews_count>
       <book_authors_count type="integer">0</book_authors_count>
       <updated_at type="datetime">2015-05-16T15:10:53+00:00</updated_at>
       <created_at type="datetime">2007-02-22T09:27:54+00:00</created_at>
@@ -507,7 +901,7 @@ Kelby is a photographer, designer, and the award-winning author of more than 40 
       <author>
         <id type="integer">82078</id>
         <name>Bryan Peterson</name>
-        <updated_at type="datetime">2016-01-30T20:19:17+00:00</updated_at>
+        <updated_at type="datetime">2016-04-30T05:21:16+00:00</updated_at>
         <created_at type="datetime">2007-02-22T09:27:54+00:00</created_at>
         <searched_for_at type="datetime">2007-03-11T13:05:44+00:00</searched_for_at>
         <image_uploaded_at type="datetime">2011-08-25T12:39:56+00:00</image_uploaded_at>
@@ -524,15 +918,15 @@ Kelby is a photographer, designer, and the award-winning author of more than 40 
         <genre1>Nonfiction</genre1>
         <genre2>Arts &amp; Photography</genre2>
         <genre3>Crafts &amp; Hobbies</genre3>
-        <books_count type="integer">82</books_count>
-        <reviews_count type="integer">13744</reviews_count>
-        <ratings_sum type="integer">30019</ratings_sum>
-        <works_count type="integer">22</works_count>
+        <books_count type="integer">83</books_count>
+        <reviews_count type="integer">14439</reviews_count>
+        <ratings_sum type="integer">31630</ratings_sum>
+        <works_count type="integer">23</works_count>
         <hometown></hometown>
         <rating_dist>5:551|4:432|3:164|2:33|1:3|total:1183</rating_dist>
         <s3_image_at type="datetime">2015-05-14T23:13:23+00:00</s3_image_at>
-        <ratings_count type="integer">7125</ratings_count>
-        <text_reviews_count type="integer">567</text_reviews_count>
+        <ratings_count type="integer">7500</ratings_count>
+        <text_reviews_count type="integer">580</text_reviews_count>
         <author_program_at type="datetime" nil="true"/>
         <postal_code nil="true"/>
         <fanships_count type="integer">49</fanships_count>
@@ -547,419 +941,6 @@ Kelby is a photographer, designer, and the award-winning author of more than 40 
   </review>
 </read_status>
 
-        </object>
-    </update>
-      <update type="userquote">
-      <action_text>liked a quote</action_text>
-      <link>http://www.goodreads.com/quotes/627060</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Sun, 24 Jan 2016 10:42:20 -0800</updated_at>
-        <body><![CDATA[The wonderful things in life are the things you do, not the things you have.]]></body>
-    </update>
-      <update type="readstatus">
-      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1523575902">The Naked Mountain</a>]]></action_text>
-      <link>http://www.goodreads.com/read_statuses/1201978287</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Sun, 24 Jan 2016 10:41:32 -0800</updated_at>
-        <object>
-          <read_status>
-  <id type="integer">1201978287</id>
-  <review_id type="integer">1523575902</review_id>
-  <user_id type="integer">6403898</user_id>
-  <old_status>read</old_status>
-  <status>to-read</status>
-  <updated_at type="datetime">2016-01-24T18:41:32+00:00</updated_at>
-  <review>
-    <id type="integer">1523575902</id>
-    <user_id type="integer">6403898</user_id>
-    <book_id type="integer">1834173</book_id>
-    <rating type="integer">0</rating>
-    <read_status>to-read</read_status>
-    <sell_flag type="boolean">false</sell_flag>
-    <review nil="true"/>
-    <recommendation nil="true"/>
-    <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2016-01-24T18:41:32+00:00</updated_at>
-    <created_at type="datetime">2016-01-24T18:41:30+00:00</created_at>
-    <comments_count type="integer">0</comments_count>
-    <weight type="integer">0</weight>
-    <ratings_sum type="integer">0</ratings_sum>
-    <ratings_count type="integer">0</ratings_count>
-    <notes nil="true"/>
-    <spoiler_flag type="boolean">false</spoiler_flag>
-    <recommender_user_id1 type="integer">0</recommender_user_id1>
-    <recommender_user_name1 nil="true"/>
-    <work_id type="integer">1834122</work_id>
-    <read_count nil="true"/>
-    <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime" nil="true"/>
-    <hidden_flag type="boolean">false</hidden_flag>
-    <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2016-01-24T18:41:32+00:00</last_revision_at>
-    <non_friends_rating_count type="integer">0</non_friends_rating_count>
-    <book>
-      <id type="integer">1834173</id>
-      <work_id type="integer">1834122</work_id>
-      <isbn nil="true"/>
-      <isbn13>9781594856631</isbn13>
-      <title>The Naked Mountain</title>
-      <sort_by_title>naked mountain, the</sort_by_title>
-      <author_id type="integer">11186</author_id>
-      <author_role nil="true"/>
-      <asin nil="true"/>
-      <description>Reinhold Messner is famous for many firsts: First to climb all fourteen 8000-meter peaks; first to summit Everest (with Peter Habeler) without supplementary oxygen, first to solo Everest. Nine of these, however, equals the drama of his first summit: 8000-meter peak Nanga Parbat. Thirty-two years later, Messner is still haunted by the events of June, 1970. While others on the expedition retreated, Reinhold Messner went for the summit, leaving his brother, Gunther, behind with the team photographer. Some hours later found that Gunther had followed him. The two reached the summit but Gunther developed altitude sickness; he was incapable of descending the technically-challenging route they had taken in reaching the summit. They became separated during the descent via the Diamir Flank, and when Reinhold returned to where he had left Gunther, his brother was gone. Back at basecamp, ugly accusations were exchanged between members of the expedition and a court battle followed in Germany. In this new book Reinhold Messner revisits this most painful period in his life, reviewing his own actions and blaming others for the way things turned out on Nanga Parbat.</description>
-      <format>Paperback</format>
-      <publication_year type="integer">2011</publication_year>
-      <publication_month type="integer">8</publication_month>
-      <publication_day type="integer">1</publication_day>
-      <num_pages type="integer">315</num_pages>
-      <publisher>Mountaineers Books</publisher>
-      <language_code>eng</language_code>
-      <edition_information nil="true"/>
-      <url nil="true"/>
-      <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2012-09-25T09:01:54+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-05-16T19:02:23+00:00</s3_image_at>
-      <reviews_count type="integer">433</reviews_count>
-      <ratings_sum type="integer">614</ratings_sum>
-      <ratings_count type="integer">154</ratings_count>
-      <text_reviews_count type="integer">6</text_reviews_count>
-      <book_authors_count type="integer">0</book_authors_count>
-      <updated_at type="datetime">2015-11-09T03:46:26+00:00</updated_at>
-      <created_at type="datetime">2007-09-05T05:01:56+00:00</created_at>
-      <author_id_updater_user_id type="integer">-51</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer">3459917</author_role_updater_user_id>
-      <description_updater_user_id type="integer">-51</description_updater_user_id>
-      <edition_information_updater_user_id type="integer" nil="true"/>
-      <format_updater_user_id type="integer">3459917</format_updater_user_id>
-      <image_updater_user_id type="integer">-110</image_updater_user_id>
-      <isbn_updater_user_id type="integer">3459917</isbn_updater_user_id>
-      <isbn13_updater_user_id type="integer">3459917</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">3459917</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">-51</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">3459917</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">3459917</publisher_updater_user_id>
-      <title_updater_user_id type="integer">-51</title_updater_user_id>
-      <url_updater_user_id type="integer" nil="true"/>
-      <title_language_code nil="true"/>
-      <publisher_language_code nil="true"/>
-      <description_language_code nil="true"/>
-      <asin_updater_user_id type="integer" nil="true"/>
-      <author>
-        <id type="integer">11186</id>
-        <name>Reinhold Messner</name>
-        <updated_at type="datetime">2016-02-01T09:18:03+00:00</updated_at>
-        <created_at type="datetime">2006-12-24T15:44:08+00:00</created_at>
-        <searched_for_at type="datetime">2007-02-17T23:00:14+00:00</searched_for_at>
-        <image_uploaded_at type="datetime">2010-02-19T17:10:30+00:00</image_uploaded_at>
-        <user_id type="integer" nil="true"/>
-        <gender></gender>
-        <country_code>IT</country_code>
-        <born_at type="date">1944-09-17</born_at>
-        <died_at type="datetime" nil="true"/>
-        <about>Reinhold Messner (born September 17, 1944) is an Italian mountaineer and explorer from South Tyrol, often cited as the greatest mountain climber of all time. He is renowned for making the first solo ascents of Mount Everest without supplemental oxygen and for being the first climber to ascend all fourteen "eight-thousanders" (peaks over 8,000 metres above sea level). He is the author of at least 63 books (in German, 1970–2006), many of which have been translated into other languages.</about>
-        <uploader_user_id type="integer">2458238</uploader_user_id>
-        <image_copyright>Wikipedia, accessed Feb. 17, 2010.</image_copyright>
-        <influences></influences>
-        <url></url>
-        <genre1>Outdoors &amp; Nature</genre1>
-        <genre2></genre2>
-        <genre3></genre3>
-        <books_count type="integer">210</books_count>
-        <reviews_count type="integer">4280</reviews_count>
-        <ratings_sum type="integer">6695</ratings_sum>
-        <works_count type="integer">111</works_count>
-        <hometown>Brixen</hometown>
-        <rating_dist>5:63|4:102|3:77|2:18|1:6|total:266</rating_dist>
-        <s3_image_at type="datetime">2015-05-14T22:59:10+00:00</s3_image_at>
-        <ratings_count type="integer">1734</ratings_count>
-        <text_reviews_count type="integer">134</text_reviews_count>
-        <author_program_at type="datetime" nil="true"/>
-        <postal_code nil="true"/>
-        <fanships_count type="integer">35</fanships_count>
-        <best_book_id type="integer">889459</best_book_id>
-        <name_language_code nil="true"/>
-        <sort_by_name>messner, reinhold</sort_by_name>
-        <shelf_display_name>Messner, Reinhold</shelf_display_name>
-        <gender_custom nil="true"/>
-        <gender_pronoun nil="true"/>
-      </author>
-    </book>
-  </review>
-</read_status>
-
-        </object>
-    </update>
-      <update type="readstatus">
-      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1523575814">The Crystal Horizon: Everest-The First Solo Ascent</a>]]></action_text>
-      <link>http://www.goodreads.com/read_statuses/1201978055</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Sun, 24 Jan 2016 10:41:27 -0800</updated_at>
-        <object>
-          <read_status>
-  <id type="integer">1201978055</id>
-  <review_id type="integer">1523575814</review_id>
-  <user_id type="integer">6403898</user_id>
-  <old_status>read</old_status>
-  <status>to-read</status>
-  <updated_at type="datetime">2016-01-24T18:41:27+00:00</updated_at>
-  <review>
-    <id type="integer">1523575814</id>
-    <user_id type="integer">6403898</user_id>
-    <book_id type="integer">889459</book_id>
-    <rating type="integer">0</rating>
-    <read_status>to-read</read_status>
-    <sell_flag type="boolean">false</sell_flag>
-    <review nil="true"/>
-    <recommendation nil="true"/>
-    <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2016-01-24T18:41:27+00:00</updated_at>
-    <created_at type="datetime">2016-01-24T18:41:26+00:00</created_at>
-    <comments_count type="integer">0</comments_count>
-    <weight type="integer">0</weight>
-    <ratings_sum type="integer">0</ratings_sum>
-    <ratings_count type="integer">0</ratings_count>
-    <notes nil="true"/>
-    <spoiler_flag type="boolean">false</spoiler_flag>
-    <recommender_user_id1 type="integer">0</recommender_user_id1>
-    <recommender_user_name1 nil="true"/>
-    <work_id type="integer">874708</work_id>
-    <read_count nil="true"/>
-    <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime" nil="true"/>
-    <hidden_flag type="boolean">false</hidden_flag>
-    <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2016-01-24T18:41:27+00:00</last_revision_at>
-    <non_friends_rating_count type="integer">0</non_friends_rating_count>
-    <book>
-      <id type="integer">889459</id>
-      <work_id type="integer">874708</work_id>
-      <isbn>0898865743</isbn>
-      <isbn13>9780898865745</isbn13>
-      <title>The Crystal Horizon: Everest-The First Solo Ascent</title>
-      <sort_by_title>crystal horizon: everest-the first solo ascent, the</sort_by_title>
-      <author_id type="integer">11186</author_id>
-      <author_role nil="true"/>
-      <asin nil="true"/>
-      <description>Messner / Author: Reinhold Messner / ISBN: 9780898865745</description>
-      <format>Paperback</format>
-      <publication_year type="integer">1989</publication_year>
-      <publication_month type="integer">1</publication_month>
-      <publication_day type="integer">1</publication_day>
-      <num_pages type="integer">324</num_pages>
-      <publisher>Mountaineers Books</publisher>
-      <language_code>eng</language_code>
-      <edition_information nil="true"/>
-      <url nil="true"/>
-      <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2012-09-23T09:58:33+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-05-16T16:56:35+00:00</s3_image_at>
-      <reviews_count type="integer">863</reviews_count>
-      <ratings_sum type="integer">1227</ratings_sum>
-      <ratings_count type="integer">303</ratings_count>
-      <text_reviews_count type="integer">16</text_reviews_count>
-      <book_authors_count type="integer">0</book_authors_count>
-      <updated_at type="datetime">2015-05-16T16:56:35+00:00</updated_at>
-      <created_at type="datetime">2007-05-15T04:24:42+00:00</created_at>
-      <author_id_updater_user_id type="integer">-10</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer" nil="true"/>
-      <description_updater_user_id type="integer">-10</description_updater_user_id>
-      <edition_information_updater_user_id type="integer" nil="true"/>
-      <format_updater_user_id type="integer">-10</format_updater_user_id>
-      <image_updater_user_id type="integer">-110</image_updater_user_id>
-      <isbn_updater_user_id type="integer">-10</isbn_updater_user_id>
-      <isbn13_updater_user_id type="integer">-10</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">-10</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">-10</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">-10</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">-10</publisher_updater_user_id>
-      <title_updater_user_id type="integer">-10</title_updater_user_id>
-      <url_updater_user_id type="integer" nil="true"/>
-      <title_language_code nil="true"/>
-      <publisher_language_code nil="true"/>
-      <description_language_code nil="true"/>
-      <asin_updater_user_id type="integer" nil="true"/>
-      <author>
-        <id type="integer">11186</id>
-        <name>Reinhold Messner</name>
-        <updated_at type="datetime">2016-02-01T09:18:03+00:00</updated_at>
-        <created_at type="datetime">2006-12-24T15:44:08+00:00</created_at>
-        <searched_for_at type="datetime">2007-02-17T23:00:14+00:00</searched_for_at>
-        <image_uploaded_at type="datetime">2010-02-19T17:10:30+00:00</image_uploaded_at>
-        <user_id type="integer" nil="true"/>
-        <gender></gender>
-        <country_code>IT</country_code>
-        <born_at type="date">1944-09-17</born_at>
-        <died_at type="datetime" nil="true"/>
-        <about>Reinhold Messner (born September 17, 1944) is an Italian mountaineer and explorer from South Tyrol, often cited as the greatest mountain climber of all time. He is renowned for making the first solo ascents of Mount Everest without supplemental oxygen and for being the first climber to ascend all fourteen "eight-thousanders" (peaks over 8,000 metres above sea level). He is the author of at least 63 books (in German, 1970–2006), many of which have been translated into other languages.</about>
-        <uploader_user_id type="integer">2458238</uploader_user_id>
-        <image_copyright>Wikipedia, accessed Feb. 17, 2010.</image_copyright>
-        <influences></influences>
-        <url></url>
-        <genre1>Outdoors &amp; Nature</genre1>
-        <genre2></genre2>
-        <genre3></genre3>
-        <books_count type="integer">210</books_count>
-        <reviews_count type="integer">4280</reviews_count>
-        <ratings_sum type="integer">6695</ratings_sum>
-        <works_count type="integer">111</works_count>
-        <hometown>Brixen</hometown>
-        <rating_dist>5:63|4:102|3:77|2:18|1:6|total:266</rating_dist>
-        <s3_image_at type="datetime">2015-05-14T22:59:10+00:00</s3_image_at>
-        <ratings_count type="integer">1734</ratings_count>
-        <text_reviews_count type="integer">134</text_reviews_count>
-        <author_program_at type="datetime" nil="true"/>
-        <postal_code nil="true"/>
-        <fanships_count type="integer">35</fanships_count>
-        <best_book_id type="integer">889459</best_book_id>
-        <name_language_code nil="true"/>
-        <sort_by_name>messner, reinhold</sort_by_name>
-        <shelf_display_name>Messner, Reinhold</shelf_display_name>
-        <gender_custom nil="true"/>
-        <gender_pronoun nil="true"/>
-      </author>
-    </book>
-  </review>
-</read_status>
-
-        </object>
-    </update>
-      <update type="userstatus">
-      <action_text><![CDATA[is on page 200 of 368 of <a href="https://www.goodreads.com/book/show/23492671-the-rosie-effect">The Rosie Effect</a>]]></action_text>
-      <link>http://www.goodreads.com/user_status/show/86022922</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Sat, 23 Jan 2016 09:24:59 -0800</updated_at>
-        <object>
-          <user_status>
-  <id type="integer">86022922</id>
-  <user_id type="integer">6403898</user_id>
-  <book_id type="integer">23492671</book_id>
-  <page type="integer">200</page>
-  <chapter type="integer" nil="true"/>
-  <comments_count type="integer">0</comments_count>
-  <body></body>
-  <created_at type="datetime">2016-01-23T17:24:59+00:00</created_at>
-  <updated_at type="datetime">2016-01-23T17:24:59+00:00</updated_at>
-  <last_comment_at type="datetime" nil="true"/>
-  <ratings_count type="integer">0</ratings_count>
-  <percent type="integer">54</percent>
-  <work_id type="integer">41326408</work_id>
-  <note_uri nil="true"/>
-  <note_updated_at type="datetime" nil="true"/>
-  <review_id type="integer">1496712337</review_id>
-  <book>
-    <id type="integer">23492671</id>
-    <work_id type="integer">41326408</work_id>
-    <isbn>1476767327</isbn>
-    <isbn13>9781476767321</isbn13>
-    <title>The Rosie Effect (Don Tillman, #2)</title>
-    <sort_by_title>rosie effect (don tillman, #2), the</sort_by_title>
-    <author_id type="integer">1895943</author_id>
-    <author_role nil="true"/>
-    <asin nil="true"/>
-    <description></description>
-    <format>Paperback</format>
-    <publication_year type="integer">2015</publication_year>
-    <publication_month type="integer">7</publication_month>
-    <publication_day type="integer">21</publication_day>
-    <num_pages type="integer">368</num_pages>
-    <publisher>Simon &amp; Schuster</publisher>
-    <language_code>eng</language_code>
-    <edition_information nil="true"/>
-    <url nil="true"/>
-    <source_url nil="true"/>
-    <image_uploaded_at type="datetime">2015-07-20T05:28:34+00:00</image_uploaded_at>
-    <s3_image_at type="datetime">2015-07-20T05:28:35+00:00</s3_image_at>
-    <reviews_count type="integer">18097</reviews_count>
-    <ratings_sum type="integer">32252</ratings_sum>
-    <ratings_count type="integer">9235</ratings_count>
-    <text_reviews_count type="integer">1104</text_reviews_count>
-    <book_authors_count type="integer">0</book_authors_count>
-    <updated_at type="datetime">2016-01-01T14:51:05+00:00</updated_at>
-    <created_at type="datetime">2014-11-03T02:40:30+00:00</created_at>
-    <author_id_updater_user_id type="integer">-44</author_id_updater_user_id>
-    <author_role_updater_user_id type="integer">-9</author_role_updater_user_id>
-    <description_updater_user_id type="integer">45618</description_updater_user_id>
-    <edition_information_updater_user_id type="integer" nil="true"/>
-    <format_updater_user_id type="integer">-44</format_updater_user_id>
-    <image_updater_user_id type="integer">-44</image_updater_user_id>
-    <isbn_updater_user_id type="integer">-44</isbn_updater_user_id>
-    <isbn13_updater_user_id type="integer">-44</isbn13_updater_user_id>
-    <language_updater_user_id type="integer">989638</language_updater_user_id>
-    <num_pages_updater_user_id type="integer">-44</num_pages_updater_user_id>
-    <publication_date_updater_user_id type="integer">-44</publication_date_updater_user_id>
-    <publisher_updater_user_id type="integer">-44</publisher_updater_user_id>
-    <title_updater_user_id type="integer">5949408</title_updater_user_id>
-    <url_updater_user_id type="integer" nil="true"/>
-    <title_language_code nil="true"/>
-    <publisher_language_code nil="true"/>
-    <description_language_code nil="true"/>
-    <asin_updater_user_id type="integer" nil="true"/>
-    <author>
-      <id type="integer">1895943</id>
-      <name>Graeme Simsion</name>
-      <updated_at type="datetime">2016-02-01T11:02:49+00:00</updated_at>
-      <created_at type="datetime">2008-09-05T06:13:53+00:00</created_at>
-      <searched_for_at type="datetime">2009-09-16T07:37:31+00:00</searched_for_at>
-      <image_uploaded_at type="datetime">2015-07-15T22:29:37+00:00</image_uploaded_at>
-      <user_id type="integer">16514642</user_id>
-      <gender>M</gender>
-      <country_code></country_code>
-      <born_at type="datetime" nil="true"/>
-      <died_at type="datetime" nil="true"/>
-      <about>Graeme Simsion is a former IT consultant and the author of two nonfiction books on database design who decided, at the age of fifty, to turn his hand to fiction. His first novel, &lt;i&gt;The Rosie Project,&lt;/i&gt; was published in 2013 and translation rights have been sold in over thirty-five languages. Graeme lives in Australia with his wife, Anne, and their two children. </about>
-      <uploader_user_id type="integer">4940203</uploader_user_id>
-      <image_copyright>Simonandschuster.net</image_copyright>
-      <influences></influences>
-      <url>http://rosieproject.com</url>
-      <genre1>Fiction</genre1>
-      <genre2>Romance</genre2>
-      <genre3></genre3>
-      <books_count type="integer">178</books_count>
-      <reviews_count type="integer">442093</reviews_count>
-      <ratings_sum type="integer">1002984</ratings_sum>
-      <works_count type="integer">9</works_count>
-      <hometown></hometown>
-      <rating_dist>total:1|5:0|4:1|3:0|2:0|1:0|</rating_dist>
-      <s3_image_at type="datetime" nil="true"/>
-      <ratings_count type="integer">255616</ratings_count>
-      <text_reviews_count type="integer">30805</text_reviews_count>
-      <author_program_at type="datetime">2015-07-20T18:10:02+00:00</author_program_at>
-      <postal_code nil="true"/>
-      <fanships_count type="integer">749</fanships_count>
-      <best_book_id type="integer">16181775</best_book_id>
-      <name_language_code nil="true"/>
-      <sort_by_name>simsion, graeme</sort_by_name>
-      <shelf_display_name>Simsion, Graeme</shelf_display_name>
-      <gender_custom nil="true"/>
-      <gender_pronoun nil="true"/>
-    </author>
-  </book>
-</user_status>
         </object>
     </update>
 </updates>

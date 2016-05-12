@@ -7,6 +7,7 @@
 
 $base-family: 'Alegreya';
 $header-family: 'Sorts Mill Goudy';
+//$header-family: 'Sorts Mill Goudy';
 
 // Our variables
 $base-font-family: $base-family, 'Georgia', serif;
@@ -29,7 +30,7 @@ $brand-color:      #1f87ea; // #0e5395 #1f87ea #126dc4
 
 // Links
 $link-color:       $brand-color;
-$visited-color:    darken($brand-color,20%);
+$visited-color:    lighten($brand-color,10%);
 
 // Grey colors
 $grey-color:       #828282;

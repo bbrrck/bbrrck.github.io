@@ -9,13 +9,13 @@ bibtex-indent: "  "
 
 {% for year in pubs %}
   <section class="pubs" id="y{{ year.year }}">
-  <h2>{{ year.year }}</h2>
+  <div class="year">{{ year.year }}</div>
   {% for item in year.items %}
     <section class="pub" id="p-{{ item.pdf.file }}">
         <img src="/assets/{{ item.pdf.file }}.png" />
         <div class="pub-content">
-            <h3>{{ item.bibtex.title }}</h3>
-            <div class="author">{% for author in item.bibtex.authors %}{% if author.last == 'Stanko' %}TS{% else %}{% if author.url %}<a href="{{ author.url }}">{% endif %}{% assign firstparts = {author.first | split: '-'} %}{% for fpart in firstparts %}{{ fpart | split: '' | first }}{% endfor %} {{ author.last }}{% if author.url %}</a>{% endif %}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</div>
+            <div class="title">{{ item.bibtex.title }}</div>
+            <div class="authors">{% for author in item.bibtex.authors %}{% if author.last == 'Stanko' %}TS{% else %}{% if author.url %}<a href="{{ author.url }}">{% endif %}{% assign firstparts = {author.first | split: '-'} %}{% for fpart in firstparts %}{{ fpart | split: '' | first }}{% endfor %} {{ author.last }}{% if author.url %}</a>{% endif %}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</div>
             {% if item.advisor %}<div class="advisor"><a href="{{ item.advisor.url }}">{{ item.advisor.name }}</a></div>{% endif %}
             <div class="description">{{ item.description }}</div>
             <div class="links">

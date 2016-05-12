@@ -4,7 +4,7 @@
       - type: inproceedings
         ## non-bibtex stuff
         slug: "Stanko:2016:EG"
-        description: "Eurographics 2016 short paper"
+        description: "short paper, Eurographics 2016"
         pdf: 
             file: 2016-eg
             size: 7.0
@@ -36,7 +36,7 @@
   items:          
       - type : masterthesis
         slug   : "Stanko:2014:MSc"
-        description: "master's thesis"
+        description: "master's thesis, Comenius University <small>(Bratislava)</small>"
         advisor:
             name: "Pavel Chalmovianský"
             url : "http://www.sccg.sk/~chalmo/"
@@ -51,7 +51,7 @@
             year   : 2014
       
       - type: inproceedings
-        description: "CESCG 2014 paper"
+        description: "paper, CESCG 2014"
         slug     : "Stanko:2014:CESCG"
         pdf: 
             file: 2014-cescg
@@ -69,7 +69,7 @@
   items:
       - type: masterthesis
         slug: "Stanko:2012:BSc"
-        description: "bachelor's thesis"
+        description: "bachelor's thesis, Comenius University"
         advisor:
             name: "Matej Novotný"
             url : "http://www.sccg.sk/~mnovotny/"
