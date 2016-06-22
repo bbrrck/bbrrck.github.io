@@ -18,7 +18,7 @@
     <location>Grenoble, France</location>
     <website>http://tiborstanko.sk</website>
     <joined>09/2011</joined>
-    <last_active>04/2016</last_active>
+    <last_active>06/2016</last_active>
     <interests></interests>
     <favorite_books></favorite_books>
     <favorite_authors>
@@ -27,12 +27,12 @@
     <reviews_rss_url><![CDATA[http://www.goodreads.com/review/list_rss/6403898?key=eUpt8wwDPOS4taudee2olTYOroOILRdM_TbxDXFEniuz-3KB&shelf=%23ALL%23]]></reviews_rss_url>
     <friends_count type="integer">18</friends_count>
     <groups_count>1</groups_count>
-    <reviews_count type="integer">217</reviews_count>
+    <reviews_count type="integer">218</reviews_count>
     <user_shelves type="array">
   <user_shelf>
     <id type="integer">21052661</id>
     <name>read</name>
-    <book_count type="integer">108</book_count>
+    <book_count type="integer">109</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -46,7 +46,7 @@
   <user_shelf>
     <id type="integer">21052660</id>
     <name>currently-reading</name>
-    <book_count type="integer">5</book_count>
+    <book_count type="integer">6</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -60,7 +60,7 @@
   <user_shelf>
     <id type="integer">21052659</id>
     <name>to-read</name>
-    <book_count type="integer">104</book_count>
+    <book_count type="integer">103</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -74,7 +74,7 @@
   <user_shelf>
     <id type="integer">166970294</id>
     <name>2016</name>
-    <book_count type="integer">21</book_count>
+    <book_count type="integer">22</book_count>
     <exclusive_flag type="boolean">false</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -87,6 +87,329 @@
   </user_shelf>
 </user_shelves>
       <updates type="array">
+      <update type="readstatus">
+      <action_text><![CDATA[is currently reading <a only_path="false" href="http://www.goodreads.com/review/show/1663809990">The Elementary Particles</a>]]></action_text>
+      <link>http://www.goodreads.com/read_statuses/1387069732</link>
+      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Thu, 09 Jun 2016 10:23:46 -0700</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">1387069732</id>
+  <review_id type="integer">1663809990</review_id>
+  <user_id type="integer">6403898</user_id>
+  <old_status nil="true"/>
+  <status>currently-reading</status>
+  <updated_at type="datetime">2016-06-09T17:23:46+00:00</updated_at>
+  <review>
+    <id type="integer">1663809990</id>
+    <user_id type="integer">6403898</user_id>
+    <book_id type="integer">58314</book_id>
+    <rating type="integer">0</rating>
+    <read_status>currently-reading</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review nil="true"/>
+    <recommendation nil="true"/>
+    <read_at type="datetime" nil="true"/>
+    <updated_at type="datetime">2016-06-09T17:23:50+00:00</updated_at>
+    <created_at type="datetime">2016-06-09T17:23:45+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">0</weight>
+    <ratings_sum type="integer">0</ratings_sum>
+    <ratings_count type="integer">0</ratings_count>
+    <notes nil="true"/>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1 nil="true"/>
+    <work_id type="integer">2595873</work_id>
+    <read_count nil="true"/>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime">2016-06-09T17:23:46+00:00</started_at>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2016-06-09T17:23:50+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <book>
+      <id type="integer">58314</id>
+      <work_id type="integer">2595873</work_id>
+      <isbn>0375727019</isbn>
+      <isbn13>9780375727016</isbn13>
+      <title>The Elementary Particles</title>
+      <sort_by_title>elementary particles, the</sort_by_title>
+      <author_id type="integer">32878</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description>An international literary phenomenon, &lt;b&gt;The Elementary Particles&lt;/b&gt; is a frighteningly original novel–part Marguerite Duras and part Bret Easton Ellis-that leaps headlong into the malaise of contemporary existence.&lt;br&gt;&lt;br&gt;Bruno and Michel are half-brothers abandoned by their mother, an unabashed devotee of the drugged-out free-love world of the sixties. Bruno, the older, has become a raucously promiscuous hedonist himself, while Michel is an emotionally dead molecular biologist wholly immersed in the solitude of his work. Each is ultimately offered a final chance at genuine love, and what unfolds is a brilliantly caustic and unpredictable tale.&lt;br&gt;&lt;br&gt;Translated from the French by Frank Wynne.</description>
+      <format>Paperback</format>
+      <publication_year type="integer">2001</publication_year>
+      <publication_month type="integer">11</publication_month>
+      <publication_day type="integer">13</publication_day>
+      <num_pages type="integer">272</num_pages>
+      <publisher>Vintage</publisher>
+      <language_code>eng</language_code>
+      <edition_information nil="true"/>
+      <url nil="true"/>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2014-06-19T12:22:05+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-05-16T14:55:58+00:00</s3_image_at>
+      <reviews_count type="integer">19896</reviews_count>
+      <ratings_sum type="integer">45973</ratings_sum>
+      <ratings_count type="integer">11891</ratings_count>
+      <text_reviews_count type="integer">631</text_reviews_count>
+      <book_authors_count type="integer">1</book_authors_count>
+      <updated_at type="datetime">2015-05-16T14:55:58+00:00</updated_at>
+      <created_at type="datetime">2007-02-03T12:50:57+00:00</created_at>
+      <author_id_updater_user_id type="integer">-50</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer">6565711</author_role_updater_user_id>
+      <description_updater_user_id type="integer">-50</description_updater_user_id>
+      <edition_information_updater_user_id type="integer" nil="true"/>
+      <format_updater_user_id type="integer">-50</format_updater_user_id>
+      <image_updater_user_id type="integer">-51</image_updater_user_id>
+      <isbn_updater_user_id type="integer">-50</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">-50</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">24793762</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">-50</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">-50</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">-50</publisher_updater_user_id>
+      <title_updater_user_id type="integer">-50</title_updater_user_id>
+      <url_updater_user_id type="integer" nil="true"/>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <author>
+        <id type="integer">32878</id>
+        <name>Michel Houellebecq</name>
+        <updated_at type="datetime">2016-06-22T02:37:28+00:00</updated_at>
+        <created_at type="datetime">2007-02-03T12:50:57+00:00</created_at>
+        <searched_for_at type="datetime">2007-02-04T21:03:48+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2014-07-16T11:53:52+00:00</image_uploaded_at>
+        <user_id type="integer" nil="true"/>
+        <gender>M</gender>
+        <country_code>FR</country_code>
+        <born_at type="date">1958-02-26</born_at>
+        <died_at type="datetime" nil="true"/>
+        <about>Michel Houellebecq (born Michel Thomas), born 26 February 1958 (birth certificate) or 1956 on the French island of Réunion, is a controversial and award-winning French novelist. To admirers he is a writer in the tradition of literary provocation that reaches back to the Marquis de Sade and Baudelaire; to detractors he is a peddler of sleaze and shock. Having written poetry and a biography of the horror writer H. P. Lovecraft, he brought out his first novel &lt;i&gt;Extension du domaine de la lutte&lt;/i&gt; in 1994. &lt;i&gt;Les particules élémentaires&lt;/i&gt; followed in 1998 and &lt;i&gt;Plateform &lt;/i&gt;, in 2001. After a disastrous publicity tour for this book, which led to his being taken to court for inciting racial hatred, he went to Ireland to write.
+
+Michel Houellebecq won France's top literary award, the Goncourt Prize, for his book The Map and the Territory in 2010.
+
+He currently lives in Spain.</about>
+        <uploader_user_id type="integer">14059993</uploader_user_id>
+        <image_copyright></image_copyright>
+        <influences>[a:Albert Camus|957894], [a:Balzac|228089], [a:Lovecraft|9494], [a:Sade|957894], [a:Baudelaire|13847], [a:Bret Easton Ellis|2751], [a:Aldous Huxley|3487], [a:Georges Perec|15923]</influences>
+        <url></url>
+        <genre1>Literature &amp; Fiction</genre1>
+        <genre2>Nonfiction</genre2>
+        <genre3></genre3>
+        <books_count type="integer">700</books_count>
+        <reviews_count type="integer">109144</reviews_count>
+        <ratings_sum type="integer">245870</ratings_sum>
+        <works_count type="integer">42</works_count>
+        <hometown>Saint-Pierre (La Réunion)</hometown>
+        <rating_dist>5:1966|4:3000|3:2326|2:832|1:339|total:8463</rating_dist>
+        <s3_image_at type="datetime">2015-05-14T23:06:08+00:00</s3_image_at>
+        <ratings_count type="integer">65691</ratings_count>
+        <text_reviews_count type="integer">4851</text_reviews_count>
+        <author_program_at type="datetime" nil="true"/>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">1109</fanships_count>
+        <best_book_id type="integer">58314</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>houellebecq, michel</sort_by_name>
+        <shelf_display_name>Houellebecq, Michel</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 5 stars to <a href="http://www.goodreads.com/book/show/13963.Man_Meets_Dog">Man Meets Dog (Paperback)</a> by <a href="http://www.goodreads.com/author/show/8674.Konrad_Lorenz">Konrad Lorenz</a>]]></action_text>
+      <link>http://www.goodreads.com/review/show/1504380115</link>
+      <image_url>http://d.gr-assets.com/books/1356443914s/13963.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Sun, 22 May 2016 15:15:53 -0700</updated_at>
+          <action type="rating">
+            <rating>5</rating>
+          </action>
+        <object>
+          <book>
+            <id>13963</id>
+            <title>Man Meets Dog</title>
+            <link>http://www.goodreads.com/book/show/13963.Man_Meets_Dog</link>
+            <authors>
+<author>
+<id>8674</id>
+<name>Konrad Lorenz</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[http://d.gr-assets.com/authors/1208422955p5/8674.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[http://d.gr-assets.com/authors/1208422955p2/8674.jpg]]>
+</small_image_url>
+<link><![CDATA[http://www.goodreads.com/author/show/8674.Konrad_Lorenz]]></link>
+<average_rating>4.12</average_rating>
+<ratings_count>3557</ratings_count>
+<text_reviews_count>236</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+    </update>
+      <update type="readstatus">
+      <action_text><![CDATA[started reading <a only_path="false" href="http://www.goodreads.com/review/show/1504380115">Man Meets Dog</a>]]></action_text>
+      <link>http://www.goodreads.com/read_statuses/1351188985</link>
+      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Thu, 12 May 2016 13:19:00 -0700</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">1351188985</id>
+  <review_id type="integer">1504380115</review_id>
+  <user_id type="integer">6403898</user_id>
+  <old_status>to-read</old_status>
+  <status>currently-reading</status>
+  <updated_at type="datetime">2016-05-12T20:19:00+00:00</updated_at>
+  <review>
+    <id type="integer">1504380115</id>
+    <user_id type="integer">6403898</user_id>
+    <book_id type="integer">13963</book_id>
+    <rating type="integer">5</rating>
+    <read_status>read</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review nil="true"/>
+    <recommendation nil="true"/>
+    <read_at type="datetime">2016-05-22T22:15:53+00:00</read_at>
+    <updated_at type="datetime">2016-05-22T22:15:53+00:00</updated_at>
+    <created_at type="datetime">2016-01-10T21:42:14+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">0</weight>
+    <ratings_sum type="integer">1</ratings_sum>
+    <ratings_count type="integer">1</ratings_count>
+    <notes nil="true"/>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1 nil="true"/>
+    <work_id type="integer">2186647</work_id>
+    <read_count nil="true"/>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime">2016-05-12T20:19:00+00:00</started_at>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2016-05-22T22:15:53+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <book>
+      <id type="integer">13963</id>
+      <work_id type="integer">2186647</work_id>
+      <isbn>0415267455</isbn>
+      <isbn13>9780415267458</isbn13>
+      <title>Man Meets Dog</title>
+      <sort_by_title>man meets dog</sort_by_title>
+      <author_id type="integer">8674</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description>In this wonderful book, the famous scientist and best-selling author, Konrad Lorenz, 'the man who talked with animals', enlightens and entertains us with his illustrated account of the unique relationship between humans and their pets. Displaying Lorenz's customary humanity and expert knowledge of animals, Man Meets Dog is also a deeply personal and entertaining account of his relationships with his own four-legged friends. With charming sketches on almost every page, Man Meets Dog offers a delightful insight into animal and human thinking and feeling. An essential companion for all lovers of dogs (and cats!).</description>
+      <format>Paperback</format>
+      <publication_year type="integer">2002</publication_year>
+      <publication_month type="integer">5</publication_month>
+      <publication_day type="integer">9</publication_day>
+      <num_pages type="integer">226</num_pages>
+      <publisher>Routledge</publisher>
+      <language_code>eng</language_code>
+      <edition_information nil="true"/>
+      <url nil="true"/>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2012-12-25T13:58:34+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-05-16T14:52:47+00:00</s3_image_at>
+      <reviews_count type="integer">657</reviews_count>
+      <ratings_sum type="integer">1302</ratings_sum>
+      <ratings_count type="integer">326</ratings_count>
+      <text_reviews_count type="integer">19</text_reviews_count>
+      <book_authors_count type="integer">0</book_authors_count>
+      <updated_at type="datetime">2015-05-16T14:52:47+00:00</updated_at>
+      <created_at type="datetime">2006-12-20T00:41:15+00:00</created_at>
+      <author_id_updater_user_id type="integer">-51</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer">-10</author_role_updater_user_id>
+      <description_updater_user_id type="integer">-51</description_updater_user_id>
+      <edition_information_updater_user_id type="integer" nil="true"/>
+      <format_updater_user_id type="integer">-51</format_updater_user_id>
+      <image_updater_user_id type="integer">-51</image_updater_user_id>
+      <isbn_updater_user_id type="integer">-51</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">-51</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">-10</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">-51</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">-51</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">-51</publisher_updater_user_id>
+      <title_updater_user_id type="integer">-51</title_updater_user_id>
+      <url_updater_user_id type="integer" nil="true"/>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <author>
+        <id type="integer">8674</id>
+        <name>Konrad Lorenz</name>
+        <updated_at type="datetime">2016-06-21T18:52:58+00:00</updated_at>
+        <created_at type="datetime">2006-12-20T00:41:15+00:00</created_at>
+        <searched_for_at type="datetime">2007-04-21T14:41:52+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2008-04-17T09:02:35+00:00</image_uploaded_at>
+        <user_id type="integer" nil="true"/>
+        <gender>M</gender>
+        <country_code></country_code>
+        <born_at type="date">1903-11-07</born_at>
+        <died_at type="date">1989-02-27</died_at>
+        <about></about>
+        <uploader_user_id type="integer">1015035</uploader_user_id>
+        <image_copyright>http://upload.wikimedia.org/wikipedia/en/f/f9/Lorenz.gif</image_copyright>
+        <influences></influences>
+        <url></url>
+        <genre1></genre1>
+        <genre2></genre2>
+        <genre3></genre3>
+        <books_count type="integer">246</books_count>
+        <reviews_count type="integer">7783</reviews_count>
+        <ratings_sum type="integer">14640</ratings_sum>
+        <works_count type="integer">62</works_count>
+        <hometown>Vienna</hometown>
+        <rating_dist>5:153|4:173|3:103|2:17|1:2|total:448</rating_dist>
+        <s3_image_at type="datetime">2015-05-14T22:57:55+00:00</s3_image_at>
+        <ratings_count type="integer">3557</ratings_count>
+        <text_reviews_count type="integer">236</text_reviews_count>
+        <author_program_at type="datetime" nil="true"/>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">50</fanships_count>
+        <best_book_id type="integer">13965</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>lorenz, konrad</sort_by_name>
+        <shelf_display_name>Lorenz, Konrad</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
       <update type="review">
       <action_text><![CDATA[gave 5 stars to <a href="http://www.goodreads.com/book/show/18077903-creativity-inc">Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration (Hardcover)</a> by <a href="http://www.goodreads.com/author/show/5618463.Ed_Catmull">Ed Catmull</a>]]></action_text>
       <link>http://www.goodreads.com/review/show/1384619569</link>
@@ -119,8 +442,8 @@
 </small_image_url>
 <link><![CDATA[http://www.goodreads.com/author/show/5618463.Ed_Catmull]]></link>
 <average_rating>4.21</average_rating>
-<ratings_count>17170</ratings_count>
-<text_reviews_count>1545</text_reviews_count>
+<ratings_count>18195</ratings_count>
+<text_reviews_count>1612</text_reviews_count>
 </author>
 </authors>
           </book>
@@ -205,10 +528,10 @@ To sú otázky, na ktoré sa pokúša priniesť odpoveď kniha poľského report
       <source_url nil="true"/>
       <image_uploaded_at type="datetime">2015-07-29T09:32:54+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2015-07-29T09:32:55+00:00</s3_image_at>
-      <reviews_count type="integer">93</reviews_count>
-      <ratings_sum type="integer">299</ratings_sum>
-      <ratings_count type="integer">62</ratings_count>
-      <text_reviews_count type="integer">10</text_reviews_count>
+      <reviews_count type="integer">110</reviews_count>
+      <ratings_sum type="integer">341</ratings_sum>
+      <ratings_count type="integer">71</ratings_count>
+      <text_reviews_count type="integer">13</text_reviews_count>
       <book_authors_count type="integer">1</book_authors_count>
       <updated_at type="datetime">2015-08-24T11:44:31+00:00</updated_at>
       <created_at type="datetime">2015-06-10T08:16:24+00:00</created_at>
@@ -233,7 +556,7 @@ To sú otázky, na ktoré sa pokúša priniesť odpoveď kniha poľského report
       <author>
         <id type="integer">557612</id>
         <name>Wojciech Tochman</name>
-        <updated_at type="datetime">2016-05-01T17:45:36+00:00</updated_at>
+        <updated_at type="datetime">2016-06-14T20:53:53+00:00</updated_at>
         <created_at type="datetime">2007-06-08T02:25:04+00:00</created_at>
         <searched_for_at type="datetime">2008-04-19T08:48:11+00:00</searched_for_at>
         <image_uploaded_at type="datetime">2009-04-19T21:43:36+00:00</image_uploaded_at>
@@ -253,14 +576,14 @@ For several years Tochman was involved in activities aimed at finding missing pe
         <genre2>Short Stories</genre2>
         <genre3></genre3>
         <books_count type="integer">28</books_count>
-        <reviews_count type="integer">3432</reviews_count>
-        <ratings_sum type="integer">7772</ratings_sum>
+        <reviews_count type="integer">3563</reviews_count>
+        <ratings_sum type="integer">8055</ratings_sum>
         <works_count type="integer">15</works_count>
         <hometown>Kraków</hometown>
         <rating_dist>5:6|4:14|3:5|2:3|1:0|total:28</rating_dist>
         <s3_image_at type="datetime">2015-05-15T00:03:02+00:00</s3_image_at>
-        <ratings_count type="integer">1806</ratings_count>
-        <text_reviews_count type="integer">107</text_reviews_count>
+        <ratings_count type="integer">1868</ratings_count>
+        <text_reviews_count type="integer">116</text_reviews_count>
         <author_program_at type="datetime" nil="true"/>
         <postal_code nil="true"/>
         <fanships_count type="integer">23</fanships_count>
@@ -308,8 +631,8 @@ For several years Tochman was involved in activities aimed at finding missing pe
 <![CDATA[http://d.gr-assets.com/authors/1421952031p2/5822413.jpg]]>
 </small_image_url>
 <link><![CDATA[http://www.goodreads.com/author/show/5822413.Veronika_ikulov_]]></link>
-<average_rating>3.86</average_rating>
-<ratings_count>124</ratings_count>
+<average_rating>3.88</average_rating>
+<ratings_count>128</ratings_count>
 <text_reviews_count>16</text_reviews_count>
 </author>
 </authors>
@@ -386,10 +709,10 @@ For several years Tochman was involved in activities aimed at finding missing pe
       <source_url nil="true"/>
       <image_uploaded_at type="datetime">2012-09-23T01:03:56+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2015-05-16T15:04:57+00:00</s3_image_at>
-      <reviews_count type="integer">249496</reviews_count>
-      <ratings_sum type="integer">704379</ratings_sum>
-      <ratings_count type="integer">169649</ratings_count>
-      <text_reviews_count type="integer">4096</text_reviews_count>
+      <reviews_count type="integer">253950</reviews_count>
+      <ratings_sum type="integer">715366</ratings_sum>
+      <ratings_count type="integer">172239</ratings_count>
+      <text_reviews_count type="integer">4169</text_reviews_count>
       <book_authors_count type="integer">0</book_authors_count>
       <updated_at type="datetime">2016-01-18T18:47:59+00:00</updated_at>
       <created_at type="datetime">2007-02-14T21:14:40+00:00</created_at>
@@ -414,7 +737,7 @@ For several years Tochman was involved in activities aimed at finding missing pe
       <author>
         <id type="integer">2448</id>
         <name>Arthur Conan Doyle</name>
-        <updated_at type="datetime">2016-05-12T16:12:51+00:00</updated_at>
+        <updated_at type="datetime">2016-06-22T09:49:29+00:00</updated_at>
         <created_at type="datetime">2006-11-20T17:58:33+00:00</created_at>
         <searched_for_at type="datetime">2006-12-14T20:09:11+00:00</searched_for_at>
         <image_uploaded_at type="datetime">2010-11-15T15:56:01+00:00</image_uploaded_at>
@@ -456,15 +779,15 @@ A statue honours Conan Doyle at Crowborough Cross in Crowborough, where Conan Do
         <genre1>Fiction</genre1>
         <genre2>Crime</genre2>
         <genre3>Thriller</genre3>
-        <books_count type="integer">14948</books_count>
-        <reviews_count type="integer">1870406</reviews_count>
-        <ratings_sum type="integer">4901602</ratings_sum>
-        <works_count type="integer">3219</works_count>
+        <books_count type="integer">15349</books_count>
+        <reviews_count type="integer">1907969</reviews_count>
+        <ratings_sum type="integer">4987406</ratings_sum>
+        <works_count type="integer">2545</works_count>
         <hometown>Edinburgh, Scotland</hometown>
         <rating_dist>5:37074|4:40805|3:23020|2:3314|1:511|total:104724</rating_dist>
         <s3_image_at type="datetime">2015-05-14T22:54:52+00:00</s3_image_at>
-        <ratings_count type="integer">1166849</ratings_count>
-        <text_reviews_count type="integer">33522</text_reviews_count>
+        <ratings_count type="integer">1187111</ratings_count>
+        <text_reviews_count type="integer">34124</text_reviews_count>
         <author_program_at type="datetime" nil="true"/>
         <postal_code nil="true"/>
         <fanships_count type="integer">10545</fanships_count>
@@ -551,9 +874,9 @@ A statue honours Conan Doyle at Crowborough Cross in Crowborough, where Conan Do
       <source_url nil="true"/>
       <image_uploaded_at type="datetime">2015-03-19T11:25:17+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2015-06-16T08:32:38+00:00</s3_image_at>
-      <reviews_count type="integer">67</reviews_count>
-      <ratings_sum type="integer">150</ratings_sum>
-      <ratings_count type="integer">35</ratings_count>
+      <reviews_count type="integer">71</reviews_count>
+      <ratings_sum type="integer">154</ratings_sum>
+      <ratings_count type="integer">36</ratings_count>
       <text_reviews_count type="integer">9</text_reviews_count>
       <book_authors_count type="integer">0</book_authors_count>
       <updated_at type="datetime">2016-01-13T12:02:20+00:00</updated_at>
@@ -579,7 +902,7 @@ A statue honours Conan Doyle at Crowborough Cross in Crowborough, where Conan Do
       <author>
         <id type="integer">5822413</id>
         <name>Veronika Šikulová</name>
-        <updated_at type="datetime">2016-02-13T13:39:42+00:00</updated_at>
+        <updated_at type="datetime">2016-05-24T21:39:03+00:00</updated_at>
         <created_at type="datetime">2012-04-23T21:36:47+00:00</created_at>
         <searched_for_at type="datetime" nil="true"/>
         <image_uploaded_at type="datetime">2015-01-22T18:40:31+00:00</image_uploaded_at>
@@ -596,14 +919,14 @@ A statue honours Conan Doyle at Crowborough Cross in Crowborough, where Conan Do
         <genre1>Poetry</genre1>
         <genre2>Fiction</genre2>
         <genre3></genre3>
-        <books_count type="integer">16</books_count>
-        <reviews_count type="integer">211</reviews_count>
-        <ratings_sum type="integer">479</ratings_sum>
+        <books_count type="integer">18</books_count>
+        <reviews_count type="integer">222</reviews_count>
+        <ratings_sum type="integer">496</ratings_sum>
         <works_count type="integer">15</works_count>
         <hometown>Modra</hometown>
         <rating_dist nil="true"/>
         <s3_image_at type="datetime">2015-05-15T10:21:31+00:00</s3_image_at>
-        <ratings_count type="integer">124</ratings_count>
+        <ratings_count type="integer">128</ratings_count>
         <text_reviews_count type="integer">16</text_reviews_count>
         <author_program_at type="datetime" nil="true"/>
         <postal_code nil="true"/>
@@ -612,328 +935,6 @@ A statue honours Conan Doyle at Crowborough Cross in Crowborough, where Conan Do
         <name_language_code nil="true"/>
         <sort_by_name>Šikulová, veronika</sort_by_name>
         <shelf_display_name>Šikulová, Veronika</shelf_display_name>
-        <gender_custom nil="true"/>
-        <gender_pronoun nil="true"/>
-      </author>
-    </book>
-  </review>
-</read_status>
-
-        </object>
-    </update>
-      <update type="review">
-      <action_text><![CDATA[gave 3 stars to <a href="http://www.goodreads.com/book/show/23492671-the-rosie-effect">The Rosie Effect (Don Tillman, #2)</a> by <a href="http://www.goodreads.com/author/show/1895943.Graeme_Simsion">Graeme Simsion</a>]]></action_text>
-      <link>http://www.goodreads.com/review/show/1496712337</link>
-      <image_url>http://d.gr-assets.com/books/1437370114s/23492671.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Tue, 26 Jan 2016 00:26:00 -0800</updated_at>
-          <action type="rating">
-            <rating>3</rating>
-          </action>
-        <object>
-          <book>
-            <id>23492671</id>
-            <title><![CDATA[The Rosie Effect (Don Tillman, #2)]]></title>
-            <link>http://www.goodreads.com/book/show/23492671-the-rosie-effect</link>
-            <authors>
-<author>
-<id>1895943</id>
-<name>Graeme Simsion</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[http://d.gr-assets.com/authors/1436999377p5/1895943.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[http://d.gr-assets.com/authors/1436999377p2/1895943.jpg]]>
-</small_image_url>
-<link><![CDATA[http://www.goodreads.com/author/show/1895943.Graeme_Simsion]]></link>
-<average_rating>3.92</average_rating>
-<ratings_count>281491</ratings_count>
-<text_reviews_count>32838</text_reviews_count>
-</author>
-</authors>
-          </book>
-        </object>
-    </update>
-      <update type="readstatus">
-      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1523675134">The Digital Photography Book (Volume 1)</a>]]></action_text>
-      <link>http://www.goodreads.com/read_statuses/1202156471</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Sun, 24 Jan 2016 12:00:51 -0800</updated_at>
-        <object>
-          <read_status>
-  <id type="integer">1202156471</id>
-  <review_id type="integer">1523675134</review_id>
-  <user_id type="integer">6403898</user_id>
-  <old_status>read</old_status>
-  <status>to-read</status>
-  <updated_at type="datetime">2016-01-24T20:00:51+00:00</updated_at>
-  <review>
-    <id type="integer">1523675134</id>
-    <user_id type="integer">6403898</user_id>
-    <book_id type="integer">92833</book_id>
-    <rating type="integer">0</rating>
-    <read_status>to-read</read_status>
-    <sell_flag type="boolean">false</sell_flag>
-    <review nil="true"/>
-    <recommendation nil="true"/>
-    <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2016-01-24T20:00:51+00:00</updated_at>
-    <created_at type="datetime">2016-01-24T20:00:51+00:00</created_at>
-    <comments_count type="integer">0</comments_count>
-    <weight type="integer">0</weight>
-    <ratings_sum type="integer">0</ratings_sum>
-    <ratings_count type="integer">0</ratings_count>
-    <notes nil="true"/>
-    <spoiler_flag type="boolean">false</spoiler_flag>
-    <recommender_user_id1 type="integer">0</recommender_user_id1>
-    <recommender_user_name1 nil="true"/>
-    <work_id type="integer">89514</work_id>
-    <read_count nil="true"/>
-    <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime" nil="true"/>
-    <hidden_flag type="boolean">false</hidden_flag>
-    <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2016-01-24T20:00:51+00:00</last_revision_at>
-    <non_friends_rating_count type="integer">0</non_friends_rating_count>
-    <book>
-      <id type="integer">92833</id>
-      <work_id type="integer">89514</work_id>
-      <isbn>032147404X</isbn>
-      <isbn13>9780321474049</isbn13>
-      <title>The Digital Photography Book (Volume 1)</title>
-      <sort_by_title>digital photography book volume 1</sort_by_title>
-      <author_id type="integer">53283</author_id>
-      <author_role nil="true"/>
-      <asin nil="true"/>
-      <description>This text tackles the most important side of digital photography - how to take professional-quality shots using the same tricks today's top digital pros use.</description>
-      <format>Paperback</format>
-      <publication_year type="integer">2006</publication_year>
-      <publication_month type="integer">8</publication_month>
-      <publication_day type="integer">1</publication_day>
-      <num_pages type="integer">219</num_pages>
-      <publisher>Peachpit Press</publisher>
-      <language_code>eng</language_code>
-      <edition_information nil="true"/>
-      <url>http://www.peachpit.com/store/product.aspx?isbn=032147404X</url>
-      <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2012-09-19T23:32:38+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-05-16T15:03:08+00:00</s3_image_at>
-      <reviews_count type="integer">6350</reviews_count>
-      <ratings_sum type="integer">14117</ratings_sum>
-      <ratings_count type="integer">3438</ratings_count>
-      <text_reviews_count type="integer">315</text_reviews_count>
-      <book_authors_count type="integer">0</book_authors_count>
-      <updated_at type="datetime">2015-05-16T15:03:08+00:00</updated_at>
-      <created_at type="datetime">2007-02-12T03:29:40+00:00</created_at>
-      <author_id_updater_user_id type="integer">-51</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer">-10</author_role_updater_user_id>
-      <description_updater_user_id type="integer">-51</description_updater_user_id>
-      <edition_information_updater_user_id type="integer" nil="true"/>
-      <format_updater_user_id type="integer">-51</format_updater_user_id>
-      <image_updater_user_id type="integer">-110</image_updater_user_id>
-      <isbn_updater_user_id type="integer">-51</isbn_updater_user_id>
-      <isbn13_updater_user_id type="integer">-51</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">21637760</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">-51</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">-51</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">-51</publisher_updater_user_id>
-      <title_updater_user_id type="integer">21637760</title_updater_user_id>
-      <url_updater_user_id type="integer">1449630</url_updater_user_id>
-      <title_language_code nil="true"/>
-      <publisher_language_code nil="true"/>
-      <description_language_code nil="true"/>
-      <asin_updater_user_id type="integer" nil="true"/>
-      <author>
-        <id type="integer">53283</id>
-        <name>Scott Kelby</name>
-        <updated_at type="datetime">2016-05-12T11:09:52+00:00</updated_at>
-        <created_at type="datetime">2007-02-12T03:29:40+00:00</created_at>
-        <searched_for_at type="datetime">2007-05-21T10:05:18+00:00</searched_for_at>
-        <image_uploaded_at type="datetime">2011-04-28T11:15:50+00:00</image_uploaded_at>
-        <user_id type="integer" nil="true"/>
-        <gender>M</gender>
-        <country_code>US</country_code>
-        <born_at type="date">1960-01-01</born_at>
-        <died_at type="datetime" nil="true"/>
-        <about>Scott Kelby is an American author and publisher of periodicals dealing in Macintosh and Personal Computer software, specifically for design professionals, photographers, and artists.
-
-Kelby is editor and publisher of Photoshop User and Layers magazines, president and co-founder of the National Association of Photoshop Professionals (NAPP) and is president of Kelby Media Group, an Oldsmar, Florida-based software training, education, and publishing firm.
-Kelby is a photographer, designer, and the award-winning author of more than 40 books.</about>
-        <uploader_user_id type="integer">5331860</uploader_user_id>
-        <image_copyright>http://en.wikipedia.org/wiki/Scott_Kelby</image_copyright>
-        <influences></influences>
-        <url>http://www.scottkelby.com/</url>
-        <genre1>Professional &amp; Technical</genre1>
-        <genre2>Computers &amp; Internet</genre2>
-        <genre3>Arts &amp; Photography</genre3>
-        <books_count type="integer">492</books_count>
-        <reviews_count type="integer">24558</reviews_count>
-        <ratings_sum type="integer">51943</ratings_sum>
-        <works_count type="integer">187</works_count>
-        <hometown>Lakeland, Florida</hometown>
-        <rating_dist>5:764|4:806|3:292|2:70|1:15|total:1947</rating_dist>
-        <s3_image_at type="datetime">2015-05-14T23:09:29+00:00</s3_image_at>
-        <ratings_count type="integer">12582</ratings_count>
-        <text_reviews_count type="integer">807</text_reviews_count>
-        <author_program_at type="datetime" nil="true"/>
-        <postal_code nil="true"/>
-        <fanships_count type="integer">134</fanships_count>
-        <best_book_id type="integer">92833</best_book_id>
-        <name_language_code nil="true"/>
-        <sort_by_name>kelby, scott</sort_by_name>
-        <shelf_display_name>Kelby, Scott</shelf_display_name>
-        <gender_custom nil="true"/>
-        <gender_pronoun nil="true"/>
-      </author>
-    </book>
-  </review>
-</read_status>
-
-        </object>
-    </update>
-      <update type="readstatus">
-      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1523638177">Understanding Exposure: How to Shoot Great Photographs with a Film or Digital Camera</a>]]></action_text>
-      <link>http://www.goodreads.com/read_statuses/1202089346</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Sun, 24 Jan 2016 11:31:17 -0800</updated_at>
-        <object>
-          <read_status>
-  <id type="integer">1202089346</id>
-  <review_id type="integer">1523638177</review_id>
-  <user_id type="integer">6403898</user_id>
-  <old_status>read</old_status>
-  <status>to-read</status>
-  <updated_at type="datetime">2016-01-24T19:31:17+00:00</updated_at>
-  <review>
-    <id type="integer">1523638177</id>
-    <user_id type="integer">6403898</user_id>
-    <book_id type="integer">142239</book_id>
-    <rating type="integer">0</rating>
-    <read_status>to-read</read_status>
-    <sell_flag type="boolean">false</sell_flag>
-    <review nil="true"/>
-    <recommendation nil="true"/>
-    <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2016-01-24T19:31:17+00:00</updated_at>
-    <created_at type="datetime">2016-01-24T19:31:16+00:00</created_at>
-    <comments_count type="integer">0</comments_count>
-    <weight type="integer">0</weight>
-    <ratings_sum type="integer">0</ratings_sum>
-    <ratings_count type="integer">0</ratings_count>
-    <notes nil="true"/>
-    <spoiler_flag type="boolean">false</spoiler_flag>
-    <recommender_user_id1 type="integer">0</recommender_user_id1>
-    <recommender_user_name1 nil="true"/>
-    <work_id type="integer">1133324</work_id>
-    <read_count nil="true"/>
-    <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime" nil="true"/>
-    <hidden_flag type="boolean">false</hidden_flag>
-    <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2016-01-24T19:31:17+00:00</last_revision_at>
-    <non_friends_rating_count type="integer">0</non_friends_rating_count>
-    <book>
-      <id type="integer">142239</id>
-      <work_id type="integer">1133324</work_id>
-      <isbn>0817463003</isbn>
-      <isbn13>9780817463007</isbn13>
-      <title>Understanding Exposure: How to Shoot Great Photographs with a Film or Digital Camera</title>
-      <sort_by_title>understanding exposure: how to shoot great photographs with a film or digital camera</sort_by_title>
-      <author_id type="integer">82078</author_id>
-      <author_role nil="true"/>
-      <asin nil="true"/>
-      <description>More than 100 vivid, graphic comparison pictures illustrate every point in this revised classic and can help any photographer maximize the creative impact of his or her exposure decisions. Peterson stresses the importance of metering the subject for a starting exposure, and then explains how to use various exposure meters and different kinds of lighting. The book contains lessons on each element of the exposure-aperature, shutter speed, iso-and how it relates to the other two in terms of depth of field, freezing and blurring action, and shooting in low light or at night. A section on special techniques explores such options as deliberate under- and overexposures, how to produce double exposures, bracketing, shooting the moon, and the use of filters. &lt;i&gt;Understanding Exposure&lt;/i&gt; demonstrates that there are always creative choices about how to expose a picture-and that the decision is up to the photographer, not the camera.</description>
-      <format>Paperback</format>
-      <publication_year type="integer">2004</publication_year>
-      <publication_month type="integer">8</publication_month>
-      <publication_day type="integer">1</publication_day>
-      <num_pages type="integer">160</num_pages>
-      <publisher>Amphoto Books</publisher>
-      <language_code>eng</language_code>
-      <edition_information>Revised Edition</edition_information>
-      <url nil="true"/>
-      <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2011-11-05T17:41:09+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-05-16T15:10:53+00:00</s3_image_at>
-      <reviews_count type="integer">5964</reviews_count>
-      <ratings_sum type="integer">13869</ratings_sum>
-      <ratings_count type="integer">3221</ratings_count>
-      <text_reviews_count type="integer">309</text_reviews_count>
-      <book_authors_count type="integer">0</book_authors_count>
-      <updated_at type="datetime">2015-05-16T15:10:53+00:00</updated_at>
-      <created_at type="datetime">2007-02-22T09:27:54+00:00</created_at>
-      <author_id_updater_user_id type="integer">-50</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer">890685</author_role_updater_user_id>
-      <description_updater_user_id type="integer">-50</description_updater_user_id>
-      <edition_information_updater_user_id type="integer">890685</edition_information_updater_user_id>
-      <format_updater_user_id type="integer">-50</format_updater_user_id>
-      <image_updater_user_id type="integer">-50</image_updater_user_id>
-      <isbn_updater_user_id type="integer">-50</isbn_updater_user_id>
-      <isbn13_updater_user_id type="integer">-50</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">890685</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">-50</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">-50</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">-50</publisher_updater_user_id>
-      <title_updater_user_id type="integer">890685</title_updater_user_id>
-      <url_updater_user_id type="integer" nil="true"/>
-      <title_language_code nil="true"/>
-      <publisher_language_code nil="true"/>
-      <description_language_code nil="true"/>
-      <asin_updater_user_id type="integer" nil="true"/>
-      <author>
-        <id type="integer">82078</id>
-        <name>Bryan Peterson</name>
-        <updated_at type="datetime">2016-04-30T05:21:16+00:00</updated_at>
-        <created_at type="datetime">2007-02-22T09:27:54+00:00</created_at>
-        <searched_for_at type="datetime">2007-03-11T13:05:44+00:00</searched_for_at>
-        <image_uploaded_at type="datetime">2011-08-25T12:39:56+00:00</image_uploaded_at>
-        <user_id type="integer" nil="true"/>
-        <gender>M</gender>
-        <country_code>US</country_code>
-        <born_at type="datetime" nil="true"/>
-        <died_at type="datetime" nil="true"/>
-        <about>Bryan F. Peterson has been a full-time commercial photographer since 1981, shooting assignments all over the world for many of the Fortune 500 companies, including Kodak, UPS, and American Expiress. He is also a contract stock photographer for Corbis and Getty. He has been a contributing editor at Outdoor Photographer Magazine and is currently a contributing editor at Popular Photography and Imaging Magazine. Within the photographic community, he is most noted as the author/photographer of four best selling “how-to” photography books, Understanding Exposure, Understanding Shutter Speed, Learning to See Creatively and Beyond Portraits, with two new books due out in the spring of 2009, Understanding Close-up Photography and The Field Guide to Photography. He is also the founder and one of the instructors at the world’s number one on-line photography school, www.ppsop.net.</about>
-        <uploader_user_id type="integer">5331860</uploader_user_id>
-        <image_copyright>http://a4.sphotos.ak.fbcdn.net/hphotos-ak-snc3/25733_120740381275139_115171325165378_297751_3221352_n.jpg</image_copyright>
-        <influences></influences>
-        <url>http://www.bryanfpeterson.com/</url>
-        <genre1>Nonfiction</genre1>
-        <genre2>Arts &amp; Photography</genre2>
-        <genre3>Crafts &amp; Hobbies</genre3>
-        <books_count type="integer">83</books_count>
-        <reviews_count type="integer">14439</reviews_count>
-        <ratings_sum type="integer">31630</ratings_sum>
-        <works_count type="integer">23</works_count>
-        <hometown></hometown>
-        <rating_dist>5:551|4:432|3:164|2:33|1:3|total:1183</rating_dist>
-        <s3_image_at type="datetime">2015-05-14T23:13:23+00:00</s3_image_at>
-        <ratings_count type="integer">7500</ratings_count>
-        <text_reviews_count type="integer">580</text_reviews_count>
-        <author_program_at type="datetime" nil="true"/>
-        <postal_code nil="true"/>
-        <fanships_count type="integer">49</fanships_count>
-        <best_book_id type="integer">142239</best_book_id>
-        <name_language_code nil="true"/>
-        <sort_by_name>peterson, bryan</sort_by_name>
-        <shelf_display_name>Peterson, Bryan</shelf_display_name>
         <gender_custom nil="true"/>
         <gender_pronoun nil="true"/>
       </author>

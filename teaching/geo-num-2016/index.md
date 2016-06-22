@@ -18,9 +18,9 @@ title: teaching
  {% endfor %}
 </div>
 
-
+{% comment %}
 {% include teaching-geonum2016-news.html %}
-
+{% endcomment %}
 
 <h2>Description</h2>
 <img src="/assets/geo-num-2016/teapot.png" alt="Utah teapot" title="Utah teapot" />
