@@ -14,8 +14,12 @@
       </a>
 
       <div class="trigger">
+        {% assign urlparts = {page.url | split: '/'} %}
+        {% assign base = urlparts[1] %}
         {% for p in site.links %}
-          <a style="text-transform:lowercase;" class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+            {% assign p_urlparts = {p.url | split: '/'} %}
+            {% assign p_base = p_urlparts[1] %}
+            <a style="text-transform:lowercase;" class="page-link{% if p_base == base %} page-link-active{% endif %}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
         {% endfor %}
       </div>
     </nav>

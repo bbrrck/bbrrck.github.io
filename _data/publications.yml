@@ -5,7 +5,7 @@
       - type: article
         ## non-bibtex stuff
         slug: "Stanko:2016:CAG"
-        description: "Computers & Graphics, xx:yy"
+        description: "2016, Computers & Graphics, xx:yy"
         pdf: 
             file: 2016-cag
             size: 16.7
@@ -30,7 +30,7 @@
       - type: inproceedings
         ## non-bibtex stuff
         slug: "Stanko:2016:EG"
-        description: "Eurographics 2016 — short papers"
+        description: "2016, Eurographics — short papers"
         pdf: 
             file: 2016-eg
             size: 7.0
@@ -64,7 +64,7 @@
   items:          
       - type : masterthesis
         slug   : "Stanko:2014:MSc"
-        description: "master's thesis, Comenius University <small>(Bratislava)</small>"
+        description: "2014, master's thesis, Comenius University <small>(Bratislava, Slovakia)</small>"
         advisor:
             name: "Pavel Chalmovianský"
             url : "http://www.sccg.sk/~chalmo/"
@@ -79,8 +79,11 @@
             year   : 2014
       
       - type: inproceedings
-        description: "CESCG 2014 paper"
+        description: "2014, CESCG paper"
         slug     : "Stanko:2014:CESCG"
+        advisor:
+            name: "Pavel Chalmovianský"
+            url : "http://www.sccg.sk/~chalmo/"
         pdf: 
             file: 2014-cescg
             size: 2.4
@@ -97,7 +100,7 @@
   items:
       - type: masterthesis
         slug: "Stanko:2012:BSc"
-        description: "bachelor's thesis, Comenius University"
+        description: "2012, bachelor's thesis, Comenius University <small>(Bratislava, Slovakia)</small>"
         advisor:
             name: "Matej Novotný"
             url : "http://www.sccg.sk/~mnovotny/"

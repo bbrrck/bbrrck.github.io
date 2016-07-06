@@ -9,15 +9,15 @@ bibtex-indent: "  "
 
 {% for year in pubs %}
   <section class="pubs" id="y{{ year.year }}">
-  <div class="year">{{ year.year }}</div>
+  <!--div class="year">{{ year.year }}</div-->
   {% for item in year.items %}
-    <section class="pub" id="p-{{ item.pdf.file }}">
+    <section class="pub {{ item.type }}" id="p-{{ item.pdf.file }}">
         <img src="/assets/{{ item.pdf.file }}.png" />
         <div class="pub-content">
             <div class="title">{{ item.bibtex.title }}</div>
             <div class="authors">{% for author in item.bibtex.authors %}{% if author.last == 'Stanko' %}TS{% else %}{% if author.url %}<a href="{{ author.url }}">{% endif %}{% assign firstparts = {author.first | split: '-'} %}{% for fpart in firstparts %}{{ fpart | split: '' | first }}{% endfor %} {{ author.last }}{% if author.url %}</a>{% endif %}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</div>
-            {% if item.advisor %}<div class="advisor"><a href="{{ item.advisor.url }}">{{ item.advisor.name }}</a></div>{% endif %}
             <div class="description">{{ item.description }}</div>
+            {% if item.advisor %}<div class="advisor"><a href="{{ item.advisor.url }}">{{ item.advisor.name }}</a></div>{% endif %}
             <div class="links">
                 [ <a href="/assets/{{ item.pdf.file }}.pdf">pdf</a> ~ {{ item.pdf.size }} MB ]
                 {% if item.url %}

@@ -33,6 +33,9 @@
         &:not(:first-child) {
             margin-left: 20px;
         }
+        &.page-link-active {
+            text-decoration:underline;
+        }
     }
     @include media-query($on-palm) {
         position: absolute;
