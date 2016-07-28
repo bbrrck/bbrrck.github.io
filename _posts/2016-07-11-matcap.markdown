@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Surface Interrogation... Matcaps... whattt"
+date:   2016-07-12 10:00:00
+permalink: matcap
+category: cplusplus glsl blender surface
+tags: surface interrogration matcap
+draft: true
+---
+
+Outline
+- isophotes, reflection lines, matcap (material capture) = lit sphere
+
+Intro
+- surface interrogation, why?
+
+Isophotes and reflection lines
+- what are they?
+- history (automotive)
+- differences
+- examples
+
+Matcap
+- what is it?
+- relation to environment mapping, normal mapping?
+- when used?
+- using these for surface interrogration: what textures are good?
+- lit spheres paper + siggraph GP paper (I got to the first through the second)
+
+GLSL Implementation
+- glsl implementation: https://www.clicktorelease.com/blog/creating-spherical-environment-mapping-shader
+
+Examples
+- test various objects and various textures
+
+
+
+{% highlight cplusplus %}
+{% endhighlight %}
+
+{% highlight glsl %}
+{% endhighlight %}

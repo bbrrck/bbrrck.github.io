@@ -35,7 +35,7 @@ Next, I use
 [Spotify client](http://negativo17.org/spotify-client/).
 
 {% highlight bash %}
-    dnf config-manager --add-repo=http://negativo17.org/repos/fedora-nvidia.repo
+dnf config-manager --add-repo=http://negativo17.org/repos/fedora-nvidia.repo
 dnf config-manager --add-repo=http://negativo17.org/repos/fedora-skype.repo
 dnf config-manager --add-repo=http://negativo17.org/repos/fedora-spotify.repo
 dnf remove \*nvidia\*
@@ -51,7 +51,7 @@ Dnf provides many useful package groups; to obtain list of available groups:
 To get the details of a group:
 
 {% highlight bash %}
-    dnf group info 'Group Name'
+dnf group info 'Group Name'
 {% endhighlight %}
 
 To install a group:
