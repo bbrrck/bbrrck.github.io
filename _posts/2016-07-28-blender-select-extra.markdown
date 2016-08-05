@@ -4,7 +4,6 @@ title:  "Selecting extraordinary vertices in Blender"
 date:   2016-07-28 12:53:00
 permalink: blender-select-extra
 category: blender
-tags: polygon, mesh, extraordinary, vertex, select
 ---
 
 Extraordinary vertices in a polygon mesh are the ones which are not regular --

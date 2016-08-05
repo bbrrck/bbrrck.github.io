@@ -5,8 +5,6 @@ title: publications
 bibtex-indent: "  "
 ---
 
-<h1>Publications</h1>
-
 {% assign pubs = site.data.publications %}
 {% for year in pubs %}
   <section class="pubs" id="y{{ year.year }}">

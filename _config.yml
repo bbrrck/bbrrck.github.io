@@ -8,7 +8,7 @@ enforce_ssl: tiborstanko.sk # without any protocol
 future: false
 permalink: none
 markdown: kramdown
-#highlighter: rouge
+highlighter: rouge
 
 twitter_username: tiborstanko
 github_username:  bbrrck

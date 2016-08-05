@@ -1,18 +1,15 @@
 ---
 layout: default
 ---
-<div class="home">
-  <ul class="post-list">
-    {% for post in site.posts %}{% unless post.draft %}
-      <li>
-        {% if post.thumbbb %}
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            <img style="float:left;margin:0 1em 1em 0;height:3.5em;" src="/assets/posts/{{post.thumb}}" />
-        </a>
-        {% endif %}
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      </li>
-    {% endunless %}{% endfor %}
-  </ul>
-</div>
+{% for post in site.posts %}{% unless post.draft %}
+<article class="blogpost">
+    <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+    <div class="meta">
+        <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="cat"><a href="/c/{{ post.category }}">{{ post.category | replace: '-', ' ' }}</a></span>
+    </div>
+    <div class="content">
+        {{ post.content }}
+    </div>
+</article>
+{% endunless %}{% endfor %}

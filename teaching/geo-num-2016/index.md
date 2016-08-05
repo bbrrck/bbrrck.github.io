@@ -23,7 +23,7 @@ title: teaching
 {% endcomment %}
 
 <h2>Description</h2>
-<img src="/assets/geo-num-2016/teapot.png" alt="Utah teapot" title="Utah teapot" />
+<!--img src="/assets/geo-num-2016/teapot.png" alt="Utah teapot" title="Utah teapot" /-->
 <p>
 This page is dedicated to the practical part of the <em>Géométrie Numérique</em> course, with lectures given by <a href="http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/">Georges-Pierre Bonneau</a>. Assignements (and some theory) will be published here.
 </p>

@@ -6,29 +6,20 @@ section.course {
         display: block;
         float: right;
     }
-    h1 {
-        margin: 0;
-        font-size: 200%;
-    }
     h1 a {
         margin-left: .5em;
         font-size: 40%;
     }
     h2 {
-        margin-top: 1.5em;
-        font-size: 133%;
-        color: #111;
+        margin-top: 1em;
     }
     .meta {
-        color: invert($brand-color);
+        color: #999;
         margin-left: 0.5em;
         span + span:before {
             content: "|";
             margin: 0 0.4em 0 0.2em;
             color: #ccc;
-        }
-        .semester {
-            color: #000;
         }
     }
     ul {
@@ -110,7 +101,6 @@ section.course {
     }
     .tp-header {
         h1 {
-            font-size: 150%;
             color: $brand-color;
             margin: 1em 0 0;
         }
@@ -121,7 +111,6 @@ section.course {
     }
     .tp-text {
         h2 {
-            font-size: 150%;
             margin-top: 1.5em; 
         }
         h2:first-child {

@@ -1,9 +1,9 @@
 ---
-layout: post
-title:  "Bézier surfaces in Matlab"
-date:   2016-02-01 16:30:00
-permalink: bezier-surfaces-matlab
-category: matlab
+layout:     post
+title:      Bézier surfaces in Matlab
+date:       2016-02-01 16:30:00
+permalink:  bezier-surfaces-matlab
+category:   matlab
 ---
 
 <div style="text-align:center;">
@@ -13,10 +13,9 @@ category: matlab
     </video>
 </div>
 
-The following code is my attempt for a fast and compact Matlab implementation of Bézier surfaces using three-dimensional matrices. It runs in less than ones second for the [teapot](http://www.holmes3d.net/graphics/teapot/teapotrim.bpt) dataset with 32 cubic patches and 10 000 surface points per patch. The computation itself (4064 calls to the `casteljau` function) takes only &#8531; of a second.
+The following code is my attempt for a fast and compact Matlab implementation of Bézier surfaces using three-dimensional arrays. It runs in less than ones second for the [teapot](http://www.holmes3d.net/graphics/teapot/teapotrim.bpt) dataset with 32 cubic patches and 10 000 surface points per patch. The computation itself (4064 calls to the `casteljau` function) takes only &#8531; of a second.
 
-{% highlight matlab %}
-% compute and display a Bézier surface
+<pre><code>%% compute and display a Bézier surface
 samples = 100;
 dim     = 3;
 % teapot data from http://www.holmes3d.net/graphics/teapot/
@@ -40,12 +39,13 @@ for i=1:length(patches),
         S(:,:,3)...
     );
 end
-{% endhighlight %}
-{% highlight matlab %}
+
 function S = casteljau(k,l,i,j,u,v,Net,dim)
 % S = casteljau(k,l,i,j,u,v,Net,dim)
 %
-%   Compute the point V_{i,j}^{k,l} from the De Casteljau's algorithm for parameter values (u,v).
+%   Compute the point V_{i,j}^{k,l}
+%   from the De Casteljau's algorithm
+%   for parameter values (u,v).
 %   V_{0,0}^{degU,degV} is a surface point.
 %
     if k==0 && l==0,
@@ -65,12 +65,12 @@ function S = casteljau(k,l,i,j,u,v,Net,dim)
         return;
     end
 end
-{% endhighlight %}
-{% highlight matlab %}
+
 function patches = readBPT(filename,dim)
 % patches = readBTP( filename, dim )
 %
-%   Quick & dirty function to read Bezier patches' control nets stored in the BPT format.
+%   Dirty way to read Bezier patches' control nets
+%   stored in the BPT format.
 %   e.g.: http://www.holmes3d.net/graphics/teapot/teapotrim.bpt
 %
     file = fopen(filename);
@@ -85,4 +85,4 @@ function patches = readBPT(filename,dim)
     end
     fclose(file); 
 end
-{% endhighlight %}
+</code></pre>

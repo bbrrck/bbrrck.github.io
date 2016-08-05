@@ -89,13 +89,11 @@ body {
  * Site footer
  */
 .site-footer {
-    //border-top: 1px solid $grey-color-light;
     padding: $footer-spacing-unit 0;
     position: absolute;
     bottom: 0;
     width: 100%;
     height: $footer-height;
-    //background-color: lighten($grey-color-light,5%);
     color: $footer-text;
     background-color: $footer-back;
     a {
@@ -192,86 +190,46 @@ body {
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-/** 
- * Homepage specials
- */
-#homepic {
-    background-image:url(/assets/me.jpg);
-    background-size:cover;
-    background-position:50% 65%;
+// headers
+h1 {
+    font-size: $h1-size;
+    margin: $h1-margin;
+    color: $h1-color;
 }
-#homepic div {
-    background-color: rgba(255,255,255,0.2);
+h2 {
+    font-size: $h2-size;
+    margin: $h2-margin;
+    color: $h2-color;
 }
-#homepic,
-#homepic div {
-    width: 100%;
-    height:$homepic-big;
-    @include media-query($on-laptop) {
-        height:$homepic-small;
-    }
+h3 {
+    font-size: $h3-size;
+    margin: $h3-margin;
+    color: $h3-color;
 }
-body.home .page-content.main {
-    padding: 1em 0 0.5em;
+h4 {
+    font-size: $h4-size;
+    margin: $h4-margin;
+    color: $h4-color;
 }
-/**
- * Page content
- */
-.page-content {
-    padding: $spacing-unit 0;
-}
-.page-heading {
-    font-size: 20px;
-}
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-.post-title {
-    font-size: 250%;
-    letter-spacing: -1px;
-    line-height: 1;
-    color: $brand-color;
-    @include media-query($on-laptop) {
-        font-size: 200%;
-    }
-}
-.post-content {
-    margin-bottom: $spacing-unit;
+// posts
+article.blogpost {
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+    border-bottom: 1px solid #ccc;
     h2 {
-        font-size: 200%;
-        color: #111;
-        margin: 0.75em 0 0.25em;
-        @include media-query($on-laptop) {
-            font-size: 150%;
-        }
+        font-size: $h1-size;
     }
-    h3 {
-        font-size: 150%;
-        color: $grey-color-dark;
-        margin: 1em 0 0.5em;
-        @include media-query($on-laptop) {
-            font-size: 125%;
+    .meta {
+        color: #999;
+        .date {}
+        .cat {
+            &:before {content: " in ";}
         }
+        .tags {}
     }
-    h4 {
-        font-size: 125%;
-        @include media-query($on-laptop) {
-            font-size: 110%;
-        }
+    .content {
+        
     }
 }
+
+pre code.hljs {padding:1em 2em;font-size:110%;}

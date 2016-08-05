@@ -69,7 +69,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
-    font-family: $header-family;
+    font-family: $header-font-family;
 }
 /**
  * Links
@@ -88,6 +88,7 @@ a {
 /**
  * Blockquotes
  */
+.page-content {padding: 1em;}
 .page-content.random-quote {
     background-color:$quote-back;
     color: $quote-text;
@@ -131,29 +132,6 @@ blockquote {
         padding: 0;
         margin: 0;
         border: 0;
-    }
-}
-/**
- * Code formatting
- */
-pre,
-code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
-}
-code {
-    padding: 1px 5px;
-}
-pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
     }
 }
 /**

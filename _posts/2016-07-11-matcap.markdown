@@ -1,11 +1,9 @@
 ---
-layout: post
-title:  "Surface Interrogation... Matcaps... whattt"
-date:   2016-07-12 10:00:00
-permalink: matcap
-category: cplusplus glsl blender surface
-tags: surface interrogration matcap
-draft: true
+layout:     post
+title:      Surface Interrogation... Matcaps... whattt
+date:       2016-07-12 10:00:00
+permalink:  matcap
+category:   glsl
 ---
 
 Outline

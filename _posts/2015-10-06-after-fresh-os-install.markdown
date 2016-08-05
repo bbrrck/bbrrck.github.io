@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "After a fresh OS install"
-date:   2015-10-06 14:30:00
-permalink: fresh-os-install/
+layout:     post
+title:      After a fresh OS install
+date:       2015-10-06 14:30:00
+permalink:  fresh-os-install
+category:   os
 ---
 
 In the past few months, I've experimented with various Linux distros, before sticking with Fedora-based
@@ -19,14 +20,13 @@ Note: Since Fedora 22, the
 is the default package manager, replacing the now-deprecated yum.
 (Dnf actually stands for *Dandified Yum*.) 
 
-## First things first
+### First things first
 As always, first step after a fresh install is to update everything.
 
-    dnf update
+<pre><code style="bash">dnf update</code></pre>
 
 Firefox is the default browser in Korora; I prefer Chrome, which is easy to install.
-
-    dnf install google-chrome-stable
+<pre><code style="bash">dnf install google-chrome-stable</code></pre>
 
 Next, I use
 [negativo17](http://negativo17.org/)'s repos to install
@@ -34,68 +34,46 @@ Next, I use
 [Skype](http://negativo17.org/skype-and-skype-pidgin-plugin/) and
 [Spotify client](http://negativo17.org/spotify-client/).
 
-{% highlight bash %}
-dnf config-manager --add-repo=http://negativo17.org/repos/fedora-nvidia.repo
+<pre><code style="bash">dnf config-manager --add-repo=http://negativo17.org/repos/fedora-nvidia.repo
 dnf config-manager --add-repo=http://negativo17.org/repos/fedora-skype.repo
 dnf config-manager --add-repo=http://negativo17.org/repos/fedora-spotify.repo
 dnf remove \*nvidia\*
 dnf install nvidia-driver
 dnf install spotify-client skype
-{% endhighlight %}
+</code></pre>
 
-## Package groups
+### Package groups
 Dnf provides many useful package groups; to obtain list of available groups:
-
-    dnf group list -v
-
+<pre><code style="bash">dnf group list -v
+</code></pre>
 To get the details of a group:
-
-{% highlight bash %}
-dnf group info 'Group Name'
-{% endhighlight %}
-
+<pre><code style="bash">dnf group info 'Group Name'
+</code></pre>
 To install a group:
-
-{% highlight bash %}
-    dnf group install 'Group Name'
-{% endhighlight %}
-
+<pre><code style="bash">dnf group install 'Group Name'
+</code></pre>
 To install the optional packages in the group, add parameter `with-optional` before the name of the group.
-
-{% highlight bash %}
-    dnf group install with-optional 'Group Name'
-{% endhighlight %}
-
+<pre><code style="bash">dnf group install with-optional 'Group Name'
+</code></pre>
 Now, let's look at some specific groups.
 
-### Environment Group: Development and Creative Workstation
-
-{% highlight bash %}
-    dnf group install with-optional 'Development and Creative Workstation'
-{% endhighlight %}
-
+<pre><code style="bash">dnf group install with-optional 'Development and Creative Workstation'
+</code></pre>
 This is actually a *metagroup* – a group of groups.
 Includes `C Development Tools and Libraries` and `X Software Development`. Optional groups include `Python` and `PHP`.
 
-### Group: Authoring &amp; Publishing
-
-{% highlight bash %}
-    dnf group install with-optional 'Authoring and Publishing'
-{% endhighlight %}
-
+<pre><code style="bash">dnf group install with-optional 'Authoring and Publishing'
+</code></pre>
 Includes `texlive, pdftk.`
 
-### Group: Engineering and Scientific
-
-{% highlight bash %}
-    dnf group install 'Engineering and Scientific'
-{% endhighlight %}
-
+<pre><code style="bash">dnf group install with-optional 'Engineering and Scientific'
+</code></pre>
 Includes `R, gnuplot, maxima, octave, python-matplotlib, texmaker.`
 
-## Applications
+### Applications
 
-    dnf install amarok asymptote blender dropbox emacs filezilla guake meshlab
+<pre><code style="bash">dnf install amarok asymptote blender dropbox emacs filezilla guake meshlab
+</code></pre>
 
 There's an unofficial google drive client called <strike>Grive</strike>
 [overGrive](https://www.thefanclub.co.za/overgrive/installation-instructions-fedora).
@@ -103,40 +81,40 @@ Licence ($4.99) is required.
 For installing zotero, I'm using Sebastiaan Mathôt's
 [zotero_installer](https://github.com/smathot/zotero_installer).
 
-## Setting up Git
-{% highlight bash %}
-    git config --global user.name "Tibor Stanko"
+### Setting up Git
+<pre><code style="bash">git config --global user.name "Tibor Stanko"
 git config --global user.email my@email.com
-git config --global core.editor emacs
 git config --global credential.helper cache
 git config --global push.default simple
-{% endhighlight %}
+</code></pre>
 
-## Libs
+### Libs
 Some additional libraries, mostly for my scientific activities: `GLEW, GLFW, Eigen, CGAL, libigl.`
 (See also the [libigl tutorial](http://libigl.github.io/libigl/tutorial/tutorial.html).)
 
-    dnf install glew-devel glfw-devel eigen3-devel CGAL-devel
-    cd ~/Tibb/cplus
-    git clone --recursive https://github.com/libigl/triangle.git
-    git clone --recursive https://github.com/libigl/libigl.git
-    cd libigl/external
-    git clone --recursive https://github.com/libigl/CoMISo.git
+<pre><code style="bash">dnf install glew-devel glfw-devel eigen3-devel CGAL-devel
+cd ~/Tibb/cplus
+git clone --recursive https://github.com/libigl/triangle.git
+git clone --recursive https://github.com/libigl/libigl.git
+cd libigl/external
+git clone --recursive https://github.com/libigl/CoMISo.git
+</code></pre>
 
-## Setting up Matlab
+### Setting up Matlab
 After installing Matlab from iso, I like to do some additional setting up.
 First, create a symlink to matlab executable in `/usr/bin/`:
 
-    ln -s /usr/local/MATLAB/R2014b/bin/matlab /usr/bin/matlab
+<pre><code style="bash">ln -s /usr/local/MATLAB/R2014b/bin/matlab /usr/bin/matlab
+</code></pre>
 
 Second, we need to tell Gnome about Matlab by creating a `.desktop` entry:
 
-    vim /usr/share/applications/matlab.desktop
+<pre><code style="bash">vim /usr/share/applications/matlab.desktop
+</code></pre>
 
 Add the following to `matlab.desktop`:
 
-{% highlight ini %}
-[Desktop Entry]
+<pre><code style="ini">[Desktop Entry]
 Type = Application
 Encoding = UTF-8
 Name = Matlab2014b
@@ -144,26 +122,22 @@ Comment = Matlab:The Tool of Technical Computing
 Exec = /usr/local/MATLAB/R2014b/bin/matlab -desktop
 Icon = matlab
 Categories = Development;Matlab;
-{% endhighlight %}
+</code></pre>
 
 
-## BitBucket stuff
+### BitBucket stuff
 [use this script to clone all repos at once](http://haroldsoh.com/2011/10/07/clone-all-repos-from-a-bitbucket-source/)
 
-## Additional desktops
+### Additional desktops
 Having an alternative desktop installed might be handy, in case Gnome gives you the jolly *Oops! Something has gone wrong.*
 
-    dnf group install xfce-desktop
+<pre><code style="bash">dnf group install xfce-desktop</code></pre>
 
-## Gnome tweaks
+### Gnome tweaks
 When everything's installed, let's make some final adjustements using the Gnome Tweak Tool.
 
 * increase font size
-* add startup applications (`guake`, `amarok`)
+* add startup applications (`guake`)
 * &hellip;
 
 And we're good to go!
-
-## Additional resources
-[LAMP on Fedora 22](http://www.tecmint.com/install-lamp-linux-apache-mysql-php-on-fedora-22/) (tecmint.com)  
-[LAMP on Fedora 21](https://www.howtoforge.com/fedora-21-apache-mysql-php-lamp">LAMP on Fedora 21) (howtoforge.com)
