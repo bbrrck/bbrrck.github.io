@@ -1,0 +1,10 @@
+<h{{ hstyle }} class="main-title"><a href="{{ url | prepend: site.baseurl }}">{{ title }}</a></h{{ hstyle }}>
+<div class="meta">
+    <span class="date">{{ date | date: "%b %-d, %Y" }}</span>
+{% if category %}
+    <span class="category"><a href="/category/{{ category }}/">{{ category | replace: "-", " " | capitalize }}</a></span>
+{% endif %}
+</div>
+<div class="content">
+    {{ content }}
+</div>

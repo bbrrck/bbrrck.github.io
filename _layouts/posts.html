@@ -1,15 +1,17 @@
 ---
 layout: default
 ---
+{% if page.category %}<div class="category-title">posted in category <span>{{ page.category }}</span></div>{% endif %}
+{% assign hstyle = "2" %}
 {% for post in site.posts %}{% unless post.draft %}
-<article class="blogpost">
-    <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-    <div class="meta">
-        <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <span class="cat"><a href="/c/{{ post.category }}">{{ post.category | replace: '-', ' ' }}</a></span>
-    </div>
-    <div class="content">
-        {{ post.content }}
-    </div>
+{% if page.category and post.category != page.category %}{% else %}
+{% assign title = post.title %}
+{% assign url = post.url %}
+{% assign date = post.date %}
+{% assign category = post.category %}
+{% assign content = post.content %}
+<article class="multiple blog post">
+    {% include post-layout.html %}
+    <a href="https://tiborstanko.sk{{ url }}#disqus_thread">0</a>
 </article>
-{% endunless %}{% endfor %}
+{% endif %}{% endunless %}{% endfor %}

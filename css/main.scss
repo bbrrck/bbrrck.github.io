@@ -10,12 +10,12 @@ $base-font: 'Open Sans';
 // Our variables
 $base-font-family: $base-font, sans-serif;
 $header-font-family: $header-font, sans-serif;
-$base-font-size:   100%;
+$base-font-size:   110%;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$laptop-font-size: 115%;
-$palm-font-size:   110%;
+$laptop-font-size: 100%;
+$palm-font-size:   100%;
 
 $spacing-unit:     30px;
 
@@ -24,17 +24,16 @@ $footer-spacing-unit: 1.5em;
 
 $text-color:       #111;
 $background-color: #fff;
-$brand-color:      #1f87ea; // #0e5395 #1f87ea #126dc4
+$brand-color:      #1f87ea;
 
 // Headings
-$h1-size: 250%; $h1-margin: 0.75em 0 0.25em; $h1-color: $brand-color;
-$h2-size: 180%; $h2-margin: 1.00em 0 0.25em; $h2-color: #333;
+$h1-size: 220%; $h1-margin: 0.75em 0 0; $h1-color: $brand-color;
+$h2-size: 180%; $h2-margin: 0.75em 0 0; $h2-color: #333;
 $h3-size: 160%; $h3-margin: 0.75em 0 0; $h3-color: #111;
 $h4-size: 140%; $h4-margin: 0.75em 0 0; $h4-color: #666;
 
 // Links
 $link-color:       $brand-color;
-//$visited-color:    lighten($brand-color,10%);
 $visited-color:    $brand-color;
 
 // Grey colors
@@ -58,20 +57,9 @@ $quote-visited: $quote-link;
 
 // Width of the content area
 $content-width:    800px;
-
-$on-palm:          600px;
 $on-laptop:        800px;
+$on-palm:          600px;
 
-$homepic-big:      600px;
-$homepic-small:    $homepic-big / 2;
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
@@ -83,4 +71,3 @@ $homepic-small:    $homepic-big / 2;
         "layout",
         "pubs",
         "teaching";
-//        "syntax-highlighting";

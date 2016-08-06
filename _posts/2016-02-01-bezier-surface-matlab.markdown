@@ -15,7 +15,7 @@ category:   matlab
 
 The following code is my attempt for a fast and compact Matlab implementation of Bézier surfaces using three-dimensional arrays. It runs in less than ones second for the [teapot](http://www.holmes3d.net/graphics/teapot/teapotrim.bpt) dataset with 32 cubic patches and 10 000 surface points per patch. The computation itself (4064 calls to the `casteljau` function) takes only &#8531; of a second.
 
-<pre><code>%% compute and display a Bézier surface
+<pre><code class="language-matlab">%% compute and display a Bézier surface
 samples = 100;
 dim     = 3;
 % teapot data from http://www.holmes3d.net/graphics/teapot/

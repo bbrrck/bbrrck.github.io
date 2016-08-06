@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 ---
 
 phd student with [imagine](https://team.inria.fr/imagine/)

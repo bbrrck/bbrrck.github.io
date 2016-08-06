@@ -2,13 +2,9 @@
 layout: page
 title: teaching
 ---
-
 {% assign course = site.data.teaching-geonum2016 %}
-
-<section class="course">
- 
+<article class="single course page">
 <h1>{{ course.name }} <a href="{{ course.url }}">{{ course.code }}</a></h1>
-
 <div class="meta">
  {% for metas in course.meta %}
   {% for meta in metas %}
@@ -18,12 +14,7 @@ title: teaching
  {% endfor %}
 </div>
 
-{% comment %}
-{% include teaching-geonum2016-news.html %}
-{% endcomment %}
-
 <h2>Description</h2>
-<!--img src="/assets/geo-num-2016/teapot.png" alt="Utah teapot" title="Utah teapot" /-->
 <p>
 This page is dedicated to the practical part of the <em>Géométrie Numérique</em> course, with lectures given by <a href="http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/">Georges-Pierre Bonneau</a>. Assignements (and some theory) will be published here.
 </p>
@@ -47,8 +38,8 @@ After each TP, you are required to submit your work, namely :
 These are the general rules for submission :
 <ul class="submissions">
     <li>Don't submit partial work; send <strong>only one mail</strong> (when you're sure you won't be adding anything else).</li>
-    <li>Zip everything as <code>LastName.zip</code> or <code>LastName1_LastName2.zip</code>.</li>
-    <li>Use <code>[GeoNum2016] TPxx</code> as the subject.</li>
+    <li>Zip everything as <code class="language-bash">LastName.zip</code> or <code class="language-bash">LastName1_LastName2.zip</code>.</li>
+    <li>Use <code class="language-bash">[GeoNum2016] TPxx</code> as the subject.</li>
     <li>Send your mail to {% include email.html %}.</li>
 </ul>
 
@@ -79,5 +70,4 @@ These are the general rules for submission :
  {% endfor %}
  </ul>
 
-</section>
-
+</article>

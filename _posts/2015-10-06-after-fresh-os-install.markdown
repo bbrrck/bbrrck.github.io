@@ -9,7 +9,7 @@ category:   os
 In the past few months, I've experimented with various Linux distros, before sticking with Fedora-based
 [Korora](https://kororaproject.org/) and Gnome 3 desktop.
 Korora comes with many pre-installed packages,
-including `vlc`, `audacity`, `deluge`, `gimp`, `inkscape` and `git`, which is great; 
+including <code class="language-bash">vlc</code>, <code class="language-bash">audacity</code>, <code class="language-bash">deluge</code>, <code class="language-bash">gimp</code>, <code class="language-bash">inkscape</code> and <code class="language-git">git</code>, which is great; 
 still, each time I'm reinstalling my laptop, I spend too much time figuring out
 which additional applications, packages and libraries I need to install.
 To facilitate this rather tedious process in the future,
@@ -23,10 +23,10 @@ is the default package manager, replacing the now-deprecated yum.
 ### First things first
 As always, first step after a fresh install is to update everything.
 
-<pre><code style="bash">dnf update</code></pre>
+<pre><code class="language-bash">dnf update</code></pre>
 
 Firefox is the default browser in Korora; I prefer Chrome, which is easy to install.
-<pre><code style="bash">dnf install google-chrome-stable</code></pre>
+<pre><code class="language-bash">dnf install google-chrome-stable</code></pre>
 
 Next, I use
 [negativo17](http://negativo17.org/)'s repos to install
@@ -34,7 +34,7 @@ Next, I use
 [Skype](http://negativo17.org/skype-and-skype-pidgin-plugin/) and
 [Spotify client](http://negativo17.org/spotify-client/).
 
-<pre><code style="bash">dnf config-manager --add-repo=http://negativo17.org/repos/fedora-nvidia.repo
+<pre><code class="language-bash">dnf config-manager --add-repo=http://negativo17.org/repos/fedora-nvidia.repo
 dnf config-manager --add-repo=http://negativo17.org/repos/fedora-skype.repo
 dnf config-manager --add-repo=http://negativo17.org/repos/fedora-spotify.repo
 dnf remove \*nvidia\*
@@ -44,35 +44,35 @@ dnf install spotify-client skype
 
 ### Package groups
 Dnf provides many useful package groups; to obtain list of available groups:
-<pre><code style="bash">dnf group list -v
+<pre><code class="language-bash">dnf group list -v
 </code></pre>
 To get the details of a group:
-<pre><code style="bash">dnf group info 'Group Name'
+<pre><code class="language-bash">dnf group info 'Group Name'
 </code></pre>
 To install a group:
-<pre><code style="bash">dnf group install 'Group Name'
+<pre><code class="language-bash">dnf group install 'Group Name'
 </code></pre>
-To install the optional packages in the group, add parameter `with-optional` before the name of the group.
-<pre><code style="bash">dnf group install with-optional 'Group Name'
+To install the optional packages in the group, add parameter <code class="language-bash">with-optional</code> before the name of the group.
+<pre><code class="language-bash">dnf group install with-optional 'Group Name'
 </code></pre>
 Now, let's look at some specific groups.
 
-<pre><code style="bash">dnf group install with-optional 'Development and Creative Workstation'
+<pre><code class="language-bash">dnf group install with-optional 'Development and Creative Workstation'
 </code></pre>
 This is actually a *metagroup* – a group of groups.
-Includes `C Development Tools and Libraries` and `X Software Development`. Optional groups include `Python` and `PHP`.
+Includes <code class="language-bash">C Development Tools and Libraries</code> and <code class="language-bash">X Software Development</code>. Optional groups include <code class="language-bash">Python</code> and <code class="language-bash">PHP</code>.
 
-<pre><code style="bash">dnf group install with-optional 'Authoring and Publishing'
+<pre><code class="language-bash">dnf group install with-optional 'Authoring and Publishing'
 </code></pre>
-Includes `texlive, pdftk.`
+Includes <code class="language-bash">texlive, pdftk.</code>
 
-<pre><code style="bash">dnf group install with-optional 'Engineering and Scientific'
+<pre><code class="language-bash">dnf group install with-optional 'Engineering and Scientific'
 </code></pre>
-Includes `R, gnuplot, maxima, octave, python-matplotlib, texmaker.`
+Includes <code class="language-bash">R, gnuplot, maxima, octave, python-matplotlib, texmaker.</code>
 
 ### Applications
 
-<pre><code style="bash">dnf install amarok asymptote blender dropbox emacs filezilla guake meshlab
+<pre><code class="language-bash">dnf install amarok asymptote blender dropbox emacs filezilla guake meshlab
 </code></pre>
 
 There's an unofficial google drive client called <strike>Grive</strike>
@@ -82,17 +82,17 @@ For installing zotero, I'm using Sebastiaan Mathôt's
 [zotero_installer](https://github.com/smathot/zotero_installer).
 
 ### Setting up Git
-<pre><code style="bash">git config --global user.name "Tibor Stanko"
+<pre><code class="language-bash">git config --global user.name "Tibor Stanko"
 git config --global user.email my@email.com
 git config --global credential.helper cache
 git config --global push.default simple
 </code></pre>
 
 ### Libs
-Some additional libraries, mostly for my scientific activities: `GLEW, GLFW, Eigen, CGAL, libigl.`
+Some additional libraries, mostly for my scientific activities: <code class="language-bash">GLEW, GLFW, Eigen, CGAL, libigl.</code>
 (See also the [libigl tutorial](http://libigl.github.io/libigl/tutorial/tutorial.html).)
 
-<pre><code style="bash">dnf install glew-devel glfw-devel eigen3-devel CGAL-devel
+<pre><code class="language-bash">dnf install glew-devel glfw-devel eigen3-devel CGAL-devel
 cd ~/Tibb/cplus
 git clone --recursive https://github.com/libigl/triangle.git
 git clone --recursive https://github.com/libigl/libigl.git
@@ -102,19 +102,19 @@ git clone --recursive https://github.com/libigl/CoMISo.git
 
 ### Setting up Matlab
 After installing Matlab from iso, I like to do some additional setting up.
-First, create a symlink to matlab executable in `/usr/bin/`:
+First, create a symlink to matlab executable in <code class="language-bash">/usr/bin/</code>:
 
-<pre><code style="bash">ln -s /usr/local/MATLAB/R2014b/bin/matlab /usr/bin/matlab
+<pre><code class="language-bash">ln -s /usr/local/MATLAB/R2014b/bin/matlab /usr/bin/matlab
 </code></pre>
 
-Second, we need to tell Gnome about Matlab by creating a `.desktop` entry:
+Second, we need to tell Gnome about Matlab by creating a <code class="language-bash">.desktop</code> entry:
 
-<pre><code style="bash">vim /usr/share/applications/matlab.desktop
+<pre><code class="language-bash">vim /usr/share/applications/matlab.desktop
 </code></pre>
 
-Add the following to `matlab.desktop`:
+Add the following to <code class="language-bash">matlab.desktop</code>:
 
-<pre><code style="ini">[Desktop Entry]
+<pre><code class="language-ini">[Desktop Entry]
 Type = Application
 Encoding = UTF-8
 Name = Matlab2014b
@@ -131,13 +131,13 @@ Categories = Development;Matlab;
 ### Additional desktops
 Having an alternative desktop installed might be handy, in case Gnome gives you the jolly *Oops! Something has gone wrong.*
 
-<pre><code style="bash">dnf group install xfce-desktop</code></pre>
+<pre><code class="language-bash">dnf group install xfce-desktop</code></pre>
 
 ### Gnome tweaks
 When everything's installed, let's make some final adjustements using the Gnome Tweak Tool.
 
 * increase font size
-* add startup applications (`guake`)
+* add startup applications (<code class="language-bash">guake</code>)
 * &hellip;
 
 And we're good to go!

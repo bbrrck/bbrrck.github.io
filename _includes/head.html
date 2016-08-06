@@ -14,8 +14,7 @@
     if ((host == window.location.host) && (window.location.protocol != "https:"))
         window.location.protocol = "https";
   </script>
-  <link rel="stylesheet" href="/js/highlight/styles/solarized-light.css">
-  <script src="/js/highlight/highlight.pack.js"></script>
+  <link rel="stylesheet" href="/js/prism.css">
 <!--
 <script src="//fast.eager.io/J7EVtyg795.js"></script>
 <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -24,7 +23,6 @@
 -->
 <script src="{{ "/js/smart-underline.js" | prepend: site.baseurl }}" type="text/javascript"></script>
 <script src="{{ "/js/jquery-latest.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 <script type="text/x-mathjax-config">
         MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] },
         tex2jax: { inlineMath: [ ["$", "$"], ["\\\\(","\\\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },

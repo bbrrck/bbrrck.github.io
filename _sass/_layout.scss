@@ -8,7 +8,6 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 }
-
 .site-title {
     font-size: 26px;
     line-height: 56px;
@@ -19,7 +18,6 @@
         color: $grey-color-dark;
     }
 }
-
 .site-nav {
     float: right;
     line-height: 56px;
@@ -74,6 +72,9 @@
             padding: 5px 10px;
         }
     }
+}
+.site-main {
+    padding: 1em 0 3em;
 }
 /** 
  * for sticky footer 
@@ -211,25 +212,3 @@ h4 {
     margin: $h4-margin;
     color: $h4-color;
 }
-// posts
-article.blogpost {
-    padding-bottom: 1em;
-    margin-bottom: 3em;
-    border-bottom: 1px solid #ccc;
-    h2 {
-        font-size: $h1-size;
-    }
-    .meta {
-        color: #999;
-        .date {}
-        .cat {
-            &:before {content: " in ";}
-        }
-        .tags {}
-    }
-    .content {
-        
-    }
-}
-
-pre code.hljs {padding:1em 2em;font-size:110%;}

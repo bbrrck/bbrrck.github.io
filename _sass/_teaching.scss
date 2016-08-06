@@ -1,73 +1,145 @@
-section.course {
-    img {
-        max-width: 100%;
-        width: 16em;
-        margin: 0 0 0 0.5em;
-        display: block;
-        float: right;
+.category-title {
+    color:#999;
+    span {
+        font-weight:bold;
     }
-    h1 a {
-        margin-left: .5em;
-        font-size: 40%;
+}
+
+article {
+    &.multiple + article {
+        margin-top:5em;
     }
-    h2 {
-        margin-top: 1em;
+    h1.main-title,
+    h2.main-title {
+        font-size:$h1-size;
+        margin: $h1-margin;
+    }    
+    .backlink {
+        font-size: 90%;
+        color: #666;
+        &:before {
+            content: "« ";
+        }
     }
     .meta {
         color: #999;
-        margin-left: 0.5em;
+        margin: 0 0 1em 0.33em;
         span + span:before {
             content: "|";
             margin: 0 0.4em 0 0.2em;
             color: #ccc;
         }
-    }
-    ul {
-        list-style-type: none;
-        list-style-position: outside;
-        margin: 0 0 0 1em;
-        &.submissions {
-            list-style-type:circle;
+        span.category:before {
+            content: "in";
         }
     }
-    .meta, ul .date {
-        display: inline-block;
-        font-size: 90%;
+    .content {}
+    .comments {
+        margin-top: 4em;
     }
-    ul .date {
-        color: #666;
-        font-family: monospace;
-        margin-right: 0.5em;
-        &:before {
-            content: "[ ";
+    
+    // main course page
+    &.course {
+        h1 a { // course code, link to course info, small
+            margin-left: .5em;
+            font-size: 40%;
         }
-        &:after {
-            content: " ]";
+        ul {
+            list-style-type: none;
+            list-style-position: outside;
+            margin: 0 0 0 1em;
+            &.submissions {
+                list-style-type:circle;
+            }
+            .date {
+                color: #999;
+                font-family: monospace;
+                margin-right: 0.33em;
+                &:before {content: "( ";}
+                &:after {content: " )";}
+            }
+            .title {
+                display:inline-block;
+                margin-left: .5em;
+            }
+            li.break {
+                .date {
+                    text-decoration: line-through;
+                }
+                .title {
+                    color: #777;
+                    font-size: 80%;
+                }
+            }
         }
     }
-    ul .title {
-        display:inline-block;
-        margin-left: .5em;
-    }
-    ul li.break {
-        .date {
-            text-decoration: line-through;
-        }
-        .title {
-            color: #777;
-            font-size: 80%;
+    // single TP page
+    &.travauxpratiques {
+        .content {
+            h2 {margin: 1.5em 0 0.5em;}
+            h2:first-child {margin-top: 1em;}
+            ul, ol {
+                margin: 0 2em;
+                list-style-position: outside;
+                &.assignements li {
+                    margin-bottom: 0.25em;
+                    &:nth-of-type(2n) {color: #444;}
+                }
+                &.resources {list-style-type: lower-roman;}
+            }
+            .lightblue {color: $brand-color;}
+            figure {
+                width: 100%;
+                margin: 0.5em auto 1em;
+                text-align: center;
+                padding: 1em;
+                img {
+                    display: inline-block;
+                    width: 25em;
+                    max-width: 100%;
+                }
+                div.title {
+                    display: block;
+                    font-style: italic;
+                    background-color: #fff;
+                    padding: 0.5em 1em 0;
+                }
+                &.highlight {
+                    text-align: left;
+                    padding: 0;
+                    margin: 0.5em;
+                }
+            }
+            ul.algorithm {
+                padding: 1em 0.5em 0.2em;
+                margin: 0 0 1em;
+                background-color: #f5f2f0;
+                list-style-type: none;
+                li {
+                    clear:both;
+                }
+                .algo-part {
+                    display: block;
+                    font-family: monospace;
+                    color: $brand-color;
+                }
+                .algo-content {
+                    display: block;
+                    padding: 0.5em 1em 1em;
+                }
+            }
         }
     }
 }
 
+.teaching-deadline {color:#c00;margin:1em 0.5em;font-size:90%;}
+.teaching-news     {color:#082;margin:1em 0.5em;font-size:90%;}
+
 .img2grid {width:100%;text-align:center;img, video{width:45%;margin:1%;float:left;}}
 .img3grid {width:100%;text-align:center;img{width:30%;margin:1%;float:left;}}
 .img4grid {width:100%;text-align:center;img{width:22%;margin:1%;float:left;}}
-
 .table50{width:50%;text-align:left;font-family:monospace;}
-
 .center {text-align:center;}
-
 .img100 {text-align:center; img{width:100px; max-width:100%;}}
 .img200 {text-align:center; img{width:200px; max-width:100%;}}
 .img300 {text-align:center; img{width:300px; max-width:100%;}}
@@ -79,99 +151,5 @@ section.course {
 .img900 {text-align:center; img{width:900px; max-width:100%;}}
 .imgfull{text-align:center; img{width:100%;  max-width:100%;}}
 .imgCaption {clear:both;text-align:center;font-style:italic;padding: 0.5em 1em 1em;}
-
 .img100H {text-align:center; img{height:100px; max-width:100%;}}
-
 .img2gridH {width:100%;text-align:center;img, video{height:300px;margin:1%;}}
-
-.teaching-deadline {
-    color:#c00;margin:1em 0.5em;font-size:90%;
-}
-.teaching-news {
-    color:#082;margin:1em 0.5em;font-size:90%;
-}
-
-.tp-geo-num-2016 {
-    .tp-backlink {
-        font-size: 90%;
-        color: #666;
-        &:before {
-            content: "« ";
-        }
-    }
-    .tp-header {
-        h1 {
-            color: $brand-color;
-            margin: 1em 0 0;
-        }
-        .meta {
-            color: #666;
-            margin: 0 0 1em;
-        }
-    }
-    .tp-text {
-        h2 {
-            margin-top: 1.5em; 
-        }
-        h2:first-child {
-            margin: 0;
-        }
-        ul, ol {
-            margin: 0 2em;
-            list-style-position: outside;
-            
-            &.assignements li {
-                margin-bottom: 0.25em;
-                &:nth-of-type(2n) {
-                    color: #444;
-                }
-            }
-            &.resources {
-                list-style-type: lower-roman;
-            }
-        }
-        .lightblue {
-            color: $brand-color;
-        }
-        figure {
-            width: 100%;
-            margin: 0.5em auto 1em;
-            text-align: center;
-            padding: 1em;
-            img {
-                display: inline-block;
-                width: 25em;
-                max-width: 100%;
-            }
-            div.title {
-                display: block;
-                font-style: italic;
-                background-color: #fff;
-                padding: 0.5em 1em 0;
-            }
-            &.highlight {
-                text-align: left;
-                padding: 0;
-                margin: 0.5em;
-            }
-        }
-        ul.algorithm {
-            padding: 1em 0.5em 0.2em;
-            margin: 0 0 1em;
-            background-color: #eee;
-            list-style-type: none;
-            li {
-                clear:both;
-            }
-            .algo-part {
-                display: block;
-                font-family: monospace;
-                color: $brand-color;
-            }
-            .algo-content {
-                display: block;
-                padding: 0.5em 1em 1em;
-            }
-        }
-    }
-}

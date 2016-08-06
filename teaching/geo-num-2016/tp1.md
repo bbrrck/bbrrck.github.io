@@ -78,15 +78,16 @@ make
 {% endhighlight %}
 
 For rendering, you can use [gnuplot](http://www.gnuplot.info/) or [matplotlib](http://matplotlib.org/).
-While still in the `build/` directory, test them by running :
+While still in the <code class="language-bash">build/</code> directory, test them by running :
 {% highlight bash %}
 gnuplot -p ../plots/plot.gnu
 python ../plots/plot.py
 {% endhighlight %}
 
-Many of you have reported problems with `gnuplot` due to the line `set terminal qt`.
-Change it to something else to make things work, e.g. `set terminal x11`.
-For a complete list of terminals available on your machine, execute `echo "set terminal" | gnuplot`.
+Many of you have reported problems with <code class="language-bash">gnuplot</code> due to the line <code class="language-bash">set terminal qt</code>.
+Change it to something else to make things work, e.g. <code class="language-bash">set terminal x11</code>.
+For a complete list of terminals available on your machine, execute
+<pre><code class="language-bash">echo "set terminal" | gnuplot</code></pre>.
 
 
 ## ToDo
@@ -95,8 +96,8 @@ For a complete list of terminals available on your machine, execute `echo "set t
 1. <del>Implement the computation of a curve point $\mathbf x(t)$ using Bernstein polynomials.</del>
 2. Implement the De Casteljau algorithm for a parameter $t$.
 3. Evaluate the curve using <del>both methods and compare their performance</del> the De Casteljau algorithm for various sampling densities.
-4. Visualise the curve and its Bézier polygon. Use all input files from the `data/` folder.
-5. Visualise the intermediate polygons $\mathbf b_i^k$ from the De Casteljau algorithm for a fixed parameter $t$. (Only the `simple.bcv` is enough.)
+4. Visualise the curve and its Bézier polygon. Use all input files from the <code class="language-bash">data/</code> folder.
+5. Visualise the intermediate polygons $\mathbf b_i^k$ from the De Casteljau algorithm for a fixed parameter $t$. (Only the <code class="language-bash">simple.bcv</code> is enough.)
 
 ## Resources
 
