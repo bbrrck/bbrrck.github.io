@@ -1,33 +1,28 @@
 /**
- * Site header
+ * header
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-    // Positioning context for the mobile navigation icon
     position: relative;
 }
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
+    line-height:200%;
+    font-size: 200%;
+    font-family: $header-font-family;
     &,
     &:visited {
         color: $grey-color-dark;
     }
 }
 .site-nav {
+    line-height:320%;
+    font-size: 125%;
+    font-family: $header-font-family;
     float: right;
-    line-height: 56px;
-    .menu-icon {
-        display: none;
-    }
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-        // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
         }
@@ -43,41 +38,20 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-            > svg {
-                width: 18px;
-                height: 15px;
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-        .trigger {
-            clear: both;
-            display: none;
-        }
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
         .page-link {
             display: block;
             padding: 5px 10px;
         }
     }
 }
+/** 
+ * main
+ */
 .site-main {
-    padding: 1em 0 3em;
+    padding: 1em 0;
 }
 /** 
- * for sticky footer 
+ * sticky footer 
  */
 html {
   position: relative;
@@ -86,9 +60,6 @@ html {
 body {
     margin-bottom: $footer-height + 2*$footer-spacing-unit;
 }
-/**
- * Site footer
- */
 .site-footer {
     padding: $footer-spacing-unit 0;
     position: absolute;
@@ -96,6 +67,7 @@ body {
     width: 100%;
     height: $footer-height;
     color: $footer-text;
+    font-size:90%;
     background-color: $footer-back;
     a {
         color: $footer-link;
@@ -106,23 +78,9 @@ body {
             color: $footer-text;
         }
     }
-}
-@include media-query($on-palm) {
-    body {
-        margin-bottom: 0;
+    ul {
+        list-style-type:none;
     }
-    .site-footer {
-        position: relative;
-        height: auto;
-        padding: 0.5em 0 0;
-        .footer-col {
-            margin-bottom:0;
-        }
-    }
-}
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
 }
 .contact-list,
 .social-media-list {
@@ -140,75 +98,10 @@ body {
     }
     // nowplaying animation
     @keyframes nowplaying {
-        0%, 100% {
-            fill: $footer-icon-color;
-        }
-        50% {
-            fill: $footer-icon-pulse;
-        }
+        0%, 100% {fill: $footer-icon-color;}
+        50% {fill: $footer-icon-pulse;}
     }
     li.nowplaying path {
         animation: nowplaying 2.5s ease-out infinite;
     }
-}
-.footer-col-wrapper {
-    font-size: 80%;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-    
-    @include media-query($on-laptop) {
-        display: none;
-    }
-}
-@include media-query($on-laptop) {
-    .footer-col-1  {
-        width: -webkit-calc(60% - (#{$spacing-unit} / 2));
-        width:         calc(60% - (#{$spacing-unit} / 2));
-    }
-    .footer-col-2 {
-        width: -webkit-calc(40% - (#{$spacing-unit} / 2));
-        width:         calc(40% - (#{$spacing-unit} / 2));
-    }
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-// headers
-h1 {
-    font-size: $h1-size;
-    margin: $h1-margin;
-    color: $h1-color;
-}
-h2 {
-    font-size: $h2-size;
-    margin: $h2-margin;
-    color: $h2-color;
-}
-h3 {
-    font-size: $h3-size;
-    margin: $h3-margin;
-    color: $h3-color;
-}
-h4 {
-    font-size: $h4-size;
-    margin: $h4-margin;
-    color: $h4-color;
 }

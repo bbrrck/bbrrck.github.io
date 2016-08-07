@@ -10,7 +10,7 @@ $base-font: 'Open Sans';
 // Our variables
 $base-font-family: $base-font, sans-serif;
 $header-font-family: $header-font, sans-serif;
-$base-font-size:   110%;
+$base-font-size:   150%;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -18,16 +18,17 @@ $laptop-font-size: 100%;
 $palm-font-size:   100%;
 
 $spacing-unit:     30px;
+$main-spacing-unit:50px;
 
-$footer-height:    4em;
-$footer-spacing-unit: 1.5em;
+$footer-height:    90px;
+$footer-spacing-unit: 10px;
 
 $text-color:       #111;
 $background-color: #fff;
 $brand-color:      #1f87ea;
 
 // Headings
-$h1-size: 220%; $h1-margin: 0.75em 0 0; $h1-color: $brand-color;
+$h1-size: 220%; $h1-margin: 0.75em 0 0; $h1-color: #999;
 $h2-size: 180%; $h2-margin: 0.75em 0 0; $h2-color: #333;
 $h3-size: 160%; $h3-margin: 0.75em 0 0; $h3-color: #111;
 $h4-size: 140%; $h4-margin: 0.75em 0 0; $h4-color: #666;
@@ -56,9 +57,9 @@ $quote-link:    $visited-color;
 $quote-visited: $quote-link;
 
 // Width of the content area
-$content-width:    800px;
-$on-laptop:        800px;
-$on-palm:          600px;
+$content-width: 1000px;
+$on-laptop:     1000px;
+$on-palm:       600px;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
@@ -66,8 +67,8 @@ $on-palm:          600px;
     }
 }
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
+@import "base",
         "layout",
+        "article",
         "pubs",
-        "teaching";
+        "new";

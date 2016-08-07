@@ -1,9 +1,9 @@
 ---
-layout:     post
-title:      The perks of Matlab’s column-major order
-date:       2015-09-17 16:00:00
-permalink:  perks-of-matlab-column-major
-category:   matlab
+layout      : post
+title       : The perks of Matlab’s column-major order
+date        : 2015-09-17 16:00:00
+permalink   : perks-of-matlab-column-major
+category    : matlab
 ---
 When working with Matlab, it's good to remember the data are stored in the column-major order; otherwise, the following (seemingly harmless) code might cause a lot of trouble.
 <pre><code class="language-matlab">% both Positions and Normals are n x 3 matrices

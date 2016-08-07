@@ -1,17 +1,39 @@
 ---
 layout: default
 ---
-{% if page.category %}<div class="category-title">posted in category <span>{{ page.category }}</span></div>{% endif %}
 {% assign hstyle = "2" %}
-{% for post in site.posts %}{% unless post.draft %}
-{% if page.category and post.category != page.category %}{% else %}
-{% assign title = post.title %}
-{% assign url = post.url %}
-{% assign date = post.date %}
-{% assign category = post.category %}
-{% assign content = post.content %}
-<article class="multiple blog post">
-    {% include post-layout.html %}
-    <a href="https://tiborstanko.sk{{ url }}#disqus_thread">0</a>
-</article>
-{% endif %}{% endunless %}{% endfor %}
+<div class="row">
+    <div class="col-md-9">
+        {% for post in site.posts %}{% unless post.draft %}
+        {% unless page.category and post.category != page.category %}
+        {% assign title = post.title %}
+        {% assign url = post.url %}
+        {% assign date = post.date %}
+        {% assign category = post.category %}
+        {% assign content = post.content %}
+
+        <article class="multiple blog post">
+            {% include post-layout.html %}
+            {% comment %}<a href="https://tiborstanko.sk{{ url }}#disqus_thread">0</a>{% endcomment %}
+        </article>
+        {% endunless %}{% endunless %}{% endfor %}
+    </div>
+
+    <div class="col-md-3">
+        <ul class="category-title">
+            <li class="all">{% if page.category %}<a href="/posts/">all</a>
+            {% else %}<span>all</span>{% endif %} 
+            ({{ site.posts | size }}) </li>
+            {% for c in site.categories %}
+            <li style="font-size: {{ c | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
+            {% if c[0] == page.category %}
+            <span>{{ c[0] | replace: "-", " " }}</span>
+            {% else %}
+            <a href="/posts/{{ c[0] }}/">{{ c[0] | replace: "-", " " }}</a>
+            {% endif %}
+            ({{ c[1].size }})
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

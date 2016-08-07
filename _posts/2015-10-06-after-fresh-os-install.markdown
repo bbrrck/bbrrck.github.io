@@ -1,9 +1,9 @@
 ---
-layout:     post
-title:      After a fresh OS install
-date:       2015-10-06 14:30:00
-permalink:  fresh-os-install
-category:   os
+layout      : post
+title       : After a fresh OS install
+date        : 2015-10-06 14:30:00
+permalink   : fresh-os-install
+category    : fedora
 ---
 
 In the past few months, I've experimented with various Linux distros, before sticking with Fedora-based

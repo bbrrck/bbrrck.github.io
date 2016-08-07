@@ -1,121 +1,111 @@
----
-- year: 2016
-  items:
+---       
+- type: article
+  slug: "Stanko:2016:CAG"
+  description: "2016, Computers & Graphics, xx:yy"
+  pdf: 
+      file: 2016-cag
+      size: 16.7
+  bibtex:
+      title: Surfacing curve networks with normal control
+      authors:
+          - last : Stanko
+            first: Tibor
+          - last : Hahmann
+            first: Stefanie
+            url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
+          - last : Bonneau
+            first: Georges-Pierre 
+            url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
+          - last : Saguin-Sprynski
+            first: Nathalie
+      journal  : "Computer & Graphics"
+      publisher: Elsevier
+      year     : 2016
+    
+    
+- type: inproceedings
+  slug: "Stanko:2016:EG"
+  description: "2016, Eurographics — short papers"
+  pdf: 
+      file: 2016-eg
+      size: 7.0
+  bibtex:
+      title: Smooth interpolation of curve networks with surface normals
+      authors:
+          - last : Stanko
+            first: Tibor
+          - last : Hahmann
+            first: Stefanie
+            url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
+          - last : Bonneau
+            first: Georges-Pierre 
+            url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
+          - last : Saguin-Sprynski
+            first: Nathalie
+      booktitle: EG 2016 -- Short Papers
+      pages    : 021-024
+      doi      : 10.2312/egsh.20161005
+      editor   : T. Bashford-Rogers and L. P. Santos
+      issn     : 1017-4656
+      address  : Lisbon, Portugal
+      publisher: Eurographics Association
+      month    : May
+      year     : 2016
             
-      - type: article
-        ## non-bibtex stuff
-        slug: "Stanko:2016:CAG"
-        description: "2016, Computers & Graphics, xx:yy"
-        pdf: 
-            file: 2016-cag
-            size: 16.7
-        ## bibtex stuff
-        bibtex:
-            title: Surfacing curve networks with normal control
-            authors:
-                - last : Stanko
-                  first: Tibor
-                - last : Hahmann
-                  first: Stefanie
-                  url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
-                - last : Bonneau
-                  first: Georges-Pierre 
-                  url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
-                - last : Saguin-Sprynski
-                  first: Nathalie
-            journal  : "Computer & Graphics"
-            publisher: Elsevier
-            year     : 2016
             
-      - type: inproceedings
-        ## non-bibtex stuff
-        slug: "Stanko:2016:EG"
-        description: "2016, Eurographics — short papers"
-        pdf: 
-            file: 2016-eg
-            size: 7.0
-        ## bibtex stuff
-        bibtex:
-            title: Smooth interpolation of curve networks with surface normals
-            authors:
-                - last : Stanko
-                  first: Tibor
-                - last : Hahmann
-                  first: Stefanie
-                  url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
-                - last : Bonneau
-                  first: Georges-Pierre 
-                  url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
-                - last : Saguin-Sprynski
-                  first: Nathalie
-            booktitle: EG 2016 -- Short Papers
-            pages    : 021-024
-            doi      : 10.2312/egsh.20161005
-            editor   : T. Bashford-Rogers and L. P. Santos
-            issn     : 1017-4656
-            address  : Lisbon, Portugal
-            publisher: Eurographics Association
-            month    : May
-            year     : 2016
-            
+- type : masterthesis
+  slug   : "Stanko:2014:MSc"
+  description: "2014, master's thesis, Comenius University <small>(Bratislava, Slovakia)</small>"
+  advisor:
+      name: "Pavel Chalmovianský"
+      url : "http://www.sccg.sk/~chalmo/"
+  pdf: 
+      file: 2014-msc
+      size: 5.9
+  bibtex:
+      title  : Refining procedures on mesh via algebraic fitting
+      author : Tibor Stanko
+      school : Comenius University, Bratislava
+      month  : June
+      year   : 2014
 
-          
-- year: 2014
-  items:          
-      - type : masterthesis
-        slug   : "Stanko:2014:MSc"
-        description: "2014, master's thesis, Comenius University <small>(Bratislava, Slovakia)</small>"
-        advisor:
-            name: "Pavel Chalmovianský"
-            url : "http://www.sccg.sk/~chalmo/"
-        pdf: 
-            file: 2014-msc
-            size: 5.9
-        bibtex:
-            title  : Refining procedures on mesh via algebraic fitting
-            author : Tibor Stanko
-            school : Comenius University, Bratislava
-            month  : June
-            year   : 2014
-      
-      - type: inproceedings
-        description: "2014, CESCG paper"
-        slug     : "Stanko:2014:CESCG"
-        advisor:
-            name: "Pavel Chalmovianský"
-            url : "http://www.sccg.sk/~chalmo/"
-        pdf: 
-            file: 2014-cescg
-            size: 2.4
-        bibtex:
-            title    : Refining procedures on mesh via algebraic fitting
-            author   : Tibor Stanko
-            booktitle: Proc. CESCG 2014
-            editor   : M. Wimmer and J. Hladůvka and M. Ilčík
-            isbn     : 978-3-9502533-6-8
-            month    : April
-            year     : 2014
-            
-- year: 2012
-  items:
-      - type: masterthesis
-        slug: "Stanko:2012:BSc"
-        description: "2012, bachelor's thesis, Comenius University <small>(Bratislava, Slovakia)</small>"
-        advisor:
-            name: "Matej Novotný"
-            url : "http://www.sccg.sk/~mnovotny/"
-        pdf: 
-            file: 2012-bsc
-            size: 2.3
-
-        bibtex:
-            title  : Online application for data visualisation
-            author : Tibor Stanko
-            school : Comenius University, Bratislava
-            type   : BSc. thesis
-            url    : "http://grafit.tiborstanko.sk"
-            month  : June
-            year   : 2012     
+    
+- type: inproceedings
+  description: "2014, CESCG paper"
+  slug     : "Stanko:2014:CESCG"
+  advisor:
+      name: "Pavel Chalmovianský"
+      url : "http://www.sccg.sk/~chalmo/"
+  pdf: 
+      file: 2014-cescg
+      size: 2.4
+  bibtex:
+      title    : Refining procedures on mesh via algebraic fitting
+      author   : Tibor Stanko
+      booktitle: Proc. CESCG 2014
+      editor   : M. Wimmer and J. Hladůvka and M. Ilčík
+      isbn     : 978-3-9502533-6-8
+      month    : April
+      year     : 2014
+    
+    
+- type: masterthesis
+  slug: "Stanko:2012:BSc"
+  description: "2012, bachelor's thesis, Comenius University <small>(Bratislava, Slovakia)</small>"
+  advisor:
+      name: "Matej Novotný"
+      url : "http://www.sccg.sk/~mnovotny/"
+  pdf: 
+      file: 2012-bsc
+      size: 2.3
+  bibtex:
+      title  : Online application for data visualisation
+      author : Tibor Stanko
+      school : Comenius University, Bratislava
+      type   : BSc. thesis
+      url    : "http://grafit.tiborstanko.sk"
+      month  : June
+      year   : 2012     
 #
 #
 # source: https://en.wikipedia.org/wiki/BibTeX

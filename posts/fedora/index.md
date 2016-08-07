@@ -1,6 +1,4 @@
 ---
 layout: posts
-permalink: /posts/
+category: fedora
 ---
-
-

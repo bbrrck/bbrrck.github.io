@@ -5,7 +5,26 @@ layout: default
 {% assign date = page.date %}
 {% assign title = page.title %}
 {% assign url = page.url %}
-<article class="single travauxpratiques post geonum2016">
-    <div class="backlink">back to <a href="/teaching/geo-num-2016/">Géométrie numérique 2016</a></div>
-    {% include post-layout.html %}
-</article>
+
+{% assign course = site.data.teaching-geonum2016 %}
+{% assign type = "TP" %}
+
+<div class="row">
+<div class="col-md-9">
+    <article class="single travauxpratiques post geonum2016">
+        <!--div class="backlink">back to <a href="/teaching/geo-num-2016/">
+        geonum2016 main page</a></div-->
+        {% include post-layout.html %}
+    </article>
+</div>
+<div class="col-md-3">
+    <h2><a href="/teaching/geo-num-2016/">.geonum2016</a></h2>
+    <ol class="syllabus">
+    {% for class in course.syllabus %}
+    {% unless class.break or class.nolink %}
+    <li{% if class.break %} class="break"{% endif %}><a href="/teaching/{{ course.slug }}/{{ type | downcase }}{{ class.number }}.html">{{ class.title }}</a></li>
+    {% endunless %}
+    {% endfor %}
+    </ol>
+</div>
+</div>

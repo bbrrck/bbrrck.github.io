@@ -1,17 +1,17 @@
 ---
-layout:     post
-title:      Bézier surfaces in Matlab
-date:       2016-02-01 16:30:00
-permalink:  bezier-surfaces-matlab
-category:   matlab
+layout      : post
+title       : Bézier surfaces in Matlab
+date        : 2016-02-01 16:30:00
+permalink   : bezier-surfaces-matlab
+category    : matlab
 ---
 
-<div style="text-align:center;">
-    <video width="700" height="388" poster="/assets/teapot.gif" autoplay loop>
+<figure>
+    <video style="max-width:100%" width="700" poster="/assets/teapot.gif" autoplay loop>
         <source src="/assets/teapot.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-</div>
+</figure>
 
 The following code is my attempt for a fast and compact Matlab implementation of Bézier surfaces using three-dimensional arrays. It runs in less than ones second for the [teapot](http://www.holmes3d.net/graphics/teapot/teapotrim.bpt) dataset with 32 cubic patches and 10 000 surface points per patch. The computation itself (4064 calls to the `casteljau` function) takes only &#8531; of a second.
 

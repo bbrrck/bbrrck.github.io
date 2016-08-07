@@ -1,4 +1,4 @@
 ---
 layout: posts
-category: os
+category: matlab
 ---

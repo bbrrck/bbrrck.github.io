@@ -6,98 +6,78 @@ $artc-color: rgba(255,120,0,0.25);
 $conf-color: rgba(50,255,50,0.25);
 $thss-color: rgba(120,120,120,0.25);
             
-.pubs {
-    line-height:125%;
-    + .pubs {
-        margin-top: 2em;
-        border-top:1px solid #eee;
+.publication {
+    &.article {
+        .description{background-color:  $artc-color;}
     }
-    .year {
-        font-size: 150%;
-        color: $brand-color;
+    &.inproceedings {
+        .description{background-color:  $conf-color;}
+    }
+    &.masterthesis {
+        .description{background-color:  $thss-color;}
+    }
+    &:after {
+        content: "";
         clear: both;
-        display: block;
-        padding: 0 0.25em;
+        display: table;
     }
-    .pub {
-        &.article {
-            .description{background-color:  $artc-color;}
+    img {
+        width: 10em;
+        float:right;
+        padding: 0.1em;
+    }
+    .pub-content {
+        .authors a, .advisor a {
+            &:link,
+            &:visited,
+            &:hover,
+            &:active {color:#666;}
         }
-        &.inproceedings {
-            .description{background-color:  $conf-color;}
+        .description {
+            color:#333;
+            display:inline-block;
+            margin: 0.05em 0 0.25em;
+            padding:0.20em 0.5em 0;
         }
-        &.masterthesis {
-            .description{background-color:  $thss-color;}
-        }
-        margin: 1em 0 2em;
-        
-        &:after {
-            content: "";
-            clear: both;
-            display: table;
-        }
-        img {
-            float:left;
-            position: relative;
+        float: left;
+        width: -webkit-calc(100% - #{$pub-img-full} - (#2*{$spacing-unit}));
+        width:         calc(100% - #{$pub-img-full} - (#2*{$spacing-unit}));
+        .title {
+            color: #111;
             display: block;
-            margin: 0 1.25*$spacing-unit 0 0;
-            width: -webkit-calc(#{$pub-img-full} - (#{$spacing-unit}));
-            width:         calc(#{$pub-img-full} - (#{$spacing-unit}));
-            padding: 0.1em;
+            margin: 0;
+            line-height:150%;
         }
-        .pub-content {
-            .authors a, .advisor a {
-                &:link,
-                &:visited,
-                &:hover,
-                &:active {color:#666;}
-            }
-            .description {
-                color:#333;
-                display:inline-block;
-                margin: 0.05em 0 0.25em;
-                padding:0.20em 0.5em 0;
-            }
-            float: left;
-            width: -webkit-calc(100% - #{$pub-img-full} - (#2*{$spacing-unit}));
-            width:         calc(100% - #{$pub-img-full} - (#2*{$spacing-unit}));
-            .title {
-                color: #111;
-                display: block;
-                margin: 0;
-                line-height:150%;
-            }
-            .advisor:before {
-                content: "advised by ";
-            }
-            .authors,
-            .advisor {
-                color: $grey-color-dark;
-                padding: 0.05em 0;
-            }
-            .links {
-                color: $grey-color;
-                margin-top:1em;
-                .bibtex {
-                    line-height:110%;
-                    position: relative;
-                    display: inline-block;
-                    textarea {display: none;}
-                    pre {
-                        position: absolute;
-                        top: 0;
-                        left: 110%;
-                        z-index: 999;
-                        color: $text-color;
-                        border: 1px solid #ccc;
-                        opacity: 0;
-                        visibility: hidden;
-                        transition: opacity 0.25s linear, visibility 0.25s linear;
-                    }
-                    &:hover pre {
-                        visibility: visible;
-                        opacity: 0.95;
-                    }
+        .advisor:before {
+            content: "advised by ";
+        }
+        .authors,
+        .advisor {
+            color: $grey-color-dark;
+            padding: 0.05em 0;
+        }
+        .links {
+            color: $grey-color;
+            margin-top:1em;
+            .bibtex {
+                line-height:110%;
+                position: relative;
+                display: inline-block;
+                textarea {display: none;}
+                pre {
+                    position: absolute;
+                    top: 0;
+                    left: 110%;
+                    z-index: 999;
+                    color: $text-color;
+                    border: 1px solid #ccc;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: opacity 0.25s linear, visibility 0.25s linear;
+                }
+                &:hover pre {
+                    visibility: visible;
+                    opacity: 0.95;
                 }
             }
         }

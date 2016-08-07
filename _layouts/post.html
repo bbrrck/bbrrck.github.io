@@ -8,5 +8,5 @@ layout: default
 {% assign category = page.category %}
 <article class="single blog blogpost">
     {% include post-layout.html %}
-    {% include comments.html %}
+    {% comment %}{% include comments.html %}{% endcomment %}
 </article>
