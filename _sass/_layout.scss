@@ -2,6 +2,7 @@
  * header
  */
 .site-header {
+    padding-top: 0.25em;
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     position: relative;
@@ -16,31 +17,17 @@
     }
 }
 .site-nav {
-    line-height:320%;
-    font-size: 125%;
-    font-family: $header-font-family;
+    line-height:400%;
+    font-size: 100%;
+    font-family: $base-font-family;
     float: right;
     .page-link {
-        color: $text-color;
         line-height: $base-line-height;
         &:not(:first-child) {
             margin-left: 20px;
         }
         &.page-link-active {
             text-decoration:underline;
-        }
-    }
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-        .page-link {
-            display: block;
-            padding: 5px 10px;
         }
     }
 }

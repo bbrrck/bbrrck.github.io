@@ -51,7 +51,26 @@
       publisher: Eurographics Association
       month    : May
       year     : 2016
-            
+
+      
+- type: talk
+  slug: "Stanko:2016:GTMG"
+  description: "presented at Journées GTMG 2016"
+  url: "https://gtmg2016.sciencesconf.org/"
+  bibtex:
+      title: Smooth interpolation of curve networks with surface normals
+      authors:
+          - last : Stanko
+            first: Tibor
+          - last : Hahmann
+            first: Stefanie
+            url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
+          - last : Bonneau
+            first: Georges-Pierre 
+            url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
+          - last : Saguin-Sprynski
+            first: Nathalie
+
             
 - type : masterthesis
   slug   : "Stanko:2014:MSc"

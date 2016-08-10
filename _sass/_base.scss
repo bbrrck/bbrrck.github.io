@@ -9,12 +9,6 @@ body {
     color: $text-color;
     background-color: $background-color;
     font-family: $base-font-family;
-    @include media-query($on-laptop) {
-        font-size: $laptop-font-size;
-    }
-    @include media-query($on-palm) {
-        font-size: $palm-font-size;
-    }
 }
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,

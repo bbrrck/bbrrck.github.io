@@ -28,7 +28,7 @@ ul.syllabus {
 }
 
 article {
-    &.multiple {margin-top: 1em;}
+/*     &.multiple {margin-top: 1em;} */
     &.multiple + article {margin-top:5em;}
     h1.post-title,
     h2.post-title {
@@ -54,7 +54,7 @@ article {
             color: #ccc;
         }
         span.category:before {
-            content: "in";
+            content: "in ";
         }
     }
     .content {}

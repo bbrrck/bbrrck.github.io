@@ -4,22 +4,21 @@
   <body>
     <header class="site-header">
         <div class="container">
-            {% include header.html %}
+{% include navigation.html %}
         </div>
     </header>
     <div class="site-main">
         <div class="container">
-                {{ content }}
+{{ content }}
         </div>
     </div>
     
     <footer class="site-footer">
         <div class="container">
-            {% include footer.html %}
+{% include footer.html %}
         </div>
     </footer>
-        
-    <script src="/js/prism.js"></script>
-    <script id="dsq-count-scr" src="https://tiborstanko.disqus.com/count.js" async></script>
+    
+{% include footer-scripts.html %}
   </body>
 </html>

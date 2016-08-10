@@ -10,7 +10,7 @@ bibtex-indent: "  "
 <div class="publication {{ item.type }} row" id="p-{{ item.pdf.file }}">
 
     <div class="col-md-3">
-        <img src="/assets/{{ item.pdf.file }}.png" />
+        {% if item.pdf %}<img src="/assets/{{ item.pdf.file }}.png" />{% endif %}
     </div>
     
     <div class="pub-content col-md-9">
@@ -19,10 +19,13 @@ bibtex-indent: "  "
         <div class="description">{{ item.description }}</div>
         {% if item.advisor %}<div class="advisor"><a href="{{ item.advisor.url }}">{{ item.advisor.name }}</a></div>{% endif %}
         <div class="links">
+            {% if item.pdf %}
             [ <a href="/assets/{{ item.pdf.file }}.pdf">pdf</a> ~ {{ item.pdf.size }} MB ]
+            {% endif %}
             {% if item.url %}
                 [ <a href="{{ item.url }}">www</a> ]
             {% endif %}
+            {% if item.pdf %}
             <div class="bibtex">
                 [ <a href="#">bibtex</a> ]
 <pre id="bibtex-{{ item.pdf.slug }}">
@@ -32,6 +35,7 @@ bibtex-indent: "  "
 {% endunless %}{% endif %}{% endfor %}&#125;
 </pre>
             </div>
+            {% endif %}
         </div>
     </div>
 </div>

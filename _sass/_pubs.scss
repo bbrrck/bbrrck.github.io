@@ -1,30 +1,24 @@
-$pub-img-full: 20%;
-$pub-img-laptop: 8em;
-$pub-img-palm: 8em;
-
 $artc-color: rgba(255,120,0,0.25);
 $conf-color: rgba(50,255,50,0.25);
 $thss-color: rgba(120,120,120,0.25);
+$talk-color: rgba(120,255,255,0.25);
             
 .publication {
-    &.article {
-        .description{background-color:  $artc-color;}
-    }
-    &.inproceedings {
-        .description{background-color:  $conf-color;}
-    }
-    &.masterthesis {
-        .description{background-color:  $thss-color;}
-    }
+    &.article      {.description{background-color:$artc-color;}}
+    &.inproceedings{.description{background-color:$conf-color;}}
+    &.masterthesis {.description{background-color:$thss-color;}}
+    &.talk         {.description{background-color:$talk-color;}}
     &:after {
         content: "";
         clear: both;
         display: table;
     }
+    margin-bottom: 2em;
     img {
-        width: 10em;
+        width: 100%;
+        max-width: 6.5em;
         float:right;
-        padding: 0.1em;
+        margin-right:-0.1em;
     }
     .pub-content {
         .authors a, .advisor a {
@@ -40,8 +34,6 @@ $thss-color: rgba(120,120,120,0.25);
             padding:0.20em 0.5em 0;
         }
         float: left;
-        width: -webkit-calc(100% - #{$pub-img-full} - (#2*{$spacing-unit}));
-        width:         calc(100% - #{$pub-img-full} - (#2*{$spacing-unit}));
         .title {
             color: #111;
             display: block;
@@ -58,7 +50,7 @@ $thss-color: rgba(120,120,120,0.25);
         }
         .links {
             color: $grey-color;
-            margin-top:1em;
+            margin-top:0.25em;
             .bibtex {
                 line-height:110%;
                 position: relative;
@@ -79,48 +71,6 @@ $thss-color: rgba(120,120,120,0.25);
                     visibility: visible;
                     opacity: 0.95;
                 }
-            }
-        }
-    }
-}
-
-@include media-query($on-laptop) {
-    .pubs {
-        +.pubs {
-            margin-top: 1em;
-        }
-        .pub {
-            margin-top: 0;
-            img {
-                width: -webkit-calc(#{$pub-img-laptop} - (#{$spacing-unit}));
-                width:         calc(#{$pub-img-laptop} - (#{$spacing-unit}));
-            }
-            .pub-content {
-                width: -webkit-calc(100% - #{$pub-img-laptop} - (#{$spacing-unit}));
-                width:         calc(100% - #{$pub-img-laptop} - (#{$spacing-unit}));
-            }
-        }
-    }
-}
-
-@include media-query($on-palm) {
-    .pubs {
-        .pub {
-            padding-bottom: 1em;
-            margin-bottom: 1em;
-            border-bottom: 1px solid $grey-color-light;
-            img {
-                width: -webkit-calc(#{$pub-img-palm} - (#{$spacing-unit}));
-                width:         calc(#{$pub-img-palm} - (#{$spacing-unit}));
-                margin: 0.5em 0 0.5em;
-            }
-            .pub-content {
-                width: -webkit-calc(100% - (#{$spacing-unit}));
-                width:         calc(100% - (#{$spacing-unit}));
-            }
-            &:last-child {
-                border: 0;
-                padding-bottom: 0;
             }
         }
     }

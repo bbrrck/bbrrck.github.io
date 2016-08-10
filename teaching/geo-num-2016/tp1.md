@@ -87,7 +87,7 @@ python ../plots/plot.py
 Many of you have reported problems with <code class="language-bash">gnuplot</code> due to the line <code class="language-bash">set terminal qt</code>.
 Change it to something else to make things work, e.g. <code class="language-bash">set terminal x11</code>.
 For a complete list of terminals available on your machine, execute
-<pre><code class="language-bash">echo "set terminal" | gnuplot</code></pre>.
+<pre><code class="language-bash">echo "set terminal" | gnuplot</code></pre>
 
 
 ## ToDo

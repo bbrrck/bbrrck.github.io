@@ -56,11 +56,6 @@ $quote-text:    #111;
 $quote-link:    $visited-color;
 $quote-visited: $quote-link;
 
-// Width of the content area
-$content-width: 1000px;
-$on-laptop:     1000px;
-$on-palm:       600px;
-
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
@@ -70,5 +65,4 @@ $on-palm:       600px;
 @import "base",
         "layout",
         "article",
-        "pubs",
-        "new";
+        "pubs";
