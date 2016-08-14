@@ -9,11 +9,11 @@ bibtex-indent: "  "
 {% for item in pubs %}
 <div class="publication {{ item.type }} row" id="p-{{ item.pdf.file }}">
 
-    <div class="col-md-3">
+    <div class="col-md-3 col-xs-4">
         {% if item.pdf %}<img src="/assets/{{ item.pdf.file }}.png" />{% endif %}
     </div>
     
-    <div class="pub-content col-md-9">
+    <div class="pub-content col-md-9 col-xs-8">
         <div class="title">{{ item.bibtex.title }}</div>
         <div class="authors">{% for author in item.bibtex.authors %}{% if author.last == 'Stanko' %}TS{% else %}{% if author.url %}<a href="{{ author.url }}">{% endif %}{% assign firstparts = {author.first | split: '-'} %}{% for fpart in firstparts %}{{ fpart | split: '' | first }}{% endfor %} {{ author.last }}{% if author.url %}</a>{% endif %}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</div>
         <div class="description">{{ item.description }}</div>

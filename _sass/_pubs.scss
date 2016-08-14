@@ -1,8 +1,7 @@
-$artc-color: rgba(255,120,0,0.25);
-$conf-color: rgba(50,255,50,0.25);
+$artc-color: rgba(255,120,  0,0.25);
+$conf-color: rgba( 50,255, 50,0.25);
 $thss-color: rgba(120,120,120,0.25);
 $talk-color: rgba(120,255,255,0.25);
-            
 .publication {
     &.article      {.description{background-color:$artc-color;}}
     &.inproceedings{.description{background-color:$conf-color;}}
@@ -16,7 +15,7 @@ $talk-color: rgba(120,255,255,0.25);
     margin-bottom: 2em;
     img {
         width: 100%;
-        max-width: 6.5em;
+        max-width: 8em;
         float:right;
         margin-right:-0.1em;
     }

@@ -4,7 +4,7 @@ layout: default
 {% assign hstyle = "2" %}
 <div class="row">
     <div class="col-md-9">
-        {% for post in site.posts %}{% unless post.draft %}
+        {% for post in site.posts %}
         {% unless page.category and post.category != page.category %}
         {% assign title = post.title %}
         {% assign url = post.url %}
@@ -16,7 +16,7 @@ layout: default
             {% include post-layout.html %}
             {% comment %}<a href="https://tiborstanko.sk{{ url }}#disqus_thread">0</a>{% endcomment %}
         </article>
-        {% endunless %}{% endunless %}{% endfor %}
+        {% endunless %}{% endfor %}
     </div>
 
     <div class="col-md-3">

@@ -3,11 +3,11 @@ layout: page
 ---
 
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4 col-sm-4">
         <img src="/assets/apple.jpg" alt="" />
     </div>
     
-    <div class="col-md-8">
+    <div class="col-md-8 col-sm-8">
         <p>Hello there!</p>
         
         <p>
@@ -19,11 +19,14 @@ layout: page
         </p>
         
         <p>
-            The main goal of my research is to develop efficient and accurate algorithms for shape reconstruction using data provided by inertial microsensors (accelero- and magnetometers). These methods will be tested and used in combination with various sensing devices developed at Leti. Have a look at <a href="/publications/">my publications</a>.
+            The main goal of my research is to develop efficient and accurate algorithms for shape reconstruction using data provided by microsensors (accelero- and magnetometers).
         </p>
         
+        <p>Have a look at <a href="/publications/">my publications</a> for more details.</p>
+        
         <p>
-            I occasionally <a href="/posts/">blog</a>, mostly not to forget about stuff.
+            I occasionally <a href="/posts/">blog</a>, mostly about stuff.
         </p>
+
     </div>
 </div>

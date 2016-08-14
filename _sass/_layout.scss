@@ -37,58 +37,38 @@
 .site-main {
     padding: 1em 0;
 }
-/** 
- * sticky footer 
- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-    margin-bottom: $footer-height + 2*$footer-spacing-unit;
-}
 .site-footer {
-    padding: $footer-spacing-unit 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: $footer-height;
     color: $footer-text;
-    font-size:90%;
-    background-color: $footer-back;
-    a {
-        color: $footer-link;
-        &:visited {
-            color: $footer-visited;
-        }
-        &:hover {
-            color: $footer-text;
-        }
-    }
+    font-size: 90%;
+    margin: 4em 0 0;
+    padding: 1em 0;
     ul {
         list-style-type:none;
-    }
-}
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-    img, svg {
-        margin-right: 0.2em;
-    }
-    &#nowplay-currentread li {
-        width: 100%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        color: $footer-icon-color;
-    }
-    // nowplaying animation
-    @keyframes nowplaying {
-        0%, 100% {fill: $footer-icon-color;}
-        50% {fill: $footer-icon-pulse;}
-    }
-    li.nowplaying path {
-        animation: nowplaying 2.5s ease-out infinite;
+        &.contact-list {text-align:right;}
+        &.social-media-list {text-align:left;}
+        li {display: inline-block;}
+        &.contact-list,
+        &.social-media-list {
+            list-style: none;
+            margin-left: 0;
+            img, svg {
+                margin-right: 0.2em;
+            }
+            &#nowplay-currentread li {
+                width: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                color: $footer-icon-color;
+            }
+            // nowplaying animation
+            @keyframes nowplaying {
+                0%, 100% {fill: $footer-icon-color;}
+                50% {fill: $footer-icon-pulse;}
+            }
+            li.nowplaying path {
+                animation: nowplaying 2.5s ease-out infinite;
+            }
+        }
     }
 }

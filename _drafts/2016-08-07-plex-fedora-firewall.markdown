@@ -6,7 +6,7 @@ permalink:  plex-fedora-firewall
 category:   fedora
 ---
 
-before
+
 http://bendavis.me/2015/03/29/setup-plex-media-server-on-fedora/
 
 test to see if not app issue

@@ -20,9 +20,6 @@ $palm-font-size:   100%;
 $spacing-unit:     30px;
 $main-spacing-unit:50px;
 
-$footer-height:    90px;
-$footer-spacing-unit: 10px;
-
 $text-color:       #111;
 $background-color: #fff;
 $brand-color:      #1f87ea;
@@ -43,10 +40,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Footer
-$footer-back:    $grey-color-dark;
-$footer-text:    #999;
-$footer-link:    lighten($footer-text,25%);
-$footer-visited: $footer-link;
+$footer-text:    #666;
 $footer-icon-color: $footer-text;
 $footer-icon-pulse: lighten($brand-color,15%);
 
