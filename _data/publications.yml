@@ -1,7 +1,7 @@
 ---       
 - type: article
   slug: "Stanko:2016:CAG"
-  description: "2016, Computers & Graphics, xx:yy"
+  description: "Computers & Graphics #60 (Nov 2016)"
   pdf: 
       file: 2016-cag
       size: 16.7
@@ -20,12 +20,16 @@
             first: Nathalie
       journal  : "Computer & Graphics"
       publisher: Elsevier
+      volume   : 60
+      pages    : 001-008
+      month    : 11
       year     : 2016
+      doi      : "doi:10.1016/j.cag.2016.07.001"
     
     
 - type: inproceedings
   slug: "Stanko:2016:EG"
-  description: "2016, Eurographics — short papers"
+  description: "Eurographics 2016 — short papers"
   pdf: 
       file: 2016-eg
       size: 7.0
@@ -90,7 +94,7 @@
 
     
 - type: inproceedings
-  description: "2014, CESCG paper"
+  description: "CESCG 2014 paper"
   slug     : "Stanko:2014:CESCG"
   advisor:
       name: "Pavel Chalmovianský"

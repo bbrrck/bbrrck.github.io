@@ -1,6 +1,6 @@
 $artc-color: rgba(255,120,  0,0.25);
 $conf-color: rgba( 50,255, 50,0.25);
-$thss-color: rgba(120,120,120,0.25);
+$thss-color: rgba(120,120,120,0.10);
 $talk-color: rgba(120,255,255,0.25);
 .publication {
     &.article      {.description{background-color:$artc-color;}}
@@ -12,10 +12,10 @@ $talk-color: rgba(120,255,255,0.25);
         clear: both;
         display: table;
     }
-    margin-bottom: 2em;
+    margin: 1em 0 2em;
     img {
         width: 100%;
-        max-width: 8em;
+        max-width: 7em;
         float:right;
         margin-right:-0.1em;
     }
@@ -24,7 +24,7 @@ $talk-color: rgba(120,255,255,0.25);
             &:link,
             &:visited,
             &:hover,
-            &:active {color:#666;}
+            &:active {}
         }
         .description {
             color:#333;
@@ -32,8 +32,8 @@ $talk-color: rgba(120,255,255,0.25);
             margin: 0.05em 0 0.25em;
             padding:0.20em 0.5em 0;
         }
-        float: left;
         .title {
+            font-weight: 700;
             color: #111;
             display: block;
             margin: 0;
@@ -66,11 +66,14 @@ $talk-color: rgba(120,255,255,0.25);
                     visibility: hidden;
                     transition: opacity 0.25s linear, visibility 0.25s linear;
                 }
+                & pre {
+                    font-size: 80%;
+                    letter-spacing:-1px;
+                    line-height:1.1;
+                    padding: 0.5em;
+                    margin-left:-0.5em;
+                }
                 &:hover pre {
                     visibility: visible;
                     opacity: 0.95;
-                }
-            }
-        }
-    }
-}
+}}}}}

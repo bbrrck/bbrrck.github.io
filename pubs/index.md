@@ -6,6 +6,7 @@ bibtex-indent: "  "
 ---
 
 {% assign pubs = site.data.publications %}
+
 {% for item in pubs %}
 <div class="publication {{ item.type }} row" id="p-{{ item.pdf.file }}">
 
