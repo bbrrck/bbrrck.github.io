@@ -1,0 +1,26 @@
+---
+layout      : post
+title       : Forgotten tabs
+date        : 2016-10-10 00:00:00
+permalink   : forgotten-tabs
+category    : music
+---
+Once upon a time, I heard a song. This one:
+
+{% youtube B14eC6z83s8 %}
+
+Naturally, [I had to tab it.](https://tabs.ultimate-guitar.com/r/rachel_sermanni/bones_crd.htm) And it remained the only tab I've ever published.
+
+Then I kind of forgot about it.
+
+Recently, I was searching for some stuff on UG (Ultimate Guitar, not University of Grenoble...) and wondered what happened to my tab. To my surprise, not only did it have some views, it was also rated as excellent! That felt good.
+
+Strange thing, this tabbing. Are you actually creating something new when tabbing somebody else's song? To put it another way, [are you inventing or discovering?](https://www.quora.com/Was-mathematics-invented-or-discovered-1)
+
+Anyway, I'll try to post more of tabs from now on. [Of this song, for instance](https://www.youtube.com/watch?v=-hY-XBLw6SU).
+
+And I definitely need to  practice more.
+
+
+
+

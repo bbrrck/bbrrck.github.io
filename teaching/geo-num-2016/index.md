@@ -1,6 +1,6 @@
 ---
 layout: default
-title: teaching
+title: Géométrie numérique
 ---
 {% assign course = site.data.teaching-geonum2016 %}
 

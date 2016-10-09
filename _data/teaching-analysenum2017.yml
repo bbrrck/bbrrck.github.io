@@ -1,0 +1,36 @@
+---      
+name    : "Analyse numérique"
+code    : "3FMT1009"
+url     : "http://pagora.grenoble-inp.fr/formation/analyse-numerique-3fmt1009-480389.kjsp"
+slug    : analyse-num-2016
+  
+meta    :
+  - semester: "spring 2017"
+    type    : "TD"
+    group   : "M1 Info"
+
+
+syllabus:
+  - date  : 2017-03-23
+    title : ""
+    number: 1
+    
+  - date  : 2017-03-30
+    title : ""
+    number: 2
+    
+  - date  : 2017-04-06
+    title : ""
+    number: 3
+  - date  : 2017-04-13
+    title : ""
+    number: 4
+    
+past:
+  - year : 2015
+    who  : Ulysse Vimont
+    url  : https://team.inria.fr/imagine/geometrie-numerique-m1-info-im2ag-20142015/
+    
+  - year : 2014
+    who  : Pierre-Luc Manteaux
+    url  : http://manteapi.github.io/teaching/imag_geonum/index.html
