@@ -8,21 +8,22 @@ meta    :
   - semester: "spring 2017"
     type    : "TD"
     group   : "M1 Info"
-
+    time    : "Friday, 13h15 – 14h45 / 15h00 – 16h30"
+    room    : "B111, Pagora"
 
 syllabus:
-  - date  : 2017-03-23
+  - date  : 2017-03-17
     title : ""
     number: 1
     
-  - date  : 2017-03-30
+  - date  : 2017-03-24
     title : ""
     number: 2
     
-  - date  : 2017-04-06
+  - date  : 2017-03-31
     title : ""
     number: 3
-  - date  : 2017-04-13
+  - date  : 2017-04-07
     title : ""
     number: 4
     

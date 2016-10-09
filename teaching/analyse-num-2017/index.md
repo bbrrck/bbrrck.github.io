@@ -24,7 +24,7 @@ title: Analyse numérique
         <div class="col-md-6">
             <h2>Description</h2>
             <p>
-            #TBA
+            Course of basic numerical analysis, practical part.
             </p>
         </div>
 
