@@ -7,7 +7,7 @@ category    : music
 ---
 Once upon a time, I heard a song. This one:
 
-{% youtube B14eC6z83s8 %}
+{% YouTube B14eC6z83s8 %}
 
 Naturally, [I had to tab it.](https://tabs.ultimate-guitar.com/r/rachel_sermanni/bones_crd.htm) And it remained the only tab I've ever published.
 
