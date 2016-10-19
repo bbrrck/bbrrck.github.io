@@ -1,14 +1,15 @@
 ---
 layout      : post
 title       : Forgotten tabs
-date        : 2016-10-10 00:00:00
+date        : 2016-10-09 23:20:00
 permalink   : forgotten-tabs
 category    : music
 ---
 Once upon a time, I heard a song. This one:
 
-{% youtube B14eC6z83s8 %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B14eC6z83s8" frameborder="0" allowfullscreen></iframe>
 
+<br />
 Naturally, [I had to tab it.](https://tabs.ultimate-guitar.com/r/rachel_sermanni/bones_crd.htm) And it remained the only tab I've ever published.
 
 Then I kind of forgot about it.
