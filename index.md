@@ -11,7 +11,7 @@ layout: page
         <p>Hello there!</p>
         
         <p>
-            I am a second-year PhD student working at
+            I am a third-year PhD student working at
             <a href="http://www-leti.cea.fr/en">CEA-Leti</a> in Grenoble,
             and a member of the 
             <a href="https://team.inria.fr/imagine/">Imagine</a> team
