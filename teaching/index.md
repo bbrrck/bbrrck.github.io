@@ -6,6 +6,8 @@ title: teaching
 
 ## Spring 2017
 
+### Géométrie numérique
+
 ### [Analyse numérique](analyse-num-2017/)
 
 ## Spring 2016
