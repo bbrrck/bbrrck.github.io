@@ -127,7 +127,7 @@ A cubic B-spline with 16 segments and endpoint interpolation.
 1. Implement the De Boor's algorithm. (`Vec2 DeBoor`)
 2. Implement the evaluation of a B-spline curve. (`evaluateBSpline`)
 3. Compute the B-spline curve for the `simple` dataset. Then, modify the knot vector and recompute. What happened?
-4. Compute the B-spline curve for the `spiral` dataset. Try using the knot vector <code style="display:inline-block;">0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5`. What changed?
+4. Compute the B-spline curve for the `spiral` dataset. Try using the knot vector <code style="display:inline-block;">0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5</code>. What changed?
 5. Compute the B-spline curve for the `camel` dataset. Move the front leg by changing the x-coordinate of the very last control point to `-1.5`. Which segments of the curve have changed? Why?
 
 ## NURBS
@@ -145,22 +145,16 @@ together, those three numbers define the homogeneous (or projective) coordinates
 The third number is often called a weight of the control point.
 
 Here's the good news: even with the homogeneous coordinates, we can apply exactly the same De Boor's algorithm without any modifications. So, if you're up for it, here's a secret recipe for transforming your 2D B-splines into 2D NURBS:
-* Use a matrix of type `MatX3` to store the control points (the first and second column are the x and y coordinates, respectively; the third column hold the weights).
-For reading the `circle.nurbs` file, you can still use the method `readBSpline`, no change here; just make sure the second argument you pass is a three-column matrix.
-Let's call this matrix `ControlPoints3`.
+
+* Use a matrix of type `MatX3` to store the control points (the first and second column are the x and y coordinates, respectively; the third column hold the weights). For reading the `circle.nurbs` file, you can still use the method `readBSpline`, no change here; just make sure the second argument you pass is a three-column matrix. Let's call this matrix `ControlPoints3`.
+
+* `DeBoor3:` you can copy-paste everything from the 2D version, just be sure to change the types to `Vec3` and `MatX3`.
    
-*`DeBoor3:` you can copy-paste everything from the 2D version, just be sure to change the types to `Vec3` and `MatX3`.
-   
-* Before you begin the evaluation, you need to multiply the x and y coordinates (first two columns of the `ControlPoints3` matrix)
-by the weights (third column). You can do this with  
-`ControlPoints3.col(i) = ControlPoints3.col(i).array() * ControlPoints3.col(2).array();`  
-for `i=0,1.`
-The `.array()` tells the Eigen to perform the operation element-wise.
+* Before you begin the evaluation, you need to multiply the x and y coordinates (first two columns of the `ControlPoints3` matrix) by the weights (third column). You can do this with `ControlPoints3.col(i) = ControlPoints3.col(i).array() * ControlPoints3.col(2).array();`for `i=0,1.` The `.array()` tells the Eigen to perform the operation element-wise.
    
 * Proceed by evaluating the `SplinePoints3` with three coordinates.
    
-* The last step is to return to the plane coordinates. To do that, you need to divide by the weights. Much like before, this is done with  
-`SplinePoints2.col(i) = SplinePoints3.col(i).array() / SplinePoints3.col(2).array();`
+* The last step is to return to the plane coordinates. To do that, you need to divide by the weights. Much like before, this is done with `SplinePoints2.col(i) = SplinePoints3.col(i).array() / SplinePoints3.col(2).array();`
 
 ## Bonus ToDo
 
