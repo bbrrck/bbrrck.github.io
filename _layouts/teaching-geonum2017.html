@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{% assign hstyle = "1" %}
+{% assign date = page.date %}
+{% assign title = page.title %}
+{% assign url = page.url %}
+
+{% assign course = site.data.teaching-geonum2017 %}
+{% assign type = "TP" %}
+
+<div class="row">
+<div class="col-xs-12 col-md-3 col-md-push-9">
+    <div class="syllabus-wrapper">
+    {% capture nowunix %}{{'now' | date: '%s' | plus : 172800 }}{% endcapture %}
+    <h2><a href="/teaching/geo-num-2017/">.geonum2017</a></h2>
+    <ol class="syllabus">
+    {% for class in course.syllabus %}
+    {% unless class.break or class.nolink %}
+    {% capture classtime %}{{class.date | date: '%s'}}{% endcapture %}
+                
+    <li{% if class.break %} class="break"{% endif %}>{% if classtime < nowunix %}<a href="/teaching/{{ course.slug }}/{{ type | downcase }}{{ class.number }}.html">{% endif %}{{ class.short }}{% if classtime < nowunix %}</a>{% endif %}</li>
+    {% endunless %}
+    {% endfor %}
+    </ol>
+    </div>
+</div>
+<div class="col-xs-12 col-md-9 col-md-pull-3">
+    <article class="single travauxpratiques post geonum2017">
+        <!--div class="backlink">back to <a href="/teaching/geo-num-2016/">
+        geonum2016 main page</a></div-->
+        {% include post-layout.html %}
+    </article>
+</div>
+</div>

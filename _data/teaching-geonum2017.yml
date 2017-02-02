@@ -1,0 +1,88 @@
+---      
+name    : "Géométrie numérique"
+code    : "GBIN8U12"
+url     : "http://formations.univ-grenoble-alpes.fr/fr/catalogue/master-XB/sciences-technologies-sante-STS/master-informatique-program-master-informatique/parcours-informatique-classique-1re-annee-subprogram-parcours-genie-informatique-informatique-m1-classique/ue-geometrie-numerique-IFZ6SWVT.html"
+slug    : geo-num-2017
+  
+meta    :
+  - semester: "spring 2017"
+    type    : "TP"
+    group   : "M1 Info"
+    time    : "Friday, 15h15 – 16h45"
+    room    : "F216, UFR IM²AG"
+    
+news      :
+
+  - date  : 2017-04-11 12:00:00
+    type  : 'deadline'
+    text  : ""
+
+
+syllabus:
+  - date  : 2017-02-03 15:15:00
+    title : "Bézier curves, De Casteljau’s algorithm"
+    short : "Bézier curves"
+    number: 1
+    
+  - date  : 2017-02-10 15:15:00
+    title : "Bézier splines, $C^k$ smoothness"
+    short : "Bézier splines"
+    number: 2
+    
+  - date  : 2017-02-17 15:15:00
+    title : "B-splines, De Boor's algorithm"
+    short : "B-splines"
+    number: 3
+    
+  - date  : 2017-02-24 15:15:00
+    title : "winter break"
+    short : "winter break"
+    break : true
+    
+  - date  : 2017-03-03 15:15:00
+    title : "Subdivision curves"
+    short : "Subdivision curves"
+    number: 4
+    
+  - date  : 2017-03-10 15:15:00
+    title : "Uniform B-splines as subvidision curves"
+    short : "Subdivision B-curves"
+    number: 5
+    
+  - date  : 2017-03-17 15:15:00
+    title : "Bézier surfaces"
+    short : "Bézier surfaces"
+    number: 6
+    
+  - date  : 2017-03-24 15:15:00
+    title : "B-spline surfaces"
+    short : "B-spline surfaces"
+    number: 7
+    
+  - date  : 2017-03-31 15:15:00
+    title : "Uniform B-splines as Subdivision Surfaces"
+    short : "Subdivision B-surfaces"
+    number: 8
+    
+  - date  : 2017-04-07 15:15:00
+    title : "Subdivision surfaces on triangle meshes"
+    short : "Triangle mesh subdivision"
+    number: 9
+    
+  - date  : 2017-04-14 15:15:00
+    title : "revisions"
+    nolink: true
+    number: 10
+    
+past:
+  - year : 2016
+    who  : TS
+    url  : https://tiborstanko.sk/teaching/geo-num-2016/
+    
+  - year : 2015
+    who  : Ulysse Vimont
+    url  : https://team.inria.fr/imagine/geometrie-numerique-m1-info-im2ag-20142015/
+    
+  - year : 2014
+    who  : Pierre-Luc Manteaux
+    url  : http://manteapi.github.io/teaching/imag_geonum/index.html

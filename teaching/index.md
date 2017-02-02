@@ -6,7 +6,7 @@ title: teaching
 
 ## Spring 2017
 
-### Géométrie numérique
+### [Géométrie numérique](geo-num-2017/)
 
 ### [Analyse numérique](analyse-num-2017/)
 
