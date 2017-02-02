@@ -64,6 +64,7 @@ title: Géométrie numérique
         <div class="col-md-6">
             <h2 id="submissions">Submissions</h2>
             <p>
+            You can either work alone or in a pair.
             After each TP, you are required to submit your <strong>code</strong> and a <strong>pdf report</strong>
             with comments and images. The more images the better! </p>
             
