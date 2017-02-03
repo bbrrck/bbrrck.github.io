@@ -65,11 +65,8 @@ $$
 Animation of the De Casteljau's algorithm for a quintic curve ($n=5$).
 
 ## Code
-Start by cloning the codebase. Instructions are in the description ithe repo.
-
-{% highlight bash %}
-git clone https://github.com/GeoNumTP/GeoNum2017.git
-{% endhighlight %}
+[general instructions](https://github.com/GeoNumTP/GeoNum2017)  
+[TP1 instructions](https://github.com/GeoNumTP/GeoNum2017/tree/master/TP1)  
 
 ## ToDo
 
