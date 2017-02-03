@@ -42,9 +42,10 @@ The Bézier points $\mathbf b_i \in \mathbb R^d$ form the *control polygon*.
 {:.imgCaption}
 Visualisation of the steps of the De Casteljau's algorithm, $t=0.5$.
 
-<p id="decasteljau-schema">The [De Casteljau’s algorithm](https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm)
+{:#decasteljau-schema}
+The [De Casteljau’s algorithm](https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm)
 provides an efficient means for evaluating a Bézier curve $\mathbf{x}(t)$.
-It is useful to look at this algorithm in its schematic form. For a cubic curve ($n=3$):</p>
+It is useful to look at this algorithm in its schematic form. For a cubic curve ($n=3$):
 
 $$
 \begin{array}{ccccccc}
