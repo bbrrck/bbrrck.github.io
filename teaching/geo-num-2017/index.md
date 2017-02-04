@@ -18,6 +18,10 @@ title: Géométrie numérique
             {% endfor %}
             </div>
         </div>
+        
+        <div class="col-xs-12">
+            {% include teaching-geonum2017-news.html %}
+        </div>
     </div>
     
     <div class="row">
@@ -65,12 +69,15 @@ title: Géométrie numérique
             <h2 id="submissions">Submissions</h2>
             <p>
             You can either work alone or in a pair.
-            After each TP, you are required to submit your <strong>code</strong> and a <strong>pdf report</strong>
+            After each TP, you are required to submit your
+            <strong style="color:#c00;">code</strong>
+            and a
+            <strong style="color:#c00;">pdf report</strong>
             with comments and images. The more images the better! </p>
             
             <p>
             Deadline for each submission will be announced here &mdash; it's usually the following TP.
-            Please note that <strong>late submissions will be penalized</strong> by scoring less points.
+            Please note that <strong style="color:#c00;">late submissions will be penalized</strong> by scoring less points.
             </p>
             
             <p>Every once in a while, there will be a bonus assignement which can get you some <strong>extra points.</strong></p>
@@ -80,10 +87,10 @@ title: Géométrie numérique
             <h2>Evaluation criteria</h2>
             Your work will score more points if you
             <ul class="criteria">
-                <li>have a <strong>working code</strong>;</li>
-                <li>experiment with <strong>all datasets</strong>;</li>
-                <li>experiment with <strong>different parameters</strong>;</li>
-                <li>make lots of <strong>images</strong>;</li>
+                <li>have a <strong style="color:#082">working code</strong>;</li>
+                <li>experiment with <strong style="color:#082">all datasets</strong>;</li>
+                <li>experiment with <strong style="color:#082">different parameters</strong>;</li>
+                <li>make lots of <strong style="color:#082">images</strong>;</li>
                 <li>document everything in your report;</li>
                 <li>submit before the deadline.</li>
             </ul>

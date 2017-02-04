@@ -7,7 +7,7 @@ title: Géométrie numérique
 <article class="single course page">
     
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-xs-12">
             <h1>{{ course.name }} <a href="{{ course.url }}">{{ course.code }}</a></h1>
             <div class="meta">
             {% for metas in course.meta %}
