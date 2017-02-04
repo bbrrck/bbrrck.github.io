@@ -42,6 +42,7 @@ The Bézier points $\mathbf b_i \in \mathbb R^d$ form the *control polygon*.
 {:.imgCaption}
 Visualisation of the steps of the De Casteljau's algorithm, $t=0.5$.
 
+{:#decasteljau-schema}
 The [De Casteljau’s algorithm](https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm)
 provides an efficient means for evaluating a Bézier curve $\mathbf{x}(t)$.
 It is useful to look at this algorithm in its schematic form. For a cubic curve ($n=3$):
@@ -65,11 +66,8 @@ $$
 Animation of the De Casteljau's algorithm for a quintic curve ($n=5$).
 
 ## Code
-Start by cloning the codebase. Instructions are in the description ithe repo.
-
-{% highlight bash %}
-git clone https://github.com/GeoNumTP/GeoNum2017.git
-{% endhighlight %}
+* [general instructions](https://github.com/GeoNumTP/GeoNum2017#géométrie-numérique-spring-2017)  
+* [TP1 instructions](https://github.com/GeoNumTP/GeoNum2017/tree/master/TP1#tp1--bézier-curves-de-casteljaus-algorithm)  
 
 ## ToDo
 
