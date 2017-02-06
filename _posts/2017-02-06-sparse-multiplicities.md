@@ -7,6 +7,7 @@ category    : matlab
 ---
 Multiplicities of array elements can be efficiently computed using `sparse`.
 I've found this elegant solution in an [old Newsgroup thread](http://fr.mathworks.com/matlabcentral/newsreader/view_thread/68132).
+
 ```matlab
 % generate some data
 A = randi(10,1,100);
