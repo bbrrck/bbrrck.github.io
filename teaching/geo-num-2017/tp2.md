@@ -203,7 +203,7 @@ H - 2I + J =& \mathbf 0
 $$
 
 where $\mathbf 0 = (0,0)$ is the zero vector.
-And that's it! Everything's much clearer using the matrix notation:
+And that's it! Everything's much clearer using the matrix notation (blank spaces indicate zeros):
 
 $$
 \left[
@@ -258,13 +258,12 @@ J \\
 $$
 
 ## ToDo$^2$ (bonus)
-The second part of today's TP is about implementing $\mathcal C^2$ cubic spline by solving the above system.
-More info is in the code, don't hesitate to ask if things are not clear.
+In the second, bonus part of today's TP, your task is to implement $\mathcal C^2$ cubic spline as a solution of the above system.
 
 <ol class="assignements" start="3">
-  <li>Implement the computation of control points of a cubic interpolating Bézier spline for a given sequence of points $\mathbf p_i$ (function `ComputeSplineC2`). Evaluate and visualise for the available datasets.
+  <li>Implement the computation of control points of a cubic interpolating Bézier spline for a given sequence of points $\mathbf p_i$ (function <code>ComputeSplineC2</code>). Evaluate and visualise for the available datasets.
 </li>
-  <li>Compare the results with C1 splines.</li>
+  <li>Compare the results with C1 splines. What changed?</li>
 </ol>
 
 ## Resources &amp; Trivia
