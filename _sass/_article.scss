@@ -108,8 +108,15 @@ article {
             ul, ol {
                 margin: 0 2em;
                 list-style-position: outside;
+                &.assignements {
+                    margin: 1em 0;
+                    padding: 1em 0;
+                    border-style: solid;
+                    border-color: #ccc;
+                    border-width: 1px 0;
+                }
                 &.assignements li {
-                    margin-bottom: 0.25em;
+                    margin: 0.5em 0;
                     &:nth-of-type(2n) {color: #444;}
                 }
                 &.resources {list-style-type: lower-roman;}
