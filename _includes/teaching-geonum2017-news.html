@@ -1,5 +1,5 @@
 {% assign allnews = (site.data.teaching-geonum2017.news  | sort: 'date' | reverse) %}
-{% for news in allnews limit:2 %}
+{% for news in allnews limit:1 %}
 <div class="teaching-{{ news.type }}">
     <!--span class="date">{{ news.date | date: "(%d/%m)" }}</span-->
     {{ news.text }}
