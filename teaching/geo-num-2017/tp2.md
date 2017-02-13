@@ -6,7 +6,7 @@ permalink: /teaching/geo-num-2017/tp2.html
 ---
 
 ## Code
-* [TP2](https://github.com/GeoNumTP/GeoNum2017/tree/master/TP2#tp2--bézier-splines-ck-smoothness)  
+* [TP2 on github](https://github.com/GeoNumTP/GeoNum2017/tree/master/TP2#tp2--bézier-splines-ck-smoothness)  
 * [general instructions](https://github.com/GeoNumTP/GeoNum2017#géométrie-numérique-spring-2017)  
 
 ## Bézier splines
