@@ -16,7 +16,7 @@ layout: page
             and a member of the 
             <a href="https://team.inria.fr/imagine/">Imagine</a> team
             (<a href="http://www.inria.fr/en/">Inria</a> / <a href="http://ljk.imag.fr/">LJK</a>).
-            I am lucky to have three thesis advisors: <a href="https://team.inria.fr/imagine/stefanie-hahmann/">Stefanie Hahmann</a>, <a href="http://www-evasion.inrialpes.fr/~Georges-Pierre.Bonneau/">Georges-Pierre Bonneau</a> and Nathalie Saguin-Sprynski.
+            I am lucky to have three thesis advisors: <a href="https://team.inria.fr/imagine/stefanie-hahmann/">Stefanie Hahmann</a>, <a href="http://www-evasion.inrialpes.fr/~Georges-Pierre.Bonneau/">Georges-Pierre Bonneau</a> and Nathalie Saguin-Sprynski. Before that, I got my MSc from the <a href="https://fmph.uniba.sk/en/">Comenius University in Bratislava</a> under the supervision of <a href="https://www.researchgate.net/profile/Pavel_Chalmoviansky">Pavel Chalmovianský</a>. 
         </p>
         
         <p>
