@@ -4,6 +4,9 @@ layout: default
 {% assign hstyle = "2" %}
 <div class="row">
     <div class="col-md-9">
+    {% if page.category %}
+    <p style="font-size: 150%;color:#999;">posts in the category <strong>{{ page.category | replace: "-", " " }}</strong> :</p>
+    {% endif %}
         {% for post in site.posts %}
         {% unless page.category and post.category != page.category %}
         {% assign title = post.title %}
@@ -21,11 +24,11 @@ layout: default
 
     <div class="col-md-3">
         <ul class="category-title">
-            <li class="all">{% if page.category %}<a href="/posts/">all</a>
+            <li style="font-size:200%;" class="all">{% if page.category %}<a href="/posts/">all</a>
             {% else %}<span>all</span>{% endif %} 
             ({{ site.posts | size }}) </li>
             {% for c in site.categories %}
-            <li style="font-size: {{ c | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
+            <li style="font-size: {{ c | last | size | times: 300 | divided_by: site.categories.size | plus: 70 }}%">
             {% if c[0] == page.category %}
             <span>{{ c[0] | replace: "-", " " }}</span>
             {% else %}
