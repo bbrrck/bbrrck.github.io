@@ -142,8 +142,8 @@ Here's a secret recipe for transforming your B-spline code to work with NURBS:
 
 **Hint**: in Python, the operators `*` and `/` are applied element-wise, so you can do stuff like
 ```python
-matrix[:,0] \= matrix[:,2]
-matrix[:,1] *= matrix[:,2]
+matrix[:,0] *= matrix[:,2]
+matrix[:,0] /= matrix[:,2]
 ```
 
 ## ToDo$^2$
