@@ -9,23 +9,25 @@ permalink: /teaching/geo-num-2017/tp3.html
 * [TP3 on github](https://github.com/GeoNumTP/GeoNum2017/tree/master/TP3##tp3--b-splines-de-boors-algorithm)  
 * [general instructions](https://github.com/GeoNumTP/GeoNum2017#géométrie-numérique-spring-2017)  
 
-
-## Cheatsheet
-* degree `k` of spline curve
+## B-splines cheatsheet
+* degree `k`
 * `n + 1` control points
 * `m + 1` knots
 * `m = n + k + 1`
 
 ## B-splines
-Given the degree $k$, $n+1$ control points $\mathbf d_0,\dots,\mathbf d_n$,
-and the knot vector $t_0 \leq t_1 \leq \dots \leq t_m$
-with $m = n+k+1$, the B-spline curve $S(t)$ is defined as
+Downside of Bézier splines is their global nature: moving a single control point changes the whole spline.
+A possible solution to this issue are the **B-splines**.
+
+Given a degree $k$, control polygon $\mathbf d_0,\dots,\mathbf d_n$,
+and a knot vector $t_0 \leq t_1 \leq \dots \leq t_m$
+with $m = n+k+1$, a B-spline curve $S(t)$ is defined as
 
 $$
 S(t) = \sum_{j=0}^n \mathbf d_j N_j^k(t), \quad t\in[t_k, t_{n+1}).
 $$
 
-The $N_j^k$ are the recursively-defined *basis* functions (hence the name B-spline)
+The $N_j^k$ are the recursively-defined *basis functions* (hence the name B-spline)
 
 $$
 \begin{array}{ll}
@@ -56,7 +58,7 @@ B-spline basis functions $N^k_j$ up to degree 5 for the knot sequence $(0,1,2,3,
 
 
 ## De Boor's algorithm
-&hellip; also called the De Boor-Cox algorithm. It can be seen as the generalization of the de Casteljau.
+&hellip; also called the De Boor-Cox algorithm can be seen as a generalization of the De Casteljau's algorithm.
 (Bézier curve is in fact a B-spline with a  special knot sequence.)
 
 {:.algorithm}
@@ -66,9 +68,7 @@ B-spline basis functions $N^k_j$ up to degree 5 for the knot sequence $(0,1,2,3,
             <br />
             $t_0 \leq t_1 \leq \dots \leq t_m$ : knot vector
             <br />
-            $k$ : degree, with $k = m-n-1$
-            <br />
-            $t \in [t_i, t_{i+1}) $ for some $ k \leq i \leq n$ : parameter
+            $t \in [t_i, t_{i+1}) \subset [t_k}, t_{m-k})$ where $k = m-n-1$ is the degree
         </span>
 * <span class="algo-part">output :</span>
    <span class="algo-content"> point $\mathbf S(t) = \mathbf d_j^k$ on the curve</span>
@@ -90,11 +90,12 @@ B-spline basis functions $N^k_j$ up to degree 5 for the knot sequence $(0,1,2,3,
         \end{align}
     </span>
 
-Be careful with the indices! Here I've expressed the point at depth $r$
-in terms of the points at depth $r-1$;
+Be careful with the indices! Here we have expressed a point at depth $r$
+in terms of points at depth $r-1$ --
 that is why there is the $r-1$ everywhere in the formula.
-(It becomes much more elegant if we express $r+1$ in terms of $r$.)
-This might be a bit annoying, but I think it's also more practical for the implementation.
+
+This might be a bit annoying, but I think it's also more practical for the recursive implementation.
+(The formula becomes much more elegant if we express level $r+1$ in terms of level $r$.)
 
 {:.img2grid}
 ![spiral1](/assets/geo-num-2016/spiral_B.png)
@@ -107,18 +108,17 @@ A cubic B-spline with 16 segments and endpoint interpolation.
 
 {:.assignements}
 1. Implement the De Boor's algorithm.
-1. Evaluate B-spline for the `simple` dataset. Then modify the knot vector and recompute. What changed?
+1. Evaluate B-spline for the `simple` dataset. Modify the knot vector and recompute. What changed?
 1. Evaluate B-spline for the `spiral` dataset. Modify the knot vector to `0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5`. What changed?
 1. Evaluate B-spline for the `camel` dataset. Move the front leg by changing the x-coordinate of the last control point to `-1.5`. Which segments of the curve have changed? Why?
 
 ## NURBS
 
-You might have been disappointed after testing the `circle.bspline` dataset:
+If you've tested with the `circle.bspline` dataset, you were probably dissapointed:
 the resulting curve is far from being a circle.
 
-Here's the bad news: it's mathematically *impossible* to represent unit circle as a B-spline.
-But, it *is possible* via a generalization called
-Non-Uniform Rational B-Spline or **NURBS**.
+Here's the bad news: it's mathematically *impossible* to represent circle as a B-spline.
+But, it *is possible* via a generalization called Non-Uniform Rational B-Splines or **NURBS**.
 
 Why the long name?
 *Non-uniform* simply means the knot sequence is non-uniformly spaced.
@@ -133,12 +133,17 @@ The only thing that's changed is the addition of a third coordinate -- this is t
 And here's the good news: even with the homogeneous coordinates, we can apply exactly the same De Boor's algorithm **without any modifications**!
 
 Here's a secret recipe for transforming your B-spline code to work with NURBS:
-1. The columns of `ControlPts` read from a `.nurbs` correspond to `x`, `y`, `w`.
-Therefore, you first need to multiply both `x` and `y` (columns 0 and 1) by `w` (column 2).  
-2. Use homogeneous control points for evaluation with De Boor.
-3. Convert the computed points (stored in the matrix `Segment`) back to Cartesian coordinates -- divide by the third column.
 
-**Hint**: in Python, the operators `*` and `/` are applied element-wise.
+1. The columns of `ControlPts` read from a `.nurbs` correspond to `x`, `y` and `w`. Therefore, you first need to multiply both `x` and `y` (columns 0 and 1) by `w` (column 2).
+2. Feed the homogeneous control points `[w*x,w*y,w]` to the De Boor's algorithm you've implemented previously.
+3. Convert the computed points (stored in the matrix `Segment`) back to Cartesian coordinates.  Divide by the third column to pass from `[w*x,w*y,w]` to `[x,y,1]`.
+4. As before, plot the first two coordinates.
+
+**Hint**: in Python, the operators `*` and `/` are applied element-wise, so you can do stuff like
+```python
+matrix[:,0] \= matrix[:,2]
+matrix[:,1] *= matrix[:,2]
+```
 
 ## ToDo$^2$
 
