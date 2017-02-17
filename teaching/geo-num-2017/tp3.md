@@ -6,7 +6,7 @@ permalink: /teaching/geo-num-2017/tp3.html
 ---
 
 ## Code
-* [TP3 on github](https://github.com/GeoNumTP/GeoNum2017/tree/master/TP3##tp3--b-splines-de-boors-algorithm)  
+* [TP3 on github](https://github.com/GeoNumTP/GeoNum2017/tree/master/TP3#tp3--b-splines-de-boors-algorithm)  
 * [general instructions](https://github.com/GeoNumTP/GeoNum2017#géométrie-numérique-spring-2017)  
 
 ## B-splines cheatsheet
