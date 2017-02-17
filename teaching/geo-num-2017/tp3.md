@@ -148,9 +148,10 @@ matrix[:,0] /= matrix[:,2]
 
 ## ToDo$^2$
 
-{:.assignements}
-1. Modify your code to work in homogeneous coordinates (if `dim=3`).
-2. Evaluate the `circle9.nurbs` and `circle7.nurbs`.
+<ol class="assignements" start="5">
+  <li> Modify your code to work in homogeneous coordinates (if `dim=3`).</li>
+  <li>Evaluate the `circle9.nurbs` and `circle7.nurbs`.</li>
+</ol>
 
 ## Resources
 
