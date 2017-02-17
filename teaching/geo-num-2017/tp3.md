@@ -68,7 +68,7 @@ B-spline basis functions $N^k_j$ up to degree 5 for the knot sequence $(0,1,2,3,
             <br />
             $t_0 \leq t_1 \leq \dots \leq t_m$ : knot vector
             <br />
-            $t \in [t_i, t_{i+1}) \subset [t_k}, t_{m-k})$ where $k = m-n-1$ is the degree
+            $t \in [t_i, t_{i+1}) \subset [t_k, t_{m-k})$ where $k = m-n-1$ is the degree
         </span>
 * <span class="algo-part">output :</span>
    <span class="algo-content"> point $\mathbf S(t) = \mathbf d_j^k$ on the curve</span>
@@ -137,7 +137,8 @@ Here's a secret recipe for transforming your B-spline code to work with NURBS:
 1. The columns of `ControlPts` read from a `.nurbs` correspond to `x`, `y` and `w`. Therefore, you first need to multiply both `x` and `y` (columns 0 and 1) by `w` (column 2).
 2. Feed the homogeneous control points `[w*x,w*y,w]` to the De Boor's algorithm you've implemented previously.
 3. Convert the computed points (stored in the matrix `Segment`) back to Cartesian coordinates.  Divide by the third column to pass from `[w*x,w*y,w]` to `[x,y,1]`.
-4. As before, plot the first two coordinates.
+4. As before, plot the first two coordinates.  
+
 
 **Hint**: in Python, the operators `*` and `/` are applied element-wise, so you can do stuff like
 ```python
