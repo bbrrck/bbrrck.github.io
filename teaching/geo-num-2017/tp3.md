@@ -149,8 +149,8 @@ matrix[:,0] /= matrix[:,2]
 ## ToDo$^2$
 
 <ol class="assignements" start="5">
-  <li> Modify your code to work in homogeneous coordinates (if `dim=3`).</li>
-  <li>Evaluate `circle9.nurbs` and `circle7.nurbs`. Compare the results with `circle.bspline`.</li>
+  <li> Modify your code to work in homogeneous coordinates (if <code>dim=3</code>).</li>
+  <li>Evaluate <code>circle9.nurbs</code> and <code>circle7.nurbs</code>. Compare the results with <code>circle.bspline</code>.</li>
 </ol>
 
 ## Resources
