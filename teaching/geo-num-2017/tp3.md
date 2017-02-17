@@ -150,7 +150,7 @@ matrix[:,0] /= matrix[:,2]
 
 <ol class="assignements" start="5">
   <li> Modify your code to work in homogeneous coordinates (if `dim=3`).</li>
-  <li>Evaluate the `circle9.nurbs` and `circle7.nurbs`.</li>
+  <li>Evaluate `circle9.nurbs` and `circle7.nurbs`. Compare the results with `circle.bspline`.</li>
 </ol>
 
 ## Resources
