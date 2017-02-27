@@ -13,6 +13,10 @@ meta    :
     
 news      :
 
+  - date  : 2017-02-27 12:00:00
+    type  : 'deadline'
+    text  : 'TP3 submission deadline is Thursday, 02/03/2017 at 23:59.'
+    
   - date  : 2017-02-13 12:00:00
     type  : 'deadline'
     text  : 'TP2 submission deadline is Thursday, 16/02/2017 at 23:59.'
