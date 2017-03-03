@@ -6,7 +6,7 @@ permalink: /teaching/geo-num-2017/tp4.html
 ---
 
 ## Code
-* [TP4 on github](https://github.com/GeoNumTP/GeoNum2017/tree/master/TP4##tp4--subdivision-curves)  
+* [TP4 on github](https://github.com/GeoNumTP/GeoNum2017/tree/master/TP4#tp4--subdivision-curves)  
 * [general instructions](https://github.com/GeoNumTP/GeoNum2017#géométrie-numérique-spring-2017)  
 
 ## Subdivision Curves
