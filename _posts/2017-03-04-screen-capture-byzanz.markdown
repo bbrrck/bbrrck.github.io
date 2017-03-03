@@ -15,7 +15,7 @@ byzanz-record --duration=12 --x=725 --y=365 --width=487 --height=375 out.gif
 ```
 
 {:.img400}
-![Chaikin animation captured with byzanz](/assets/geo-num-2016/chaikin-scheme.gif)
+![Chaikin animation captured with byzanz](/assets/geo-num-2016/subdivision.gif)
 
 {:.imgCaption}
 Animation of Chaikin curve subdivision scheme captured with byzanz.
