@@ -22,7 +22,7 @@ This doubles the number of vertices: if there were $n$ vertices, now there is $2
 <br />
 
 {:.img500}
-![subdivision-animation](/assets/geo-num-2016/subdivision.gif)
+![subdivision-animation](/assets/geo-num-2016/chaikin-animation.gif)
 
 There are two kinds of schemes: *approximating* schemes change the positions of old vertices,
 while the *interpolating* schemes don't.
