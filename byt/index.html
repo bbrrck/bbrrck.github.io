@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>40m² + 3m² : Kazanská (BA II)</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./script.css">
+	
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="./fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="./fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="./fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>	
+
+	<script type="text/javascript">
+$(document).ready(function() {
+	$(".fancybox").fancybox({
+		cyclic 			: true,
+		overlayColor	: '#ccc',
+		helpers: {
+			title: {type: 'over'}
+		},
+		beforeShow: function() {
+			this.title = '' + (this.index + 1) + ' z ' + this.group.length + (this.title ? ' - ' + this.title : '');
+		}
+	});
+});
+</script>
+	
+</head>
+<body>
+	<div id="podo">
+		<a class="fancybox" rel="byt" href="./images/kupelna_01.JPG"><img id="kup1" src="./thumbs/kupelna_01.JPG" alt="" /></a>
+		<a class="fancybox" rel="byt" href="./images/kupelna_02.JPG"><img id="kup2" src="./thumbs/kupelna_02.JPG" alt="" /></a>
+
+		<a class="fancybox" rel="byt" href="./images/kuchyna_01.JPG"><img id="kuch1" src="./thumbs/kuchyna_01.JPG" alt="" /></a>
+		<a class="fancybox" rel="byt" href="./images/kuchyna_02.JPG"><img id="kuch2" src="./thumbs/kuchyna_02.JPG" alt="" /></a>
+
+		<a class="fancybox" rel="byt" href="./images/obyvacka_01.JPG"><img id="obyv1" src="./thumbs/obyvacka_01.JPG" alt="" /></a>
+		<a class="fancybox" rel="byt" href="./images/obyvacka_02.JPG"><img id="obyv2" src="./thumbs/obyvacka_02.JPG" alt="" /></a>
+		<a class="fancybox" rel="byt" href="./images/obyvacka_03.JPG"><img id="obyv3" src="./thumbs/obyvacka_03.JPG" alt="" /></a>
+
+		<a class="fancybox" rel="byt" href="./images/spalna_01.JPG"><img id="spal1" src="./thumbs/spalna_01.JPG" alt="" /></a>
+		<a class="fancybox" rel="byt" href="./images/spalna_02.JPG"><img id="spal2" src="./thumbs/spalna_02.JPG" alt="" /></a>
+		<a class="fancybox" rel="byt" href="./images/spalna_03.JPG"><img id="spal3" src="./thumbs/spalna_03.JPG" alt="" /></a>
+
+		<a class="fancybox" rel="byt" href="./images/dom_01.JPG"><img id="dom1" src="./thumbs/dom_01.JPG" alt="" /></a>
+		<a class="fancybox" rel="byt" href="./images/dom_02.JPG"><img id="dom2" src="./thumbs/dom_02.JPG" alt="" /></a>
+		
+		<p id="par">
+			Kazanská 1/B, BA II <small><a href="https://goo.gl/maps/wZeDe">mapa</a></small><br />
+			poschodie 3/7 <small>+ výťah</small><br />
+			<br />
+			1+1 byt 40m² + balkón 3m²<small> + garáž</small><br />
+			zariadený <small>(práčka, sušička, umývačka)</small><br />
+			<span title="mesačné nájomné" style="color: #c33;">380 €</span> <small>+ energie ~120 €</small><br />
+			<small>dostupný od</small> 3.5.2017<br />
+			<br />
+			<small>kontakt</small><br />
+			<a href="mailto:&#108;&#117;&#106;&#122;&#097;&#046;&#115;&#116;&#097;&#110;&#107;&#111;&#118;&#097;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#108;&#117;&#106;&#122;&#097;&#046;&#115;&#116;&#097;&#110;&#107;&#111;&#118;&#097;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>
+			<br />0944 562 621<br />
+			<br />
+			
+			<small>alebo</small><br />
+			<a href="mailto:&#116;&#105;&#098;&#111;&#114;&#046;&#115;&#116;&#097;&#110;&#107;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#116;&#105;&#098;&#111;&#114;&#046;&#115;&#116;&#097;&#110;&#107;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>
+			<br />0948 204 419<br />
+			<!--br />
+			<small><a id="link-byty-sk" href="http://www.bezrealitky.sk/nehnutelnosti-byty-domy/17697-ponuka-prenajom-kazanska-bratislava/">inzerát na bezrealitky.sk</a></small-->
+		</p>
+	</div>
+</body>
+</html>

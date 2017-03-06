@@ -1,0 +1,59 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#podo {
+	background: url(./images/podorys_full_ww.png) no-repeat center center;
+	height: 624px;
+	width: 960px;
+	margin: 0 auto ;
+	padding: 0;
+	position: relative;
+}
+
+a img {
+	border: 3px dashed #999;
+	position: absolute;
+	cursor: pointer;
+	width: 80px;
+	border-radius: 50px;
+}
+
+a:hover img {
+	border-color: #c33;
+}
+
+#dom1  {top: 380px; left: 850px;}
+#dom2  {top:  80px; left: 870px;}
+
+#kuch1 {top:  50px; left: 300px;}
+#kuch2 {top: 160px; left: 320px;}
+
+#kup1  {top:  70px; left:  80px;}
+#kup2  {top: 170px; left: 150px;}
+
+#obyv1 {top:  50px; left: 450px;}
+#obyv2 {top: 170px; left: 500px;}
+#obyv3 {top: 120px; left: 620px;}
+
+#spal1 {top: 460px; left: 500px;}
+#spal2 {top: 400px; left: 620px;}
+#spal3 {top: 330px; left: 520px;}
+
+#par {
+	border: 3px dashed #ccc;
+	top: 300px;
+	left: 50px;
+	position: absolute;
+	font-family: monospace;
+	line-height: 125%;
+	background-color: rgba(255,255,255,0.9);
+	width: 280px;
+	padding: 25px;
+	font-size: 110%;
+}
+#par:hover {
+	background-color: rgba(255,255,255,0.99);
+}

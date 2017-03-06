@@ -1,0 +1,4 @@
+#AuthType Basic
+#AuthName "Byt"
+#AuthUserFile /nfsmnt/hosting2_2/d/0/d0501ef6-9fff-421a-9018-daf3bc0d775c/tiborstanko.sk/sub/byt/.htpasswd
+#Require valid-user
