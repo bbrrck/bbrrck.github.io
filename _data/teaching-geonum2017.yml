@@ -56,8 +56,8 @@ syllabus:
     number: 4
     
   - date  : 2017-03-10 15:15:00
-    title : "Uniform B-splines as subvidision curves"
-    short : "Subdivision B-curves"
+    title : "Lane-Riesenfeld algorithm"
+    short : "Lane-Riesenfeld"
     number: 5
     
   - date  : 2017-03-17 15:15:00
