@@ -79,6 +79,8 @@ $$
 
 
 ## ToDo
+
+{:.assignements}
 1. Implement the three subdivision schemes.
 2. Experiment with different values of $a,b$ in corner cutting. Specifically, try using
      - $b=a+\frac12$
