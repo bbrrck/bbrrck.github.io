@@ -58,13 +58,13 @@ With increasing `degree`, the Stanford bunny becomes smoother and smoother. Here
 
 
 ## Variations on the Lane-Riesenfeld algorithm
-Since the introduction of the algorithm by Lane and Riesenfeld in 1980, various generalizations were introduced.
-We will work with two of them, replacing the *midpoint averaging* with **four-point** and **six-point averaging**.
+Since the introduction of the algorithm by Lane and Riesenfeld in 1980, multiple variations of the original scheme were introduced.
+We will implement two of them, replacing the *midpoint averaging* with **four-point** and **six-point averaging**.
 You already know the four-point averaging from the previous TP.
 
 For brevity, I'm only including the modified parts of the original algorithm.
 
-Don't forget the indices are taken **modulo** $2n$ in the smoothing step.
+Don't forget the indices are taken **modulo** $2n$ in the smoothing step!
 
 
 ### Four-point
