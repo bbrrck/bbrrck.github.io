@@ -86,7 +86,7 @@ $$
 
 $$
 \begin{align}
-\mathbf V_i^d = \tfrac{1}{16} \left( -\mathbf V^d_{i-1} + 9\mathbf V^d_i + 9\mathbf V^d_{i+1} - \mathbf V^d_{i+2}  \right)
+\mathbf V_i^d = \tfrac{1}{16} \left( -\mathbf V^{d-1}_{i-1} + 9\mathbf V^{d-1}_i + 9\mathbf V^{d-1}_{i+1} - \mathbf V^{d-1}_{i+2}  \right)
 \end{align}
 $$
 
@@ -109,7 +109,7 @@ $$
 
 $$
 \begin{align}
-\mathbf V_i^d = \tfrac{1}{256} \left( 3\mathbf V^d_{i-2} -25\mathbf V^d_{i-1} + 150\mathbf V^d_i + 150\mathbf V^d_{i+1} -25\mathbf V^d_{i+2} +3\mathbf V^d_{i+3}  \right)
+\mathbf V_i^d = \tfrac{1}{256} \left( 3\mathbf V^{d-1}_{i-2} -25\mathbf V^{d-1}_{i-1} + 150\mathbf V^{d-1}_i + 150\mathbf V^{d-1}_{i+1} -25\mathbf V^{d-1}_{i+2} +3\mathbf V^{d-1}_{i+3}  \right)
 \end{align}
 $$
 
