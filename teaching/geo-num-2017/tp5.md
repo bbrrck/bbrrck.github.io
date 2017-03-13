@@ -58,13 +58,13 @@ With increasing `degree`, the Stanford bunny becomes smoother and smoother. Here
 
 
 ## Variations on the Lane-Riesenfeld algorithm
-Since the introduction of the algorithm by Lane and Riesenfeld in 1980, various generalizations were introduced.
-We will work with two of them, replacing the *midpoint averaging* with **four-point** and **six-point averaging**.
+Since the introduction of the algorithm by Lane and Riesenfeld in 1980, multiple variations of the original scheme were introduced.
+We will implement two of them, replacing the *midpoint averaging* with **four-point** and **six-point averaging**.
 You already know the four-point averaging from the previous TP.
 
 For brevity, I'm only including the modified parts of the original algorithm.
 
-Don't forget the indices are taken **modulo** $2n$ in the smoothing step.
+Don't forget the indices are taken **modulo** $2n$ in the smoothing step!
 
 
 ### Four-point
@@ -86,7 +86,7 @@ $$
 
 $$
 \begin{align}
-\mathbf V_i^d = \tfrac{1}{16} \left( -\mathbf V^d_{i-1} + 9\mathbf V^d_i + 9\mathbf V^d_{i+1} - \mathbf V^d_{i+2}  \right)
+\mathbf V_i^d = \tfrac{1}{16} \left( -\mathbf V^{d-1}_{i-1} + 9\mathbf V^{d-1}_i + 9\mathbf V^{d-1}_{i+1} - \mathbf V^{d-1}_{i+2}  \right)
 \end{align}
 $$
 
@@ -109,7 +109,7 @@ $$
 
 $$
 \begin{align}
-\mathbf V_i^d = \tfrac{1}{256} \left( 3\mathbf V^d_{i-2} -25\mathbf V^d_{i-1} + 150\mathbf V^d_i + 150\mathbf V^d_{i+1} -25\mathbf V^d_{i+2} +3\mathbf V^d_{i+3}  \right)
+\mathbf V_i^d = \tfrac{1}{256} \left( 3\mathbf V^{d-1}_{i-2} -25\mathbf V^{d-1}_{i-1} + 150\mathbf V^{d-1}_i + 150\mathbf V^{d-1}_{i+1} -25\mathbf V^{d-1}_{i+2} +3\mathbf V^{d-1}_{i+3}  \right)
 \end{align}
 $$
 
