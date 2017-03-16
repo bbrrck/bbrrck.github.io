@@ -66,16 +66,15 @@ Bézier patch evaluation scheme. (image by [Pierre-Luc Manteaux](https://team.in
 
 
 ## Coordinate matrices
-In the code, the control points $\mathbf b_{ij}$ are actually stored in three coordinate matrices $\texttt{BX}, \texttt{BY}, \texttt{BZ} \; $ so that
+In the code, the control points $\mathbf b_{ij}$ are actually stored in three coordinate matrices $\texttt{Mx}, \texttt{My}, \texttt{Mz} \; $ so that
 
 $$
-\mathbf b_{ij}^x = \texttt{BX(i,j)}, \qquad
-\mathbf b_{ij}^y = \texttt{BY(i,j)}, \qquad
-\mathbf b_{ij}^z = \texttt{BZ(i,j)}.
+\mathbf b_{ij}^x = \texttt{Mx(i,j)}, \qquad
+\mathbf b_{ij}^y = \texttt{My(i,j)}, \qquad
+\mathbf b_{ij}^z = \texttt{Mz(i,j)}.
 $$
 
-This means the code is more comprehensible as the structure of the matrices directly represents the grid topology of the patch.
-On the other hand, it also means the computation needs to be done for each coordinate individually.
+This means the code is more comprehensible as the structure of the matrices directly represents the grid topology of the patch. On the other hand, it also means the computation needs to be done for each coordinate individually.
 
 
 ## Bézier surface vs. piecewise Bézier surface
@@ -85,7 +84,7 @@ In practice, a Bézier surface often consists of multiple surface *patches*, eac
 Therefore, it is sometimes called a *piecewise* Bézier surface.
 
 Some surfaces in the `data/` folder consist of more than one patch, ranging from 2 (heart) to 32 (teapot).
-They are saved in the BPT format; some datafiles are taken from the website of [Ryan Holmes](http://www.holmes3d.net/graphics/roffview/tools/patchoff/) where you'll also find more details about this format.
+They are saved in the BPT format; some datafiles are taken from the website of [Ryan Holmes](http://www.holmes3d.net/graphics/roffview/tools/patchoff/) where you'll also find more details about this format in case you're interested.
 
 
 {:.img2grid}
@@ -98,9 +97,10 @@ The discontinuity in isophotes shows the piecewise Bézier Utah teapot is not $\
 ## ToDo
 
 {:.assignements}
-1. Implement the evaluation of Bézier surfaces for $(u,v) \in [0,1]^2$. For the first tests, use `simple` and `simple2` (as these contain only one patch).
+1. Implement the evaluation of Bézier surfaces for $(u,v) \in [0,1]^2$. 
+Use `simple` and `wave` for first tests (these contain only one patch).
 2. When you're sure the implementation works for the simple cases, test your algorithm on datasets with multiple patches:
-`heart` (2),  `sphere` (8),  `teapot` (32). Don't set the `density` parameter too high, always start with smaller values (e.g. 5 or 10).
+`heart` (2),  `sphere` (8),  `teapot` (32), `teacup` (26), `teaspoon` (16). Don't set the `density` parameter too high, always start with smaller values (5 or 10) as the number of computed points is `density`².
 
 ## Resources
 
