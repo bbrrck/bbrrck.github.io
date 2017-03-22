@@ -1,23 +1,17 @@
-// ---------------------------------------------
+// ----------------------------------------------------------------
 // Analyse numerique 2017
 // Pagora, Grenoble INP, 1ere annee
-//
-// TP2 - Approximation de fonctions
-//
-// Exo 4 : Méthode des moindres carrés
-// ---------------------------------------------
-//
-// Cours :
-//   Valerie Perrier 
-//   <Valerie.Perrier@univ-grenoble-alpes.fr>
-//
-// TD,TP :
-//   Tibor Stanko
-//   <tibor.stanko@inria.fr>
-//
+// TP2  : Approximation de fonctions
+// Exo4 : Méthode des moindres carres
+// ----------------------------------------------------------------
+// Cours : Valerie Perrier <Valerie.Perrier@univ-grenoble-alpes.fr>
+// TD,TP : Tibor Stanko <tibor.stanko@inria.fr>
+// ----------------------------------------------------------------
 
-// TODO : varier le degree de polynome
+// TODO : variez le degre de polynome P
 deg = 1;
+
+// TODO : testez avec l'Ensemble 1, puis avec l'Ensemble 2 (il faut decommenter le code)
 
 
 // ---------------------------------------------------------
@@ -31,21 +25,19 @@ y = [-0.2, -0.11, -0.09, -0.2, -0.27, -0.31, -0.3, -0.33, -0.2, -0.11, -0.36, -0
 // ---------------------------------------------------------
 
 
-// TODO : decommenter le code pour l'Ensemble 2
-
 // ---------------------------------------------------------
 // Ensemble 2 : Fonctions analytiques bruites
 // ---------------------------------------------------------
-
-// option 1 : exp, interval [0,2]
+//// option 1 : exp, interval [0,2]
 //x = linspace(0,2,100)';
 //y = exp(x);
 
-// option 2 : sin, interval [0,2pi]
+//// option 2 : sin, interval [0,2pi]
 //x = linspace(0,2*%pi,100)';
 //y = sin(x);
 
-//y = y + 0.5*rand(size(y,1),size(y,2)); // ajouter du bruit
+//// ajouter du bruit aleatoire dans la direction y
+//y = y + 0.5*rand(size(y,1),size(y,2));
 // ---------------------------------------------------------
 
 
@@ -55,15 +47,11 @@ n = length(x);
 // on initialise la matrice de systeme
 J = ones(n,deg+1);
 
-
 //
-// TODO : 
-// remplir la colonne i+1 de matrice J avec x.^i
-// pour i entre 1 et deg+1
+// TODO : remplir la colonne i+1 de matrice J avec x.^i, pour i entre 1 et deg
 //
 
-
-// on resout le systeme de moindres carrés
+// on resout le systeme de moindres carres
 // pour obtenir les coefficients de polynome
 c = (J'*J) \ (J'*y);
 
@@ -73,8 +61,8 @@ P = poly(c,'x','coeff');
 // on efface la figure
 clf;
 
-// rendu des donnees
+// ploy : donnees
 plot(x,y,'k.','MarkerSize',4);
 
-// rendu de polynome calcule
+// plot : polynome
 plot(x,horner(P,x),'r-','LineWidth',3);
