@@ -22,29 +22,9 @@ title: Analyse numérique
     
     <div class="row">
         <div class="col-md-6">
-            <h2>Description</h2>
-            <p>
-            Course of basic numerical analysis, practical part.
-            </p>
-        </div>
-
-        <div class="col-md-6">
-            <h2>Syllabus</h2>
-            <ul class="syllabus">
-            {% for class in course.syllabus %}
-            <li{% if class.break %} class="break"{% endif %}>
-            <span class="date">{{ class.date | date: "%b %d" }}</span>
-            <span class="title">
-            {% if class.break or class.nolink %}
-            {{ class.title }}
-            {% else %}
-            {{ type }}{{ class.number }} :
-            <a href="/teaching/{{ course.slug }}/{{ type | downcase }}{{ class.number }}.html">{{ class.title }}</a>
-            {% endif %}
-            </span>
-            </li>
-            {% endfor %}
-            </ul>
+            <h2>TP2 : Approximation de fonctions</h2>
+            <p>exercice 4: équations normales <br /><a href="/assets/analysenum2017/TP2/exo4.sce">exo4.sce</a></p>
+            <p>exercice 5: phénomène de Runge <br /><a href="/assets/analysenum2017/TP2/exo5.sce">exo5.sce</a></p>
         </div>
     </div>
     

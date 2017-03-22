@@ -6,8 +6,8 @@ slug    : analyse-num-2016
   
 meta    :
   - semester: "spring 2017"
-    type    : "TD"
-    time    : "Friday, 13h15 – 14h45 / 15h00 – 16h30"
+    type    : "TD / TP"
+    time    : "Wednesday / Friday afternoon"
     room    : "B111, Pagora"
 
 syllabus:
@@ -25,12 +25,3 @@ syllabus:
   - date  : 2017-04-07
     title : ""
     number: 4
-    
-past:
-  - year : 2015
-    who  : Ulysse Vimont
-    url  : https://team.inria.fr/imagine/geometrie-numerique-m1-info-im2ag-20142015/
-    
-  - year : 2014
-    who  : Pierre-Luc Manteaux
-    url  : http://manteapi.github.io/teaching/imag_geonum/index.html
