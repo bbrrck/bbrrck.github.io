@@ -23,8 +23,11 @@ title: Analyse numérique
     <div class="row">
         <div class="col-md-6">
             <h2>TP2 : Approximation de fonctions</h2>
-            <p>exercice 4: équations normales <br /><a href="/assets/analysenum2017/TP2/exo4.sce">exo4.sce</a></p>
-            <p>exercice 5: phénomène de Runge <br /><a href="/assets/analysenum2017/TP2/exo5.sce">exo5.sce</a></p>
+            <ul>
+                <li><a href="/assets/analysenum2017/TP2_sujet.pdf">sujet.pdf</a></li>
+                <li><a href="/assets/analysenum2017/TP2_exo4.sce">exo4.sce</a></li>
+                <li><a href="/assets/analysenum2017/TP2_exo5.sce">exo5.sce</a></li>
+            </ul>
         </div>
     </div>
     

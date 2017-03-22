@@ -4,7 +4,7 @@
 //
 // TP2 - Approximation de fonctions
 //
-// Exo 2 : Interpolation
+// Exo 5 : Interpolation
 // ---------------------------------------------
 //
 // Cours :
@@ -58,8 +58,8 @@ n = 5;
 xp = linspace(-1,1,n);
 
 
-// TODO
-// 1. calculer yp
-// 2. calculer P, le polynome d'interpolation de Lagrange
-// 3. faire un plot des points (xp,yp)
-// 4. faire un plot de polynome P
+// TODO :
+//  1. calculer yp
+//  2. calculer P, le polynome d'interpolation de Lagrange
+//  3. faire un plot des points (xp,yp)
+//  4. faire un plot de polynome P
