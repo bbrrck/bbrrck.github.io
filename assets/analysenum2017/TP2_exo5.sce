@@ -1,30 +1,17 @@
-// ---------------------------------------------
+// ----------------------------------------------------------------
 // Analyse numerique 2017
 // Pagora, Grenoble INP, 1ere annee
-//
-// TP2 - Approximation de fonctions
-//
-// Exo 5 : Interpolation
-// ---------------------------------------------
-//
-// Cours :
-//   Valerie Perrier 
-//   <Valerie.Perrier@univ-grenoble-alpes.fr>
-//
-// TD,TP :
-//   Tibor Stanko
-//   <tibor.stanko@inria.fr>
-//
+// TP2  : Approximation de fonctions
+// Exo4 : Interpolation
+// ----------------------------------------------------------------
+// Cours : Valerie Perrier <Valerie.Perrier@univ-grenoble-alpes.fr>
+// TD,TP : Tibor Stanko <tibor.stanko@inria.fr>
+// ----------------------------------------------------------------
 
-//------------------------------------------------
-//
-// P=LAGRANGE(X,Y)
-// Calculer le polynome d’interpolation de Lagrange
-// associe aux noeuds X et valeurs Y. 
-//
+// P = LAGRANGE(X,Y)
+// Calculer le polynome d’interpolation de Lagrange associe a l'abscisse X et valeurs Y. 
 // source: http://bit.ly/2ndAg7q
-//
-function[P]=lagrange(X,Y)
+function[P]=Lagrange(X,Y)
   n = length(X);
   x = poly(0,"x");
   P = 0;    
@@ -36,30 +23,30 @@ function[P]=lagrange(X,Y)
     P = P + L*Y(i); 
   end
 endfunction
-
 //------------------------------------------------
-//
-// Y=RUNGE(X)
+
+// Y = RUNGE(X)
 // Evaluer la fonction de Runge pour X.
-//
 function[Y]=Runge(X)
     Y = 1./(1.+25.*X.^2);
 endfunction
-
 //------------------------------------------------
 
-clf; set(gca(),"data_bounds",[-1,-2;1,2]);
+// on efface la figure
+clf;
 
-// nombre d'echantillons
+// on definit les bords de notre graphe : [-1,1] pour x et [-2,2] pour y
+set(gca,"data_bounds",[-1,-2;1,2]);
+
+// on definit le nombre d'echantillons
 n = 5;
 
-// points a interpoler
-// abscisse uniforme
+// points a interpoler : abscisse uniforme de l'interval [-1,1] avec n points
 xp = linspace(-1,1,n);
 
-
 // TODO :
-//  1. calculer yp
-//  2. calculer P, le polynome d'interpolation de Lagrange
-//  3. faire un plot des points (xp,yp)
-//  4. faire un plot de polynome P
+//   1. calculez yp, les valeurs de fonction de Runge pour xp
+//   2. calculez P(x), le polynome qui interpole (xp,yp)
+//   3. plot, points (xp,yp)
+//   4. plot, polynome P(x)
+//   5. testez pour n=3,5,7,9,...
