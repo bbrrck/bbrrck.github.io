@@ -92,8 +92,6 @@ for i in (du,du+1,...,m) :
 3. [**Bonus**] NURBS surfaces can be used to represent the unit sphere, the same way we used NURBS curves to represent the unit circle in [TP3](tp3.html). Modify your implementation of B-spline surfaces to compute NURBS surfaces. Test with the hemisphere (hemi.nurbs) and the modified torus (torus.nurbs).  
 Note: full sphere control points, weights, and knots can be found in [Representing a Circle or a Sphere with NURBS](http://www.geometrictools.com/Documentation/NURBSCircleSphere.pdf) by David Eberly.
 
-<br />
-
 {:.img2grid}
 ![simple full](/assets/geo-num-2016/tp7/simple-full.png)
 ![simple wire](/assets/geo-num-2016/tp7/simple-wire.png)
@@ -102,8 +100,8 @@ Note: full sphere control points, weights, and knots can be found in [Representi
 ![torus full](/assets/geo-num-2016/tp7/torus-full.png)
 ![torus wire](/assets/geo-num-2016/tp7/torus-wire.png)
 
-<br />
-<br />
+
+<div style="clear:both; margin-bottom:1em"></div>
 
 ## Resources
 
