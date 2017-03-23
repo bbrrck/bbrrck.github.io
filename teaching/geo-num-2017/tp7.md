@@ -102,6 +102,9 @@ Note: full sphere control points, weights, and knots can be found in [Representi
 ![torus full](/assets/geo-num-2016/tp7/torus-full.png)
 ![torus wire](/assets/geo-num-2016/tp7/torus-wire.png)
 
+<br />
+<br />
+
 ## Resources
 
 {:.resources}
