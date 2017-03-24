@@ -28,7 +28,8 @@ endfunction
 // Y = RUNGE(X)
 // Evaluer la fonction de Runge pour X.
 function[Y]=Runge(X)
-    Y = 1./(1.+25.*X.^2);
+    Y = 1+25*X.^2;
+    Y = 1 ./ Y;
 endfunction
 //------------------------------------------------
 
@@ -46,8 +47,4 @@ xp = linspace(-1,1,n);
 //   2. calculez P(x), le polynome qui interpole (xp,yp)
 //   3. plot, points (xp,yp)
 //   4. plot, polynome P(x)
-//   5. testez pour n=3,5,7,9,...
-
-
-// on definit les bords de notre graphe : [-1,1] pour x et [-2,2] pour y
-//set(gca(),"data_bounds",[-1,-2;1,2]);
+//   5. testez pour n=3,5,7,9,... Vous pouvez faire ca dans une boucle: for n=3:2:9, ... end
