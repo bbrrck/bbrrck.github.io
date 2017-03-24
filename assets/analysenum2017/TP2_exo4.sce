@@ -61,7 +61,7 @@ P = poly(c,'x','coeff');
 // on efface la figure
 clf;
 
-// ploy : donnees
+// plot : donnees
 plot(x,y,'k.','MarkerSize',4);
 
 // plot : polynome
