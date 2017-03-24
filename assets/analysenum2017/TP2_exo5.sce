@@ -2,7 +2,7 @@
 // Analyse numerique 2017
 // Pagora, Grenoble INP, 1ere annee
 // TP2  : Approximation de fonctions
-// Exo4 : Interpolation
+// Exo5 : Interpolation
 // ----------------------------------------------------------------
 // Cours : Valerie Perrier <Valerie.Perrier@univ-grenoble-alpes.fr>
 // TD,TP : Tibor Stanko <tibor.stanko@inria.fr>
@@ -35,9 +35,6 @@ endfunction
 // on efface la figure
 clf;
 
-// on definit les bords de notre graphe : [-1,1] pour x et [-2,2] pour y
-set(gca,"data_bounds",[-1,-2;1,2]);
-
 // on definit le nombre d'echantillons
 n = 5;
 
@@ -50,3 +47,7 @@ xp = linspace(-1,1,n);
 //   3. plot, points (xp,yp)
 //   4. plot, polynome P(x)
 //   5. testez pour n=3,5,7,9,...
+
+
+// on definit les bords de notre graphe : [-1,1] pour x et [-2,2] pour y
+//set(gca(),"data_bounds",[-1,-2;1,2]);
