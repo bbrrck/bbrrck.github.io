@@ -9,7 +9,7 @@
 // ----------------------------------------------------------------
 
 // TODO : variez le degre de polynome P
-deg = 1;
+n = 1;
 
 // TODO : testez avec l'Ensemble 1, puis avec l'Ensemble 2 (il faut decommenter le code)
 
@@ -42,13 +42,13 @@ y = [-0.2, -0.11, -0.09, -0.2, -0.27, -0.31, -0.3, -0.33, -0.2, -0.11, -0.36, -0
 
 
 // nombre d'echantillons
-n = length(x);
+N = length(x);
 
 // on initialise la matrice de systeme
-J = ones(n,deg+1);
+J = ones(N,n+1);
 
 //
-// TODO : remplir la colonne i+1 de matrice J avec x.^i, pour i entre 1 et deg
+// TODO : remplir la colonne i+1 de matrice J avec x.^i, pour i entre 1 et n
 //
 
 // on resout le systeme de moindres carres
