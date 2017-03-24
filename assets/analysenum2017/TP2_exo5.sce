@@ -7,6 +7,8 @@
 // Cours : Valerie Perrier <Valerie.Perrier@univ-grenoble-alpes.fr>
 // TD,TP : Tibor Stanko <tibor.stanko@inria.fr>
 // ----------------------------------------------------------------
+// derniere modif : 24 mars 2017
+// ----------------------------------------------------------------
 
 // P = LAGRANGE(X,Y)
 // Calculer le polynome d’interpolation de Lagrange associe a l'abscisse X et valeurs Y. 
