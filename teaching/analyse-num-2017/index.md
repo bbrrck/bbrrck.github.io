@@ -24,8 +24,8 @@ title: Analyse numérique
         <div class="col-md-12">
             <h2>TP1 : Approximation de fonctions</h2>
             <ul>
-                <li><a href="/assets/analysenum2017/TP1_sujet.pdf">sujet.pdf</a></li>
-                <li><a href="/assets/analysenum2017/TP1_correction.pdf">correction.pdf</a></li>
+                <li><a href="/assets/analysenum2017/TD1_sujet.pdf">sujet.pdf</a></li>
+                <li><a href="/assets/analysenum2017/TD1_correction.pdf">correction.pdf</a></li>
             </ul>
             
             <h2>TP2 : Scilab et Approximation de fonctions</h2>
