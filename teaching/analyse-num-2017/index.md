@@ -21,7 +21,7 @@ title: Analyse numérique
     </div>
     
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
             <h2>TP1 : Approximation de fonctions</h2>
             <ul>
                 <li><a href="/assets/analysenum2017/TP1_sujet.pdf">sujet.pdf</a></li>
