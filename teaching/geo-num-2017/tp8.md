@@ -53,16 +53,13 @@ A subdivision step, open surface.
 A subdivision step, surface closed in the $u$ direction.
 
 ## Implementation
-As before, the surfaces are represented via three coordinate matrices <code>X, Y, Z</code>. Apply the algorithm to each matrix individually. 
-The openness/closedness of a surface in a particular direction is controled via the parameters <code>u_closed, v_closed</code> (these are read from the input file).
+As before, the surfaces are represented via three coordinate matrices `X, Y, Z`. Apply the algorithm to each matrix individually. The openness/closedness of a surface in a particular direction is controled via the parameters `u_closed, v_closed` (these are read from the input file).
 
-Start by implementing the algorithm for a surface closed in both directions as this is easier to do; test on <code>[torus]</code>. Don't forget to use the modulo arithmetic where needed. Then, think about what needs to be changed if the surface is open in one or both directions.
+Start by implementing the algorithm for a surface closed in both directions as this is easier to do; test on `torus`. Don't forget to use the modulo arithmetic where needed. Then, think about what needs to be changed if the surface is open in one or both directions.
 
 ## ToDo
 
 {:.assignements}
-1. Implement one step of the above subdivision algorithm for **closed** uniform B-spline surfaces. <code>[torus]</code>
-2. Modify you implementation for surfaces which are **open**: either in one direction only <code>[cylinder]</code>
-or in both directions <code>[grid]</code>.
-
-<br />
+1. Implement one step of the above subdivision algorithm for **closed** uniform B-spline surfaces. `torus`
+2. Modify you implementation for surfaces which are **open**: either in one direction only `cylinder`
+or in both directions `grid`.
