@@ -27,6 +27,7 @@ title: Analyse numérique
             <ul style="list-style-type: square;">
                 <li><a href="/assets/analysenum2017/TD1_sujet.pdf">sujet.pdf</a></li>
                 <li><a href="/assets/analysenum2017/TD1_correction.pdf">correction.pdf</a></li>
+                <li><a href="https://fr.wikipedia.org/wiki/Quartet_d'Anscombe">[wiki] Quartet d'Anscombe</a></li>
             </ul>
             
             <h2>TP2 : Scilab et Approximation de fonctions</h2>
