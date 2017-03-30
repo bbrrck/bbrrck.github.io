@@ -52,18 +52,6 @@ A subdivision step, open surface.
 {:.imgCaption}
 A subdivision step, surface closed in the $u$ direction.
 
-## Implementation
-There is a slight change on the implementation level compared to previous two TPs: 
-instead of using three coordinate matrices `X, Y, Z`, we store data in three-dimensional array `M` where
- ```python
- X = M[0,:,:]
- Y = M[1,:,:]
- Z = M[2,:,:]
- ```
- The openness/closedness of a surface in a particular direction is controled via the parameters `u_closed, v_closed` (these are read from the input file).
-
-Start by implementing the algorithm for a surface closed in both directions as this is easier to do; test on `torus`. Don't forget to use the modulo arithmetic where needed. Then, think about what needs to be changed if the surface is open in one or both directions.
-
 ## ToDo
 
 {:.assignements}
