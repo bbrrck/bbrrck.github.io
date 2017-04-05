@@ -41,11 +41,18 @@ title: Analyse numérique
             <h2>TD3 : </h2>
             <p style="margin-top:-0.5em;color:silver;">la semaine de 27/03/2017</p>
             <ul style="list-style-type: square;">
+                <li><a href="/assets/analysenum2017/TD3_sujet.pdf">sujet.pdf</a></li>
+                <li><a href="/assets/analysenum2017/TD3_correction.pdf">correction.pdf</a></li>
+                <li><a href="https://fr.wikipedia.org/wiki/D%C3%A9composition_QR">[wiki] Décomposition QR</a></li>
+                <li><a href="https://fr.wikipedia.org/wiki/D%C3%A9composition_LU">[wiki] Décomposition LU</a></li>
             </ul>
             
             <h2>TP4 : </h2>
             <p style="margin-top:-0.5em;color:silver;">la semaine de 03/04/2017</p>
             <ul style="list-style-type: square;">
+                <li><a href="/assets/analysenum2017/TP4_sujet.pdf">sujet.pdf</a></li>
+                <li><a href="/assets/analysenum2017/TP4_spline.sce">exo1: spline.sce</a></li>
+                <li><a href="/assets/analysenum2017/TP4_heat.sce">exo2: heat.sce</a></li>
             </ul>
         </div>
     </div>
