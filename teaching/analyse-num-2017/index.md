@@ -38,7 +38,7 @@ title: Analyse numérique
                 <li><a href="/assets/analysenum2017/TP2_exo5.sce">exo5.sce</a></li>
             </ul>
             
-            <h2>TD3 : </h2>
+            <h2>TD3 : Systèmes linéaires et équations différentielles</h2>
             <p style="margin-top:-0.5em;color:silver;">la semaine de 27/03/2017</p>
             <ul style="list-style-type: square;">
                 <li><a href="/assets/analysenum2017/TD3_sujet.pdf">sujet.pdf</a></li>
@@ -47,7 +47,7 @@ title: Analyse numérique
                 <li><a href="https://fr.wikipedia.org/wiki/D%C3%A9composition_LU">[wiki] Décomposition LU</a></li>
             </ul>
             
-            <h2>TP4 : </h2>
+            <h2>TP4 : Systèmes linéaires et équations différentielles</h2>
             <p style="margin-top:-0.5em;color:silver;">la semaine de 03/04/2017</p>
             <ul style="list-style-type: square;">
                 <li><a href="/assets/analysenum2017/TP4_sujet.pdf">sujet.pdf</a></li>
