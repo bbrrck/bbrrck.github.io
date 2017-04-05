@@ -53,6 +53,8 @@ title: Analyse numérique
                 <li><a href="/assets/analysenum2017/TP4_sujet.pdf">sujet.pdf</a></li>
                 <li><a href="/assets/analysenum2017/TP4_spline.sce">exo1: spline.sce</a></li>
                 <li><a href="/assets/analysenum2017/TP4_heat.sce">exo2: heat.sce</a></li>
+                <li><a href="https://fr.wikipedia.org/wiki/Spline">[wiki] Spline</a></li>
+                <li><a href="https://fr.wikipedia.org/wiki/%C3%89quation_de_la_chaleur">[wiki] Équation de la chaleur</a></li>
             </ul>
         </div>
     </div>
