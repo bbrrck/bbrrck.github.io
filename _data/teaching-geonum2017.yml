@@ -13,6 +13,10 @@ meta    :
     
 news      :
 
+  - date  : 2017-04-12 12:00:00
+    type  : 'deadline'
+    text  : 'TP9 submission deadline is Thursday, 13/04/2017 at 23:59. The TP on Friday 14/04 will start at 13:30 (instead of 15:15).'
+
   - date  : 2017-04-04 12:00:00
     type  : 'deadline'
     text  : 'TP8 submission deadline is Thursday, 06/04/2017 at 23:59.'
