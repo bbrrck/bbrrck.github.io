@@ -72,7 +72,7 @@ B-spline basis functions $N^k_j$ up to degree 5 for the knot sequence $(0,1,2,3,
         </span>
 * <span class="algo-part">output :</span>
    <span class="algo-content"> point $\mathbf S(t) = \mathbf d_i^k$ on the curve</span>
-* <span class="algo-part">allgorithm :</span>
+* <span class="algo-part">algorithm :</span>
    <span class="algo-content">
         For $j=i-k, \dots, i,$ set $\mathbf d_j^0 = \mathbf d_j$. Then compute the points
         \begin{align}
