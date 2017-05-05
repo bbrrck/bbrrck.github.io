@@ -11,7 +11,7 @@
       compressed: smi2017/paper.compressed
       compresize: 1.2
   ppage: "smi2017.html"
-  teaser  : /assets/smi2017/teaser.png
+  teaser  : /assets/smi2017/teaser.jpg
   video   : js2fQlbvzyc
   abstract:
     "We present a novel framework for acquisition and reconstruction of 3D curves using orientations provided by inertial sensors.
