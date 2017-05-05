@@ -51,11 +51,11 @@
               - id: 1
       journal  : "Computers &#92;& Graphics (Proc. SMI)"
       publisher: Elsevier
-      volume   : ???
-      pages    : 000-000
-      month    : ???
+      #volume   : ???
+      #pages    : 000-000
+      #month    : ???
       year     : 2017
-      doi      : ???
+      #doi      : ???
 
 
 - type: article
