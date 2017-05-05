@@ -2,42 +2,144 @@
 layout: default
 permalink: /publications/
 title: publications
-bibtex-indent: "  "
 ---
 
-{% assign pubs = site.data.publications %}
+<div class="publication-section col-xs-12"><h2>papers</h2></div>
 
-{% for item in pubs %}
-<div class="publication {{ item.type }} row" id="p-{{ item.pdf.file }}">
+{% for pub in site.data.publications %}
+{% if pub.type == 'article' or pub.type == 'inproceedings' %}
+<div class="publication {{ pub.type }} row" id="p-{{ pub.pdf.file }}">
 
-    <div class="col-md-3 col-xs-4">
-        {% if item.pdf %}<img src="/assets/{{ item.pdf.file }}.png" />{% endif %}
+    <div class="col-md-2 col-xs-4">
+{% if pub.gif %}<img src="/assets/{{ pub.gif }}.gif" />{% else if pub.pdf.file %}<img src="/assets/{{ pub.pdf.file }}.png" />{% endif %}
     </div>
-    
-    <div class="pub-content col-md-9 col-xs-8">
-        <div class="title">{{ item.bibtex.title }}</div>
-        <div class="authors">{% for author in item.bibtex.authors %}{% if author.last == 'Stanko' %}TS{% else %}{% if author.url %}<a href="{{ author.url }}">{% endif %}{% assign firstparts = {author.first | split: '-'} %}{% for fpart in firstparts %}{{ fpart | split: '' | first }}{% endfor %} {{ author.last }}{% if author.url %}</a>{% endif %}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</div>
-        <div class="description">{{ item.description }}</div>
-        {% if item.advisor %}<div class="advisor"><a href="{{ item.advisor.url }}">{{ item.advisor.name }}</a></div>{% endif %}
+
+    <div class="pub-content col-md-10 col-xs-8">
+        <div class="title">
+        {% if pub.ppage %}<a href="{{ pub.ppage }}">{% endif %}
+        {{ pub.bibtex.title }}
+        {% if pub.ppage %}</a>{% endif %}
+        </div>
+        <div class="authors">{% for author in pub.bibtex.authors %}{% if author.last == 'StankoDEBUG' %}TS{% else %}{% if author.url %}{% unless author.last=="Stanko" %}<a href="{{ author.url }}">{% endunless %}{% endif %}{% assign firstparts = {author.first | split: '-'} %}{% for fpart in firstparts %}{{ fpart | split: '' | first }}{% endfor %} {{ author.last }}{% if author.url %}{% unless author.last=="Stanko" %}</a>{% endunless %}{% endif %}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</div>
+        <div class="description">{{ pub.description }}</div>
+        {% if pub.advisor %}<div class="advisor"><a href="{{ pub.advisor.url }}">{{ pub.advisor.name }}</a></div>{% endif %}
         <div class="links">
-            {% if item.pdf %}
-            [ <a href="/assets/{{ item.pdf.file }}.pdf">pdf</a> ~ {{ item.pdf.size }} MB ]
+            {% if pub.ppage %}
+                [ <a href="{{ pub.ppage }}">project page</a> ]
             {% endif %}
-            {% if item.url %}
-                [ <a href="{{ item.url }}">www</a> ]
+            {% if pub.pdf %}
+                [ <a href="/assets/{{ pub.pdf.file }}.pdf">pdf</a> ~ {{ pub.pdf.size }} MB ]
             {% endif %}
-            {% if item.pdf %}
+            {% if pub.pdf %}
             <div class="bibtex">
                 [ <a href="#">bibtex</a> ]
-<pre id="bibtex-{{ item.pdf.slug }}">
-@{{ item.type }}&#123; {{ item.slug }},
-{% for prop in item.bibtex %}{% if prop[0] == 'authors' %}{{ page.bibtex-indent }}author = &#123;{% for author in item.bibtex.authors %}{{ author.first }} {{ author.last }}{% if forloop.last == false %} and {% endif %}{% endfor %}&#125;,
-{% else %}{% unless prop[0] == 'type' or prop[0] == 'slug'  or prop[0] == 'authors'  %}{{ page.bibtex-indent }}{{ prop[0] }} = &#123;{{ prop[1] }}&#125;{% if forloop.last == false %},{% endif %}
+<pre id="bibtex-{{ pub.pdf.slug }}">
+@{{ pub.type }}&#123; {{ pub.slug }},
+{% for prop in pub.bibtex %}{% if prop[0] == 'authors' %}{{ site.bibindent }}author = &#123;{% for author in pub.bibtex.authors %}{{ author.first }} {{ author.last }}{% if forloop.last == false %} and {% endif %}{% endfor %}&#125;,
+{% else %}{% unless prop[0] == 'type' or prop[0] == 'slug'  or prop[0] == 'authors'  %}{{ site.bibindent }}{{ prop[0] }} = &#123;{{ prop[1] }}&#125;{% if forloop.last == false %},{% endif %}
 {% endunless %}{% endif %}{% endfor %}&#125;
 </pre>
             </div>
             {% endif %}
+            {% if pub.url %}
+                [ <a href="{{ pub.url }}">www</a> ]
+            {% endif %}
         </div>
     </div>
 </div>
+{% endif %}
+{% endfor %}
+
+
+<div class="publication-section col-xs-12"><h2>talks</h2></div>
+
+{% for pub in site.data.publications %}
+{% if pub.type == 'talk' %}
+<div class="publication {{ pub.type }} row" id="p-{{ pub.pdf.file }}">
+
+    <div class="col-md-2 col-xs-4">
+        {% if pub.pdf %}<img src="/assets/{{ pub.pdf.file }}.png" />{% endif %}
+    </div>
+
+    <div class="pub-content col-md-10 col-xs-8">
+        <div class="title">
+        {% if pub.ppage %}<a href="{{ pub.ppage }}">{% endif %}
+        {{ pub.bibtex.title }}
+        {% if pub.ppage %}</a>{% endif %}
+        </div>
+        <div class="authors">{% for author in pub.bibtex.authors %}{% if author.last == 'StankoDEBUG' %}TS{% else %}{% if author.url %}<a href="{{ author.url }}">{% endif %}{% assign firstparts = {author.first | split: '-'} %}{% for fpart in firstparts %}{{ fpart | split: '' | first }}{% endfor %} {{ author.last }}{% if author.url %}</a>{% endif %}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</div>
+        <div class="description">{{ pub.description }}</div>
+        {% if pub.advisor %}<div class="advisor"><a href="{{ pub.advisor.url }}">{{ pub.advisor.name }}</a></div>{% endif %}
+        <div class="links">
+            {% if pub.ppage %}
+                [ <a href="{{ pub.ppage }}">project page</a> ]
+            {% endif %}
+            {% if pub.pdf %}
+                [ <a href="/assets/{{ pub.pdf.file }}.pdf">pdf</a> ~ {{ pub.pdf.size }} MB ]
+            {% endif %}
+            {% if pub.pdf %}
+            <div class="bibtex">
+                [ <a href="#">bibtex</a> ]
+<pre id="bibtex-{{ pub.pdf.slug }}">
+@{{ pub.type }}&#123; {{ pub.slug }},
+{% for prop in pub.bibtex %}{% if prop[0] == 'authors' %}{{ site.bibindent }}author = &#123;{% for author in pub.bibtex.authors %}{{ author.first }} {{ author.last }}{% if forloop.last == false %} and {% endif %}{% endfor %}&#125;,
+{% else %}{% unless prop[0] == 'type' or prop[0] == 'slug'  or prop[0] == 'authors'  %}{{ site.bibindent }}{{ prop[0] }} = &#123;{{ prop[1] }}&#125;{% if forloop.last == false %},{% endif %}
+{% endunless %}{% endif %}{% endfor %}&#125;
+</pre>
+            </div>
+            {% endif %}
+            {% if pub.url %}
+                [ <a href="{{ pub.url }}">www</a> ]
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+
+
+
+<div class="publication-section col-xs-12"><h2>theses</h2></div>
+{% for pub in site.data.publications %}
+{% if pub.type == 'masterthesis' or pub.type == 'phdthesis' %}
+<div class="publication {{ pub.type }} row" id="p-{{ pub.pdf.file }}">
+
+    <div class="col-md-2 col-xs-4">
+      {% if pub.pdf %}<img src="/assets/{{ pub.pdf.file }}.png" />{% endif %}
+    </div>
+
+    <div class="pub-content col-md-10 col-xs-8">
+        <div class="title">
+        {% if pub.ppage %}<a href="{{ pub.ppage }}">{% endif %}
+        {{ pub.bibtex.title }}
+        {% if pub.ppage %}</a>{% endif %}
+        </div>
+        <div class="authors">{% for author in pub.bibtex.authors %}{% if author.last == 'StankoDEBUG' %}TS{% else %}{% if author.url %}<a href="{{ author.url }}">{% endif %}{% assign firstparts = {author.first | split: '-'} %}{% for fpart in firstparts %}{{ fpart | split: '' | first }}{% endfor %} {{ author.last }}{% if author.url %}</a>{% endif %}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</div>
+        <div class="description">{{ pub.description }}</div>
+        {% if pub.advisor %}<div class="advisor"><a href="{{ pub.advisor.url }}">{{ pub.advisor.name }}</a></div>{% endif %}
+        <div class="links">
+            {% if pub.ppage %}
+                [ <a href="{{ pub.ppage }}">project page</a> ]
+            {% endif %}
+            {% if pub.pdf %}
+                [ <a href="/assets/{{ pub.pdf.file }}.pdf">pdf</a> ~ {{ pub.pdf.size }} MB ]
+            {% endif %}
+            {% if pub.pdf %}
+            <div class="bibtex">
+                [ <a href="#">bibtex</a> ]
+<pre id="bibtex-{{ pub.pdf.slug }}">
+@{{ pub.type }}&#123; {{ pub.slug }},
+{% for prop in pub.bibtex %}{% if prop[0] == 'authors' %}{{ site.bibindent }}author = &#123;{% for author in pub.bibtex.authors %}{{ author.first }} {{ author.last }}{% if forloop.last == false %} and {% endif %}{% endfor %}&#125;,
+{% else %}{% unless prop[0] == 'type' or prop[0] == 'slug'  or prop[0] == 'authors'  %}{{ site.bibindent }}{{ prop[0] }} = &#123;{{ prop[1] }}&#125;{% if forloop.last == false %},{% endif %}
+{% endunless %}{% endif %}{% endfor %}&#125;
+</pre>
+            </div>
+            {% endif %}
+            {% if pub.url %}
+                [ <a href="{{ pub.url }}">www</a> ]
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endif %}
 {% endfor %}

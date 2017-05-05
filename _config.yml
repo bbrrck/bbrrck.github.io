@@ -10,7 +10,7 @@ future: false
 permalink: none
 markdown: kramdown
 highlighter: rouge
-
+bibindent: "  "
 twitter_username: tiborstanko
 github_username:  bbrrck
 lastfm_username: boberr

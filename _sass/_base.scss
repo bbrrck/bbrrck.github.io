@@ -1,80 +1,80 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
-    font-size: 1.7rem;
-    color: $text-color;
-    background-color: $background-color;
-    font-family: $base-font-family;
+  font-size: 1.7rem;
+  color: $text-color;
+  background-color: $background-color;
+  font-family: $base-font-family;
 }
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2;
 }
 img {
-    max-width: 100%;
-    vertical-align: middle;
+  max-width: 100%;
+  vertical-align: middle;
 }
 figure > img {
-    display: block;
+  display: block;
 }
 ul, ol {
-    margin-left: $spacing-unit;
+  margin-left: $spacing-unit;
 }
 li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
+  > ul,
+  > ol {
+     margin-bottom: 0;
+  }
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
-    font-family: $header-font-family;
+  font-weight: 300;
+  font-family: $header-font-family;
 }
 h1 {
-    font-size: $h1-size;
-    margin: $h1-margin;
-    color: $h1-color;
+  font-size: $h1-size;
+  margin: $h1-margin;
+  color: $h1-color;
 }
 h2 {
-    font-size: $h2-size;
-    margin: $h2-margin;
-    color: $h2-color;
+  font-size: $h2-size;
+  margin: $h2-margin;
+  color: $h2-color;
 }
 h3 {
-    font-size: $h3-size;
-    margin: $h3-margin;
-    color: $h3-color;
+  font-size: $h3-size;
+  margin: $h3-margin;
+  color: $h3-color;
 }
 h4 {
-    font-size: $h4-size;
-    margin: $h4-margin;
-    color: $h4-color;
+  font-size: $h4-size;
+  margin: $h4-margin;
+  color: $h4-color;
 }
 a {
-    color: $link-color;
-    text-decoration: none;
-    &:visited {
-        color: $visited-color;
-    }
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
+  color: $link-color;
+  text-decoration: none;
+  &:visited {
+    color: $visited-color;
+  }
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
 }
 .icon {
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-        path {
-            fill: $footer-icon-color;
-        }
+  > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    path {
+      fill: $footer-icon-color;
     }
+  }
 }

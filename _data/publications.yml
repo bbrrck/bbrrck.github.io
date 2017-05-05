@@ -1,8 +1,67 @@
----       
+---
+- type: article
+  slug: "Stanko:2017:SMI"
+  ftitle: 'Shape from sensors: curve networks on surfaces from 3D orientations'
+  description: "Computers &amp; Graphics (Proc. SMI 2017)"
+  conditional: true
+  NO_gif: smi2017/anim
+  pdf:
+      file: smi2017/paper
+      size: 10.4
+      compressed: smi2017/paper.compressed
+      compresize: 1.2
+  ppage: "smi2017.html"
+  teaser  : /assets/smi2017/teaser.png
+  video   : js2fQlbvzyc
+  abstract:
+    "We present a novel framework for acquisition and reconstruction of 3D curves using orientations provided by inertial sensors.
+    While the idea of sensor shape reconstruction is not new, we present the first method for creating well-connected networks
+    with cell complex topology using only orientation and distance measurements and a set of user-defined constraints.
+    By working directly with orientations, our method robustly resolves problems arising from data inconsistency and
+    sensor noise. Although originally designed for reconstruction of physical shapes, the framework can be used for
+    “sketching” new shapes directly in 3D space. We test the performance of the method using two types of acquisition
+    devices: a standard smartphone, and a custom-made prototype called the Morphorider."
+  affiliations:
+    - id: 1
+      name: "CEA, LETI, MINATEC Campus, Université Grenoble Alpes"
+    - id: 2
+      name: "Université Grenoble Alpes, CNRS (Laboratoire Jean Kuntzmann), INRIA"
+  bibtex:
+      title: "Shape from sensors: curve networks on surfaces from 3D orientations"
+      authors:
+          - last : Stanko
+            first: Tibor
+            url  : "https://tiborstanko.sk"
+            affiliation:
+              - id: 1
+              - id: 2
+          - last : Hahmann
+            first: Stefanie
+            url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
+            affiliation:
+              - id: 2
+          - last : Bonneau
+            first: Georges-Pierre
+            url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
+            affiliation:
+              - id: 2
+          - last : Saguin-Sprynski
+            first: Nathalie
+            affiliation:
+              - id: 1
+      journal  : "Computers &#92;& Graphics (Proc. SMI)"
+      publisher: Elsevier
+      volume   : ???
+      pages    : 000-000
+      month    : ???
+      year     : 2017
+      doi      : ???
+
+
 - type: article
   slug: "Stanko:2016:CAG"
-  description: "Computers & Graphics #60 (Nov 2016)"
-  pdf: 
+  description: "Computers &amp; Graphics #60 (Nov 2016)"
+  pdf:
       file: 2016-cag
       size: 16.7
   bibtex:
@@ -14,23 +73,23 @@
             first: Stefanie
             url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
           - last : Bonneau
-            first: Georges-Pierre 
+            first: Georges-Pierre
             url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
           - last : Saguin-Sprynski
             first: Nathalie
-      journal  : "Computers & Graphics"
+      journal  : "Computers &#92;& Graphics"
       publisher: Elsevier
       volume   : 60
       pages    : 001-008
       month    : 11
       year     : 2016
       doi      : "doi:10.1016/j.cag.2016.07.001"
-    
-    
+
+
 - type: inproceedings
   slug: "Stanko:2016:EG"
   description: "Eurographics 2016 — short papers"
-  pdf: 
+  pdf:
       file: 2016-eg
       size: 7.0
   bibtex:
@@ -42,7 +101,7 @@
             first: Stefanie
             url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
           - last : Bonneau
-            first: Georges-Pierre 
+            first: Georges-Pierre
             url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
           - last : Saguin-Sprynski
             first: Nathalie
@@ -56,7 +115,25 @@
       month    : May
       year     : 2016
 
-      
+
+- type: talk
+  slug: "Stanko:2016:j•FIG"
+  description: "presented at j•FIG 2016"
+  url: "http://jfig2016.acroe-ica.org/programme_sessions#Session8"
+  bibtex:
+      title: Surfacing Curve Networks with Normal Control
+      authors:
+          - last : Stanko
+            first: Tibor
+          - last : Hahmann
+            first: Stefanie
+            url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
+          - last : Bonneau
+            first: Georges-Pierre
+            url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
+          - last : Saguin-Sprynski
+            first: Nathalie
+
 - type: talk
   slug: "Stanko:2016:GTMG"
   description: "presented at Journées GTMG 2016"
@@ -70,19 +147,18 @@
             first: Stefanie
             url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
           - last : Bonneau
-            first: Georges-Pierre 
+            first: Georges-Pierre
             url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
           - last : Saguin-Sprynski
             first: Nathalie
 
-            
 - type : masterthesis
   slug   : "Stanko:2014:MSc"
   description: "2014, master's thesis, Comenius University <small>(Bratislava, Slovakia)</small>"
   advisor:
       name: "Pavel Chalmovianský"
       url : "http://www.sccg.sk/~chalmo/"
-  pdf: 
+  pdf:
       file: 2014-msc
       size: 5.9
   bibtex:
@@ -92,14 +168,15 @@
       month  : June
       year   : 2014
 
-    
+
 - type: inproceedings
-  description: "CESCG 2014 paper"
+  description: "CESCG 2014"
   slug     : "Stanko:2014:CESCG"
   advisor:
       name: "Pavel Chalmovianský"
       url : "http://www.sccg.sk/~chalmo/"
-  pdf: 
+  url: "http://old.cescg.org/CESCG-2014/"
+  pdf:
       file: 2014-cescg
       size: 2.4
   bibtex:
@@ -110,15 +187,15 @@
       isbn     : 978-3-9502533-6-8
       month    : April
       year     : 2014
-    
-    
+
+
 - type: masterthesis
   slug: "Stanko:2012:BSc"
   description: "2012, bachelor's thesis, Comenius University <small>(Bratislava, Slovakia)</small>"
   advisor:
       name: "Matej Novotný"
       url : "http://www.sccg.sk/~mnovotny/"
-  pdf: 
+  pdf:
       file: 2012-bsc
       size: 2.3
   bibtex:
@@ -128,7 +205,7 @@
       type   : BSc. thesis
       url    : "http://grafit.tiborstanko.sk"
       month  : June
-      year   : 2012     
+      year   : 2012
 #
 #
 # source: https://en.wikipedia.org/wiki/BibTeX
