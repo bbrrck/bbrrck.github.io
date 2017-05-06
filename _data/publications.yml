@@ -1,4 +1,8 @@
 ---
+#########
+# PAPERS
+#########
+
 - type: article
   slug: "Stanko:2017:SMI"
   ftitle: 'Shape from sensors: curve networks on surfaces from 3D orientations'
@@ -8,6 +12,7 @@
   pdf:
       file: smi2017/paper
       size: 10.4
+      type: paper
       compressed: smi2017/paper.compressed
       compresize: 1.2
   ppage: "smi2017.html"
@@ -62,21 +67,51 @@
   slug: "Stanko:2016:CAG"
   description: "Computers &amp; Graphics #60 (Nov 2016)"
   pdf:
-      file: 2016-cag
+      file: cag2016/paper
       size: 16.7
+      type: paper
+  ftitle: 'Surfacing curve networks with normal control'
+  ppage: "cag2016.html"
+  teaser  : /assets/cag2016/teaser.png
+  video   : bjcr11O4AcM
+  abstract:
+    "Recent surface acquisition technologies based on microsensors produce three-space tangential curve data which can be
+transformed into a network of space curves with surface normals. This paper addresses the problem of surfacing an
+arbitrary closed 3D curve network with given surface normals. Thanks to the normal vector input, the patch finding
+problem can be solved unambiguously and an initial piecewise smooth triangle mesh is computed. The input normals
+are propagated throughout the mesh. Together with the initial mesh, the propagated normals are used to compute mean
+curvature vectors. We then compute the final mesh as the solution of a new variational optimization method based
+on the mean curvature vectors. The intuition behind this original approach is to guide the standard Laplacian-based
+variational methods by the curvature information extracted from the input normals. The normal input increases shape
+fidelity and allows to achieve globally smooth and visually pleasing shapes."
+  affiliations:
+    - id: 1
+      name: "CEA, LETI, MINATEC Campus, Université Grenoble Alpes"
+    - id: 2
+      name: "Université Grenoble Alpes, CNRS (Laboratoire Jean Kuntzmann), INRIA"
   bibtex:
       title: Surfacing curve networks with normal control
       authors:
           - last : Stanko
             first: Tibor
+            url  : "https://tiborstanko.sk"
+            affiliation:
+              - id: 1
+              - id: 2
           - last : Hahmann
             first: Stefanie
+            affiliation:
+              - id: 2
             url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
           - last : Bonneau
             first: Georges-Pierre
+            affiliation:
+              - id: 2
             url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
           - last : Saguin-Sprynski
             first: Nathalie
+            affiliation:
+              - id: 1
       journal  : "Computers &#92;& Graphics"
       publisher: Elsevier
       volume   : 60
@@ -92,6 +127,7 @@
   pdf:
       file: 2016-eg
       size: 7.0
+      type: paper
   bibtex:
       title: Smooth interpolation of curve networks with surface normals
       authors:
@@ -116,10 +152,40 @@
       year     : 2016
 
 
+- type: inproceedings
+  description: "CESCG 2014"
+  slug     : "Stanko:2014:CESCG"
+  advisor:
+      name: "Pavel Chalmovianský"
+      url : "http://www.sccg.sk/~chalmo/"
+  url: "http://old.cescg.org/CESCG-2014/"
+  pdf:
+      file: 2014-cescg
+      size: 2.4
+      type: paper
+  bibtex:
+      title    : Refining procedures on mesh via algebraic fitting
+      author   : Tibor Stanko
+      booktitle: Proc. CESCG 2014
+      editor   : M. Wimmer and J. Hladůvka and M. Ilčík
+      isbn     : 978-3-9502533-6-8
+      month    : April
+      year     : 2014
+
+
+
+#########
+# TALKS
+#########
+
 - type: talk
   slug: "Stanko:2016:j•FIG"
   description: "presented at j•FIG 2016"
   url: "http://jfig2016.acroe-ica.org/programme_sessions#Session8"
+  pdf:
+      file: 2016-jfig
+      size: 3.8
+      type: poster
   bibtex:
       title: Surfacing Curve Networks with Normal Control
       authors:
@@ -133,6 +199,7 @@
             url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
           - last : Saguin-Sprynski
             first: Nathalie
+
 
 - type: talk
   slug: "Stanko:2016:GTMG"
@@ -152,6 +219,12 @@
           - last : Saguin-Sprynski
             first: Nathalie
 
+
+
+#########
+# THESES
+#########
+
 - type : masterthesis
   slug   : "Stanko:2014:MSc"
   description: "2014, master's thesis, Comenius University <small>(Bratislava, Slovakia)</small>"
@@ -161,33 +234,13 @@
   pdf:
       file: 2014-msc
       size: 5.9
+      type: thesis
   bibtex:
       title  : Refining procedures on mesh via algebraic fitting
       author : Tibor Stanko
       school : Comenius University, Bratislava
       month  : June
       year   : 2014
-
-
-- type: inproceedings
-  description: "CESCG 2014"
-  slug     : "Stanko:2014:CESCG"
-  advisor:
-      name: "Pavel Chalmovianský"
-      url : "http://www.sccg.sk/~chalmo/"
-  url: "http://old.cescg.org/CESCG-2014/"
-  pdf:
-      file: 2014-cescg
-      size: 2.4
-  bibtex:
-      title    : Refining procedures on mesh via algebraic fitting
-      author   : Tibor Stanko
-      booktitle: Proc. CESCG 2014
-      editor   : M. Wimmer and J. Hladůvka and M. Ilčík
-      isbn     : 978-3-9502533-6-8
-      month    : April
-      year     : 2014
-
 
 - type: masterthesis
   slug: "Stanko:2012:BSc"
@@ -198,6 +251,7 @@
   pdf:
       file: 2012-bsc
       size: 2.3
+      type: thesis
   bibtex:
       title  : Online application for data visualisation
       author : Tibor Stanko
@@ -206,155 +260,4 @@
       url    : "http://grafit.tiborstanko.sk"
       month  : June
       year   : 2012
-#
-#
-# source: https://en.wikipedia.org/wiki/BibTeX
-#
-#
-# A BibTeX database can contain the following types of entries:
-#
-# article
-# An article from a journal or magazine.
-# Required fields: author, title, journal, year, volume
-# Optional fields: number, pages, month, note, key
-#
-# book
-# A book with an explicit publisher.
-# Required fields: author/editor, title, publisher, year
-# Optional fields: volume/number, series, address, edition, month, note, key
-#
-# booklet
-# A work that is printed and bound, but without a named publisher or sponsoring institution.
-# Required fields: title
-# Optional fields: author, howpublished, address, month, year, note, key
-#
-# conference
-# The same as inproceedings, included for Scribe compatibility.
-#
-# inbook
-# A part of a book, usually untitled. May be a chapter (or section, etc.) and/or a range of pages.#
-# Required fields: author/editor, title, chapter/pages, publisher, year
-# Optional fields: volume/number, series, type, address, edition, month, note, key
-#
-# incollection
-# A part of a book having its own title.
-# Required fields: author, title, booktitle, publisher, year
-# Optional fields: editor, volume/number, series, type, chapter, pages, address, edition, month, note, key
-#
-# inproceedings
-# An article in a conference proceedings.
-# Required fields: author, title, booktitle, year
-# Optional fields: editor, volume/number, series, pages, address, month, organization, publisher, note, key
-#
-# manual
-# Technical documentation.
-# Required fields: title
-# Optional fields: author, organization, address, edition, month, year, note, key
-#
-# mastersthesis
-# A Master's thesis.
-# Required fields: author, title, school, year
-# Optional fields: type, address, month, note, key
-#
-# misc
-# For use when nothing else fits.
-# Required fields: none
-# Optional fields: author, title, howpublished, month, year, note, key
-#
-# phdthesis
-# A Ph.D. thesis.
-# Required fields: author, title, school, year
-# Optional fields: type, address, month, note, key
-#
-# proceedings
-# The proceedings of a conference.
-# Required fields: title, year
-# Optional fields: editor, volume/number, series, address, month, publisher, organization, note, key
-#
-# techreport
-# A report published by a school or other institution, usually numbered within a series.
-# Required fields: author, title, institution, year
-# Optional fields: type, number, address, month, note, key
-#
-# unpublished
-# A document having an author and title, but not formally published.
-# Required fields: author, title, note
-# Optional fields: month, year, key
-#
-#
-#
-# A BibTeX entry can contain various types of fields. The following types are recognized by the default bibliography styles; some third-party styles may accept additional ones:
-#
-# address
-# Publisher's address (usually just the city, but can be the full address for lesser-known publishers)
-#
-# annote
-# An annotation for annotated bibliography styles (not typical)
-#
-# author
-# The name(s) of the author(s) (in the case of more than one author, separated by and
-#
-# booktitle
-# The title of the book, if only part of it is being cited
-#
-# chapter
-# The chapter number
-#
-# crossref
-# The key of the cross-referenced entry
-#
-# edition
-# The edition of a book, long form (such as "First" or "Second")
-#
-# editor
-# The name(s) of the editor(s)
-#
-# howpublished
-# How it was published, if the publishing method is nonstandard
-#
-# institution
-# The institution that was involved in the publishing, but not necessarily the publisher
-#
-# journal
-# The journal or magazine the work was published in
-#
-# key
-# A hidden field used for specifying or overriding the alphabetical order of entries (when the "author" and "editor" fields are missing). Note that this is very different from the key (mentioned just after this list) that is used to cite or cross-reference the entry.
-#
-# month
-# The month of publication (or, if unpublished, the month of creation)
-#
-# note
-# Miscellaneous extra information
-#
-# number
-# The "(issue) number" of a journal, magazine, or tech-report, if applicable. (Most publications have a "volume", but no "number" field.)
-#
-# organization
-# The conference sponsor
-#
-# pages
-# Page numbers, separated either by commas or double-hyphens.
-#
-# publisher
-# The publisher's name
-#
-# school
-# The school where the thesis was written
-#
-# series
-# The series of books the book was published in (e.g. "The Hardy Boys" or "Lecture Notes in Computer Science")
-#
-# title
-# The title of the work
-#
-# type
-# The field overriding the default type of publication (e.g. "Research Note" for techreport, "{PhD} dissertation" for phdthesis, "Section" for inbook/incollection)
-#
-# volume
-# The volume of a journal or multi-volume book
-#
-# year
-# The year of publication (or, if unpublished, the year of creation)
-#
-...
+      note   : BSc thesis

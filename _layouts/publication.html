@@ -51,7 +51,7 @@
     <h2 style="padding:1em 0 1em;">Downloads</h2>
     <ul style="font-size:120%;">
       <li><a title="download pdf ({{ pub.pdf.size }})" href="/assets/{{ pub.pdf.file }}.pdf"> paper </a></li>
-      <li><a title="download pdf ({{ pub.pdf.compresize }})" href="/assets/{{ pub.pdf.compressed }}.pdf"> paper (lowres) </a></li>
+{% if pub.pdf.compressed %}<li><a title="download pdf ({{ pub.pdf.compresize }})" href="/assets/{{ pub.pdf.compressed }}.pdf"> paper (lowres) </a></li>{% endif %}
     </ul>
   </div>
   <div id="video" class="col-xs-12 col-md-8">
@@ -68,7 +68,6 @@
 {% else %}{% unless prop[0] == 'type' or prop[0] == 'slug'  or prop[0] == 'authors'  %}{{ site.bibindent }}{{ prop[0] }} = &#123;{{ prop[1] }}&#125;{% if forloop.last == false %},{% endif %}
 {% endunless %}{% endif %}{% endfor %}&#125;</pre>
 
-<h2 style="padding:2em 0 1em;">Results</h2>
 {{ content }}
 
             </div>
