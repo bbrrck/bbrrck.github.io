@@ -227,7 +227,7 @@ fidelity and allows to achieve globally smooth and visually pleasing shapes."
 
 - type : masterthesis
   slug   : "Stanko:2014:MSc"
-  description: "2014, master's thesis, Comenius University <small>(Bratislava, Slovakia)</small>"
+  description: "2014, MSc, Comenius University <small>(Bratislava, Slovakia)</small>"
   advisor:
       name: "Pavel Chalmovianský"
       url : "http://www.sccg.sk/~chalmo/"
@@ -244,7 +244,7 @@ fidelity and allows to achieve globally smooth and visually pleasing shapes."
 
 - type: masterthesis
   slug: "Stanko:2012:BSc"
-  description: "2012, bachelor's thesis, Comenius University <small>(Bratislava, Slovakia)</small>"
+  description: "2012, BSc, Comenius University <small>(Bratislava, Slovakia)</small>"
   advisor:
       name: "Matej Novotný"
       url : "http://www.sccg.sk/~mnovotny/"
