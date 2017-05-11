@@ -2,7 +2,7 @@
 layout:     post
 title:      Selecting extraordinary vertices in Blender
 date:       2016-07-28 12:53:00
-permalink:  blender-select-extra
+permalink:  blender-select-extra.html
 category:   blender
 ---
 

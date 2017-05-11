@@ -2,7 +2,7 @@
 layout      : post
 title       : Nvidia Optimus
 date        : 2016-10-19 00:00:00
-permalink   : nvidia-optimus-fedora
+permalink   : nvidia-optimus-fedora.html
 category    : fedora
 ---
 
@@ -25,7 +25,7 @@ version `CXXABI_1.3.9' not found (required by /usr/lib64/VirtualGL/librrfaker.so
 This is caused by matlab loading an old version of <code>libstdc++.so</code>.
 A simple [solution](http://stackoverflow.com/a/34348019/1606707) is to tell matlab where to look for the correct version of the lib.
 <pre><code class="language-shell">LD_PRELOAD=/usr/lib64/libstdc++.so.6 optirun /usr/local/MATLAB/R2016a/bin/matlab -desktop</code></pre>
-No errors this time! 
+No errors this time!
 <pre><code class="language-matlab">&raquo; disp(opengl('data'))
                       Version: '4.5.0 NVIDIA 367.44'
                        Vendor: 'NVIDIA Corporation'

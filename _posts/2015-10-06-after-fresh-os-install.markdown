@@ -2,14 +2,14 @@
 layout      : post
 title       : After a fresh OS install
 date        : 2015-10-06 14:30:00
-permalink   : fresh-os-install
+permalink   : fresh-os-install.html
 category    : fedora
 ---
 
 In the past few months, I've experimented with various Linux distros, before sticking with Fedora-based
 [Korora](https://kororaproject.org/) and Gnome 3 desktop.
 Korora comes with many pre-installed packages,
-including <code class="language-bash">vlc</code>, <code class="language-bash">audacity</code>, <code class="language-bash">deluge</code>, <code class="language-bash">gimp</code>, <code class="language-bash">inkscape</code> and <code class="language-git">git</code>, which is great; 
+including <code class="language-bash">vlc</code>, <code class="language-bash">audacity</code>, <code class="language-bash">deluge</code>, <code class="language-bash">gimp</code>, <code class="language-bash">inkscape</code> and <code class="language-git">git</code>, which is great;
 still, each time I'm reinstalling my laptop, I spend too much time figuring out
 which additional applications, packages and libraries I need to install.
 To facilitate this rather tedious process in the future,
@@ -18,7 +18,7 @@ I've compiled the following list, plus some pointers to useful web resources.
 Note: Since Fedora 22, the
 [Dnf](https://en.wikipedia.org/wiki/DNF_(software))
 is the default package manager, replacing the now-deprecated yum.
-(Dnf actually stands for *Dandified Yum*.) 
+(Dnf actually stands for *Dandified Yum*.)
 
 ### First things first
 As always, first step after a fresh install is to update everything.

@@ -2,11 +2,11 @@
 layout      : post
 title       : Compressing papers with ghostscript
 date        : 2017-05-05 00:00:00
-permalink   : compress-paper-pdf
+permalink   : compress-paper-pdf.html
 category    : research
 ---
 
-When searching for ways to compress the size of a ~50MB paper pdf, 
+When searching for ways to compress the size of a ~50MB paper pdf,
 I've discovered the following ghostscript command
 ([askUbuntu](https://askubuntu.com/a/256449/181265), [TeX StackExchange](https://tex.stackexchange.com/a/19047/45772))
 ```bash

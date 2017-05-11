@@ -2,11 +2,11 @@
 layout      : post
 title       : Gif screencast with byzanz
 date        : 2017-03-03 00:00:00
-permalink   : gif-screencast-byzanz
+permalink   : gif-screencast-byzanz.html
 category    : fedora
 ---
 Here's a simple example for gif screencasting with [byzanz](https://github.com/GNOME/byzanz).
-See the thread 
+See the thread
 [How to create animated GIF images of a screencast?](http://askubuntu.com/a/123515/181265)
 on askubuntu.com.
 

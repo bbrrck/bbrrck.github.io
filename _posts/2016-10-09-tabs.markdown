@@ -2,7 +2,7 @@
 layout      : post
 title       : Forgotten tabs
 date        : 2016-10-09 23:20:00
-permalink   : forgotten-tabs
+permalink   : forgotten-tabs.html
 category    : music
 ---
 Once upon a time, I heard a song. This one:
@@ -21,7 +21,3 @@ Strange thing, this tabbing. Are you actually creating something new when tabbin
 Anyway, I'll try to post more of tabs from now on. [Of this song, for instance](https://www.youtube.com/watch?v=-hY-XBLw6SU).
 
 And I definitely need to  practice more.
-
-
-
-

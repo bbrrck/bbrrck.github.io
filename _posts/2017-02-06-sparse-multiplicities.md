@@ -2,7 +2,7 @@
 layout      : post
 title       : Array multiplicities via sparse
 date        : 2017-02-06 00:00:00
-permalink   : array-multiplicities-via-sparse
+permalink   : array-multiplicities-via-sparse.html
 category    : matlab
 ---
 Multiplicities of array elements can be efficiently computed using `sparse`.
@@ -18,7 +18,7 @@ S = sparse(A,1,1);
 ```
 
 ```matlab
-mult = 
+mult =
    (1,1)        8
    (2,1)       15
    (3,1)       11
@@ -35,7 +35,7 @@ This method is faster than [other solutions](http://stackoverflow.com/questions/
 
 ```matlab
 % test array: 2000 random integers from the set 1:1000
-% 1000 iterations 
+% 1000 iterations
 Elapsed time is 0.228704 seconds. % histc
 Elapsed time is 1.838388 seconds. % bsxfun
 Elapsed time is 0.128791 seconds. % sparse

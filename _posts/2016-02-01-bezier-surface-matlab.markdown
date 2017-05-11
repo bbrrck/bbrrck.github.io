@@ -2,7 +2,7 @@
 layout      : post
 title       : Bézier surfaces in Matlab
 date        : 2016-02-01 16:30:00
-permalink   : bezier-surfaces-matlab
+permalink   : bezier-surfaces-matlab.html
 category    : matlab
 ---
 
@@ -83,6 +83,6 @@ function patches = readBPT(filename,dim)
         V = fscanf(file,'%f',[dim,vcount]);
         patches(i).verts = V';
     end
-    fclose(file); 
+    fclose(file);
 end
 </code></pre>
