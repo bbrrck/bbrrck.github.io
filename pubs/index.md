@@ -32,7 +32,7 @@ title: publications
             {% if pub.pdf %}
                 [ <a href="/assets/{{ pub.pdf.file }}.pdf">{{ pub.pdf.type }}</a> ~ {{ pub.pdf.size }} MB ]
             {% endif %}
-            {% if pub.pdf %}
+            {% if pub.pdf and pub.type!='talk' %}
             <div class="bibtex">
                 [ <a href="#">bibtex</a> ]
                 <pre id="bibtex-{{ pub.pdf.slug }}">

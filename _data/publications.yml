@@ -10,22 +10,26 @@
   conditional: true
   NO_gif: smi2017/anim
   pdf:
-      file: smi2017/paper
+      file: smi2017/shape-sensors
       size: 10.4
       type: paper
-      compressed: smi2017/paper.compressed
-      compresize: 1.2
+      compressed: smi2017/shape-sensors.compressed
+      compresize: 2.7
   ppage: "smi2017.html"
   teaser  : /assets/smi2017/teaser.jpg
   video   : js2fQlbvzyc
   abstract:
-    "We present a novel framework for acquisition and reconstruction of 3D curves using orientations provided by inertial sensors.
-    While the idea of sensor shape reconstruction is not new, we present the first method for creating well-connected networks
-    with cell complex topology using only orientation and distance measurements and a set of user-defined constraints.
-    By working directly with orientations, our method robustly resolves problems arising from data inconsistency and
-    sensor noise. Although originally designed for reconstruction of physical shapes, the framework can be used for
-    “sketching” new shapes directly in 3D space. We test the performance of the method using two types of acquisition
-    devices: a standard smartphone, and a custom-made prototype called the Morphorider."
+   "We present a novel framework for acquisition and reconstruction
+    of 3D curves using orientations provided by inertial sensors. While the
+    idea of sensor shape reconstruction is not new, we present the first
+    method for creating well-connected networks with cell complex topology
+    using only orientation and distance measurements and a set of user-
+    defined constraints. By working directly with orientations, our method
+    robustly resolves problems arising from data inconsistency and sensor
+    noise. Although originally designed for reconstruction of physical
+    shapes, the framework can be used for “sketching” new shapes directly in
+    3D space. We test the performance of the method using two types of
+    acquisition devices: a standard smartphone, and a custom-made device."
   affiliations:
     - id: 1
       name: "CEA, LETI, MINATEC Campus, Université Grenoble Alpes"

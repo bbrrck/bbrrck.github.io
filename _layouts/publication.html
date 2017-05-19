@@ -49,9 +49,13 @@
 <div class="row">
   <div id="links" class="col-xs-12 col-md-4">
     <h2 style="padding:1em 0 1em;">Downloads</h2>
-    <ul style="font-size:120%;">
-      <li><a title="download pdf ({{ pub.pdf.size }})" href="/assets/{{ pub.pdf.file }}.pdf"> paper </a></li>
-{% if pub.pdf.compressed %}<li><a title="download pdf ({{ pub.pdf.compresize }})" href="/assets/{{ pub.pdf.compressed }}.pdf"> paper (lowres) </a></li>{% endif %}
+    <ul style="font-size:120%;color:#666;">
+      <li><a title="download pdf ({{ pub.pdf.size }})" href="/assets/{{ pub.pdf.file }}.pdf">
+        paper</a> ~ {{ pub.pdf.size }} MB</li>
+{% if pub.pdf.compressed %}
+      <li><a title="download pdf ({{ pub.pdf.compresize }})" href="/assets/{{ pub.pdf.compressed }}.pdf">
+        paper (lowres)</a> ~ {{ pub.pdf.compresize }} MB</li>
+{% endif %}
     </ul>
   </div>
   <div id="video" class="col-xs-12 col-md-8">
