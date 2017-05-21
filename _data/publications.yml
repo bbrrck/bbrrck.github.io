@@ -7,7 +7,6 @@
   slug: "Stanko:2017:SMI"
   ftitle: 'Shape from sensors: curve networks on surfaces from 3D orientations'
   description: "Computers &amp; Graphics (Proc. SMI 2017)"
-  conditional: true
   NO_gif: smi2017/anim
   pdf:
       file: smi2017/shape-sensors
