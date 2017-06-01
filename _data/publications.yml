@@ -17,6 +17,7 @@
   ppage: "smi2017.html"
   teaser  : /assets/smi2017/teaser.jpg
   video   : js2fQlbvzyc
+  support : "This research was partially funded by the ERC advanced grant no. 291184 EXPRESSIVE."
   abstract:
    "We present a novel framework for acquisition and reconstruction
     of 3D curves using orientations provided by inertial sensors. While the
@@ -77,6 +78,7 @@
   ppage: "cag2016.html"
   teaser  : /assets/cag2016/teaser.png
   video   : bjcr11O4AcM
+  support : "This research was partially funded by the ERC advanced grant no. 291184 EXPRESSIVE."
   abstract:
     "Recent surface acquisition technologies based on microsensors produce three-space tangential curve data which can be
 transformed into a network of space curves with surface normals. This paper addresses the problem of surfacing an
