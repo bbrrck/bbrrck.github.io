@@ -57,6 +57,10 @@
         paper (lowres)</a> ~ {{ pub.pdf.compresize }} MB</li>
 {% endif %}
     </ul>
+{% if pub.support %}
+    <h2 style="padding:1em 0 1em;">Acknowledgments</h2>
+    <p>{{ pub.support }}</p>
+{% endif %}
   </div>
   <div id="video" class="col-xs-12 col-md-8">
     <h2 style="padding:1em 0 1em;">Video</h2>
