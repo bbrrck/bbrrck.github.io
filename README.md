@@ -1,4 +1,5 @@
 # bbrrck.github.io
 
 ## Todo
-- change publication page title
+- change single publication page <title>
+- add news on the homepage
