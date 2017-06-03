@@ -64,7 +64,7 @@
       #pages    : 000-000
       #month    : ???
       year     : 2017
-      #doi      : ???
+      doi      : 10.1016/j.cag.2017.05.013
 
 
 - type: article
@@ -123,7 +123,7 @@ fidelity and allows to achieve globally smooth and visually pleasing shapes."
       pages    : 001-008
       month    : 11
       year     : 2016
-      doi      : "doi:10.1016/j.cag.2016.07.001"
+      doi      : 10.1016/j.cag.2016.07.001
 
 
 - type: inproceedings
