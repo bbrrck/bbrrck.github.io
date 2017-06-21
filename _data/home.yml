@@ -1,0 +1,19 @@
+photo: '/assets/apple.jpg'
+intro: '<h2>Hello there!</h2>
+<p>I’m Tibor, a third-year PhD student working at
+<a href="http://www-leti.cea.fr/en">CEA-Leti</a> in Grenoble,
+and a member of the
+<a href="https://team.inria.fr/imagine/">Imagine</a> team
+(<a href="http://www.inria.fr/en/">Inria</a> / <a href="http://ljk.imag.fr/">LJK</a> Grenoble).
+I am lucky to have three thesis advisors:
+<a href="https://team.inria.fr/imagine/stefanie-hahmann/">Stefanie Hahmann</a>,
+<a href="http://www-evasion.inrialpes.fr/~Georges-Pierre.Bonneau/">Georges-Pierre Bonneau</a>
+and Nathalie Saguin-Sprynski.
+Before that, I got my MSc from the
+<a href="https://fmph.uniba.sk/en/">Comenius University in Bratislava</a>
+under the supervision of
+<a href="https://www.researchgate.net/profile/Pavel_Chalmoviansky">Pavel Chalmovianský</a>.
+</p>
+<p>My doctoral thesis is about <em>shape from sensors</em> — have a look at <a href="/publications/">my publications</a> for more details.</p>
+<p>I occasionally <a href="/posts/">blog</a>, mostly about stuff.</p>
+'

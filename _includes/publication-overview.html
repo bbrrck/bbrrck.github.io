@@ -1,0 +1,42 @@
+<div class="publication {{ pub.type }} row" id="p-{{ pub.pdf.file | replace: "/","-" }}">
+    <div class="col-md-2 col-xs-4">
+      {% if pub.gif %}
+      <img src="/assets/{{ pub.gif }}.gif" />
+      {% elsif pub.pdf.file %}
+      <img src="/assets/{{ pub.pdf.file }}.png" />
+      {% endif %}
+    </div>
+    <div class="pub-content col-md-10 col-xs-8">
+        <div class="title">
+        {% if pub.ppage %}<a href="{{ pub.ppage }}">{% endif %}
+        {{ pub.bibtex.title }}
+        {% if pub.ppage %}</a>{% endif %}
+        </div>
+        <div class="authors">{% for author in pub.bibtex.authors %}{% if author.last == 'StankoDEBUG' %}TS{% else %}{% if author.url %}{% unless author.last=="Stanko" %}<a href="{{ author.url }}">{% endunless %}{% endif %}
+        {% assign firstparts = (author.first | split: '-') %}
+        {% for fpart in firstparts %}{{ fpart | split: '' | first }}{% endfor %} {{ author.last }}{% if author.url %}{% unless author.last=="Stanko" %}</a>{% endunless %}{% endif %}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</div>
+        <div class="description">{{ pub.description }}</div>
+        {% if pub.advisor %}<div class="advisor"><a href="{{ pub.advisor.url }}">{{ pub.advisor.name }}</a></div>{% endif %}
+        <div class="links">
+            {% if pub.ppage %}
+                [ <a href="/publications/{{ pub.ppage }}">project page</a> ]
+            {% endif %}
+            {% if pub.pdf %}
+                [ <a href="/assets/{{ pub.pdf.file }}.pdf">{{ pub.pdf.type }}</a> ~ {{ pub.pdf.size }} MB ]
+            {% endif %}
+            {% if pub.pdf and pub.type!='talk' %}
+            <div class="bibtex">
+                [ <a href="#">bibtex</a> ]
+                <pre id="bibtex-{{ pub.pdf.slug }}">
+@{{ pub.type }}&#123; {{ pub.slug }},
+{% for prop in pub.bibtex %}{% if prop[0] == 'authors' %}{{ site.bibindent }}author = &#123;{% for author in pub.bibtex.authors %}{{ author.first }} {{ author.last }}{% if forloop.last == false %} and {% endif %}{% endfor %}&#125;,
+{% else %}{% unless prop[0] == 'type' or prop[0] == 'slug'  or prop[0] == 'authors'  %}{{ site.bibindent }}{{ prop[0] }} = &#123;{{ prop[1] }}&#125;{% if forloop.last == false %},{% endif %}
+{% endunless %}{% endif %}{% endfor %}&#125;</pre>
+            </div>
+            {% endif %}
+            {% if pub.url %}
+                [ <a href="{{ pub.url }}">www</a> ]
+            {% endif %}
+        </div>
+    </div>
+</div>

@@ -1,33 +1,41 @@
 ---
 layout: page
 ---
-
 <div class="row">
-    <div class="col-md-4 col-sm-4">
-        <img src="/assets/apple.jpg" alt="" />
-    </div>
-    
-    <div class="col-md-8 col-sm-8">
-        <p>Hello there!</p>
-        
-        <p>
-            I am a third-year PhD student working at
-            <a href="http://www-leti.cea.fr/en">CEA-Leti</a> in Grenoble,
-            and a member of the 
-            <a href="https://team.inria.fr/imagine/">Imagine</a> team
-            (<a href="http://www.inria.fr/en/">Inria</a> / <a href="http://ljk.imag.fr/">LJK</a>).
-            I am lucky to have three thesis advisors: <a href="https://team.inria.fr/imagine/stefanie-hahmann/">Stefanie Hahmann</a>, <a href="http://www-evasion.inrialpes.fr/~Georges-Pierre.Bonneau/">Georges-Pierre Bonneau</a> and Nathalie Saguin-Sprynski. Before that, I got my MSc from the <a href="https://fmph.uniba.sk/en/">Comenius University in Bratislava</a> under the supervision of <a href="https://www.researchgate.net/profile/Pavel_Chalmoviansky">Pavel Chalmovianský</a>. 
-        </p>
-        
-        <p>
-            The main goal of my research is to develop efficient and accurate algorithms for shape reconstruction using data provided by microsensors (accelero- and magnetometers).
-        </p>
-        
-        <p>Have a look at <a href="/publications/">my publications</a> for more details.</p>
-        
-        <p>
-            I occasionally <a href="/posts/">blog</a>, mostly about stuff.
-        </p>
-
-    </div>
+<div class="col-sm-4">
+  <img src="{{ site.data.home.photo }}" alt="" />
 </div>
+<div class="col-sm-8">
+    {{ site.data.home.intro }}
+</div>
+</div>
+
+
+
+{% assign papers = (site.data.publications | sort: 'date' | where:"front",true ) %}
+<div class="row">
+  <div class="col-sm-12">
+    <h2 style="margin-top:2em;">Latest papers</h2>
+    <a style="font-size:90%;display:inline-block;margin-left:0.5em;" href="/publications/">see all publications</a>
+  </div>
+</div>
+{% for pub in papers limit:2 %}
+  {% include publication-overview.html %}
+{% endfor %}
+
+
+
+{% assign allnews = (site.data.news  | sort: 'date' | reverse) %}
+<div class="row">
+  <div class="col-sm-12">
+    <h2 style="margin-top:1em;">News</h2>
+  </div>
+</div>
+{% for news in allnews limit:5 %}
+  <div class="row news" style="margin-top:0.25em;">
+    <div class="col-md-2 col-sm-2 col-xs-12 news-date" style="color:#666;text-align:right;">
+    {{ news.date | date: "%d %b %y " }}</div>
+    <div class="col-md-10 col-sm-10 col-xs-12 news-content">
+    {{ news.text }}</div>
+  </div>
+{% endfor %}

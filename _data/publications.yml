@@ -4,6 +4,7 @@
 #########
 
 - type: article
+  front: true
   slug: "Stanko:2017:SMI"
   ftitle: 'Shape from sensors: curve networks on surfaces from 3D orientations'
   description: "Computers &amp; Graphics (Proc. SMI 2017)"
@@ -68,6 +69,7 @@
 
 
 - type: article
+  front: true
   slug: "Stanko:2016:CAG"
   description: "Computers &amp; Graphics #60 (Nov 2016)"
   pdf:
@@ -127,6 +129,7 @@ fidelity and allows to achieve globally smooth and visually pleasing shapes."
 
 
 - type: inproceedings
+  front: true
   slug: "Stanko:2016:EG"
   description: "Eurographics 2016 — short papers"
   pdf:
@@ -158,6 +161,7 @@ fidelity and allows to achieve globally smooth and visually pleasing shapes."
 
 
 - type: inproceedings
+  front: true
   description: "CESCG 2014"
   slug     : "Stanko:2014:CESCG"
   advisor:
