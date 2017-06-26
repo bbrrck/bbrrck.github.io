@@ -1,14 +1,14 @@
 <div class="publication {{ pub.type }} row" id="p-{{ pub.pdf.file | replace: "/","-" }}">
     <div class="col-md-2 col-xs-4">
       {% if pub.gif %}
-      <img src="/assets/{{ pub.gif }}.gif" />
+      <img src="/assets/{{ pub.gif }}.gif" alt="thumbnail {{ pub.bibtex.title }}" />
       {% elsif pub.pdf.file %}
-      <img src="/assets/{{ pub.pdf.file }}.png" />
+      <img src="/assets/{{ pub.pdf.file }}.png" alt="thumbnail {{ pub.bibtex.title }}" />
       {% endif %}
     </div>
     <div class="pub-content col-md-10 col-xs-8">
         <div class="title">
-        {% if pub.ppage %}<a href="{{ pub.ppage }}">{% endif %}
+        {% if pub.ppage %}<a href="/publications/{{ pub.ppage }}">{% endif %}
         {{ pub.bibtex.title }}
         {% if pub.ppage %}</a>{% endif %}
         </div>
