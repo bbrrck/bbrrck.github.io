@@ -10,29 +10,29 @@
   <name>Tibor Stanko</name>
   <user_name>bbrrck</user_name>
   <link><![CDATA[http://www.goodreads.com/user/show/6403898-tibor-stanko]]></link>
-  <image_url><![CDATA[http://d.gr-assets.com/users/1453128784p3/6403898.jpg]]></image_url>
-  <small_image_url><![CDATA[http://d.gr-assets.com/users/1453128784p2/6403898.jpg]]></small_image_url>
+  <image_url><![CDATA[http://images.gr-assets.com/users/1453128784p3/6403898.jpg]]></image_url>
+  <small_image_url><![CDATA[http://images.gr-assets.com/users/1453128784p2/6403898.jpg]]></small_image_url>
     <about></about>
-    <age>25</age>
-    <gender>male</gender>
+    <age>26</age>
+    <gender></gender>
     <location>Grenoble, France</location>
     <website>http://tiborstanko.sk</website>
     <joined>09/2011</joined>
-    <last_active>07/2016</last_active>
+    <last_active>06/2017</last_active>
     <interests></interests>
     <favorite_books></favorite_books>
     <favorite_authors>
     </favorite_authors>
     <updates_rss_url><![CDATA[http://www.goodreads.com/user/updates_rss/6403898?key=eUpt8wwDPOS4taudee2olTYOroOILRdM_TbxDXFEniuz-3KB]]></updates_rss_url>
     <reviews_rss_url><![CDATA[http://www.goodreads.com/review/list_rss/6403898?key=eUpt8wwDPOS4taudee2olTYOroOILRdM_TbxDXFEniuz-3KB&shelf=%23ALL%23]]></reviews_rss_url>
-    <friends_count type="integer">18</friends_count>
+    <friends_count type="integer">-1</friends_count>
     <groups_count>1</groups_count>
-    <reviews_count type="integer">218</reviews_count>
+    <reviews_count type="integer">229</reviews_count>
     <user_shelves type="array">
   <user_shelf>
     <id type="integer">21052661</id>
     <name>read</name>
-    <book_count type="integer">109</book_count>
+    <book_count type="integer">117</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -46,7 +46,7 @@
   <user_shelf>
     <id type="integer">21052660</id>
     <name>currently-reading</name>
-    <book_count type="integer">6</book_count>
+    <book_count type="integer">7</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -60,7 +60,7 @@
   <user_shelf>
     <id type="integer">21052659</id>
     <name>to-read</name>
-    <book_count type="integer">103</book_count>
+    <book_count type="integer">105</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -74,7 +74,21 @@
   <user_shelf>
     <id type="integer">166970294</id>
     <name>2016</name>
-    <book_count type="integer">22</book_count>
+    <book_count type="integer">26</book_count>
+    <exclusive_flag type="boolean">false</exclusive_flag>
+    <description nil="true"/>
+    <sort nil="true"/>
+    <order nil="true"/>
+    <per_page type="integer" nil="true"/>
+    <display_fields></display_fields>
+    <featured type="boolean">false</featured>
+    <recommend_for type="boolean">true</recommend_for>
+    <sticky type="boolean" nil="true"/>
+  </user_shelf>
+  <user_shelf>
+    <id type="integer">206923913</id>
+    <name>2017</name>
+    <book_count type="integer">3</book_count>
     <exclusive_flag type="boolean">false</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -88,36 +102,194 @@
 </user_shelves>
       <updates type="array">
       <update type="readstatus">
-      <action_text><![CDATA[is currently reading <a only_path="false" href="http://www.goodreads.com/review/show/1663809990">The Elementary Particles</a>]]></action_text>
-      <link>http://www.goodreads.com/read_statuses/1387069732</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+      <action_text><![CDATA[started reading <a only_path="false" href="http://www.goodreads.com/review/show/803500107">The Information: A History, a Theory, a Flood</a>]]></action_text>
+      <link>http://www.goodreads.com/read_statuses/1808887019</link>
+      <image_url>http://images.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
         <actor>
   <id type="integer">6403898</id>
   <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <image_url>http://images.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
   <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
 </actor>
-      <updated_at>Thu, 09 Jun 2016 10:23:46 -0700</updated_at>
+      <updated_at>Thu, 20 Apr 2017 14:14:41 -0700</updated_at>
         <object>
           <read_status>
-  <id type="integer">1387069732</id>
-  <review_id type="integer">1663809990</review_id>
+  <id type="integer">1808887019</id>
+  <review_id type="integer">803500107</review_id>
   <user_id type="integer">6403898</user_id>
-  <old_status nil="true"/>
+  <old_status>to-read</old_status>
   <status>currently-reading</status>
-  <updated_at type="datetime">2016-06-09T17:23:46+00:00</updated_at>
+  <updated_at type="datetime">2017-04-20T21:14:41+00:00</updated_at>
   <review>
-    <id type="integer">1663809990</id>
+    <id type="integer">803500107</id>
     <user_id type="integer">6403898</user_id>
-    <book_id type="integer">58314</book_id>
+    <book_id type="integer">8701960</book_id>
     <rating type="integer">0</rating>
     <read_status>currently-reading</read_status>
+    <sell_flag type="boolean">true</sell_flag>
+    <review></review>
+    <recommendation></recommendation>
+    <read_at type="datetime" nil="true"/>
+    <updated_at type="datetime">2017-04-20T21:14:41+00:00</updated_at>
+    <created_at type="datetime">2013-12-29T11:33:04+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">0</weight>
+    <ratings_sum type="integer">0</ratings_sum>
+    <ratings_count type="integer">0</ratings_count>
+    <notes></notes>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1></recommender_user_name1>
+    <work_id type="integer">13574748</work_id>
+    <read_count>0</read_count>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime">2017-04-20T21:14:41+00:00</started_at>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2017-04-20T21:14:41+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <book>
+      <id type="integer">8701960</id>
+      <work_id type="integer">13574748</work_id>
+      <isbn>0375423729</isbn>
+      <isbn13>9780375423727</isbn13>
+      <title>The Information: A History, a Theory, a Flood</title>
+      <sort_by_title>information: a history, a theory, a flood, the</sort_by_title>
+      <author_id type="integer">10401</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description>James Gleick, the author of the best sellers &lt;i&gt;Chaos&lt;/i&gt; and &lt;i&gt;Genius,&lt;/i&gt; now brings us a work just as astonishing and masterly: a revelatory chronicle and meditation that shows how information has become the modern era’s defining quality—the blood, the fuel, the vital principle of our world. &lt;br&gt; &lt;br&gt;The story of information begins in a time profoundly unlike our own, when every thought and utterance vanishes as soon as it is born. From the invention of scripts and alphabets to the long-misunderstood talking drums of Africa, Gleick tells the story of information technologies that changed the very nature of human consciousness. He provides portraits of the key figures contributing to the inexorable development of our modern understanding of information: Charles Babbage, the idiosyncratic inventor of the first great mechanical computer; Ada Byron, the brilliant and doomed daughter of the poet, who became the first true programmer; pivotal figures like Samuel Morse and Alan Turing; and Claude Shannon, the creator of information theory itself.&lt;br&gt; &lt;br&gt;And then the information age arrives. Citizens of this world become experts willy-nilly: aficionados of bits and bytes. And we sometimes feel we are drowning, swept by a deluge of signs and signals, news and images, blogs and tweets. &lt;i&gt;The Information&lt;/i&gt; is the story of how we got here and where we are heading.</description>
+      <format>Hardcover</format>
+      <publication_year type="integer">2011</publication_year>
+      <publication_month type="integer">3</publication_month>
+      <publication_day type="integer">1</publication_day>
+      <num_pages type="integer">527</num_pages>
+      <publisher>Knopf Doubleday Publishing Group</publisher>
+      <language_code>eng</language_code>
+      <edition_information nil="true"/>
+      <url>http://around.com/the-information</url>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2012-09-19T09:21:26+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-06-15T23:57:48+00:00</s3_image_at>
+      <reviews_count type="integer">31250</reviews_count>
+      <ratings_sum type="integer">38591</ratings_sum>
+      <ratings_count type="integer">9733</ratings_count>
+      <text_reviews_count type="integer">978</text_reviews_count>
+      <book_authors_count type="integer">0</book_authors_count>
+      <updated_at type="datetime">2015-06-15T23:57:48+00:00</updated_at>
+      <created_at type="datetime">2010-08-03T02:35:41+00:00</created_at>
+      <author_id_updater_user_id type="integer">-50</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer">1662632</author_role_updater_user_id>
+      <description_updater_user_id type="integer">-50</description_updater_user_id>
+      <edition_information_updater_user_id type="integer" nil="true"/>
+      <format_updater_user_id type="integer">-50</format_updater_user_id>
+      <image_updater_user_id type="integer">-110</image_updater_user_id>
+      <isbn_updater_user_id type="integer">-50</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">-50</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">17252252</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">2858982</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">603238</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">603238</publisher_updater_user_id>
+      <title_updater_user_id type="integer">4134979</title_updater_user_id>
+      <url_updater_user_id type="integer">1662632</url_updater_user_id>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <author>
+        <id type="integer">10401</id>
+        <name>James Gleick</name>
+        <updated_at type="datetime">2017-06-25T01:15:50+00:00</updated_at>
+        <created_at type="datetime">2006-12-22T16:11:54+00:00</created_at>
+        <searched_for_at type="datetime">2007-02-27T21:19:24+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2011-05-06T08:52:06+00:00</image_uploaded_at>
+        <user_id type="integer">56494718</user_id>
+        <gender nil="true"/>
+        <country_code>US</country_code>
+        <born_at type="date">1954-08-01</born_at>
+        <died_at type="datetime" nil="true"/>
+        <about>James Gleick (born August 1, 1954) is an American author, journalist, and biographer, whose books explore the cultural ramifications of science and technology. Three of these books have been Pulitzer Prize and National Book Award finalists, and they have been translated into more than twenty languages.
+
+Born in New York City, USA, Gleick attended Harvard College, graduating in 1976 with a degree in English and linguistics. Having worked for the Harvard Crimson and freelanced in Boston, he moved to Minneapolis, where he helped found a short-lived weekly newspaper, Metropolis. After its demise, he returned to New York and joined as staff of the New York Times, where he worked for ten years as an editor and reporter.
+
+He was the McGraw Distinguished Lecturer at Princeton University in 1989-90. Gleick collaborated with the photographer Eliot Porter on Nature's Chaos and with developers at Autodesk on Chaos: The Software. In 1993, he founded The Pipeline, an early Internet service. Gleick is active on the boards of the Authors Guild and the Key West Literary Seminar.
+
+His first book, Chaos: Making a New Science, an international best-seller, chronicled the development of chaos theory and made the Butterfly Effect a household phrase.
+
+Among the scientists Gleick profiled were Mitchell Feigenbaum, Stephen Jay Gould, Douglas Hofstadter, Richard Feynman and Benoit Mandelbrot. His early reporting on Microsoft anticipated the antitrust investigations by the U. S. Department of Justice and the European Commission. Gleick's essays charting the growth of the Internet included the "Fast Forward" column on technology in the New York Times Magazine from 1995 to 1999 and formed the basis of his book What Just Happened. His work has also appeared in The New Yorker, the Atlantic, Slate, and the Washington Post.
+
+Bibliography:
+1987 Chaos: Making a New Science, Viking Penguin. (ISBN 0140092501)
+1990 (with Eliot Porter) Nature's Chaos, Viking Penguin. (ISBN 0316609420)
+1992 Genius: The Life and Science of Richard Feynman, Pantheon. (ISBN 0679747044)
+1999 Faster: The Acceleration of Just About Everything, Pantheon. (ISBN 067977548X)
+2000 (editor) The Best American Science Writing 2000, HarperCollins. (ISBN 0060957360)
+2002 What Just Happened: A Chronicle from the Electronic Frontier, Pantheon. (ISBN 0375713913)
+2003 Isaac Newton, Pantheon. (ISBN 1400032954)
+2011 The Information: A History, a Theory, a Flood. New York: Pantheon Books. (ISBN 9780375423727 )</about>
+        <uploader_user_id type="integer">1124507</uploader_user_id>
+        <image_copyright>http://www.pitchengine.com/brands2/openroadintegratedmedia/images/133850/JamesGleick.jpg</image_copyright>
+        <influences></influences>
+        <url>http://www.around.com/</url>
+        <genre1></genre1>
+        <genre2></genre2>
+        <genre3></genre3>
+        <books_count type="integer">229</books_count>
+        <reviews_count type="integer">162312</reviews_count>
+        <ratings_sum type="integer">248538</ratings_sum>
+        <works_count type="integer">13</works_count>
+        <hometown>New York</hometown>
+        <rating_dist>5:1101|4:1798|3:1086|2:222|1:32|total:4239</rating_dist>
+        <s3_image_at type="datetime">2015-05-14T22:59:19+00:00</s3_image_at>
+        <ratings_count type="integer">62167</ratings_count>
+        <text_reviews_count type="integer">3075</text_reviews_count>
+        <author_program_at type="datetime">2016-08-27T14:32:31+00:00</author_program_at>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">247</fanships_count>
+        <best_book_id type="integer">64582</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>gleick, james</sort_by_name>
+        <shelf_display_name>Gleick, James</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
+      <update type="readstatus">
+      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1969214961">The Book Whisperer: Awakening the Inner Reader in Every Child</a>]]></action_text>
+      <link>http://www.goodreads.com/read_statuses/1796629844</link>
+      <image_url>http://images.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://images.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Wed, 12 Apr 2017 01:11:27 -0700</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">1796629844</id>
+  <review_id type="integer">1969214961</review_id>
+  <user_id type="integer">6403898</user_id>
+  <old_status nil="true"/>
+  <status>to-read</status>
+  <updated_at type="datetime">2017-04-12T08:11:27+00:00</updated_at>
+  <review>
+    <id type="integer">1969214961</id>
+    <user_id type="integer">6403898</user_id>
+    <book_id type="integer">4732276</book_id>
+    <rating type="integer">0</rating>
+    <read_status>to-read</read_status>
     <sell_flag type="boolean">false</sell_flag>
     <review nil="true"/>
     <recommendation nil="true"/>
     <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2016-06-09T17:23:50+00:00</updated_at>
-    <created_at type="datetime">2016-06-09T17:23:45+00:00</created_at>
+    <updated_at type="datetime">2017-04-12T08:11:27+00:00</updated_at>
+    <created_at type="datetime">2017-04-12T08:11:26+00:00</created_at>
     <comments_count type="integer">0</comments_count>
     <weight type="integer">0</weight>
     <ratings_sum type="integer">0</ratings_sum>
@@ -126,102 +298,99 @@
     <spoiler_flag type="boolean">false</spoiler_flag>
     <recommender_user_id1 type="integer">0</recommender_user_id1>
     <recommender_user_name1 nil="true"/>
-    <work_id type="integer">2595873</work_id>
-    <read_count nil="true"/>
+    <work_id type="integer">4796840</work_id>
+    <read_count>0</read_count>
     <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime">2016-06-09T17:23:46+00:00</started_at>
+    <started_at type="datetime" nil="true"/>
     <hidden_flag type="boolean">false</hidden_flag>
     <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2016-06-09T17:23:50+00:00</last_revision_at>
+    <last_revision_at type="datetime">2017-04-12T08:11:27+00:00</last_revision_at>
     <non_friends_rating_count type="integer">0</non_friends_rating_count>
     <book>
-      <id type="integer">58314</id>
-      <work_id type="integer">2595873</work_id>
-      <isbn>0375727019</isbn>
-      <isbn13>9780375727016</isbn13>
-      <title>The Elementary Particles</title>
-      <sort_by_title>elementary particles, the</sort_by_title>
-      <author_id type="integer">32878</author_id>
+      <id type="integer">4732276</id>
+      <work_id type="integer">4796840</work_id>
+      <isbn>0470372273</isbn>
+      <isbn13>8580001044385</isbn13>
+      <title>The Book Whisperer: Awakening the Inner Reader in Every Child</title>
+      <sort_by_title>book whisperer: awakening the inner reader in every child, the</sort_by_title>
+      <author_id type="integer">1970104</author_id>
       <author_role nil="true"/>
       <asin nil="true"/>
-      <description>An international literary phenomenon, &lt;b&gt;The Elementary Particles&lt;/b&gt; is a frighteningly original novel–part Marguerite Duras and part Bret Easton Ellis-that leaps headlong into the malaise of contemporary existence.&lt;br&gt;&lt;br&gt;Bruno and Michel are half-brothers abandoned by their mother, an unabashed devotee of the drugged-out free-love world of the sixties. Bruno, the older, has become a raucously promiscuous hedonist himself, while Michel is an emotionally dead molecular biologist wholly immersed in the solitude of his work. Each is ultimately offered a final chance at genuine love, and what unfolds is a brilliantly caustic and unpredictable tale.&lt;br&gt;&lt;br&gt;Translated from the French by Frank Wynne.</description>
+      <description></description>
       <format>Paperback</format>
-      <publication_year type="integer">2001</publication_year>
-      <publication_month type="integer">11</publication_month>
-      <publication_day type="integer">13</publication_day>
-      <num_pages type="integer">272</num_pages>
-      <publisher>Vintage</publisher>
+      <publication_year type="integer">2009</publication_year>
+      <publication_month type="integer">3</publication_month>
+      <publication_day type="integer">1</publication_day>
+      <num_pages type="integer">227</num_pages>
+      <publisher>Jossey-Bass</publisher>
       <language_code>eng</language_code>
       <edition_information nil="true"/>
       <url nil="true"/>
       <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2014-06-19T12:22:05+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-05-16T14:55:58+00:00</s3_image_at>
-      <reviews_count type="integer">20286</reviews_count>
-      <ratings_sum type="integer">46714</ratings_sum>
-      <ratings_count type="integer">12087</ratings_count>
-      <text_reviews_count type="integer">630</text_reviews_count>
-      <book_authors_count type="integer">1</book_authors_count>
-      <updated_at type="datetime">2015-05-16T14:55:58+00:00</updated_at>
-      <created_at type="datetime">2007-02-03T12:50:57+00:00</created_at>
-      <author_id_updater_user_id type="integer">-50</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer">6565711</author_role_updater_user_id>
-      <description_updater_user_id type="integer">-50</description_updater_user_id>
+      <image_uploaded_at type="datetime">2014-01-18T21:20:28+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-06-15T22:23:00+00:00</s3_image_at>
+      <reviews_count type="integer">19902</reviews_count>
+      <ratings_sum type="integer">46906</ratings_sum>
+      <ratings_count type="integer">10387</ratings_count>
+      <text_reviews_count type="integer">2025</text_reviews_count>
+      <book_authors_count type="integer">0</book_authors_count>
+      <updated_at type="datetime">2015-06-15T22:23:00+00:00</updated_at>
+      <created_at type="datetime">2008-09-20T15:35:13+00:00</created_at>
+      <author_id_updater_user_id type="integer">-51</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer">-9</author_role_updater_user_id>
+      <description_updater_user_id type="integer">1910836</description_updater_user_id>
       <edition_information_updater_user_id type="integer" nil="true"/>
-      <format_updater_user_id type="integer">-50</format_updater_user_id>
-      <image_updater_user_id type="integer">-51</image_updater_user_id>
-      <isbn_updater_user_id type="integer">-50</isbn_updater_user_id>
-      <isbn13_updater_user_id type="integer">-50</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">24793762</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">-50</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">-50</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">-50</publisher_updater_user_id>
-      <title_updater_user_id type="integer">-50</title_updater_user_id>
-      <url_updater_user_id type="integer" nil="true"/>
+      <format_updater_user_id type="integer">-51</format_updater_user_id>
+      <image_updater_user_id type="integer">-9</image_updater_user_id>
+      <isbn_updater_user_id type="integer">-51</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">-10</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">1910836</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">-51</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">-51</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">-51</publisher_updater_user_id>
+      <title_updater_user_id type="integer">-51</title_updater_user_id>
+      <url_updater_user_id type="integer">-30</url_updater_user_id>
       <title_language_code nil="true"/>
       <publisher_language_code nil="true"/>
       <description_language_code nil="true"/>
       <asin_updater_user_id type="integer" nil="true"/>
       <author>
-        <id type="integer">32878</id>
-        <name>Michel Houellebecq</name>
-        <updated_at type="datetime">2016-08-06T16:42:55+00:00</updated_at>
-        <created_at type="datetime">2007-02-03T12:50:57+00:00</created_at>
-        <searched_for_at type="datetime">2007-02-04T21:03:48+00:00</searched_for_at>
-        <image_uploaded_at type="datetime">2014-07-16T11:53:52+00:00</image_uploaded_at>
-        <user_id type="integer" nil="true"/>
-        <gender>M</gender>
-        <country_code>FR</country_code>
-        <born_at type="date">1958-02-26</born_at>
+        <id type="integer">1970104</id>
+        <name>Donalyn Miller</name>
+        <updated_at type="datetime">2017-06-24T00:05:53+00:00</updated_at>
+        <created_at type="datetime">2008-09-20T15:35:13+00:00</created_at>
+        <searched_for_at type="datetime">2008-09-20T15:35:59+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2009-08-07T03:36:14+00:00</image_uploaded_at>
+        <user_id type="integer">829035</user_id>
+        <gender>F</gender>
+        <country_code>US</country_code>
+        <born_at type="date">1967-08-13</born_at>
         <died_at type="datetime" nil="true"/>
-        <about>Michel Houellebecq (born Michel Thomas), born 26 February 1958 (birth certificate) or 1956 on the French island of Réunion, is a controversial and award-winning French novelist. To admirers he is a writer in the tradition of literary provocation that reaches back to the Marquis de Sade and Baudelaire; to detractors he is a peddler of sleaze and shock. Having written poetry and a biography of the horror writer H. P. Lovecraft, he brought out his first novel &lt;i&gt;Extension du domaine de la lutte&lt;/i&gt; in 1994. &lt;i&gt;Les particules élémentaires&lt;/i&gt; followed in 1998 and &lt;i&gt;Plateform &lt;/i&gt;, in 2001. After a disastrous publicity tour for this book, which led to his being taken to court for inciting racial hatred, he went to Ireland to write.
-
-Michel Houellebecq won France's top literary award, the Goncourt Prize, for his book The Map and the Territory in 2010.
-
-He currently lives in Spain.</about>
-        <uploader_user_id type="integer">14059993</uploader_user_id>
-        <image_copyright></image_copyright>
-        <influences>[a:Albert Camus|957894], [a:Balzac|228089], [a:Lovecraft|9494], [a:Sade|957894], [a:Baudelaire|13847], [a:Bret Easton Ellis|2751], [a:Aldous Huxley|3487], [a:Georges Perec|15923]</influences>
-        <url></url>
-        <genre1>Literature &amp; Fiction</genre1>
-        <genre2>Nonfiction</genre2>
+        <about>Donalyn Miller has worked with a variety of upper elementary and middle school students and currently teaches fifth grade at O.A. Peterson Elementary in Forth Worth, Texas. In her popular book, The Book Whisperer, Donalyn reflects on her journey to become a reading teacher and describes how she inspires and motivates her middle school students to read 40 or more books a year. In her latest book, Reading in the Wild, Donalyn collects responses from 900 adult readers and uses this information to teach lifelong reading habits to her students. Donalyn currently facilitates the community blog, The Nerdy Book Club and co-writes a monthly column for Scholastic’s Principal-to-Principal Newsletter. Her articles about teaching and reading have appeared in publications such as The Reading Teacher, Educational Leadership and The Washington Post.</about>
+        <uploader_user_id type="integer">829035</uploader_user_id>
+        <image_copyright>personal photo taken by Donalyn Miller
+</image_copyright>
+        <influences>[a:Janet Allen|11252], [a:Nancie Atwell|39678], [a:Jeff Anderson|93056], [a:Richard L. Allington|58174], [a:Jim Burke|95985], [a:Teri Lesesne</influences>
+        <url>http://www.bookwhisperer.com</url>
+        <genre1>Professional &amp; Technical</genre1>
+        <genre2></genre2>
         <genre3></genre3>
-        <books_count type="integer">717</books_count>
-        <reviews_count type="integer">112859</reviews_count>
-        <ratings_sum type="integer">253947</ratings_sum>
-        <works_count type="integer">37</works_count>
-        <hometown>Saint-Pierre (La Réunion)</hometown>
-        <rating_dist>5:1966|4:3000|3:2326|2:832|1:339|total:8463</rating_dist>
-        <s3_image_at type="datetime">2015-05-14T23:06:08+00:00</s3_image_at>
-        <ratings_count type="integer">67853</ratings_count>
-        <text_reviews_count type="integer">4994</text_reviews_count>
+        <books_count type="integer">27</books_count>
+        <reviews_count type="integer">30534</reviews_count>
+        <ratings_sum type="integer">67844</ratings_sum>
+        <works_count type="integer">4</works_count>
+        <hometown>Memphis</hometown>
+        <rating_dist>5:792|4:345|3:91|2:17|1:5|total:1250</rating_dist>
+        <s3_image_at type="datetime">2015-05-15T02:11:30+00:00</s3_image_at>
+        <ratings_count type="integer">15084</ratings_count>
+        <text_reviews_count type="integer">2868</text_reviews_count>
         <author_program_at type="datetime" nil="true"/>
         <postal_code nil="true"/>
-        <fanships_count type="integer">1109</fanships_count>
-        <best_book_id type="integer">58314</best_book_id>
+        <fanships_count type="integer">1860</fanships_count>
+        <best_book_id type="integer">4732276</best_book_id>
         <name_language_code nil="true"/>
-        <sort_by_name>houellebecq, michel</sort_by_name>
-        <shelf_display_name>Houellebecq, Michel</shelf_display_name>
+        <sort_by_name>miller, donalyn</sort_by_name>
+        <shelf_display_name>Miller, Donalyn</shelf_display_name>
         <gender_custom nil="true"/>
         <gender_pronoun nil="true"/>
       </author>
@@ -232,75 +401,307 @@ He currently lives in Spain.</about>
         </object>
     </update>
       <update type="review">
-      <action_text><![CDATA[gave 5 stars to <a href="http://www.goodreads.com/book/show/13963.Man_Meets_Dog">Man Meets Dog (Paperback)</a> by <a href="http://www.goodreads.com/author/show/8674.Konrad_Lorenz">Konrad Lorenz</a>]]></action_text>
-      <link>http://www.goodreads.com/review/show/1504380115</link>
-      <image_url>http://d.gr-assets.com/books/1356443914s/13963.jpg</image_url>
+      <action_text><![CDATA[gave 2 stars to <a href="http://www.goodreads.com/book/show/919468.The_New_Father">The New Father: A Dad's Guide to the First Year (Paperback)</a> by <a href="http://www.goodreads.com/author/show/18114.Armin_A_Brott">Armin A. Brott</a>]]></action_text>
+      <link>http://www.goodreads.com/review/show/1747599462</link>
+      <image_url>http://images.gr-assets.com/books/1328805994s/919468.jpg</image_url>
         <actor>
   <id type="integer">6403898</id>
   <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <image_url>http://images.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
   <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
 </actor>
-      <updated_at>Sun, 22 May 2016 15:15:53 -0700</updated_at>
+      <updated_at>Tue, 21 Mar 2017 16:09:51 -0700</updated_at>
           <action type="rating">
-            <rating>5</rating>
+            <rating>2</rating>
           </action>
         <object>
           <book>
-            <id>13963</id>
-            <title>Man Meets Dog</title>
-            <link>http://www.goodreads.com/book/show/13963.Man_Meets_Dog</link>
+            <id>919468</id>
+            <title><![CDATA[The New Father: A Dad's Guide to the First Year]]></title>
+            <link>http://www.goodreads.com/book/show/919468.The_New_Father</link>
             <authors>
 <author>
-<id>8674</id>
-<name>Konrad Lorenz</name>
+<id>18114</id>
+<name>Armin A. Brott</name>
 <role></role>
-<image_url nophoto='false'>
-<![CDATA[http://d.gr-assets.com/authors/1208422955p5/8674.jpg]]>
+<image_url nophoto='true'>
+<![CDATA[http://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
 </image_url>
-<small_image_url nophoto='false'>
-<![CDATA[http://d.gr-assets.com/authors/1208422955p2/8674.jpg]]>
+<small_image_url nophoto='true'>
+<![CDATA[http://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
 </small_image_url>
-<link><![CDATA[http://www.goodreads.com/author/show/8674.Konrad_Lorenz]]></link>
-<average_rating>4.12</average_rating>
-<ratings_count>3635</ratings_count>
-<text_reviews_count>239</text_reviews_count>
+<link><![CDATA[http://www.goodreads.com/author/show/18114.Armin_A_Brott]]></link>
+<average_rating>3.78</average_rating>
+<ratings_count>3584</ratings_count>
+<text_reviews_count>380</text_reviews_count>
 </author>
 </authors>
           </book>
         </object>
     </update>
-      <update type="readstatus">
-      <action_text><![CDATA[started reading <a only_path="false" href="http://www.goodreads.com/review/show/1504380115">Man Meets Dog</a>]]></action_text>
-      <link>http://www.goodreads.com/read_statuses/1351188985</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+      <update type="review">
+      <action_text><![CDATA[gave 3 stars to <a href="http://www.goodreads.com/book/show/1000302.Healthy_Sleep_Habits_Happy_Child">Healthy Sleep Habits, Happy Child (Paperback)</a> by <a href="http://www.goodreads.com/author/show/157450.Marc_Weissbluth">Marc Weissbluth</a>]]></action_text>
+      <link>http://www.goodreads.com/review/show/1806000378</link>
+      <image_url>http://images.gr-assets.com/books/1320479435s/1000302.jpg</image_url>
         <actor>
   <id type="integer">6403898</id>
   <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <image_url>http://images.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
   <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
 </actor>
-      <updated_at>Thu, 12 May 2016 13:19:00 -0700</updated_at>
+      <updated_at>Tue, 21 Mar 2017 16:09:22 -0700</updated_at>
+          <action type="rating">
+            <rating>3</rating>
+          </action>
+        <object>
+          <book>
+            <id>1000302</id>
+            <title><![CDATA[Healthy Sleep Habits, Happy Child]]></title>
+            <link>http://www.goodreads.com/book/show/1000302.Healthy_Sleep_Habits_Happy_Child</link>
+            <authors>
+<author>
+<id>157450</id>
+<name>Marc Weissbluth</name>
+<role></role>
+<image_url nophoto='true'>
+<![CDATA[http://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+</image_url>
+<small_image_url nophoto='true'>
+<![CDATA[http://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+</small_image_url>
+<link><![CDATA[http://www.goodreads.com/author/show/157450.Marc_Weissbluth]]></link>
+<average_rating>3.89</average_rating>
+<ratings_count>9354</ratings_count>
+<text_reviews_count>1692</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 5 stars to <a href="http://www.goodreads.com/book/show/59659.Imperium">Imperium (Paperback)</a> by <a href="http://www.goodreads.com/author/show/6255.Ryszard_Kapu_ci_ski">Ryszard Kapuściński</a>]]></action_text>
+      <link>http://www.goodreads.com/review/show/1861589676</link>
+      <image_url>http://images.gr-assets.com/books/1170533405s/59659.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://images.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Tue, 21 Mar 2017 16:08:33 -0700</updated_at>
+          <action type="rating">
+            <rating>5</rating>
+          </action>
+        <object>
+          <book>
+            <id>59659</id>
+            <title>Imperium</title>
+            <link>http://www.goodreads.com/book/show/59659.Imperium</link>
+            <authors>
+<author>
+<id>6255</id>
+<name>Ryszard Kapuściński</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[http://images.gr-assets.com/authors/1241284429p5/6255.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[http://images.gr-assets.com/authors/1241284429p2/6255.jpg]]>
+</small_image_url>
+<link><![CDATA[http://www.goodreads.com/author/show/6255.Ryszard_Kapu_ci_ski]]></link>
+<average_rating>4.17</average_rating>
+<ratings_count>30405</ratings_count>
+<text_reviews_count>2211</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+    </update>
+      <update type="authorfollowing">
+      <action_text><![CDATA[is now following Ryszard Kapuściński]]></action_text>
+      <link>http://www.goodreads.com/author/show/6255.Ryszard_Kapu_ci_ski</link>
+      <image_url>http://images.gr-assets.com/authors/1241284429p2/6255.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://images.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Mon, 13 Feb 2017 01:32:40 -0800</updated_at>
+    </update>
+      <update type="readstatus">
+      <action_text><![CDATA[started reading <a only_path="false" href="http://www.goodreads.com/review/show/1861589676">Imperium</a>]]></action_text>
+      <link>http://www.goodreads.com/read_statuses/1710738543</link>
+      <image_url>http://images.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://images.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Mon, 13 Feb 2017 01:31:31 -0800</updated_at>
         <object>
           <read_status>
-  <id type="integer">1351188985</id>
-  <review_id type="integer">1504380115</review_id>
+  <id type="integer">1710738543</id>
+  <review_id type="integer">1861589676</review_id>
   <user_id type="integer">6403898</user_id>
   <old_status>to-read</old_status>
   <status>currently-reading</status>
-  <updated_at type="datetime">2016-05-12T20:19:00+00:00</updated_at>
+  <updated_at type="datetime">2017-02-13T09:31:31+00:00</updated_at>
   <review>
-    <id type="integer">1504380115</id>
+    <id type="integer">1861589676</id>
     <user_id type="integer">6403898</user_id>
-    <book_id type="integer">13963</book_id>
+    <book_id type="integer">59659</book_id>
     <rating type="integer">5</rating>
     <read_status>read</read_status>
     <sell_flag type="boolean">false</sell_flag>
-    <review nil="true"/>
+    <review></review>
+    <recommendation></recommendation>
+    <read_at type="datetime">2017-03-20T07:00:00+00:00</read_at>
+    <updated_at type="datetime">2017-03-21T23:08:35+00:00</updated_at>
+    <created_at type="datetime">2017-01-02T15:51:01+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">0</weight>
+    <ratings_sum type="integer">1</ratings_sum>
+    <ratings_count type="integer">1</ratings_count>
+    <notes></notes>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1></recommender_user_name1>
+    <work_id type="integer">2358709</work_id>
+    <read_count>1</read_count>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime">2017-02-01T08:00:00+00:00</started_at>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2017-03-21T23:08:35+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <book>
+      <id type="integer">59659</id>
+      <work_id type="integer">2358709</work_id>
+      <isbn>1862071055</isbn>
+      <isbn13>9781862071056</isbn13>
+      <title>Imperium</title>
+      <sort_by_title>imperium</sort_by_title>
+      <author_id type="integer">6255</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description>&lt;i&gt;Imperium&lt;/i&gt; is the story of an empire: the constellation of states that was submerged under a single identity for most of the twentieth century - the Union of Soviet Socialist Republics. This is Kapuscinski's vivid, compelling and personal report on the life and death of the Soviet superpower, from the entrance of Soviet troops into his hometown in Poland in 1939, through his journey across desolate Siberia and the republics of Central Asia in the 1950s and 60s, to his wanderings over the vast Soviet lands - from Poland to the Pacific, the Arctic Circle to Afghanistan - in the years of the USSR's decline and final disintegration in 1991.</description>
+      <format>Paperback</format>
+      <publication_year type="integer">1998</publication_year>
+      <publication_month type="integer">3</publication_month>
+      <publication_day type="integer">19</publication_day>
+      <num_pages type="integer">352</num_pages>
+      <publisher>Granta Books</publisher>
+      <language_code>eng</language_code>
+      <edition_information nil="true"/>
+      <url nil="true"/>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2007-02-03T20:10:05+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-05-16T14:55:13+00:00</s3_image_at>
+      <reviews_count type="integer">4648</reviews_count>
+      <ratings_sum type="integer">10702</ratings_sum>
+      <ratings_count type="integer">2461</ratings_count>
+      <text_reviews_count type="integer">109</text_reviews_count>
+      <book_authors_count type="integer">1</book_authors_count>
+      <updated_at type="datetime">2016-12-10T23:38:08+00:00</updated_at>
+      <created_at type="datetime">2007-02-03T20:10:05+00:00</created_at>
+      <author_id_updater_user_id type="integer">-30</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer">2116632</author_role_updater_user_id>
+      <description_updater_user_id type="integer">2116632</description_updater_user_id>
+      <edition_information_updater_user_id type="integer" nil="true"/>
+      <format_updater_user_id type="integer">-30</format_updater_user_id>
+      <image_updater_user_id type="integer" nil="true"/>
+      <isbn_updater_user_id type="integer">-30</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">-30</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">2116632</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">-30</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">-30</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">-30</publisher_updater_user_id>
+      <title_updater_user_id type="integer">-30</title_updater_user_id>
+      <url_updater_user_id type="integer" nil="true"/>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <author>
+        <id type="integer">6255</id>
+        <name>Ryszard Kapuściński</name>
+        <updated_at type="datetime">2017-06-22T03:31:38+00:00</updated_at>
+        <created_at type="datetime">2006-12-13T16:41:07+00:00</created_at>
+        <searched_for_at type="datetime">2007-02-05T01:37:24+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2009-05-02T17:13:49+00:00</image_uploaded_at>
+        <user_id type="integer" nil="true"/>
+        <gender>M</gender>
+        <country_code>BY</country_code>
+        <born_at type="date">1932-03-04</born_at>
+        <died_at type="date">2007-01-23</died_at>
+        <about>Ryszard Kapuściński debuted as a poet in &lt;i&gt;Dziś i jutro&lt;/i&gt; at the age of 17 and has been a journalist, writer, and publicist. In 1964 he was appointed to the Polish Press Agency and began traveling around the developing world and reporting on wars, coups and revolutions in Asia, the Americas, and Europe; he lived through twenty-seven revolutions and coups, was jailed forty times, and survived four death sentences.  During some of this time he also worked for the Polish Secret Service, although little is known of his role.
+
+See also &lt;a href="http://www.goodreads.com/award/show/9041-ryszard-kapuci-ski-prize"&gt;Ryszard Kapuściński Prize&lt;/a&gt;</about>
+        <uploader_user_id type="integer">238199</uploader_user_id>
+        <image_copyright>http://porcelanka.files.wordpress.com/2008/12/ryszard_kapuscinski.jpg</image_copyright>
+        <influences></influences>
+        <url></url>
+        <genre1>Nonfiction</genre1>
+        <genre2>Travel</genre2>
+        <genre3>Biographies &amp; Memoirs</genre3>
+        <books_count type="integer">525</books_count>
+        <reviews_count type="integer">58573</reviews_count>
+        <ratings_sum type="integer">126734</ratings_sum>
+        <works_count type="integer">83</works_count>
+        <hometown>Pinsk</hometown>
+        <rating_dist>5:1903|4:1867|3:767|2:167|1:15|total:4719</rating_dist>
+        <s3_image_at type="datetime">2015-05-14T22:57:01+00:00</s3_image_at>
+        <ratings_count type="integer">30405</ratings_count>
+        <text_reviews_count type="integer">2211</text_reviews_count>
+        <author_program_at type="datetime" nil="true"/>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">486</fanships_count>
+        <best_book_id type="integer">9541</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>kapuściński, ryszard</sort_by_name>
+        <shelf_display_name>Kapuściński, Ryszard</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
+      <update type="readstatus">
+      <action_text><![CDATA[finished reading <a only_path="false" href="http://www.goodreads.com/review/show/1816713741">Roviny života</a>]]></action_text>
+      <link>http://www.goodreads.com/read_statuses/1644948331</link>
+      <image_url>http://images.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://images.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Mon, 02 Jan 2017 13:25:56 -0800</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">1644948331</id>
+  <review_id type="integer">1816713741</review_id>
+  <user_id type="integer">6403898</user_id>
+  <old_status>to-read</old_status>
+  <status>read</status>
+  <updated_at type="datetime">2017-01-02T21:24:59+00:00</updated_at>
+  <review>
+    <id type="integer">1816713741</id>
+    <user_id type="integer">6403898</user_id>
+    <book_id type="integer">23961170</book_id>
+    <rating type="integer">5</rating>
+    <read_status>read</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review></review>
     <recommendation nil="true"/>
-    <read_at type="datetime">2016-05-22T22:15:53+00:00</read_at>
-    <updated_at type="datetime">2016-05-22T22:15:53+00:00</updated_at>
-    <created_at type="datetime">2016-01-10T21:42:14+00:00</created_at>
+    <read_at type="datetime">2017-01-02T21:25:55+00:00</read_at>
+    <updated_at type="datetime">2017-01-02T21:25:55+00:00</updated_at>
+    <created_at type="datetime">2016-11-20T08:52:31+00:00</created_at>
     <comments_count type="integer">0</comments_count>
     <weight type="integer">0</weight>
     <ratings_sum type="integer">1</ratings_sum>
@@ -309,98 +710,106 @@ He currently lives in Spain.</about>
     <spoiler_flag type="boolean">false</spoiler_flag>
     <recommender_user_id1 type="integer">0</recommender_user_id1>
     <recommender_user_name1 nil="true"/>
-    <work_id type="integer">2186647</work_id>
+    <work_id type="integer">23694714</work_id>
     <read_count nil="true"/>
     <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime">2016-05-12T20:19:00+00:00</started_at>
+    <started_at type="datetime">2017-01-02T08:00:00+00:00</started_at>
     <hidden_flag type="boolean">false</hidden_flag>
     <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2016-05-22T22:15:53+00:00</last_revision_at>
+    <last_revision_at type="datetime">2017-01-02T21:25:55+00:00</last_revision_at>
     <non_friends_rating_count type="integer">0</non_friends_rating_count>
     <book>
-      <id type="integer">13963</id>
-      <work_id type="integer">2186647</work_id>
-      <isbn>0415267455</isbn>
-      <isbn13>9780415267458</isbn13>
-      <title>Man Meets Dog</title>
-      <sort_by_title>man meets dog</sort_by_title>
-      <author_id type="integer">8674</author_id>
+      <id type="integer">23961170</id>
+      <work_id type="integer">23694714</work_id>
+      <isbn nil="true"/>
+      <isbn13>9788081500527</isbn13>
+      <title>Roviny života</title>
+      <sort_by_title>roviny života</sort_by_title>
+      <author_id type="integer">1462</author_id>
       <author_role nil="true"/>
       <asin nil="true"/>
-      <description>In this wonderful book, the famous scientist and best-selling author, Konrad Lorenz, 'the man who talked with animals', enlightens and entertains us with his illustrated account of the unique relationship between humans and their pets. Displaying Lorenz's customary humanity and expert knowledge of animals, Man Meets Dog is also a deeply personal and entertaining account of his relationships with his own four-legged friends. With charming sketches on almost every page, Man Meets Dog offers a delightful insight into animal and human thinking and feeling. An essential companion for all lovers of dogs (and cats!).</description>
-      <format>Paperback</format>
-      <publication_year type="integer">2002</publication_year>
-      <publication_month type="integer">5</publication_month>
-      <publication_day type="integer">9</publication_day>
-      <num_pages type="integer">226</num_pages>
-      <publisher>Routledge</publisher>
-      <language_code>eng</language_code>
+      <description>Dielo zložené z troch častí je príbehom silnej lásky aj hlbokého smútku, prenikavou meditáciou nad vecami, ktoré nás vyzdvihujú do výšok – a to doslova ako teplovzdušné balóny alebo emocionálne ako láska – a nad udalosťami, ktoré nás strhávajú k zemi – ako smrť milovaného človeka.
+
+V prvej časti - Zhrešenie výškou - nás Julian Barnes zavedie do 19. storočia medzi priekopníkov balónového lietania a k portrétnemu fotografovi Nadarovi, ktorý ako prvý odfotografoval zem z vtáčej prespektívy. Druhý príbeh - Na rovine - rozpráva fiktívny príbeh lásky dôverčivého a zasneného anglického plukovníka Freda Burnabyho a francúzskej herečky Sarah Bernhardt. Tretia, najosobnejšia časť - Strata hĺbky - je silnou výpoveďou človeka, ktorý náhle stratil milovanú ženu.</description>
+      <format>Hardcover</format>
+      <publication_year type="integer">2014</publication_year>
+      <publication_month type="integer" nil="true"/>
+      <publication_day type="integer" nil="true"/>
+      <num_pages type="integer">90</num_pages>
+      <publisher>Artforum</publisher>
+      <language_code>slo</language_code>
       <edition_information nil="true"/>
       <url nil="true"/>
       <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2012-12-25T13:58:34+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-05-16T14:52:47+00:00</s3_image_at>
-      <reviews_count type="integer">672</reviews_count>
-      <ratings_sum type="integer">1332</ratings_sum>
-      <ratings_count type="integer">333</ratings_count>
-      <text_reviews_count type="integer">19</text_reviews_count>
-      <book_authors_count type="integer">0</book_authors_count>
-      <updated_at type="datetime">2015-05-16T14:52:47+00:00</updated_at>
-      <created_at type="datetime">2006-12-20T00:41:15+00:00</created_at>
-      <author_id_updater_user_id type="integer">-51</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer">-10</author_role_updater_user_id>
-      <description_updater_user_id type="integer">-51</description_updater_user_id>
+      <image_uploaded_at type="datetime">2015-01-10T13:24:53+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-06-16T08:03:50+00:00</s3_image_at>
+      <reviews_count type="integer">57</reviews_count>
+      <ratings_sum type="integer">138</ratings_sum>
+      <ratings_count type="integer">33</ratings_count>
+      <text_reviews_count type="integer">8</text_reviews_count>
+      <book_authors_count type="integer">1</book_authors_count>
+      <updated_at type="datetime">2015-06-16T08:03:50+00:00</updated_at>
+      <created_at type="datetime">2014-12-19T17:56:24+00:00</created_at>
+      <author_id_updater_user_id type="integer">16625995</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer" nil="true"/>
+      <description_updater_user_id type="integer">16625995</description_updater_user_id>
       <edition_information_updater_user_id type="integer" nil="true"/>
-      <format_updater_user_id type="integer">-51</format_updater_user_id>
-      <image_updater_user_id type="integer">-51</image_updater_user_id>
-      <isbn_updater_user_id type="integer">-51</isbn_updater_user_id>
-      <isbn13_updater_user_id type="integer">-51</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">-10</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">-51</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">-51</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">-51</publisher_updater_user_id>
-      <title_updater_user_id type="integer">-51</title_updater_user_id>
+      <format_updater_user_id type="integer">16625995</format_updater_user_id>
+      <image_updater_user_id type="integer">8801116</image_updater_user_id>
+      <isbn_updater_user_id type="integer" nil="true"/>
+      <isbn13_updater_user_id type="integer">16625995</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">16625995</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">16625995</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">16625995</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">16625995</publisher_updater_user_id>
+      <title_updater_user_id type="integer">16625995</title_updater_user_id>
       <url_updater_user_id type="integer" nil="true"/>
       <title_language_code nil="true"/>
       <publisher_language_code nil="true"/>
       <description_language_code nil="true"/>
       <asin_updater_user_id type="integer" nil="true"/>
       <author>
-        <id type="integer">8674</id>
-        <name>Konrad Lorenz</name>
-        <updated_at type="datetime">2016-07-13T13:56:06+00:00</updated_at>
-        <created_at type="datetime">2006-12-20T00:41:15+00:00</created_at>
-        <searched_for_at type="datetime">2007-04-21T14:41:52+00:00</searched_for_at>
-        <image_uploaded_at type="datetime">2008-04-17T09:02:35+00:00</image_uploaded_at>
+        <id type="integer">1462</id>
+        <name>Julian Barnes</name>
+        <updated_at type="datetime">2017-06-26T18:32:18+00:00</updated_at>
+        <created_at type="datetime">2006-10-12T22:17:29+00:00</created_at>
+        <searched_for_at type="datetime">2007-01-31T22:37:12+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2013-12-16T06:30:50+00:00</image_uploaded_at>
         <user_id type="integer" nil="true"/>
         <gender>M</gender>
-        <country_code></country_code>
-        <born_at type="date">1903-11-07</born_at>
-        <died_at type="date">1989-02-27</died_at>
-        <about></about>
-        <uploader_user_id type="integer">1015035</uploader_user_id>
-        <image_copyright>http://upload.wikimedia.org/wikipedia/en/f/f9/Lorenz.gif</image_copyright>
-        <influences></influences>
-        <url></url>
-        <genre1></genre1>
+        <country_code>GB</country_code>
+        <born_at type="date">1946-01-19</born_at>
+        <died_at type="datetime" nil="true"/>
+        <about>Julian Patrick Barnes is a contemporary English writer of postmodernism in literature. He has been shortlisted three times for the Man Booker Prize--- Flaubert's Parrot (1984), England, England (1998), and Arthur &amp; George (2005), and won the prize for The Sense of an Ending (2011). He has written crime fiction under the pseudonym Dan Kavanagh.
+
+Following an education at the City of London School and Merton College, Oxford, he worked as a lexicographer for the Oxford English Dictionary. Subsequently, he worked as a literary editor and film critic. He now writes full-time. His brother, Jonathan Barnes, is a philosopher specialized in Ancient Philosophy.
+
+He lived in London with his wife, the literary agent Pat Kavanagh, until her death on 20 October 2008.
+(Wikipedia)
+</about>
+        <uploader_user_id type="integer">5425403</uploader_user_id>
+        <image_copyright>http://www.independent.co.uk/incoming/article8572027.ece/ALTERNATES/w620/Julian-Barnes-mcpherson.jpg</image_copyright>
+        <influences>[a:Flaubert|1461], [a:Turgenev|410680], [a:Hawthorne|7799], [a:John Updike|6878], [a:Ford Madox Ford|1209], [a:Jules Renard|224285]</influences>
+        <url>http://www.julianbarnes.com/</url>
+        <genre1>Literature &amp; Fiction</genre1>
         <genre2></genre2>
         <genre3></genre3>
-        <books_count type="integer">247</books_count>
-        <reviews_count type="integer">8007</reviews_count>
-        <ratings_sum type="integer">14974</ratings_sum>
-        <works_count type="integer">63</works_count>
-        <hometown>Vienna</hometown>
-        <rating_dist>5:153|4:173|3:103|2:17|1:2|total:448</rating_dist>
-        <s3_image_at type="datetime">2015-05-14T22:57:55+00:00</s3_image_at>
-        <ratings_count type="integer">3635</ratings_count>
-        <text_reviews_count type="integer">239</text_reviews_count>
-        <author_program_at type="datetime" nil="true"/>
+        <books_count type="integer">1130</books_count>
+        <reviews_count type="integer">349528</reviews_count>
+        <ratings_sum type="integer">696646</ratings_sum>
+        <works_count type="integer">95</works_count>
+        <hometown>Leicester</hometown>
+        <rating_dist>5:2080|4:4239|3:3548|2:1073|1:243|total:11183</rating_dist>
+        <s3_image_at type="datetime">2015-05-14T22:54:16+00:00</s3_image_at>
+        <ratings_count type="integer">187976</ratings_count>
+        <text_reviews_count type="integer">20117</text_reviews_count>
+        <author_program_at type="datetime">2014-08-18T20:29:59+00:00</author_program_at>
         <postal_code nil="true"/>
-        <fanships_count type="integer">50</fanships_count>
-        <best_book_id type="integer">13965</best_book_id>
+        <fanships_count type="integer">1406</fanships_count>
+        <best_book_id type="integer">10746542</best_book_id>
         <name_language_code nil="true"/>
-        <sort_by_name>lorenz, konrad</sort_by_name>
-        <shelf_display_name>Lorenz, Konrad</shelf_display_name>
+        <sort_by_name>barnes, julian</sort_by_name>
+        <shelf_display_name>Barnes, Julian</shelf_display_name>
         <gender_custom nil="true"/>
         <gender_pronoun nil="true"/>
       </author>
@@ -410,538 +819,55 @@ He currently lives in Spain.</about>
 
         </object>
     </update>
-      <update type="review">
-      <action_text><![CDATA[gave 5 stars to <a href="http://www.goodreads.com/book/show/18077903-creativity-inc">Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration (Hardcover)</a> by <a href="http://www.goodreads.com/author/show/5618463.Ed_Catmull">Ed Catmull</a>]]></action_text>
-      <link>http://www.goodreads.com/review/show/1384619569</link>
-      <image_url>http://d.gr-assets.com/books/1400863577s/18077903.jpg</image_url>
+      <update type="authorfollowing">
+      <action_text><![CDATA[is now following Julian Barnes]]></action_text>
+      <link>http://www.goodreads.com/author/show/1462.Julian_Barnes</link>
+      <image_url>http://images.gr-assets.com/authors/1387175450p2/1462.jpg</image_url>
         <actor>
   <id type="integer">6403898</id>
   <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <image_url>http://images.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
   <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
 </actor>
-      <updated_at>Sat, 16 Apr 2016 15:11:30 -0700</updated_at>
+      <updated_at>Mon, 02 Jan 2017 13:20:25 -0800</updated_at>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 5 stars to <a href="http://www.goodreads.com/book/show/23961170-roviny-ivota">Roviny života (Hardcover)</a> by <a href="http://www.goodreads.com/author/show/1462.Julian_Barnes">Julian Barnes</a>]]></action_text>
+      <link>http://www.goodreads.com/review/show/1816713741</link>
+      <image_url>http://images.gr-assets.com/books/1420896293s/23961170.jpg</image_url>
+        <actor>
+  <id type="integer">6403898</id>
+  <name>Tibor Stanko</name>
+  <image_url>http://images.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
+  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
+</actor>
+      <updated_at>Mon, 02 Jan 2017 13:12:50 -0800</updated_at>
           <action type="rating">
             <rating>5</rating>
           </action>
         <object>
           <book>
-            <id>18077903</id>
-            <title><![CDATA[Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration]]></title>
-            <link>http://www.goodreads.com/book/show/18077903-creativity-inc</link>
+            <id>23961170</id>
+            <title>Roviny života</title>
+            <link>http://www.goodreads.com/book/show/23961170-roviny-ivota</link>
             <authors>
 <author>
-<id>5618463</id>
-<name>Ed Catmull</name>
+<id>1462</id>
+<name>Julian Barnes</name>
 <role></role>
 <image_url nophoto='false'>
-<![CDATA[http://d.gr-assets.com/authors/1404701341p5/5618463.jpg]]>
+<![CDATA[http://images.gr-assets.com/authors/1387175450p5/1462.jpg]]>
 </image_url>
 <small_image_url nophoto='false'>
-<![CDATA[http://d.gr-assets.com/authors/1404701341p2/5618463.jpg]]>
+<![CDATA[http://images.gr-assets.com/authors/1387175450p2/1462.jpg]]>
 </small_image_url>
-<link><![CDATA[http://www.goodreads.com/author/show/5618463.Ed_Catmull]]></link>
-<average_rating>4.22</average_rating>
-<ratings_count>19463</ratings_count>
-<text_reviews_count>1711</text_reviews_count>
+<link><![CDATA[http://www.goodreads.com/author/show/1462.Julian_Barnes]]></link>
+<average_rating>3.71</average_rating>
+<ratings_count>187976</ratings_count>
+<text_reviews_count>20117</text_reviews_count>
 </author>
 </authors>
           </book>
-        </object>
-    </update>
-      <update type="readstatus">
-      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1598912813">Akoby si kameň jedla</a>]]></action_text>
-      <link>http://www.goodreads.com/read_statuses/1302432504</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Sat, 02 Apr 2016 23:40:18 -0700</updated_at>
-        <object>
-          <read_status>
-  <id type="integer">1302432504</id>
-  <review_id type="integer">1598912813</review_id>
-  <user_id type="integer">6403898</user_id>
-  <old_status nil="true"/>
-  <status>to-read</status>
-  <updated_at type="datetime">2016-04-03T06:40:18+00:00</updated_at>
-  <review>
-    <id type="integer">1598912813</id>
-    <user_id type="integer">6403898</user_id>
-    <book_id type="integer">25698220</book_id>
-    <rating type="integer">0</rating>
-    <read_status>to-read</read_status>
-    <sell_flag type="boolean">false</sell_flag>
-    <review nil="true"/>
-    <recommendation nil="true"/>
-    <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2016-04-03T06:40:18+00:00</updated_at>
-    <created_at type="datetime">2016-04-03T06:40:18+00:00</created_at>
-    <comments_count type="integer">0</comments_count>
-    <weight type="integer">0</weight>
-    <ratings_sum type="integer">0</ratings_sum>
-    <ratings_count type="integer">0</ratings_count>
-    <notes nil="true"/>
-    <spoiler_flag type="boolean">false</spoiler_flag>
-    <recommender_user_id1 type="integer">0</recommender_user_id1>
-    <recommender_user_name1 nil="true"/>
-    <work_id type="integer">6668867</work_id>
-    <read_count nil="true"/>
-    <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime" nil="true"/>
-    <hidden_flag type="boolean">false</hidden_flag>
-    <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2016-04-03T06:40:18+00:00</last_revision_at>
-    <non_friends_rating_count type="integer">0</non_friends_rating_count>
-    <book>
-      <id type="integer">25698220</id>
-      <work_id type="integer">6668867</work_id>
-      <isbn nil="true"/>
-      <isbn13>9788097182311</isbn13>
-      <title>Akoby si kameň jedla</title>
-      <sort_by_title>akoby si kameň jedla</sort_by_title>
-      <author_id type="integer">557612</author_id>
-      <author_role nil="true"/>
-      <asin nil="true"/>
-      <description>V rámci edície &lt;i&gt;Prekliati reportéri&lt;/i&gt; prinášame knihu reportáží z Bosny W. L. Tochmana &lt;i&gt;Akoby si kameň jedla&lt;/i&gt;. Autor bol za knihu zaradený medzi finalistov literárnej ceny Nike a taktiež na ocenenie Prix Témoin du Monde, ktoré udeľuje Radio France International. Tento prvý preklad Tochmanovho diela do slovenčiny rozširuje počet jazykov, do ktorých bol preložený na dvanásť.
-
-Bosna, roky deväťdesiate. Vojna, etnická nenávisť, smrť, masové exekúcie, koncentračné tábory. Desiatky reportérov a televíznych štábov z celého sveta vyrážajú na Balkán, aby mohli podať svedectvo o zverstvách páchaných v rozpadajúcej sa Juhoslávií. Z médií presakujú znepokojujúce obrazy, zaznievajú hlasy katov i obetí, slová expertov i politikov. Každá vojna sa však jedného dňa končí. Novinári odchádzajú, experti miznú v informačnom šume, pozornosť médií sa obracia k iným vojnám, k iným nešťastiam. 
-
-Čo sa deje v krajine, ktorou štyri roky zmietala vojna? 
-Ako sa so stratou blízkych vyrovnávajú tí, čo prežili? 
-Čo cítia a o čom premýšľajú? 
-Kde hľadajú svojich mŕtvych? A ako ich nachádzajú? 
-
-To sú otázky, na ktoré sa pokúša priniesť odpoveď kniha poľského reportéra Wojciecha Tochmana, ktorý sa o osudy ľudí žijúcich v Bosne zaujímal nielen počas vojny, ale aj po nej. V roku 1999 sa vracia na miesto činu, pozoruje pri práci antropologičku Ewu Klonowskú, ktorá zbiera a skladá pozostatky ľudských tiel vykopaných z masovch hrobov a na základe DNA identifikuje obete. Rozpráva sa s tými, čo prežili a z rozprávania o kostiach, ktoré patria ich blízkym, rekonštruuje vojnové osudy jednotlivcov i celých rodín, živých aj mŕtvych. Prostým jazykom rozpráva o veciach tragických, neskutočných, strašných. Jeho svedectvo núti zamyslieť sa nad hrôzami vojny, dvojznačnosťou ľudskej prirodzenosti a hlbokou ľudskou potrebou pochovať a oplakať svojich mŕtvych.</description>
-      <format>Paperback</format>
-      <publication_year type="integer">2015</publication_year>
-      <publication_month type="integer">5</publication_month>
-      <publication_day type="integer">27</publication_day>
-      <num_pages type="integer">112</num_pages>
-      <publisher>Absynt</publisher>
-      <language_code>slo</language_code>
-      <edition_information>Prekliati reportéri</edition_information>
-      <url>http://akobysikamenjedla.absynt.sk</url>
-      <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2015-07-29T09:32:54+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-07-29T09:32:55+00:00</s3_image_at>
-      <reviews_count type="integer">123</reviews_count>
-      <ratings_sum type="integer">379</ratings_sum>
-      <ratings_count type="integer">79</ratings_count>
-      <text_reviews_count type="integer">14</text_reviews_count>
-      <book_authors_count type="integer">1</book_authors_count>
-      <updated_at type="datetime">2015-08-24T11:44:31+00:00</updated_at>
-      <created_at type="datetime">2015-06-10T08:16:24+00:00</created_at>
-      <author_id_updater_user_id type="integer">12553134</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer" nil="true"/>
-      <description_updater_user_id type="integer">12553134</description_updater_user_id>
-      <edition_information_updater_user_id type="integer">22549736</edition_information_updater_user_id>
-      <format_updater_user_id type="integer">22549736</format_updater_user_id>
-      <image_updater_user_id type="integer">12553134</image_updater_user_id>
-      <isbn_updater_user_id type="integer" nil="true"/>
-      <isbn13_updater_user_id type="integer">22549736</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">22549736</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">22549736</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">12553134</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">22549736</publisher_updater_user_id>
-      <title_updater_user_id type="integer">22549736</title_updater_user_id>
-      <url_updater_user_id type="integer">12553134</url_updater_user_id>
-      <title_language_code nil="true"/>
-      <publisher_language_code nil="true"/>
-      <description_language_code nil="true"/>
-      <asin_updater_user_id type="integer" nil="true"/>
-      <author>
-        <id type="integer">557612</id>
-        <name>Wojciech Tochman</name>
-        <updated_at type="datetime">2016-06-14T20:53:53+00:00</updated_at>
-        <created_at type="datetime">2007-06-08T02:25:04+00:00</created_at>
-        <searched_for_at type="datetime">2008-04-19T08:48:11+00:00</searched_for_at>
-        <image_uploaded_at type="datetime">2009-04-19T21:43:36+00:00</image_uploaded_at>
-        <user_id type="integer" nil="true"/>
-        <gender>M</gender>
-        <country_code>PL</country_code>
-        <born_at type="datetime" nil="true"/>
-        <died_at type="datetime" nil="true"/>
-        <about>Reporter, non-fiction writer. He has twice been shortlisted for the NIKE Literary Prize and has won the Polish Book Publishers Association Award.
-He began his career as a reporter at the youth weekly Na przełaj before leaving school, and soon after he joined the first reporting team at Gazeta Wyborcza. His reports from this period were published in a book, Stairs Don’t Burn (2000, 2006). Before he got his masters degree at Warsaw University he went to Bosnia with a convoy organised by humanitarian aid worker Janina Ochojska. He then went back to the Balkans repeatedly for many years, and the book Like Eating A Stone is the result of those journeys. His next book was Dear Daughter (2005), the moving account of his efforts to find out what had happened to his missing friend, a reporter called Beata Pawlak, who turned out to have been killed in a terrorist attack on the island of Bali.
-For several years Tochman was involved in activities aimed at finding missing people. From 1996 to 2002, he ran a programme called “Anyone Who Saw, Anyone Who Knows” on the Telewizja Polska TV channel. In 1999 he founded the ITAKA Centre for the Search for Missing People.</about>
-        <uploader_user_id type="integer">1245448</uploader_user_id>
-        <image_copyright>http://pogranicze.sejny.pl/archiwum/wydawnictwo/obrazki/foto/tochman1.jpg</image_copyright>
-        <influences></influences>
-        <url>http://www.tochman.com.pl</url>
-        <genre1>Nonfiction</genre1>
-        <genre2>Short Stories</genre2>
-        <genre3></genre3>
-        <books_count type="integer">28</books_count>
-        <reviews_count type="integer">3682</reviews_count>
-        <ratings_sum type="integer">8246</ratings_sum>
-        <works_count type="integer">15</works_count>
-        <hometown>Kraków</hometown>
-        <rating_dist>5:6|4:14|3:5|2:3|1:0|total:28</rating_dist>
-        <s3_image_at type="datetime">2015-05-15T00:03:02+00:00</s3_image_at>
-        <ratings_count type="integer">1912</ratings_count>
-        <text_reviews_count type="integer">117</text_reviews_count>
-        <author_program_at type="datetime" nil="true"/>
-        <postal_code nil="true"/>
-        <fanships_count type="integer">23</fanships_count>
-        <best_book_id type="integer">9678182</best_book_id>
-        <name_language_code nil="true"/>
-        <sort_by_name>tochman, wojciech</sort_by_name>
-        <shelf_display_name>Tochman, Wojciech</shelf_display_name>
-        <gender_custom nil="true"/>
-        <gender_pronoun nil="true"/>
-      </author>
-    </book>
-  </review>
-</read_status>
-
-        </object>
-    </update>
-      <update type="review">
-      <action_text><![CDATA[gave 2 stars to <a href="http://www.goodreads.com/book/show/25174272-medzerov-plod">Medzerový plod (Hardcover)</a> by <a href="http://www.goodreads.com/author/show/5822413.Veronika_ikulov_">Veronika Šikulová</a>]]></action_text>
-      <link>http://www.goodreads.com/review/show/1491479936</link>
-      <image_url>http://d.gr-assets.com/books/1426764317s/25174272.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Sat, 02 Apr 2016 23:39:44 -0700</updated_at>
-          <action type="rating">
-            <rating>2</rating>
-          </action>
-        <object>
-          <book>
-            <id>25174272</id>
-            <title>Medzerový plod</title>
-            <link>http://www.goodreads.com/book/show/25174272-medzerov-plod</link>
-            <authors>
-<author>
-<id>5822413</id>
-<name>Veronika Šikulová</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[http://d.gr-assets.com/authors/1421952031p5/5822413.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[http://d.gr-assets.com/authors/1421952031p2/5822413.jpg]]>
-</small_image_url>
-<link><![CDATA[http://www.goodreads.com/author/show/5822413.Veronika_ikulov_]]></link>
-<average_rating>3.89</average_rating>
-<ratings_count>135</ratings_count>
-<text_reviews_count>18</text_reviews_count>
-</author>
-</authors>
-          </book>
-        </object>
-    </update>
-      <update type="readstatus">
-      <action_text><![CDATA[wants to read <a only_path="false" href="http://www.goodreads.com/review/show/1562122441">A Study in Scarlet (Sherlock Holmes, #1)</a>]]></action_text>
-      <link>http://www.goodreads.com/read_statuses/1254905560</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Sat, 27 Feb 2016 04:02:15 -0800</updated_at>
-        <object>
-          <read_status>
-  <id type="integer">1254905560</id>
-  <review_id type="integer">1562122441</review_id>
-  <user_id type="integer">6403898</user_id>
-  <old_status nil="true"/>
-  <status>to-read</status>
-  <updated_at type="datetime">2016-02-27T12:02:15+00:00</updated_at>
-  <review>
-    <id type="integer">1562122441</id>
-    <user_id type="integer">6403898</user_id>
-    <book_id type="integer">102868</book_id>
-    <rating type="integer">0</rating>
-    <read_status>to-read</read_status>
-    <sell_flag type="boolean">false</sell_flag>
-    <review nil="true"/>
-    <recommendation nil="true"/>
-    <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2016-02-27T12:02:15+00:00</updated_at>
-    <created_at type="datetime">2016-02-27T12:02:14+00:00</created_at>
-    <comments_count type="integer">0</comments_count>
-    <weight type="integer">0</weight>
-    <ratings_sum type="integer">0</ratings_sum>
-    <ratings_count type="integer">0</ratings_count>
-    <notes nil="true"/>
-    <spoiler_flag type="boolean">false</spoiler_flag>
-    <recommender_user_id1 type="integer">0</recommender_user_id1>
-    <recommender_user_name1 nil="true"/>
-    <work_id type="integer">1997473</work_id>
-    <read_count nil="true"/>
-    <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime" nil="true"/>
-    <hidden_flag type="boolean">false</hidden_flag>
-    <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2016-02-27T12:02:15+00:00</last_revision_at>
-    <non_friends_rating_count type="integer">0</non_friends_rating_count>
-    <book>
-      <id type="integer">102868</id>
-      <work_id type="integer">1997473</work_id>
-      <isbn>1420925539</isbn>
-      <isbn13>9781420925531</isbn13>
-      <title>A Study in Scarlet (Sherlock Holmes, #1)</title>
-      <sort_by_title>study in scarlet, a (sherlock holmes, #1)</sort_by_title>
-      <author_id type="integer">2448</author_id>
-      <author_role nil="true"/>
-      <asin nil="true"/>
-      <description nil="true"/>
-      <format>Paperback</format>
-      <publication_year type="integer">2005</publication_year>
-      <publication_month type="integer">1</publication_month>
-      <publication_day type="integer">1</publication_day>
-      <num_pages type="integer">108</num_pages>
-      <publisher>Digireads.com</publisher>
-      <language_code>eng</language_code>
-      <edition_information nil="true"/>
-      <url nil="true"/>
-      <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2012-09-23T01:03:56+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-05-16T15:04:57+00:00</s3_image_at>
-      <reviews_count type="integer">258958</reviews_count>
-      <ratings_sum type="integer">728015</ratings_sum>
-      <ratings_count type="integer">175215</ratings_count>
-      <text_reviews_count type="integer">4260</text_reviews_count>
-      <book_authors_count type="integer">0</book_authors_count>
-      <updated_at type="datetime">2016-01-18T18:47:59+00:00</updated_at>
-      <created_at type="datetime">2007-02-14T21:14:40+00:00</created_at>
-      <author_id_updater_user_id type="integer">903390</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer">4540522</author_role_updater_user_id>
-      <description_updater_user_id type="integer">5263888</description_updater_user_id>
-      <edition_information_updater_user_id type="integer" nil="true"/>
-      <format_updater_user_id type="integer">-51</format_updater_user_id>
-      <image_updater_user_id type="integer">-110</image_updater_user_id>
-      <isbn_updater_user_id type="integer">-51</isbn_updater_user_id>
-      <isbn13_updater_user_id type="integer">-51</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">1134884</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">-51</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">-51</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">-51</publisher_updater_user_id>
-      <title_updater_user_id type="integer">28214210</title_updater_user_id>
-      <url_updater_user_id type="integer" nil="true"/>
-      <title_language_code nil="true"/>
-      <publisher_language_code nil="true"/>
-      <description_language_code nil="true"/>
-      <asin_updater_user_id type="integer" nil="true"/>
-      <author>
-        <id type="integer">2448</id>
-        <name>Arthur Conan Doyle</name>
-        <updated_at type="datetime">2016-08-06T19:31:12+00:00</updated_at>
-        <created_at type="datetime">2006-11-20T17:58:33+00:00</created_at>
-        <searched_for_at type="datetime">2006-12-14T20:09:11+00:00</searched_for_at>
-        <image_uploaded_at type="datetime">2010-11-15T15:56:01+00:00</image_uploaded_at>
-        <user_id type="integer" nil="true"/>
-        <gender>M</gender>
-        <country_code>GB</country_code>
-        <born_at type="date">1859-05-22</born_at>
-        <died_at type="date">1930-07-07</died_at>
-        <about>Arthur Conan Doyle was born the third of ten siblings on 22 May 1859 in Edinburgh, Scotland. His father, Charles Altamont Doyle, was born in England of Irish descent, and his mother, born Mary Foley, was Irish. They were married in 1855.
-
-Although he is now referred to as "Conan Doyle", the origin of this compound surname (if that is how he meant it to be understood) is uncertain.  His baptism record in the registry of St Mary's Cathedral in Edinburgh gives 'Arthur Ignatius Conan' as his Christian name, and simply 'Doyle' as his surname.  It also names Michael Conan as his godfather.
-
-At the age of nine Conan Doyle was sent to the Roman Catholic Jesuit preparatory school, Hodder Place, Stonyhurst. He then went on to Stonyhurst College, leaving in 1875.
-
-From 1876 to 1881 he studied medicine at the University of Edinburgh. This required that he provide periodic medical assistance in the towns of Aston (now a district of Birmingham) and Sheffield. While studying, Conan Doyle began writing short stories. His first published story appeared in "&lt;i&gt;Chambers's Edinburgh Journal&lt;/i&gt;" before he was 20. Following his graduation, he was employed as a ship's doctor on the SS Mayumba during a voyage to the West African coast. He completed his doctorate on the subject of tabes dorsalis in 1885.
-
-In 1885 Conan Doyle married Louisa (or Louise) Hawkins, known as "Touie". She suffered from tuberculosis and died on 4 July 1906. The following year he married Jean Elizabeth Leckie, whom he had first met and fallen in love with in 1897. Due to his sense of loyalty he had maintained a purely platonic relationship with Jean while his first wife was alive. Jean died in London on 27 June 1940.
-
-Conan Doyle fathered five children. Two with his first wife—Mary Louise (28 January 1889 – 12 June 1976), and Arthur Alleyne Kingsley, known as Kingsley (15 November 1892 – 28 October 1918). With his second wife he had three children—Denis Percy Stewart (17 March 1909 – 9 March 1955), second husband in 1936 of Georgian Princess Nina Mdivani (circa 1910 – 19 February 1987; former sister-in-law of Barbara Hutton); Adrian Malcolm (19 November 1910–3 June 1970) and Jean Lena Annette (21 December 1912–18 November 1997).
-
-Conan Doyle was found clutching his chest in the hall of Windlesham, his house in Crowborough, East Sussex, on 7 July 1930. He had died of a heart attack at age 71. His last words were directed toward his wife: "You are wonderful." The epitaph on his gravestone in the churchyard at Minstead in the New Forest, Hampshire, reads:
-
-STEEL TRUE
-BLADE STRAIGHT
-ARTHUR CONAN DOYLE
-KNIGHT
-PATRIOT, PHYSICIAN &amp; MAN OF LETTERS
-
-Conan Doyle's house, Undershaw, located in  Hindhead, south of London, where he had lived for a decade, had been a hotel and restaurant between 1924 and 2004. It now stands empty while conservationists and Conan Doyle fans fight to preserve it.
-
-A statue honours Conan Doyle at Crowborough Cross in Crowborough, where Conan Doyle lived for 23 years. There is also a statue of Sherlock Holmes in Picardy Place, Edinburgh, close to the house where Conan Doyle was born.
-
-&lt;b&gt;Series:&lt;/b&gt;
-* &lt;a href="http://www.goodreads.com/series/49996-sherlock-holmes"&gt;Sherlock Holmes&lt;/a&gt;</about>
-        <uploader_user_id type="integer">4505862</uploader_user_id>
-        <image_copyright>http://www.google.ru/imglanding?q=conan+doyle&amp;um=1&amp;hl=ru&amp;sa=N&amp;tbs=isch:1&amp;tbnid=to4if9mFpeHplM:&amp;imgrefurl=http://danliterature.wordpress.com/the-adventure-of-the-bruce-partington-plans-by-sir-arthur-co</image_copyright>
-        <influences>[a:Joseph McCabe|208362], [a:Edgar Allan Poe|4624490], [a:Jules Verne|696805], [a:Walter Scott|4345], [a:Thomas Babington Macaulay|234077]</influences>
-        <url>http://www.sherlockholmesonline.org/</url>
-        <genre1>Fiction</genre1>
-        <genre2>Crime</genre2>
-        <genre3>Thriller</genre3>
-        <books_count type="integer">16143</books_count>
-        <reviews_count type="integer">1952218</reviews_count>
-        <ratings_sum type="integer">5081430</ratings_sum>
-        <works_count type="integer">3521</works_count>
-        <hometown>Edinburgh, Scotland</hometown>
-        <rating_dist>5:37074|4:40805|3:23020|2:3314|1:511|total:104724</rating_dist>
-        <s3_image_at type="datetime">2015-05-14T22:54:52+00:00</s3_image_at>
-        <ratings_count type="integer">1209212</ratings_count>
-        <text_reviews_count type="integer">34847</text_reviews_count>
-        <author_program_at type="datetime" nil="true"/>
-        <postal_code nil="true"/>
-        <fanships_count type="integer">10545</fanships_count>
-        <best_book_id type="integer">102868</best_book_id>
-        <name_language_code nil="true"/>
-        <sort_by_name>doyle, arthur conan</sort_by_name>
-        <shelf_display_name>Doyle, Arthur Conan</shelf_display_name>
-        <gender_custom nil="true"/>
-        <gender_pronoun nil="true"/>
-      </author>
-    </book>
-  </review>
-</read_status>
-
-        </object>
-    </update>
-      <update type="readstatus">
-      <action_text><![CDATA[started reading <a only_path="false" href="http://www.goodreads.com/review/show/1491479936">Medzerový plod</a>]]></action_text>
-      <link>http://www.goodreads.com/read_statuses/1217900477</link>
-      <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-        <actor>
-  <id type="integer">6403898</id>
-  <name>Tibor Stanko</name>
-  <image_url>http://d.gr-assets.com/users/1453128784p2/6403898.jpg</image_url>
-  <link>http://www.goodreads.com/user/show/6403898-tibor-stanko</link>
-</actor>
-      <updated_at>Mon, 01 Feb 2016 06:19:19 -0800</updated_at>
-        <object>
-          <read_status>
-  <id type="integer">1217900477</id>
-  <review_id type="integer">1491479936</review_id>
-  <user_id type="integer">6403898</user_id>
-  <old_status>to-read</old_status>
-  <status>currently-reading</status>
-  <updated_at type="datetime">2016-02-01T14:19:19+00:00</updated_at>
-  <review>
-    <id type="integer">1491479936</id>
-    <user_id type="integer">6403898</user_id>
-    <book_id type="integer">25174272</book_id>
-    <rating type="integer">2</rating>
-    <read_status>read</read_status>
-    <sell_flag type="boolean">false</sell_flag>
-    <review nil="true"/>
-    <recommendation nil="true"/>
-    <read_at type="datetime">2016-04-03T06:39:51+00:00</read_at>
-    <updated_at type="datetime">2016-04-03T06:39:51+00:00</updated_at>
-    <created_at type="datetime">2016-01-02T23:21:59+00:00</created_at>
-    <comments_count type="integer">0</comments_count>
-    <weight type="integer">0</weight>
-    <ratings_sum type="integer">0</ratings_sum>
-    <ratings_count type="integer">0</ratings_count>
-    <notes nil="true"/>
-    <spoiler_flag type="boolean">false</spoiler_flag>
-    <recommender_user_id1 type="integer">0</recommender_user_id1>
-    <recommender_user_name1 nil="true"/>
-    <work_id type="integer">44880181</work_id>
-    <read_count nil="true"/>
-    <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime">2016-02-01T14:19:18+00:00</started_at>
-    <hidden_flag type="boolean">false</hidden_flag>
-    <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2016-04-03T06:39:51+00:00</last_revision_at>
-    <non_friends_rating_count type="integer">0</non_friends_rating_count>
-    <book>
-      <id type="integer">25174272</id>
-      <work_id type="integer">44880181</work_id>
-      <isbn>8055609713</isbn>
-      <isbn13>9788055609713</isbn13>
-      <title>Medzerový plod</title>
-      <sort_by_title>medzerový plod</sort_by_title>
-      <author_id type="integer">5822413</author_id>
-      <author_role nil="true"/>
-      <asin nil="true"/>
-      <description nil="true"/>
-      <format>Hardcover</format>
-      <publication_year type="integer">2014</publication_year>
-      <publication_month type="integer">12</publication_month>
-      <publication_day type="integer">5</publication_day>
-      <num_pages type="integer">200</num_pages>
-      <publisher>Slovart </publisher>
-      <language_code>slo</language_code>
-      <edition_information nil="true"/>
-      <url>http://www.slovart.sk/knihy-v-slovencine-a-cestine/beletria/medzerovy-plod.html?page_id=15266</url>
-      <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2015-03-19T11:25:17+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-06-16T08:32:38+00:00</s3_image_at>
-      <reviews_count type="integer">74</reviews_count>
-      <ratings_sum type="integer">167</ratings_sum>
-      <ratings_count type="integer">39</ratings_count>
-      <text_reviews_count type="integer">10</text_reviews_count>
-      <book_authors_count type="integer">0</book_authors_count>
-      <updated_at type="datetime">2016-01-13T12:02:20+00:00</updated_at>
-      <created_at type="datetime">2015-03-19T11:25:17+00:00</created_at>
-      <author_id_updater_user_id type="integer">8801116</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer" nil="true"/>
-      <description_updater_user_id type="integer">10593730</description_updater_user_id>
-      <edition_information_updater_user_id type="integer" nil="true"/>
-      <format_updater_user_id type="integer">8801116</format_updater_user_id>
-      <image_updater_user_id type="integer">8801116</image_updater_user_id>
-      <isbn_updater_user_id type="integer">10593730</isbn_updater_user_id>
-      <isbn13_updater_user_id type="integer">8801116</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">8801116</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">8801116</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">8801116</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">8801116</publisher_updater_user_id>
-      <title_updater_user_id type="integer">8801116</title_updater_user_id>
-      <url_updater_user_id type="integer">10593730</url_updater_user_id>
-      <title_language_code nil="true"/>
-      <publisher_language_code nil="true"/>
-      <description_language_code nil="true"/>
-      <asin_updater_user_id type="integer" nil="true"/>
-      <author>
-        <id type="integer">5822413</id>
-        <name>Veronika Šikulová</name>
-        <updated_at type="datetime">2016-05-24T21:39:03+00:00</updated_at>
-        <created_at type="datetime">2012-04-23T21:36:47+00:00</created_at>
-        <searched_for_at type="datetime" nil="true"/>
-        <image_uploaded_at type="datetime">2015-01-22T18:40:31+00:00</image_uploaded_at>
-        <user_id type="integer" nil="true"/>
-        <gender>F</gender>
-        <country_code>SK</country_code>
-        <born_at type="date">1967-03-15</born_at>
-        <died_at type="datetime" nil="true"/>
-        <about>Veronika Šikulová je prozaička, autorka kníh pre deti a mládež.Pôsobila ako novinárka a popritom sa venovala písaniu próz. Prvé prózy publikovala v literárnej prílohe denníka Smena, v literárnych časopisoch Romboid, Slovenské pohľady a v zborníku mladých autorov Druhý dych (1985). Žije a tvorí v Modre.Ocenenia: Prémia Literárneho fondu za pôvodnú literárnu tvorbu za rok 2009 za román Domček jedným ťahom. Prémia Literárneho fondu za pôvodnú literárnu tvorbu za rok 2011 za prózu Miesta v sieti (2011) </about>
-        <uploader_user_id type="integer">3729776</uploader_user_id>
-        <image_copyright>http://inforum.artforum.sk/pozyvame/inde/2d2aa7/slova-fm-s-veronikou-sikulovou</image_copyright>
-        <influences></influences>
-        <url></url>
-        <genre1>Poetry</genre1>
-        <genre2>Fiction</genre2>
-        <genre3></genre3>
-        <books_count type="integer">18</books_count>
-        <reviews_count type="integer">235</reviews_count>
-        <ratings_sum type="integer">525</ratings_sum>
-        <works_count type="integer">15</works_count>
-        <hometown>Modra</hometown>
-        <rating_dist nil="true"/>
-        <s3_image_at type="datetime">2015-05-15T10:21:31+00:00</s3_image_at>
-        <ratings_count type="integer">135</ratings_count>
-        <text_reviews_count type="integer">18</text_reviews_count>
-        <author_program_at type="datetime" nil="true"/>
-        <postal_code nil="true"/>
-        <fanships_count type="integer">0</fanships_count>
-        <best_book_id type="integer">25174272</best_book_id>
-        <name_language_code nil="true"/>
-        <sort_by_name>Šikulová, veronika</sort_by_name>
-        <shelf_display_name>Šikulová, Veronika</shelf_display_name>
-        <gender_custom nil="true"/>
-        <gender_pronoun nil="true"/>
-      </author>
-    </book>
-  </review>
-</read_status>
-
         </object>
     </update>
 </updates>

@@ -44,7 +44,7 @@
               </svg>
             </span>
             {% assign latest = site.data.2pattes.tumblr.posts.post[0] %}
-            <a id="2pattes" title="latest post on 2pattes" href="{{ latest['@url-with-slug'] }}">
+            <a id="2pattes" title="latest post on 2pattes" href="http://2pattes.tiborstanko.sk/{% comment %}{{ latest['@url-with-slug'] }}{% endcomment %}">
             2pattes <!--{{ latest['@slug'] }}-->
             </a>
           </li>
@@ -56,7 +56,7 @@
           </li>
         </ul>
     </div>
-    
+
     <div class="col-xs-4">
         <ul class="contact-list">
           <!--li>{{ site.description }}</li-->
@@ -64,7 +64,7 @@
           <li>&#123; powered by <a title="jekyll home" href="https://jekyllrb.com/">jekyll</a> &amp; <a title="bbrrck.github.io on github" href="https://github.com/bbrrck/bbrrck.github.io">github</a> &#125;</li>
         </ul>
     </div>
-    
+
     <!--div class="col-md-6">
         <ul>
           <li>
