@@ -3,7 +3,7 @@ layout: page
 ---
 <div class="row">
 <div class="col-sm-4">
-  <img src="{{ site.data.home.photo }}" alt="" />
+  <img src="{{ site.data.home.photo }}" alt="me with an apple" />
 </div>
 <div class="col-sm-8">
     {{ site.data.home.intro }}
