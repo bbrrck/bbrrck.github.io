@@ -17,7 +17,7 @@
     <div class="site-main">
         <div class="container">
 
-<h1 style="color:black;font-size:200%;margin:1em 0 0.25em;text-align:center;line-height:150%;">{{ pub.ftitle }}</h1>
+<h1 style="color:black;font-size:200%;margin:1em 0 0.25em;text-align:center;line-height:150%;">{{ pub.bibtex.title }}</h1>
 
 <div style="text-align:center;font-size:125%;margin:1em 0 0.5em;">
   {% for author in pub.bibtex.authors %}
@@ -38,7 +38,7 @@
 
 <div id="teaser" style="margin:2em 0;">
   <a title="download pdf ({{ pub.pdf.size }} MB)" style="font-size:150%;" href="/assets/{{ pub.pdf.file }}.pdf">
-    <img src="{{ pub.teaser }}" width="100%" alt="teaser {{ pub.ftitle }}" />
+    <img src="{{ pub.teaser }}" width="100%" alt="teaser {{ pub.bibtex.title }}" />
   </a>
 </div>
 

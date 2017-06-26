@@ -6,7 +6,7 @@
 - type: article
   front: true
   slug: "Stanko:2017:SMI"
-  ftitle: 'Shape from sensors: curve networks on surfaces from 3D orientations'
+  stitle: 'Shape from sensors' # short title for <title>
   description: "Computers &amp; Graphics (Proc. SMI 2017)"
   award: "Best Paper Award"
   NO_gif: smi2017/anim
@@ -38,7 +38,7 @@
     - id: 2
       name: "Université Grenoble Alpes, CNRS (Laboratoire Jean Kuntzmann), INRIA"
   bibtex:
-      title: "Shape from sensors: curve networks on surfaces from 3D orientations"
+      title: "Shape from sensors: Curve networks on surfaces from 3D orientations"
       authors:
           - last : Stanko
             first: Tibor
@@ -77,7 +77,6 @@
       file: cag2016/paper
       size: 16.7
       type: paper
-  ftitle: 'Surfacing curve networks with normal control'
   ppage: "cag2016.html"
   teaser  : /assets/cag2016/teaser.png
   video   : bjcr11O4AcM
@@ -197,7 +196,7 @@ fidelity and allows to achieve globally smooth and visually pleasing shapes."
       size: 3.8
       type: poster
   bibtex:
-      title: Surfacing Curve Networks with Normal Control
+      title: Surfacing curve networks with normal control
       authors:
           - last : Stanko
             first: Tibor
