@@ -7,6 +7,7 @@ baseurl: ""
 url: https://tiborstanko.sk # the base hostname & protocol for your site
 enforce_ssl: tiborstanko.sk # without any protocol
 future: false
+exclude: [vendor]
 permalink: none
 markdown: kramdown
 highlighter: rouge
@@ -17,7 +18,7 @@ lastfm_username: boberr
 goodreads_username: 6403898-tibor-stanko
 instagram_username : bbrrck
 linkedin_cc: sk
-linkedin_username: tiborstanko 
+linkedin_username: tiborstanko
 
 # Navigation
 links:
