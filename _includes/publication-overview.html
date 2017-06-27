@@ -32,7 +32,7 @@
             {% endif %}
             {% unless pub.type=='talk' %}{% if pub.pdf %}
             <div class="bibtex">
-                [ <a href="#">bib</a> ]
+                [ <a rel="bibtex-{{ pub.pdf.slug }}">bib</a> ]
                 <pre id="bibtex-{{ pub.pdf.slug }}">{% include bibtex.html %}</pre>
             </div>
             {% endif %}{% endunless %}
