@@ -26,8 +26,8 @@
 {% endfor %}
 
 <div style="color:black;font-size:110%;margin:1em 0 2em;text-align:center;">
-{% if pub.conditional %}<span style="color:#666">conditionally accepted to </span>{% endif %}
-{{ pub.description }}
+  {% if pub.conditional %}<span style="color:#666">conditionally accepted to </span>{% endif %}{{ pub.description }}
+  {% if pub.award %}<br /><span style="color:red">{{ pub.award }}</span>{% endif %}
 </div>
 
 <div id="teaser" style="margin:2em 0;">
