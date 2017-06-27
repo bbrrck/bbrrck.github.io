@@ -27,16 +27,15 @@
             {% if pub.pdf %}
                 [ <a href="/assets/{{ pub.pdf.file }}.pdf">{{ pub.pdf.type }}</a> ~ {{ pub.pdf.size }} MB ]
             {% endif %}
-            {% if pub.pdf and pub.type!='talk' %}
-            <div class="bibtex">
-                [ <a href="#">bibtex</a> ]
-                <pre id="bibtex-{{ pub.pdf.slug }}">
-@{{ pub.type }}&#123; {{ pub.slug }},
-{% for prop in pub.bibtex %}{% if prop[0] == 'authors' %}{{ site.bibindent }}author = &#123;{% for author in pub.bibtex.authors %}{{ author.first }} {{ author.last }}{% if forloop.last == false %} and {% endif %}{% endfor %}&#125;,
-{% else %}{% unless prop[0] == 'type' or prop[0] == 'slug'  or prop[0] == 'authors'  %}{{ site.bibindent }}{{ prop[0] }} = &#123;{{ prop[1] }}&#125;{% if forloop.last == false %},{% endif %}
-{% endunless %}{% endif %}{% endfor %}&#125;</pre>
-            </div>
+            {% if pub.bibtex.doi %}
+            [ <a title="Link to publisher's site" href="https://doi.org/{{ pub.bibtex.doi }}">pub</a> ]
             {% endif %}
+            {% unless pub.type=='talk' %}{% if pub.pdf %}
+            <div class="bibtex">
+                [ <a href="#">bib</a> ]
+                <pre id="bibtex-{{ pub.pdf.slug }}">{% include bibtex.html %}</pre>
+            </div>
+            {% endif %}{% endunless %}
             {% if pub.url %}
                 [ <a href="{{ pub.url }}">www</a> ]
             {% endif %}

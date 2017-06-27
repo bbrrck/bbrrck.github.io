@@ -8,12 +8,6 @@
 <html>
   {% include head.html %}
   <body>
-    <!--header class="site-header">
-        <div class="container">
-{% include navigation.html %}
-        </div>
-    </header-->
-
     <div class="site-main">
         <div class="container">
 
@@ -70,11 +64,7 @@
 </div>
 
 <h2 style="padding:2em 0 1em;">BibTeX</h2>
-<pre style="font-size:75%;padding:0.5em;" id="bibtex-{{ pub.pdf.slug }}">
-@{{ pub.type }}&#123; {{ pub.slug }},
-{% for prop in pub.bibtex %}{% if prop[0] == 'authors' %}{{ site.bibindent }}author = &#123;{% for author in pub.bibtex.authors %}{{ author.first }} {{ author.last }}{% if forloop.last == false %} and {% endif %}{% endfor %}&#125;,
-{% else %}{% unless prop[0] == 'type' or prop[0] == 'slug'  or prop[0] == 'authors'  %}{{ site.bibindent }}{{ prop[0] }} = &#123;{{ prop[1] }}&#125;{% if forloop.last == false %},{% endif %}
-{% endunless %}{% endif %}{% endfor %}&#125;</pre>
+<pre style="font-size:75%;padding:0.5em;" id="bibtex-{{ pub.pdf.slug }}">{% include bibtex.html %}</pre>
 
 {{ content }}
 
