@@ -1,6 +1,6 @@
 ---
 layout      : post
-title       : The Fog 
+title       : The Rainbow Fog
 date        : 2017-06-27 00:00:00
 permalink   : san-francisco-s3pm-2017.html
 category    : travel
