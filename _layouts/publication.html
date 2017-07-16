@@ -15,13 +15,13 @@
 
 <div style="text-align:center;font-size:125%;margin:1em 0 0.5em;">
   {% for author in pub.bibtex.authors %}
-  {% if author.url %}<a href="{{ author.url }}">{% endif %}{{ author.first }} {{ author.last }}{% if author.url %}</a>{% endif %}<sup>{% for aff in author.affiliation %}{{ aff.id }}{% if forloop.last == false %},{% endif %}{% endfor %}</sup>{% if forloop.last == false %}, {% endif %}
+  {% if author.url %}<a href="{{ author.url }}">{% endif %}{{ author.first }} {{ author.last }}{% if author.url %}</a>{% endif %}{% if pub.affiliations.size > 1 %}<sup>{% for aff in author.affiliation %}{{ aff.id }}{% if forloop.last == false %},{% endif %}{% endfor %}</sup>{% endif %}{% if forloop.last == false %}, {% endif %}
   {% endfor %}
 </div>
 
 {% for affiliation in pub.affiliations %}
 <div style="text-align:center;font-size:100%;margin:0 0;">
-  <sup>{{ affiliation.id }}</sup> <span style="color:#666">{{ affiliation.name }}</span>
+  {% if pub.affiliations.size > 1 %}<sup>{{ affiliation.id }}</sup> {% endif %}<span style="color:#666">{{ affiliation.name }}</span>
 </div>
 {% endfor %}
 
@@ -30,11 +30,13 @@
   {% if pub.award %}<br /><span style="color:red">{{ pub.award }}</span>{% endif %}
 </div>
 
+{% if pub.teaser %}
 <div id="teaser" style="margin:2em 0;">
   <a title="download pdf ({{ pub.pdf.size }} MB)" style="font-size:150%;" href="/assets/{{ pub.pdf.file }}.pdf">
     <img src="{{ pub.teaser }}" width="100%" alt="teaser {{ pub.bibtex.title }}" />
   </a>
 </div>
+{% endif %}
 
 <div id="abstract" style="text-align:justify;">
   <p>{{ pub.abstract }}</p>
@@ -56,11 +58,13 @@
     <p>{{ pub.support }}</p>
 {% endif %}
   </div>
+  {% if pub.video %}
   <div id="video" class="col-xs-12 col-md-8">
     <h2 style="padding:1em 0 1em;">Video</h2>
     {% comment %}560:315 | 960:540 | 640:360 | 720:405 | 880:495 {% endcomment %}
     <iframe width="100%" height="340" src="https://www.youtube.com/embed/{{ pub.video }}" frameborder="0" allowfullscreen></iframe>
   </div>
+  {% endif %}
 </div>
 
 <h2 style="padding:2em 0 1em;">BibTeX</h2>
