@@ -60,11 +60,11 @@
             first: Nathalie
             affiliation:
               - id: 1
-      journal  : "Computers &#92;& Graphics (Proc. SMI)"
+      journal  : "Computers &#92;& Graphics #66 (Proc. SMI)"
       publisher: Elsevier
-      #volume   : ???
-      #pages    : 000-000
-      #month    : ???
+      volume   : 66
+      pages    : 74-84
+      month    : 8
       year     : 2017
       doi      : 10.1016/j.cag.2017.05.013
 
