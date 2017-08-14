@@ -2,13 +2,71 @@
 #########
 # PAPERS
 #########
+- type: article
+  front: true
+  slug: "Stanko:2017:IEEESensors"
+  stitle: 'Morphorider' # short title for <title>
+  description: "IEEE Sensors 2017"
+  pdf:
+      file: mrider-2017-sensors
+      size: 0.5
+      type: paper
+  abstract:
+   "This paper introduces a new method for real-time
+shape sensing. Using a single inertial measurement unit (IMU),
+our method enables to scan physical objects and to reconstruct
+digital 3D models. By moving the IMU along the surface, a
+network of local orientation data is acquired together with
+traveled distances and network topology. We then reconstruct
+a consistent network of curves and fit these curves by a globally
+smooth surface. To demonstrate the feasibility of our approach,
+we have constructed a mobile device called the Morphorider,
+which is equipped with a 3A3M-sensor node and an odometer
+for distance tracking."
+  affiliations:
+    - id: 1
+      name: "CEA, LETI, MINATEC Campus, Université Grenoble Alpes"
+    - id: 2
+      name: "Université Grenoble Alpes, CNRS (Laboratoire Jean Kuntzmann), INRIA"
+  bibtex:
+      title: "Morphorider: Acquisition and Reconstruction of 3D Curves with Mobile Sensors"
+      authors:
+          - last : Stanko
+            first: Tibor
+            url  : "https://tiborstanko.sk"
+            affiliation:
+              - id: 1
+              - id: 2
+          - last : Saguin-Sprynski
+            first: Nathalie
+            affiliation:
+              - id: 1
+          - last : Jouanet
+            first: Laurent
+            affiliation:
+              - id: 1
+          - last : Hahmann
+            first: Stefanie
+            url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
+            affiliation:
+              - id: 2
+          - last : Bonneau
+            first: Georges-Pierre
+            url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
+            affiliation:
+              - id: 2
+      journal  : "Proc. IEEE Sensors 2017"
+      publisher: IEEE
+      month    : 11
+      year     : 2017
+
 
 - type: article
   front: true
   slug: "Stanko:2017:SMI"
   stitle: 'Shape from sensors' # short title for <title>
   description: "Computers &amp; Graphics (Proc. SMI 2017)"
-  award: "Best Paper Award"
+  award: "SMI'17 Best Paper Award"
   NO_gif: smi2017/anim
   pdf:
       file: smi2017/shape-sensors
@@ -127,7 +185,7 @@ fidelity and allows to achieve globally smooth and visually pleasing shapes."
       year     : 2016
       doi      : 10.1016/j.cag.2016.07.001
 
-
+################################################################################
 - type: inproceedings
   front: true
   slug: "Stanko:2016:EG"
