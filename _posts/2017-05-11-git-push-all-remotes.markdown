@@ -3,7 +3,7 @@ layout      : post
 title       : Push to all git remotes at once
 date        : 2017-05-11 00:00:00
 permalink   : git-push-all-remotes.html
-category    : git
+category    : cmd
 ---
 ```bash
 git remote | xargs -L1 git push --all
