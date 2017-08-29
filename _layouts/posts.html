@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign sortedcats = site.categories | sort %}
 {% assign hstyle = "2" %}
 <div class="row">
     <div class="col-md-9">
@@ -23,20 +24,49 @@ layout: default
     </div>
 
     <div class="col-md-3">
-        <ul class="category-title">
-            <li style="font-size:200%;" class="all">{% if page.category %}<a href="/posts/">all</a>
-            {% else %}<span>all</span>{% endif %} 
-            ({{ site.posts | size }}) </li>
-            {% for c in site.categories %}
-            <li style="font-size: {{ c | last | size | times: 300 | divided_by: site.categories.size | plus: 70 }}%">
-            {% if c[0] == page.category %}
-            <span>{{ c[0] | replace: "-", " " }}</span>
-            {% else %}
-            <a href="/posts/{{ c[0] }}/">{{ c[0] | replace: "-", " " }}</a>
-            {% endif %}
-            ({{ c[1].size }})
-            </li>
-            {% endfor %}
-        </ul>
+
+      <h3 style="margin:1em 0 0;color:#999;">categories</h3>
+      <ul style="margin:0;" class="category-title">
+        <li style="font-size:200%;" class="all">{% if page.category %}<a href="/posts/">all</a>
+        {% else %}<span>all</span>{% endif %}
+        ({{ site.posts | size }}) </li>
+        {% for c in sortedcats %}
+        <li style="font-size: {{ c | last | size | times: 200 | divided_by: site.categories.size | plus: 70 }}%">
+        {% if c[0] == page.category %}
+        <span>{{ c[0] | replace: "-", " " }}</span>
+        {% else %}
+        <a href="/posts/{{ c[0] }}/">{{ c[0] | replace: "-", " " }}</a>
+        {% endif %}
+        ({{ c[1].size }})
+        </li>
+        {% endfor %}
+      </ul>
+
+      <h3 style="margin:1em 0 0;color:#999;">{% if page.category %}posts in [{{ page.category }}]{% else %}all posts{% endif %}</h3>
+      <ul style="margin:0;" class="category-title" style="line-height:1.25em;">
+        {% for post in site.posts %}
+        {% unless page.category and post.category != page.category %}
+        <li style="
+          padding:0.5ex 0 0;
+          margin:0 0 0.25ex;
+          font-size:90%;
+          display:inline-block;
+          width:100%;
+          white-space: nowrap;
+          overflow:hidden;
+          text-overflow: ellipsis;
+          border-top:1px dashed #ccc;
+          ">
+          <small style="font-size:75%;font-family:monospace">
+            <span style="color:#333;">{{ post.date | date: "%Y %b %d" }}</span>
+            in
+            <span style="color:#555;">{{ post.category | replace: "-", " " }}</span>
+          </small>
+          <br/>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endunless %}
+        {% endfor %}
+      </ul>
     </div>
 </div>
