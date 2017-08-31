@@ -2,11 +2,11 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import 'https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Fira+Sans:300,400|Encode Sans:300,400';
 
-$header-font: 'Josefin Sans';
-//$header-font: 'Open Sans';
-$base-font: 'Open Sans';
+$header-font: 'Fira Sans';
+$header-font-weight: 300;
+$base-font  : 'Encode Sans';
 
 // Our variables
 $base-font-family: $base-font, sans-serif;
@@ -21,12 +21,11 @@ $palm-font-size:   100%;
 $spacing-unit:     30px;
 $main-spacing-unit:50px;
 
-$text-color:       #111;
 $background-color: #fff;
 $brand-color:      #1f87ea;
 
 // Headings
-$h1-size: 220%; $h1-margin: 0.75em 0 0; $h1-color: #999;
+$h1-size: 220%; $h1-margin: 0.75em 0 0; $h1-color: #666;
 $h2-size: 180%; $h2-margin: 0.75em 0 0; $h2-color: #333;
 $h3-size: 160%; $h3-margin: 0.75em 0 0; $h3-color: #111;
 $h4-size: 140%; $h4-margin: 0.75em 0 0; $h4-color: #666;
@@ -38,7 +37,8 @@ $visited-color:    $brand-color;
 // Grey colors
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark:  darken($grey-color,  20%);
+$text-color:       $grey-color-dark;
 
 // Footer
 $footer-text:    #666;

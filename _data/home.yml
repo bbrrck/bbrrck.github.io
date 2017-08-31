@@ -1,5 +1,5 @@
 photo: '/assets/apple.jpg'
-intro: '<h2>Hello there!</h2>
+intro: '<p>Hello there !</p>
 <p>I’m Tibor, a third-year PhD student @
 <a title="official site" href="http://www-leti.cea.fr/en">CEA-Leti</a> in Grenoble,
 and a member of the
@@ -15,5 +15,5 @@ under the supervision of
 <a title="researchgate profile" href="https://www.researchgate.net/profile/Pavel_Chalmoviansky">Pavel Chalmovianský</a>.
 </p>
 <p>My doctoral thesis is about <em>shape from sensors</em> — have a look at <a title="Tibor’s publications" href="/publications/">my publications</a> for more details.</p>
-<p>I occasionally blog, mostly about <a title="Tibor’s blog in English" href="/posts/">things</a> and <a title="2pattes, Tibor and Lujza’s blog in Slovak" href="/posts/">stuff</a>.</p>
+<p>I occasionally blog, mostly about <a title="Tibor’s blog in English" href="/posts/">things</a> and <a title="2pattes, Tibor and Lujza’s blog in Slovak" href="http://2pattes.tiborstanko.sk/">stuff</a>.</p>
 '

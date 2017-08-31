@@ -33,9 +33,9 @@ layout: page
 </div>
 {% for news in allnews limit:5 %}
   <div class="row news" style="margin-top:0.25em;">
-    <div class="col-md-2 col-sm-2 col-xs-12 news-date" style="color:#666;text-align:right;">
-    {{ news.date | date: "%d %b %y " }}</div>
-    <div class="col-md-10 col-sm-10 col-xs-12 news-content">
+    <div class="col-md-2 col-sm-3 col-xs-12 news-date">
+    {{ news.date | date: "%B %d, %Y " }}</div>
+    <div class="col-md-10 col-sm-9 col-xs-12 news-content">
     {{ news.text }}</div>
   </div>
 {% endfor %}

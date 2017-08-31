@@ -17,12 +17,20 @@ ul.syllabus, ol.syllabus {
     line-height:1.6;
     margin:0;
     color:#666;
+    li {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
     .date {
         color: #999;
-        font-family: monospace;
+        //font-family: monospace;
+        display: inline-block;
+        width:3em;
+        text-align:right;
         margin-right: 0.2em;
-        &:before {content: "(";}
-        &:after {content: ")";}
+        //&:before {content: "(";}
+        //&:after {content: ")";}
     }
 }
 ol.syllabus {
@@ -167,8 +175,8 @@ article {
     }
 }
 
-.teaching-deadline {font-weight:bold;color:#c00;margin:0.5em 0 1em;font-size:100%;}
-.teaching-news     {font-weight:bold;color:#082;margin:0.5em 0 1em;font-size:100%;}
+.teaching-deadline {color:#c00;margin:0.5em 0 1em;font-size:100%;}
+.teaching-news     {color:#082;margin:0.5em 0 1em;font-size:100%;}
 
 .img2grid {width:100%;text-align:center;img, video{width:45%;margin:1%;float:left;}}
 .img3grid {width:100%;text-align:center;img{width:30%;margin:1%;float:left;}}

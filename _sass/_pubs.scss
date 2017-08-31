@@ -11,7 +11,7 @@ $talk-color: rgba(120,255,255,0.25);
   }
 }
 .publication {
-  font-size: 110%;
+  font-size: 100%;
   //&.article      {.description{background-color:$artc-color;}}
   //&.inproceedings{.description{background-color:$conf-color;}}
   //&.masterthesis {.description{background-color:$thss-color;}}
@@ -21,11 +21,11 @@ $talk-color: rgba(120,255,255,0.25);
     clear: both;
     display: table;
   }
-  margin: 1em 0 2em;
+  margin: 1em 0 3em;
   img {
     width: 100%;
     max-width: 10em;
-    float:right;
+    float:left;
     margin-right:-0.1em;
   }
   .pub-content {
@@ -36,20 +36,20 @@ $talk-color: rgba(120,255,255,0.25);
       &:active {}
     }
     .description {
-      color:#333;
+      color:$grey-color-dark;
       display:inline-block;
       //margin: 0.05em 0 0.25em;
       //padding:0.20em 0.5em 0;
       font-style:italic;
     }
     .title {
-      font-weight: 400;
       color: #111;
       display: block;
       margin: 0;
       line-height:150%;
-      font-size:133%;
+      font-size:120%;
       font-family: $header-font-family;
+      font-weight: $header-font-weight;
     }
     .advisor:before {
       content: "advised by ";
