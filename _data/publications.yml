@@ -2,10 +2,11 @@
 #########
 # PAPERS
 #########
-- type: article
+- type: inproceedings
   front: true
   slug: "Stanko:2017:IEEESensors"
   stitle: 'Morphorider' # short title for <title>
+  wtitle: 'Morphorider: Acquisition &amp; Reconstruction of 3D Curves with Mobile Sensors'
   description: "IEEE Sensors 2017"
   pdf:
       file: mrider-2017-sensors

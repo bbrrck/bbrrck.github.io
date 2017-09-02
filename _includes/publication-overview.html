@@ -9,7 +9,7 @@
     <div class="pub-content col-md-10 col-sm-8 col-xs-12">
         <div class="title">
         {% if pub.ppage %}<a href="/publications/{{ pub.ppage }}">{% endif %}
-        {{ pub.bibtex.title }}
+        {% if pub.wtitle %}{{ pub.wtitle }}{% else %}{{ pub.bibtex.title }}{% endif %}
         {% if pub.ppage %}</a>{% endif %}
         </div>
         <div class="authors">{% for author in pub.bibtex.authors %}{% if author.last == 'StankoDEBUG' %}TS{% else %}{% if author.url %}{% unless author.last=="Stanko" %}<a href="{{ author.url }}">{% endunless %}{% endif %}
@@ -19,25 +19,25 @@
         {% if pub.advisor %}<div class="advisor"><a href="{{ pub.advisor.url }}">{{ pub.advisor.name }}</a></div>{% endif %}
         <div class="links">
             {% if pub.award %}
-                [ <span style="color:red;">{{ pub.award }}</span> ]
+                <span class="pub-braces"><span class="pub-award">{{ pub.award }}</span></span>
             {% endif %}
             {% if pub.ppage %}
-                [ <a href="/publications/{{ pub.ppage }}">project page</a> ]
+                <span class="pub-braces"><a href="/publications/{{ pub.ppage }}">project page</a></span>
             {% endif %}
             {% if pub.pdf %}
-                [ <a href="/assets/{{ pub.pdf.file }}.pdf">{{ pub.pdf.type }}</a> ~ {{ pub.pdf.size }} MB ]
+                <span class="pub-braces"><a href="/assets/{{ pub.pdf.file }}.pdf">{{ pub.pdf.type }}</a>&nbsp;~&nbsp;{{ pub.pdf.size }}&nbsp;MB</span>
             {% endif %}
             {% if pub.bibtex.doi %}
-            [ <a title="Link to publisher's site" href="https://doi.org/{{ pub.bibtex.doi }}">pub</a> ]
+                <span class="pub-braces"><a title="Link to publisher's site" href="https://doi.org/{{ pub.bibtex.doi }}">pub</a></span>
             {% endif %}
             {% unless pub.type=='talk' %}{% if pub.pdf %}
             <div class="bibtex">
-                [ <a rel="bibtex-{{ pub.pdf.slug }}">bib</a> ]
-                <pre id="bibtex-{{ pub.pdf.slug }}">{% include bibtex.html %}</pre>
+                <span class="pub-braces"><a rel="bibtex-{{ pub.pdf.slug }}">bib</a></span>
+                <div class="bibtex-wrapper"><pre id="bibtex-{{ pub.pdf.slug }}">{% include bibtex.html %}</pre></div>
             </div>
             {% endif %}{% endunless %}
             {% if pub.url %}
-                [ <a href="{{ pub.url }}">www</a> ]
+                <span class="pub-braces"><a href="{{ pub.url }}">www</a></span>
             {% endif %}
         </div>
     </div>

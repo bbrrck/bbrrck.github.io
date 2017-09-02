@@ -12,9 +12,15 @@
   font-size: 200%;
   font-family: $header-font-family;
   font-weight: $header-font-weight;
+  font-variant:$header-font-variant;
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $site-title-color;
+  }
+  &:hover,
+  &:visited:hover {
+    text-decoration: none;
+    color: lighten($site-title-color, 25%);
   }
 }
 .site-nav {
@@ -40,7 +46,7 @@
 }
 .site-footer {
   color: $footer-text;
-  font-size: 90%;
+  font-size: 80%;
   margin: 4em 0 0;
   padding: 1em 0;
   ul {
@@ -74,11 +80,19 @@
   }
 }
 .news-date {
-  color:#666;
-  text-align:right;
-  font-size:80%;
-  padding-top:0.25em;
+  color:#999;
+  text-align:left;
+  font-family: $header-font-family;
+  font-weight: $header-font-weight;
+  font-variant:$header-font-variant;
 }
 .news-content {
 
+}
+.avatar {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  max-width: 300px;
+  width: 100%;
 }

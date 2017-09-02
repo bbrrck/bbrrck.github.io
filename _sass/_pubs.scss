@@ -1,21 +1,15 @@
-$artc-color: rgba(255,120,  0,0.25);
-$conf-color: rgba( 50,255, 50,0.25);
-$thss-color: rgba(120,120,120,0.10);
-$talk-color: rgba(120,255,255,0.25);
 .publication-section{
   h2 {
-    margin:1em 0 0.5em;
-    //padding:0.25em 0.5em;
-    color: #666;
-    font-variant:small-caps;
+    color: #ccc;
+    margin: 1em 0;
+    font-family: $header-font;
+    font-weight: $header-font-weight;
+    font-variant: $header-font-variant;
   }
 }
+.pub-award { color: rgb(255,100,0); }
 .publication {
   font-size: 100%;
-  //&.article      {.description{background-color:$artc-color;}}
-  //&.inproceedings{.description{background-color:$conf-color;}}
-  //&.masterthesis {.description{background-color:$thss-color;}}
-  //&.talk         {.description{background-color:$talk-color;}}
   &:after {
     content: "";
     clear: both;
@@ -30,16 +24,21 @@ $talk-color: rgba(120,255,255,0.25);
   }
   .pub-content {
     .authors a, .advisor a {
+      color: $text-color;
+      text-decoration: underline;
       &:link,
       &:visited,
       &:hover,
       &:active {}
+      &:hover,
+      &:visited:hover {
+        border-bottom-width: 0px;
+        text-decoration: none;
+      }
     }
     .description {
       color:$grey-color-dark;
       display:inline-block;
-      //margin: 0.05em 0 0.25em;
-      //padding:0.20em 0.5em 0;
       font-style:italic;
     }
     .title {
@@ -47,9 +46,12 @@ $talk-color: rgba(120,255,255,0.25);
       display: block;
       margin: 0;
       line-height:150%;
-      font-size:120%;
-      font-family: $header-font-family;
-      font-weight: $header-font-weight;
+      font-size: 100%;
+      //font-family: $header-font;
+      //font-weight: $header-font-weight;
+      //font-variant: $header-font-variant;
+      font-weight: 500;
+      letter-spacing: -1px;
     }
     .advisor:before {
       content: "advised by ";
@@ -60,34 +62,40 @@ $talk-color: rgba(120,255,255,0.25);
       padding: 0.05em 0;
     }
     .links {
+      position: relative;
       color: $grey-color;
       margin-top:0.25em;
+      .pub-braces {
+          padding: 0 0.1em 0 0;
+          &:before {content:"[\00a0"}
+          &:after  {content:"\00a0]"}
+        }
       .bibtex {
         line-height:110%;
-        position: relative;
         display: inline-block;
         textarea {display: none;}
         pre {
-          position: absolute;
-          top: 0;
-          left: 110%;
-          z-index: 999;
-          color: $text-color;
-          border: 1px solid #ccc;
-          opacity: 0;
-          visibility: hidden;
-          transition: opacity 0.25s linear, visibility 0.25s linear;
-        }
-        & pre {
-          font-size: 90%;
+          background-color:#fcfcfc;
+          border:1px solid #ccc;
+          color:#666;
+          font-size:80%;
           letter-spacing:-1px;
           line-height:1.1;
-          padding: 0.5em;
-          margin-left:-0.5em;
+          width: 40em;
+          max-width:100%;
+          opacity:0;
+          padding:0.5em;
+          position:absolute;
+          right:0;
+          top:1.5em;
+          transition: opacity 0.25s linear, visibility 0.25s linear;
+          visibility: hidden;
+          z-index: 999;
         }
+
         &:hover pre {
           visibility: visible;
-          opacity: 0.95;
+          opacity: 0.92;
         }
       }
     }

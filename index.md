@@ -2,19 +2,20 @@
 layout: page
 ---
 <div class="row">
-<div class="col-sm-4">
-  <img src="{{ site.data.home.photo }}" alt="me with an apple" />
+<div class="col-xs-12">
+  <p>Hello there !</p>
 </div>
 <div class="col-sm-8">
     {{ site.data.home.intro }}
 </div>
+<div class="col-sm-4">
+  <img class="avatar" src="{{ site.data.home.photo }}" alt="labiaci" />
 </div>
-
-
+</div>
 
 {% assign papers = (site.data.publications | sort: 'date' | where:"front",true ) %}
 <div class="row">
-  <div class="col-sm-12">
+  <div class="col-xs-12">
     <h2 style="margin-top:2em;">Latest papers</h2>
     <a style="font-size:90%;display:inline-block;margin-left:0.5em;" href="/publications/">see all publications</a>
   </div>
@@ -22,8 +23,6 @@ layout: page
 {% for pub in papers limit:2 %}
   {% include publication-overview.html %}
 {% endfor %}
-
-
 
 {% assign allnews = (site.data.news  | sort: 'date' | reverse) %}
 <div class="row">
@@ -33,9 +32,9 @@ layout: page
 </div>
 {% for news in allnews limit:5 %}
   <div class="row news" style="margin-top:0.25em;">
-    <div class="col-md-2 col-sm-3 col-xs-12 news-date">
-    {{ news.date | date: "%B %d, %Y " }}</div>
-    <div class="col-md-10 col-sm-9 col-xs-12 news-content">
+    <div class="col-md-2 col-sm-3 news-date">
+    {{ news.date | date: "%b %d, %Y " }}</div>
+    <div class="col-md-10 col-sm-9 news-content">
     {{ news.text }}</div>
   </div>
 {% endfor %}

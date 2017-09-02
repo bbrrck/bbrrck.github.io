@@ -10,8 +10,11 @@ future: false
 exclude: [vendor]
 permalink: none
 markdown: kramdown
+
 highlighter: rouge
+
 bibindent: "  "
+
 twitter_username: tiborstanko
 github_username:  bbrrck
 lastfm_username: boberr
@@ -20,11 +23,26 @@ instagram_username : bbrrck
 linkedin_cc: sk
 linkedin_username: tiborstanko
 
+gems:
+  - jekyll-paginate-v2
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/:num/'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 # Navigation
 links:
 - url: /publications/
   title: publications
-- url: /teaching/
-  title: teaching
 - url: /posts/
   title: blog
+- url: /teaching/
+  title: teaching

@@ -1,6 +1,7 @@
 ---
 layout: posts
-permalink: /posts/
+permalink: posts/all/
+category: all
 pagination:
   enabled: true
 ---

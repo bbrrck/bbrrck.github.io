@@ -1,0 +1,172 @@
+ul.teaching-list {
+  list-style-type:none;
+  list-style-position:inside;
+  margin: 0;
+  padding: 0;
+  li {
+    padding: 0.5em 0 0 0.5em;
+  }
+}
+div.syllabus-wrapper {
+  padding: 0 0 2em 1em;
+}
+ul.syllabus, ol.syllabus {
+  font-size: 90%;
+  margin: 0 0 0 1em;
+  line-height: 1.6;
+  margin: 0;
+  color: #666;
+  li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .date {
+    color: #999;
+    font-family: $header-font-family;
+    font-weight: $header-font-weight;
+    font-variant: $header-font-variant;
+    display: inline-block;
+    width: 3em;
+    text-align: right;
+    margin-right: 0.2em;
+  }
+}
+ol.syllabus {
+  padding-left: 0.5em;
+}
+ul.syllabus {
+  list-style-type: none;
+  list-style-position: outside;
+}
+/* Main course page */
+article.course {
+  h1 a {
+    // course code, link to course info, small
+    margin-left: .5em;
+    font-size: 40%;
+  }
+  h2 {
+    padding: 0.6em 0 0.4em 0;
+  }
+  ul {
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0 0 0 1em;
+    &.criteria {
+      list-style-type: square;
+    }
+    &.submissions {
+      list-style-type: square;
+    }
+    .title {
+      display: inline-block;
+      margin-left: .5em;
+    }
+    li.break {
+      .date {
+        text-decoration: line-through;
+      }
+      .title {
+        color: #777;
+        font-size: 80%;
+      }
+    }
+  }
+}
+/* Single TP page */
+article.travauxpratiques {
+  .content {
+    h2 {
+      margin: 1.5em 0 0.5em;
+    }
+    h2:first-child {
+      margin-top: 1em;
+    }
+    ul, ol {
+      margin: 0 2em;
+      list-style-position: outside;
+      &.assignements {
+        margin: 1em 0;
+        padding: 1em 0;
+        border-style: solid;
+        border-color: #ccc;
+        border-width: 1px 0;
+      }
+      &.assignements li {
+        margin: 0.5em 0;
+        &:nth-of-type(2n) {
+          color: #444;
+        }
+      }
+      &.resources {
+        list-style-type: lower-roman;
+      }
+    }
+    .lightblue {
+      color: $brand-color;
+    }
+    figure {
+      width: 100%;
+      margin: 0.5em auto 1em;
+      text-align: center;
+      padding: 1em;
+      img {
+        display: inline-block;
+        width: 25em;
+        max-width: 100%;
+      }
+      div.title {
+        display: block;
+        font-style: italic;
+        background-color: #fff;
+        padding: 0.5em 1em 0;
+      }
+      &.highlight {
+        text-align: left;
+        padding: 0;
+        margin: 0.5em;
+      }
+    }
+    ul.algorithm {
+      padding: 1em 0.5em 0.2em;
+      margin: 0 0 1em;
+      background-color: #f5f2f0;
+      list-style-type: none;
+      li {
+        clear: both;
+      }
+      .algo-part {
+        display: block;
+        font-family: monospace;
+        color: $brand-color;
+      }
+      .algo-content {
+        display: block;
+        padding: 0.5em 1em 1em;
+        line-height: 2em;
+      }
+    }
+  }
+}
+.teaching-deadline {color:#c00;margin:0.5em 0 1em;font-size:100%;}
+.teaching-news     {color:#082;margin:0.5em 0 1em;font-size:100%;}
+.img2grid {width:100%;text-align:center;img, video{width:45%;margin:1%;float:left;}}
+.img3grid {width:100%;text-align:center;img{width:30%;margin:1%;float:left;}}
+.img4grid {width:100%;text-align:center;clear:both;img{width:21%;margin:1%;float:left;}}
+.img5grid {width:100%;text-align:center;clear:both;img{width:17%;margin:1%;float:left;}}
+.table50{width:50%;text-align:left;font-family:monospace;}
+.center {text-align:center;}
+.img100 {text-align:center; img{width:100px; max-width:100%;}}
+.img200 {text-align:center; img{width:200px; max-width:100%;}}
+.img300 {text-align:center; img{width:300px; max-width:100%;}}
+.img400 {text-align:center; img{width:400px; max-width:100%;}}
+.img500 {text-align:center; img{width:500px; max-width:100%;}}
+.img600 {text-align:center; img{width:600px; max-width:100%;}}
+.img700 {text-align:center; img{width:700px; max-width:100%;}}
+.img800 {text-align:center; img{width:800px; max-width:100%;}}
+.img900 {text-align:center; img{width:900px; max-width:100%;}}
+.imgfull{text-align:center; img{width:100%;  max-width:100%;}}
+.imgCaption {clear:both;text-align:center;font-style:italic;padding: 0.5em 1em 1em;}
+.img100H {text-align:center; img{height:100px; max-width:100%;}}
+.img2gridH {width:100%;text-align:center;img, video{height:250px;margin:1%;}}

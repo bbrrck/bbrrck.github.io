@@ -1,12 +1,12 @@
 ---
-- name: papers
+- name: Papers
   types:
     - inproceedings
     - article
-- name: talks 
+- name: Talks
   types:
     - talk
-- name: theses
+- name: Theses
   types:
     - masterthesis
     - phdthesis

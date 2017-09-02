@@ -2,11 +2,13 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import 'https://fonts.googleapis.com/css?family=Fira+Sans:300,400|Encode Sans:300,400';
+@import 'https://fonts.googleapis.com/css?family=Fira+Sans:300,400|Encode+Sans:400,500';
 
-$header-font: 'Fira Sans';
-$header-font-weight: 300;
-$base-font  : 'Encode Sans';
+$header-font:         'Fira Sans';
+$header-font-weight:  400;
+$header-font-variant: normal;
+$base-font:           'Encode Sans';
+$base-font-weight:    400;
 
 // Our variables
 $base-font-family: $base-font, sans-serif;
@@ -23,6 +25,7 @@ $main-spacing-unit:50px;
 
 $background-color: #fff;
 $brand-color:      #1f87ea;
+$site-title-color: $brand-color;
 
 // Headings
 $h1-size: 220%; $h1-margin: 0.75em 0 0; $h1-color: #666;
@@ -59,5 +62,6 @@ $quote-visited: $quote-link;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base",
         "layout",
-        "article",
+        "blog",
+        "teaching",
         "pubs";
