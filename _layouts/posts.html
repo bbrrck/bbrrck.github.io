@@ -49,7 +49,7 @@ layout: default
 
     <!-- ACTUAL POSTS -->
     <div class="col-xs-12">
-      {% for post in paginator.posts %}
+      {% for post in site.posts %}{% comment %} for post in paginator.posts {% endcomment %}
       {% unless page.category and post.category != page.category %}
         {% assign title = post.title %}
         {% assign url = post.url %}
