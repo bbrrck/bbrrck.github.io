@@ -33,6 +33,7 @@ exclude:
 
 pagination:
   enabled: true
+  debug: false
   per_page: 5
   permalink: '/:num/'
   limit: 0
