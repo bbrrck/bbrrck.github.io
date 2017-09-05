@@ -25,26 +25,26 @@ layout: default
       </ul>
     </div>
     {% else %}
-      {% if paginator.total_pages > 1 %}
       <div class="col-xs-12">
       <ul id="blog-page">
-        {% if paginator.previous_page %}
-        <li class="blog-page-newer">
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&larr;&nbsp;newer</a>
-        </li>
-        {% endif %}
-        <!-- &nbsp;{{ paginator.page }}&nbsp; -->
-        {% if paginator.next_page %}
-        <li class="blog-page-older">
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">older&nbsp;&rarr;</a>
-        </li>
+
+        {% if paginator.total_pages > 1 %}
+          {% if paginator.previous_page %}
+          <li class="blog-page-newer">
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&larr;&nbsp;newer</a>
+          </li>
+          {% endif %}
+          {% if paginator.next_page %}
+          <li class="blog-page-older">
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">older&nbsp;&rarr;</a>
+          </li>
+          {% endif %}
         {% endif %}
         <li>
           <a href="/posts/all/">all posts</a>
         </li>
       </ul>
       </div>
-      {% endif %}
     {% endif %}
 
     {% unless page.category %}
