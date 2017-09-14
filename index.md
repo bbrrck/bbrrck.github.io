@@ -13,7 +13,7 @@ layout: page
 </div>
 </div>
 
-{% assign papers = (site.data.publications | sort: 'date' | where:"front",true ) %}
+{% assign papers = site.data.publications | where:"front",true | sort: 'date' %}
 <div class="row">
   <div class="col-xs-12">
     <h2 style="margin-top:2em;">Latest papers</h2>
@@ -24,7 +24,7 @@ layout: page
   {% include publication-overview.html %}
 {% endfor %}
 
-{% assign allnews = (site.data.news  | sort: 'date' | reverse) %}
+{% assign allnews = site.data.news | sort: 'date' | reverse %}
 <div class="row">
   <div class="col-sm-12">
     <h2 style="margin-top:1em;">News</h2>
@@ -39,7 +39,7 @@ layout: page
   </div>
 {% endfor %}
 
-{% assign posts = (site.posts  | sort: 'date' | reverse) %}
+{% assign posts = site.posts | sort: 'date' | reverse %}
 <div class="row">
   <div class="col-sm-12">
     <h2 style="margin-top:2em;">Latest posts</h2>

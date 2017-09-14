@@ -23,9 +23,6 @@ instagram_username : bbrrck
 linkedin_cc: sk
 linkedin_username: tiborstanko
 
-gems:
-  - jekyll-paginate-v2
-
 exclude:
   - Gemfile
   - Gemfile.lock
