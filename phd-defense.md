@@ -1,4 +1,3 @@
-
 ---
 layout: page
 permalink: phd-defense.html
