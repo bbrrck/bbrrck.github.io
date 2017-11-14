@@ -56,7 +56,11 @@ layout: default
         {% assign url = post.url %}
         {% assign date = post.date %}
         {% assign category = post.category %}
-        {% assign content = post.content %}
+        {% if post.has_excerpt %}
+            {% assign content = post.excerpt %}
+        {% else %}
+            {% assign content = post.content %}
+        {% endif %}
         <article class="multiple blog post">
             {% include post-layout.html %}
         </article>

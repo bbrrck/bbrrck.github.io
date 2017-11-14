@@ -1,5 +1,7 @@
 <h{{ hstyle }} class="post-title">
-    <a href="{{ url | prepend: site.baseurl }}">{{ title }}</a>
+  {% if page.layout=='posts' %}<a href="{{ url | prepend: site.baseurl }}">{{ title }}</a>
+  {% else %}{{ title }}
+  {% endif %}
 </h{{ hstyle }}>
 <div class="meta">
     <span class="date">{{ date | date: "%b %-d, %Y" }}</span>
@@ -9,6 +11,7 @@
     </span>
 {% endif %}
 </div>
-<div class="content">
+<div class="content {% if post.has_excerpt %} excerpt{% endif %}">
     {{ content }}
 </div>
+{% if post.has_excerpt" %} <a href="{{ url | prepend: site.baseurl }}">&laquo; read more &raquo;</a>{% endif %}

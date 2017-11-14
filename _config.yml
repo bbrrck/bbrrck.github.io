@@ -10,11 +10,8 @@ future: false
 exclude: [vendor]
 permalink: none
 markdown: kramdown
-
 highlighter: rouge
-
 bibindent: "  "
-
 twitter_username: tiborstanko
 github_username:  bbrrck
 lastfm_username: boberr
@@ -22,12 +19,10 @@ goodreads_username: 6403898-tibor-stanko
 instagram_username : bbrrck
 linkedin_cc: sk
 linkedin_username: tiborstanko
-
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-
 pagination:
   enabled: true
   debug: false
@@ -36,7 +31,6 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
-
 # Navigation
 links:
 - url: /publications/
