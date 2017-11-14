@@ -12,14 +12,12 @@ permalink: phd-defense.html
 <!--p><em>Reconstruction de surfaces lisses maillées à partir de capteurs inertiels</em></p-->
 </div>
 
-<p><strong>date:</strong> 8 december at 14h00</p>
-<p>
-<strong>place:</strong> room C203, 
+<div>  <strong>date:</strong> 8 december at 14h00
+<br /> <strong>place:</strong> room C203, 
 <a href="https://www.inria.fr/en/centre/grenoble/overview/local-inria-office-grenoble-giant">Local Inria office Grenoble - GIANT</a> 
 (Minatec Campus)
-</p>
-<p><strong>language:</strong> English</p>
-<p><strong>composition of the jury:</strong></p>
+<br /> <strong>language:</strong> English</p>
+<br /> <strong>composition of the jury:</strong>
 <ul>
 <li>Mario BOTSCH, Professeur, Universität Bielefeld, reviewer</li>
 <li>Adrien BOUSSEAU, Chargé de Recherche HDR, Inria Sophia-Antipolis, reviewer</li> 
@@ -28,6 +26,7 @@ permalink: phd-defense.html
 <li>Georges-Pierre BONNEAU, Professeur, Université Grenoble Alpes, LJK/Inria, thesis co-director</li>
 <li>Nathalie SAGUIN-SPRYNSKI, Ingénieur de Recherche, CEA Grenoble, thesis supervisor</li>
 </ul>
+</div>
 
 <p>
 Since access to C203 is restricted, <strong>you need to be registered in order to participate at the defense</strong>.
