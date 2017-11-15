@@ -21,6 +21,7 @@ byzanz-record --duration=12 --x=725 --y=365 --width=487 --height=375 out.gif
 Animation of Chaikin curve subdivision scheme captured with byzanz.
 
 On [Fedora](https://fedoraproject.org/wiki/ScreenCasting#Byzanz), byzanz can be installed from the official [repo](https://apps.fedoraproject.org/packages/byzanz).
+
 ```bash
 sudo dnf install byzanz
 ```

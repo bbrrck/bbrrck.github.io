@@ -1,7 +1,5 @@
 <h{{ hstyle }} class="post-title">
-  {% if page.layout=='posts' %}<a href="{{ url | prepend: site.baseurl }}">{{ title }}</a>
-  {% else %}{{ title }}
-  {% endif %}
+  <a href="{{ url | prepend: site.baseurl }}">{{ title }}</a>
 </h{{ hstyle }}>
 <div class="meta">
     <span class="date">{{ date | date: "%b %-d, %Y" }}</span>

@@ -19,7 +19,8 @@ The following code is my attempt for a fast and compact Matlab implementation of
 
 <!--more-->
 
-<pre><code class="language-matlab">%% compute and display a Bézier surface
+```matlab
+%% compute and display a Bézier surface
 samples = 100;
 dim     = 3;
 % teapot data from http://www.holmes3d.net/graphics/teapot/
@@ -89,4 +90,4 @@ function patches = readBPT(filename,dim)
     end
     fclose(file);
 end
-</code></pre>
+```

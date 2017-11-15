@@ -11,11 +11,13 @@ excerpt_separator: <!--more-->
 When searching for ways to compress the size of a ~50MB paper pdf,
 I've discovered the following ghostscript command
 ([askUbuntu](https://askubuntu.com/a/256449/181265), [TeX StackExchange](https://tex.stackexchange.com/a/19047/45772))
+
 ```bash
 gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=compressed.pdf original.pdf
 ```
 
 Argument of `-dPDFSETTINGS` can be any of:
+
 ```bash
 -dPDFSETTINGS=/screen   # lower quality, smaller size.
 -dPDFSETTINGS=/ebook    # for better quality, but slightly larger pdfs.

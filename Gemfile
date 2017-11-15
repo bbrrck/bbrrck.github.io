@@ -21,7 +21,9 @@ gem "github-pages", group: :jekyll_plugins
 source 'https://rubygems.org'
 
 group :jekyll_plugins do
-  gem "jekyll-paginate-v2", "~> 1.7"
+  gem 'jekyll-paginate'
+#  gem "jekyll-paginate-v2", "~> 1.7"
+#  gem 'octopress-paginate'
 end
 
 gem "html-proofer"

@@ -1,50 +1,23 @@
 # Site settings
-title: Tibor Stanko
+baseurl: ""
+description: "music, maths &amp; webdesign."
 email: "&#116;&#105;&#098;&#111;&#114;&#046;&#115;&#116;&#097;&#110;&#107;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
 emailall: "&#116;&#105;&#098;&#111;&#114;&#046;&#115;&#116;&#097;&#110;&#107;&#111;&#032;&#064;&#032;{&#032;&#105;&#110;&#114;&#105;&#097;,&#032;&#099;&#101;&#097;,&#032;&#117;&#110;&#105;&#118;&#045;&#103;&#114;&#101;&#110;&#111;&#098;&#108;&#101;&#045;&#097;&#108;&#112;&#101;&#115;&#032;}&#032;&#046;&#032;&#102;&#114;"
-description: "music, maths &amp; webdesign."
-baseurl: ""
-url: https://tiborstanko.sk # the base hostname & protocol for your site
 enforce_ssl: tiborstanko.sk # without any protocol
-future: false
-exclude: [vendor]
-permalink: none
-
-markdown: kramdown
-highlighter: rouge
-
-bibindent: "  "
-twitter_username: tiborstanko
-github_username:  bbrrck
-lastfm_username: boberr
-goodreads_username: 6403898-tibor-stanko
-instagram_username : bbrrck
-linkedin_cc: sk
-linkedin_username: tiborstanko
 exclude:
+  - [vendor]
   - Gemfile
   - Gemfile.lock
   - vendor
-
-#paginate: nil
-#paginate_path: nil
-
-# https://github.com/mmistakes/minimal-mistakes/issues/1240#issuecomment-335158604
-whitelist:
-  - jekyll-paginate-v2
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-pagination:
-  enabled: true
-  debug: false
-  per_page: 5
-  permalink: '/:num/'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+future: false
+highlighter: rouge
+markdown: kramdown
+paginate: 5
+paginate_path: /posts/:num/
+permalink: none
+safe: true
+title: Tibor Stanko
+url: https://tiborstanko.sk # the base hostname & protocol for your site
 
 # Navigation
 links:
@@ -54,3 +27,13 @@ links:
   title: blog
 - url: /teaching/
   title: teaching
+
+# Bib + Social nets
+bibindent: "  "
+twitter_username: tiborstanko
+github_username:  bbrrck
+lastfm_username: boberr
+goodreads_username: 6403898-tibor-stanko
+instagram_username : bbrrck
+linkedin_cc: sk
+linkedin_username: tiborstanko
