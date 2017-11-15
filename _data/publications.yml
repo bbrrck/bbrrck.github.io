@@ -222,11 +222,7 @@ fidelity and allows to achieve globally smooth and visually pleasing shapes."
 - type: inproceedings
   front: true
   description: "CESCG 2014"
-  slug     : "Stanko:2014:CESCG"
-  advisor:
-      name: "Pavel Chalmovianský"
-      url : "http://www.sccg.sk/~chalmo/"
-  url: "http://old.cescg.org/CESCG-2014/"
+  slug: "Stanko:2014:CESCG"
   ppage: "cescg2014.html"
   abstract: "A new nonlinear refinement algorithm for surfaces is presented in
   this work. Our scheme operates on triangular meshes and interpolates input
