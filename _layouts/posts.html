@@ -8,7 +8,13 @@ layout: default
     {% if page.category %}
     <div class="col-xs-12">
       {% if page.category=='all'%}
-        <p>all posts&nbsp;:</p>
+        <!--p>list of posts :</p-->
+        <ul id="blog-page">
+          <li>
+            <a href="/posts/">show posts</a>
+          </li>
+        </ul>
+
       {% else %}
         <p>posts in category <strong>{{ page.category }}</strong>&nbsp;:</p>
       {% endif %}
@@ -41,7 +47,7 @@ layout: default
           {% endif %}
         {% endif %}
         <li>
-          <a href="/posts/all/">all posts</a>
+          <a href="/posts/all/">show list</a>
         </li>
       </ul>
       </div>
@@ -50,7 +56,7 @@ layout: default
     {% unless page.category %}
     <!-- ACTUAL POSTS -->
     <div class="col-xs-12">
-      {% for post in site.posts %}{% comment %} for post in paginator.posts {% endcomment %}
+      {% for post in paginator.posts %}{% comment %} for post in site.posts {% endcomment %}
       {% unless page.category and post.category != page.category %}
         {% assign title = post.title %}
         {% assign url = post.url %}

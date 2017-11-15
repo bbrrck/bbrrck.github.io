@@ -4,6 +4,8 @@ title       : Compressing papers with ghostscript
 date        : 2017-05-05 00:00:00
 permalink   : compress-paper-pdf.html
 category    : research
+has_excerpt : true
+excerpt_separator: <!--more-->
 ---
 
 When searching for ways to compress the size of a ~50MB paper pdf,
@@ -24,6 +26,9 @@ Argument of `-dPDFSETTINGS` can be any of:
 (descriptions copy-pasted from [askUbuntu](https://askubuntu.com/a/256449/181265))
 
 I wrote a small script to test the different `-dPDFSETTINGS` modes.
+
+<!--more-->
+
 ```bash
 #!/bin/sh
 file=paper

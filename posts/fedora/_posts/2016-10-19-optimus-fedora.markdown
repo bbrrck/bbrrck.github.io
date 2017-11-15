@@ -4,6 +4,8 @@ title       : Nvidia Optimus
 date        : 2016-10-19 00:00:00
 permalink   : nvidia-optimus-fedora.html
 category    : fedora
+has_excerpt : true
+excerpt_separator: <!--more-->
 ---
 
 [Bumblebee on fedoraproject.com](https://fedoraproject.org/wiki/Bumblebee)
@@ -22,6 +24,8 @@ which resulted in a bunch of errors
 version `CXXABI_1.3.8' not found (required by /usr/lib64/VirtualGL/librrfaker.so)
 version `CXXABI_1.3.9' not found (required by /usr/lib64/VirtualGL/librrfaker.so)
 </code></pre>
+
+<!--more-->
 This is caused by matlab loading an old version of <code>libstdc++.so</code>.
 A simple [solution](http://stackoverflow.com/a/34348019/1606707) is to tell matlab where to look for the correct version of the lib.
 <pre><code class="language-shell">LD_PRELOAD=/usr/lib64/libstdc++.so.6 optirun /usr/local/MATLAB/R2016a/bin/matlab -desktop</code></pre>

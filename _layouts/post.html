@@ -6,6 +6,18 @@ layout: default
 {% assign url = page.url %}
 {% assign date = page.date %}
 {% assign category = page.category %}
+
+<div class="row">
+  <div class="col-xs-12">
+    <ul id="blog-page">
+      <li>
+        <a href="/posts/">← all posts</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
 <article class="single blog blogpost">
     {% include post-layout.html %}
     {% include comments.html %}

@@ -69,8 +69,18 @@ article {
       content: "in ";
     }
   }
-  .content {}
-  .excerpt p:last-child:after {content:"…"}
+  .content {
+    a.read-more-button {
+      display: inline-block;
+      margin-top: 0.5em;
+      font-size: 90%;
+      //border: 1px solid #ccc;
+      &:after {
+        content: " →";
+      }
+    }
+  }
+  //.excerpt p:last-child:after {content:"…"}
   .comments {
     margin-top: 4em;
   }

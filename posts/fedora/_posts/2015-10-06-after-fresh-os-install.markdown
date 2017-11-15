@@ -4,6 +4,8 @@ title       : After a fresh OS install
 date        : 2015-10-06 14:30:00
 permalink   : fresh-os-install.html
 category    : fedora
+has_excerpt : true
+excerpt_separator: <!--more-->
 ---
 
 In the past few months, I've experimented with various Linux distros, before sticking with Fedora-based
@@ -15,6 +17,7 @@ which additional applications, packages and libraries I need to install.
 To facilitate this rather tedious process in the future,
 I've compiled the following list, plus some pointers to useful web resources.
 
+<!--more-->
 Note: Since Fedora 22, the
 [Dnf](https://en.wikipedia.org/wiki/DNF_(software))
 is the default package manager, replacing the now-deprecated yum.

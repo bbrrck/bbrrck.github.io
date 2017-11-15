@@ -13,5 +13,5 @@
 </div>
 <div class="content {% if post.has_excerpt %} excerpt{% endif %}">
     {{ content }}
+    {% if post.has_excerpt" %} <a class="read-more-button" href="{{ url | prepend: site.baseurl }}">Read More</a>{% endif %}
 </div>
-{% if post.has_excerpt" %} <a href="{{ url | prepend: site.baseurl }}">&laquo; read more &raquo;</a>{% endif %}

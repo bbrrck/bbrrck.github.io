@@ -14,11 +14,15 @@ I am pleased to invite you to the public defense of my PhD thesis:
 &ldquo;Shape reconstruction of meshed smooth surfaces<br />&nbsp;&nbsp;equipped with inertial sensors&rdquo;
 </div>
 
-**when :** December 8, 14h00  
+**when :** December 8, 14h00
+
 **where :**  room C203,
 [Local Inria office Grenoble - GIANT](https://www.inria.fr/en/centre/grenoble/overview/local-inria-office-grenoble-giant)
 (building **50-B** in [Minatec Campus](http://bit.ly/2i96g8u))  
-**language :**  English  
+
+<!--more-->
+**language :**  English
+
 **composition of the jury :**
 - [Mario BOTSCH](http://graphics.uni-bielefeld.de/people/botsch.php), professor, Universität Bielefeld, *reviewer*           
 - [Adrien BOUSSEAU](http://www-sop.inria.fr/members/Adrien.Bousseau/), researcher HDR, Inria Sophia-Antipolis, *reviewer*           
@@ -35,9 +39,7 @@ You are also warmly welcome to the after-party, which will take place in the sam
 
 **Keywords :** 3D shape reconstruction — inertial and magnetic sensors — curve networks — smooth surfaces — variational modeling — mesh processing
 
-**Abstract :**&nbsp;
-<!--more-->
-This thesis presents a complete framework for 3D shape reconstruction using inertial and magnetic sensors. When placed onto a shape, these sensors provide local surface orientations along a curve network on the shape, but their absolute position in the world space is unknown. The challenges with this type of 3D acquisition are threefold. First, sensor measurements are noisy and inconsistent. Second, since positions are unknown, the acquired curve network has to be reconstructed from orientations. Finally, the smooth surface needs to be inferred from a collection of curves with normals. To compute the shape from measured data, our main insight is to formulate the reconstruction as a set of optimization problems. Using discrete representations, these optimization problems are resolved efficiently and at interactive time rates.
+**Abstract :** This thesis presents a complete framework for 3D shape reconstruction using inertial and magnetic sensors. When placed onto a shape, these sensors provide local surface orientations along a curve network on the shape, but their absolute position in the world space is unknown. The challenges with this type of 3D acquisition are threefold. First, sensor measurements are noisy and inconsistent. Second, since positions are unknown, the acquired curve network has to be reconstructed from orientations. Finally, the smooth surface needs to be inferred from a collection of curves with normals. To compute the shape from measured data, our main insight is to formulate the reconstruction as a set of optimization problems. Using discrete representations, these optimization problems are resolved efficiently and at interactive time rates.
 
 We present two main contributions. First, we introduce a novel method for creating well-connected networks with cell-complex topology using only orientation and distance measurements and a set of user-defined constraints. By working directly with orientations, our method robustly resolves problems arising from data inconsistency and sensor noise. Our approach is driven by a simple principle mostly overlooked in previous works: at each intersection in a curve network, the positions and the normals of two intersecting curves have to coincide.
 

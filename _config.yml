@@ -9,8 +9,8 @@ enforce_ssl: tiborstanko.sk # without any protocol
 future: false
 exclude: [vendor]
 permalink: none
-markdown: kramdown
-highlighter: rouge
+#markdown: kramdown
+#highlighter: rouge
 bibindent: "  "
 twitter_username: tiborstanko
 github_username:  bbrrck
