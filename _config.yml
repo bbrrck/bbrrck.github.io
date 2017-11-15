@@ -23,6 +23,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
 pagination:
   enabled: true
   debug: false
@@ -31,6 +32,7 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+
 # Navigation
 links:
 - url: /publications/
