@@ -9,8 +9,10 @@ enforce_ssl: tiborstanko.sk # without any protocol
 future: false
 exclude: [vendor]
 permalink: none
-#markdown: kramdown
-#highlighter: rouge
+
+markdown: kramdown
+highlighter: rouge
+
 bibindent: "  "
 twitter_username: tiborstanko
 github_username:  bbrrck
@@ -23,6 +25,17 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+#paginate: nil
+#paginate_path: nil
+
+# https://github.com/mmistakes/minimal-mistakes/issues/1240#issuecomment-335158604
+whitelist:
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
 
 pagination:
   enabled: true

@@ -7,6 +7,7 @@ category    : cmd
 ---
 Most Slovak/Czech subtitles are encoded in [Plex](https://www.plex.tv/)-incompatible `windows-1250`
 ([wiki](https://en.wikipedia.org/wiki/Windows-1250)). The following changes the encoding to `utf-8`.
+
 ```bash
 iconv -f windows-1250 -t utf-8 subs-win-1250.srt > subs-utf-8.srt
 ```
