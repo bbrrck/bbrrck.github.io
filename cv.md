@@ -9,7 +9,7 @@ layout: page
     {{ site.data.home.intro }}
 </div>
 <div class="col-sm-4">
-  <a href="/assets/ts-cv-2page.pdf"><img class="avatar" src="{{ site.data.home.photo }}" alt="labiaci" /></a>
+  <img class="avatar" src="{{ site.data.home.photo }}" alt="labiaci" />
 </div>
 </div>
 
