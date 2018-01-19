@@ -58,8 +58,10 @@ for distance tracking."
               - id: 2
       journal  : "Proc. IEEE Sensors 2017"
       publisher: IEEE
-      month    : 11
+      month    : 10
       year     : 2017
+      pages    : 1170-1172
+      doi      : 10.1109/ICSENS.2017.8234266
 
 
 - type: article

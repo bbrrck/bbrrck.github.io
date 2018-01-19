@@ -14,3 +14,5 @@
   text: '<a href="/phd-defense.html">My PhD defense</a> is scheduled for Friday, December 8 (2pm).'
 - date: 2017-12-11
   text: 'I’ve successfully defended my PhD! (<a href="https://youtu.be/2jcmzaEaAcg">slides on youtube</a>)'
+- date: 2018-01-19
+  text: 'I’ll be <a href="https://fmph.uniba.sk/en/detail-novinky/back_to_page/fakulta-matematiky-fyziky-a-informatiky-uk/article/seminar-z-pseudoeuklidovskej-geometrie-tibor-stanko-2512018/">giving a talk</a> on <em>shape from sensors</em> at Comenius University in Bratislava.'

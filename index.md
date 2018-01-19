@@ -3,7 +3,7 @@ layout: page
 ---
 <div class="row">
 <div class="col-xs-12">
-  <p>Hello there !</p>
+  <p>{{ site.data.home.greet }}</p>
 </div>
 <div class="col-sm-8">
     {{ site.data.home.intro }}
