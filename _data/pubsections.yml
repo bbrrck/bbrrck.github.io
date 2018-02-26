@@ -3,10 +3,10 @@
   types:
     - inproceedings
     - article
-- name: Talks
-  types:
-    - talk
 - name: Theses
   types:
     - masterthesis
     - phdthesis
+# - name: Talks
+#   types:
+#     - talk

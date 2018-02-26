@@ -1,9 +1,11 @@
-<div class="publication {{ pub.type }} row" id="p-{{ pub.pdf.file | replace: "/","-" }}">
+<div class="publication {{ pub.type }} row"{% if pub.anchor %} id="{{ pub.anchor }}"{% endif %}>
     <div class="col-md-2 col-sm-4 col-xs-12">
       {% if pub.gif %}
       <img src="/assets/{{ pub.gif }}.gif" alt="thumbnail {{ pub.bibtex.title }}" />
       {% elsif pub.pdf.file %}
       <img src="/assets/{{ pub.pdf.file }}.png" alt="thumbnail {{ pub.bibtex.title }}" />
+      {% elsif pub.thumb %}
+      <img src="/assets/{{ pub.thumb }}.png" alt="thumbnail {{ pub.bibtex.title }}" />
       {% endif %}
     </div>
     <div class="pub-content col-md-10 col-sm-8 col-xs-12">
@@ -16,7 +18,7 @@
         {% assign firstparts = (author.first | split: '-') %}
         {% for fpart in firstparts %}{{ fpart | split: '' | first }}{% endfor %} {{ author.last }}{% if author.url %}{% unless author.last=="Stanko" %}</a>{% endunless %}{% endif %}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</div>
         <div class="description">{{ pub.description }}</div>
-        {% if pub.advisor %}<div class="advisor"><a href="{{ pub.advisor.url }}">{{ pub.advisor.name }}</a></div>{% endif %}
+        <!-- {% if pub.advisor %}<div class="advisor"><a href="{{ pub.advisor.url }}">{{ pub.advisor.name }}</a></div>{% endif %} -->
         <div class="links">
             {% if pub.award %}
                 <span class="pub-braces"><span class="pub-award">{{ pub.award }}</span></span>
@@ -24,13 +26,19 @@
             {% if pub.ppage %}
                 <span class="pub-braces"><a href="/publications/{{ pub.ppage }}">project page</a></span>
             {% endif %}
-            {% if pub.pdf %}
+            {% if pub.hal %}
+                <span class="pub-braces"><a href="https://hal.inria.fr/{{ pub.hal.id }}v{{ pub.hal.version }}/document">pdf</a> ↗ HAL&nbsp;~&nbsp;{{ pub.hal.size }}&nbsp;MB</span>
+            {% endif %}
+            {% if pub.lowres %}
+                <span class="pub-braces"><a href="/assets/{{ pub.lowres.file }}.pdf">pdf, lowres</a>&nbsp;~&nbsp;{{ pub.lowres.size }}&nbsp;MB</span>
+            {% endif %}
+            {% if pub.pdf.file %}
                 <span class="pub-braces"><a href="/assets/{{ pub.pdf.file }}.pdf">{{ pub.pdf.type }}</a>&nbsp;~&nbsp;{{ pub.pdf.size }}&nbsp;MB</span>
             {% endif %}
             {% if pub.bibtex.doi %}
                 <span class="pub-braces"><a title="Link to publisher's site" href="https://doi.org/{{ pub.bibtex.doi }}">pub</a></span>
             {% endif %}
-            {% unless pub.type=='talk' %}{% if pub.pdf %}
+            {% unless pub.type=='talk' %}{% if pub.pdf or pub.hal %}
             <div class="bibtex">
                 <span class="pub-braces"><a rel="bibtex-{{ pub.pdf.slug }}">bib</a></span>
                 <div class="bibtex-wrapper"><pre id="bibtex-{{ pub.pdf.slug }}">{% include bibtex.html %}</pre></div>

@@ -315,16 +315,33 @@ fidelity and allows to achieve globally smooth and visually pleasing shapes."
 # THESES
 #########
 
+- type : phdthesis
+  anchor: phd-thesis-2017
+  slug   : "Stanko:2017:PhD"
+  description: "2017, PhD thesis, Université Grenoble Alpes"
+  thumb: 2017-phd
+  pdf:
+  lowres:
+      file: tibor-stanko-2017-thesis-lowres
+      size: 9.1
+  hal:
+      id: tel-01673779
+      version: 2
+      size: 64.6
+  bibtex:
+      title  : Shape reconstruction of meshed smooth surfaces equipped with inertial sensors
+      author : Tibor Stanko
+      school : Université Grenoble Alpes
+      month  : December
+      year   : 2017
+
 - type : masterthesis
   slug   : "Stanko:2014:MSc"
-  description: "2014, MSc, Comenius University <small>(Bratislava, Slovakia)</small>"
-  advisor:
-      name: "Pavel Chalmovianský"
-      url : "http://www.sccg.sk/~chalmo/"
+  description: "2014, master's thesis, Comenius University in Bratislava"
   pdf:
       file: 2014-msc
       size: 5.9
-      type: thesis
+      type: pdf
   bibtex:
       title  : Refining procedures on mesh via algebraic fitting
       author : Tibor Stanko
@@ -334,20 +351,15 @@ fidelity and allows to achieve globally smooth and visually pleasing shapes."
 
 - type: masterthesis
   slug: "Stanko:2012:BSc"
-  description: "2012, BSc, Comenius University <small>(Bratislava, Slovakia)</small>"
-  advisor:
-      name: "Matej Novotný"
-      url : "http://www.sccg.sk/~mnovotny/"
+  description: "2012, bachelor's thesis, Comenius University in Bratislava"
   pdf:
       file: 2012-bsc
       size: 2.3
-      type: thesis
+      type: pdf
   bibtex:
       title  : Online application for data visualisation
       author : Tibor Stanko
       school : Comenius University, Bratislava
-      type   : BSc. thesis
-      url    : "http://grafit.tiborstanko.sk"
+      type   : bachelor's thesis
       month  : June
       year   : 2012
-      note   : BSc thesis
