@@ -15,7 +15,7 @@ layout: page
   <br /><span style="display:inline-block;">office:&nbsp;&nbsp;<br />&nbsp;<br />&nbsp;</span><span style="display:inline-block;">Inria Sophia-Antipolis<br />2004 Route des Lucioles, BP 93<br />06902 Sophia Antipolis, France</span>
   </div>
   <div class="col-sm-4 col-xs-12">
-    <a href="/assets/ts-cv-2page.pdf"><img class="avatar" src="{{ site.data.home.photo }}" alt="labiaci" /></a>
+    <img class="avatar" src="https://68.media.tumblr.com/da1535f6b683262c546957245f5cd922/tumblr_ojzacmvGtV1u2r5sio1_1280.jpg" alt="labiaci" />
   </div>
 </div>
 </section>
