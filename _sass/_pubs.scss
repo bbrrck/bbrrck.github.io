@@ -1,7 +1,7 @@
 .publication-section{
   h2 {
     color: #ccc;
-    margin: 1em 0;
+    margin: 1em 0 0;
     font-family: $header-font;
     font-weight: $header-font-weight;
     font-variant: $header-font-variant;
@@ -15,7 +15,7 @@
     clear: both;
     display: table;
   }
-  margin: 1em 0 3em;
+  margin: 0.33em 0 1.33em;
   img {
     width: 100%;
     max-width: 10em;
@@ -62,14 +62,17 @@
       padding: 0.05em 0;
     }
     .links {
+      font-size: 90%;
       position: relative;
       color: $grey-color;
       margin-top:0.25em;
       .pub-braces {
           padding: 0 0.1em 0 0;
-          &:before {content:"[\00a0"}
-          &:after  {content:"\00a0]"}
+          // &:before {content:"[\00a0"}
+          // &:after  {content:"\00a0]"}
+          &:after  {content:" | ";color:#ccc;}
         }
+      .bibtex .pub-braces:after {content:""}
       .bibtex {
         line-height:110%;
         display: inline-block;

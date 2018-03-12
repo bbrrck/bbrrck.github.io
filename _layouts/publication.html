@@ -31,11 +31,7 @@
 </div>
 
 {% if pub.teaser %}
-<div id="teaser" style="margin:2em 0;">
-  <a title="download pdf ({{ pub.pdf.size }} MB)" style="font-size:150%;" href="/assets/{{ pub.pdf.file }}.pdf">
-    <img src="{{ pub.teaser }}" width="100%" alt="teaser {{ pub.bibtex.title }}" />
-  </a>
-</div>
+<div id="teaser" style="margin:1em 0;"><img src="{{ pub.teaser }}" width="100%" alt="teaser {{ pub.bibtex.title }}" /></div>
 {% endif %}
 
 <div id="abstract" style="text-align:justify;">
@@ -45,12 +41,9 @@
 
 <h2 style="padding:1em 0 1em;">Downloads</h2>
 <ul style="font-size:120%;color:#666;">
-  <li><a title="download pdf ({{ pub.pdf.size }})" href="/assets/{{ pub.pdf.file }}.pdf">
-    paper</a> ~ {{ pub.pdf.size }} MB</li>
-{% if pub.pdf.compressed %}
-  <li><a title="download pdf ({{ pub.pdf.compresize }})" href="/assets/{{ pub.pdf.compressed }}.pdf">
-    paper (lowres)</a> ~ {{ pub.pdf.compresize }} MB</li>
-{% endif %}
+  {% for pp in pub.pdf %}
+  <li><a href="{{ pp.url }}">{{ pp.name }}</a> ~ {{ pp.size }} MB</li>
+  {% endfor %}
 </ul>
 
 

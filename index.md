@@ -1,71 +1,101 @@
 ---
 layout: page
 ---
-<div class="row">
-<div class="col-xs-12">
-  <p>{{ site.data.home.greet }}</p>
-</div>
-<div class="col-sm-8">
-    {{ site.data.home.intro }}
-</div>
-<div class="col-sm-4">
-  <a href="/assets/ts-cv-2page.pdf"><img class="avatar" src="{{ site.data.home.photo }}" alt="labiaci" /></a>
-</div>
-</div>
+<div class="homepage">
 
-{% assign papers = site.data.publications | where:"front",true | sort: 'date' %}
+<!-- CONTACT -->
+<section id="contact">
 <div class="row">
-  <div class="col-xs-12">
-    <h2 style="margin-top:2em;">Latest papers</h2>
-    <a style="font-size:90%;display:inline-block;margin-left:0.5em;" href="/publications/">see all publications</a>
+  <div class="col-sm-8 col-xs-12">
+        Postdoctoral researcher
+  <br /><a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, <a href="https://www.inria.fr/en/centre/sophia">Inria Sophia-Antipolis</a>  
+  <br /><br />
+  e-mail:&nbsp;&nbsp;<a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#116;&#105;&#098;&#111;&#114;&#046;&#115;&#116;&#097;&#110;&#107;&#111;&#064;&#105;&#110;&#114;&#105;&#097;&#046;&#102;&#114;">&#116;&#105;&#098;&#111;&#114;&#046;&#115;&#116;&#097;&#110;&#107;&#111;&#064;&#105;&#110;&#114;&#105;&#097;&#046;&#102;&#114;</a>
+  <br />phone:&nbsp;&nbsp;<a href="tel:0033492387840">(+33) 4 92 38 78 40</a>
+  <br /><span style="display:inline-block;">office:&nbsp;&nbsp;<br />&nbsp;<br />&nbsp;</span><span style="display:inline-block;">Inria Sophia-Antipolis<br />2004 Route des Lucioles, BP 93<br />06902 Sophia Antipolis, France</span>
+  </div>
+  <div class="col-sm-4 col-xs-12">
+    <a href="/assets/ts-cv-2page.pdf"><img class="avatar" src="{{ site.data.home.photo }}" alt="labiaci" /></a>
   </div>
 </div>
-{% for pub in papers limit:2 %}
-  {% include publication-overview.html %}
-{% endfor %}
+</section>
 
+<!-- NEWS -->
+<section id="news">
 {% assign allnews = site.data.news | sort: 'date' | reverse %}
 <div class="row">
   <div class="col-sm-12">
-    <h2 style="margin-top:1em;">News</h2>
+    <h2>News</h2>
   </div>
 </div>
-{% for news in allnews limit:5 %}
-  <div class="row news" style="margin-top:0.25em;">
+{% for news in allnews limit:3 %}
+  <div class="row news">
     <div class="col-md-2 col-sm-3 news-date">
     {{ news.date | date: "%b %d, %Y " }}</div>
     <div class="col-md-10 col-sm-9 news-content">
     {{ news.text }}</div>
   </div>
 {% endfor %}
+</section>
 
-{% assign posts = site.posts | sort: 'date' | reverse %}
+<!-- PUBLICATIONS -->
+<section id="publications">
+<!-- {% assign papers = site.data.publications | where:"front",true | sort: 'date' %} -->
+{% assign papers = site.data.publications %}
 <div class="row">
-  <div class="col-sm-12">
-    <h2 style="margin-top:2em;">Latest posts</h2>
+  <div class="col-xs-12">
+    <h2>Publications</h2>
   </div>
 </div>
-{% for post in posts limit:3 %}
-  {%   assign today = site.time | date: '%s'      %}
-  {%   assign start = post.date | date: '%s'  %}
-  {%   assign secondsSince = today | minus: start     %}
-  {%   assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
-  {%   assign daysSince = hoursSince | divided_by: 24  %}
-  {%   assign weeksSince  = daysSince | divided_by: 7  %}
-  {%   assign monthsSince = daysSince | divided_by: 30  %}
-  {%   assign yearsSince  = daysSince | divided_by: 365  %}
-  <div class="row news" style="margin-top:0.25em;">
-    <div class="col-md-2 col-sm-3 news-date">
-    {% comment %}
-    {%      if  yearsSince > 0 %}{{ yearsSince }} years ago
-    {% else if monthsSince > 0 %}{{ monthsSince }} months ago
-    {% else if weeksSince > 0  %}{{ weeksSince }} weeks ago
-    {% else if daysSince > 0   %}{{ daysSince }} days ago
-    {% endif %}
-    {% endcomment %}
-    {{ post.date | date: "%b %d, %Y " }}
-    </div>
-    <div class="col-md-10 col-sm-9 news-content">
-    <a href="{{ post.permalink }}">{{ post.title }}</a></div>
-  </div>
+{% for pub in papers limit:999 %}
+  {% include publication-overview.html %}
 {% endfor %}
+</section>
+
+<!-- SHORT BIO -->
+<section id="bio">
+<div class="row">
+<div class="col-xs-12">
+  <h2>Short Bio (<a href="/assets/cv.pdf">CV</a>)</h2>
+<p>
+  I’m currently a postdoc at <a href="https://team.inria.fr/graphdeco/">GraphDeco</a> (Inria Sophia Antipolis)
+  working with <a href="http://www-sop.inria.fr/members/Adrien.Bousseau/">Adrien Bousseau</a> and <a href="https://www.aices.rwth-aachen.de/en/people/bommes">David Bommes</a>.
+</p>
+<p>
+  I got my PhD from Université Grenoble Alpes, my advisors were
+  <a title="personal page" href="https://team.inria.fr/imagine/stefanie-hahmann/">Stefanie Hahmann</a>,
+  <a title="personal page" href="http://www-evasion.inrialpes.fr/~Georges-Pierre.Bonneau/">Georges-Pierre Bonneau</a>
+  (Inria Grenoble) and Nathalie Saguin-Sprynski (CEA-Leti).
+  Before that, I got my BSc and MSc from Comenius University in Bratislava, my advisor was <a title="researchgate profile" href="https://www.researchgate.net/profile/Pavel_Chalmoviansky">Pavel Chalmovianský</a>.
+</p>
+</div>
+</div>
+</section>
+
+<!--  STUDENTS -->
+<section id="students">
+<div class="row">
+  <div class="col-xs-12">
+    <h2>Students</h2>
+    <ul>
+      <li>Lucas Lesage (internship at Inria Grenoble, summer 2017)</li>
+    </ul>
+  </div>
+</div>
+</section>
+
+<!--  TA -->
+<section id="teaching">
+<div class="row">
+  <div class="col-xs-12">
+    <h2>Teaching</h2>
+    <ul>
+      <li><a href="/teaching/analyse-num-2017/">Numerical analysis</a>, Grenoble INP, spring 2017</li>
+      <li><a href="/teaching/geo-num-2017/">Numerical geometry</a>, UGA, spring 2017</li>
+      <li><a href="/teaching/geo-num-2017/">Numerical geometry</a>, UGA, spring 2016</li>
+    </ul>
+  </div>
+</div>
+</section>
+
+</div>
