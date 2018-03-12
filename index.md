@@ -92,7 +92,7 @@ layout: page
     <ul>
       <li><a href="/teaching/analyse-num-2017/">Numerical analysis</a>, Grenoble INP, spring 2017</li>
       <li><a href="/teaching/geo-num-2017/">Numerical geometry</a>, UGA, spring 2017</li>
-      <li><a href="/teaching/geo-num-2017/">Numerical geometry</a>, UGA, spring 2016</li>
+      <li><a href="/teaching/geo-num-2016/">Numerical geometry</a>, UGA, spring 2016</li>
     </ul>
   </div>
 </div>

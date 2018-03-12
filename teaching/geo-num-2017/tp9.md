@@ -72,12 +72,12 @@ To represent a triangle mesh with arbitrary topology, we use two matrices.
 
 ### Example: sphere
 
-<div style="width:40%; float:left;">
-```matlab
+
+```c++
 V = [
    0.0000  -1.0000   0.0000
    0.7236  -0.4472   0.5257
-  -0.2764  -0.4472   0.8506 
+  -0.2764  -0.4472   0.8506
   -0.8944  -0.4472   0.0000
   -0.2764  -0.4472  -0.8506
    0.7236  -0.4472  -0.5257
@@ -112,7 +112,6 @@ F = [
  10  9 11
 ];
 ```
-</div>
 
 <div style="width:55%; text-align:center; margin: 1%; float:left;">
     <img style="width:80%;margin:0.5em 0 1.5em;" alt="icosphere mesh" src="/assets/geo-num-2016/tp9/icosphere.png" />
@@ -120,7 +119,7 @@ F = [
         <source src="/assets//geo-num-2016/tp9/loop.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    
+
     <div class="imgCaption" style="font-size: 90%;">
     Four iterations of the Loop scheme on the sphere.
     </div>
@@ -137,14 +136,14 @@ The even columns `0`,`2`,`4` will contain the old vertices, while the odd column
 We then progress through this matrix and at each iteration, we 'subdivide' one edge -- we just need to make sure all instances of this edge are modified at the same time by assigning the same midpoint index.
 
 Take for instance the face matrix of a tetrahedron :
-```matlab
+```c++
 3  1  0
 3  2  1
 3  0  2
 2  0  1
 ```
 We will look at the construction of the corresponding edge matrix. We start with
-```matlab
+```c++
 3 -1  1 -1  0 -1
 3 -1  2 -1  1 -1
 3 -1  0 -1  2 -1
@@ -152,28 +151,28 @@ We will look at the construction of the corresponding edge matrix. We start with
 ```
 Now, we look at the first midpoint which has not yet been set, in this case `3 -1 1`. This corresponds to the edge `3 1`.
 The next midpoint will have index `4`: we need to make sure to change midpoints for both instances of the edge `3 1` in the matrix E. The other one is in row 2:
-```matlab
+```c++
 3  4  1 -1  0 -1
 3 -1  2 -1  1  4
 3 -1  0 -1  2 -1
 2 -1  0 -1  1 -1
 ```
 Changing the next 'free' midpoint `1 -1 0` we get
-```matlab
+```c++
 3  4  1  5  0 -1
 3 -1  2 -1  1  4
 3 -1  0 -1  2 -1
 2 -1  0  5  1 -1
 ```
 Changing the next 'free' midpoint `0 -1 3` we get
-```matlab
+```c++
 3  4  1  5  0  6
 3 -1  2 -1  1  4
 3  6  0 -1  2 -1
 2 -1  0  5  1 -1
 ```
 ...and so on until we change the last 'free' midpoint:
-```matlab
+```c++
 3  4  1  5  0  6
 3  7  2  8  1  4
 3  6  0  9  2  7
