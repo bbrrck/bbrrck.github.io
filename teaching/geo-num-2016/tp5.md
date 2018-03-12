@@ -27,7 +27,7 @@ make
 ## Uniform B-splines
 In [TP3](/teaching/geo-num-2016/tp3.html), you have implemented the De Boor's algorithm for evaluation of general B-splines.
 Now, let's have a look at a particular subclass of B-spline curves, characterized by the uniform knot vector $t_i = i \; \; \forall i \in \mathbb Z$;
-have a look at the [basis](tp3.html#uniform_bspline_basis) induced by such vector.
+have a look at the [basis](tp3.html) induced by such vector.
 
 Your today's task will be to implement these *uniform B-splines* as subdivision curves.
 
