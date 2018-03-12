@@ -10,7 +10,7 @@ layout: page
         Postdoctoral researcher
   <br /><a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, <a href="https://www.inria.fr/en/centre/sophia">Inria Sophia-Antipolis</a>  
   <br /><br />
-  e-mail:&nbsp;&nbsp;<a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#116;&#105;&#098;&#111;&#114;&#046;&#115;&#116;&#097;&#110;&#107;&#111;&#064;&#105;&#110;&#114;&#105;&#097;&#046;&#102;&#114;">&#116;&#105;&#098;&#111;&#114;&#046;&#115;&#116;&#097;&#110;&#107;&#111;&#064;&#105;&#110;&#114;&#105;&#097;&#046;&#102;&#114;</a>
+  e-mail:&nbsp;&nbsp;{% include email.html %}
   <br />phone:&nbsp;&nbsp;<a href="tel:0033492387840">(+33) 4 92 38 78 40</a>
   <br /><span style="display:inline-block;">office:&nbsp;&nbsp;<br />&nbsp;<br />&nbsp;</span><span style="display:inline-block;">Inria Sophia-Antipolis<br />2004 Route des Lucioles, BP 93<br />06902 Sophia Antipolis, France</span>
   </div>
