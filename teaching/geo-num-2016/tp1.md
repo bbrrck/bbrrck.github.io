@@ -33,7 +33,7 @@ The Bézier points $\mathbf b_i \in \mathbb R^d$ form the *control polygon*.
 * <span class="algo-part">input</span> <span class="algo-content">Bézier points $\mathbf b_i$ for $i = 0, \dots, n$, and parameter $t \in [0,1]$.</span>
 * <span class="algo-part">output</span> <span class="algo-content">The point $\mathbf b_0^n$ on the curve.</span>
 * <span class="algo-part">compute</span> <span class="algo-content">Set $\mathbf b_i^0 = \mathbf b_i$ and compute the points</span>
-   
+
    $$\mathbf b_i^k (t) = (1-t) \mathbf b_i^{k-1} + t \mathbf b_{i+1}^{k-1} \qquad \text{for} \qquad k=1,\dots,n, \quad i=0,\dots,n-k.$$
 
 {:.img600}
@@ -56,7 +56,7 @@ $$
                             & \ddots &               & \ddots &               & \ddots &               &        & \\
 \mathbf b_3 = \mathbf b_3^0 & \dots  & \mathbf b_2^1 & \dots  & \mathbf b_1^2 & \dots  & \mathbf b_0^3 &        & \\
                             & \ddots &               & \ddots &               & \ddots &               & \ddots & \\
-\mathbf b_4 = \mathbf b_4^0 & \dots  & \mathbf b_3^1 & \dots  & \mathbf b_2^2 & \dots  & \mathbf b_1^3 & \dots  & \mathbf b_0^4 = \mathbf x(t) 
+\mathbf b_4 = \mathbf b_4^0 & \dots  & \mathbf b_3^1 & \dots  & \mathbf b_2^2 & \dots  & \mathbf b_1^3 & \dots  & \mathbf b_0^4 = \mathbf x(t)
 \end{array}
 $$
 
@@ -67,7 +67,7 @@ $$
 Animation of the De Casteljau's algorithm for a quintic curve ($n=5$).
 
 ## Code
-{% highlight bash %}
+```bash
 git clone https://github.com/bbrrck/geo-num-2016.git
 cd geo-num-2016/TP1
 mkdir build
@@ -75,19 +75,21 @@ cd build
 cmake ..
 make
 ./geonum_TP1
-{% endhighlight %}
+```
 
 For rendering, you can use [gnuplot](http://www.gnuplot.info/) or [matplotlib](http://matplotlib.org/).
-While still in the <code class="language-bash">build/</code> directory, test them by running :
-{% highlight bash %}
+While still in the `build/` directory, test them by running :
+```bash
 gnuplot -p ../plots/plot.gnu
 python ../plots/plot.py
-{% endhighlight %}
+```
 
-Many of you have reported problems with <code class="language-bash">gnuplot</code> due to the line <code class="language-bash">set terminal qt</code>.
-Change it to something else to make things work, e.g. <code class="language-bash">set terminal x11</code>.
+Many of you have reported problems with `gnuplot` due to the line `set terminal qt`.
+Change it to something else to make things work, e.g. `set terminal x11`.
 For a complete list of terminals available on your machine, execute
-<pre><code class="language-bash">echo "set terminal" | gnuplot</code></pre>
+```bash
+echo "set terminal" | gnuplot
+```
 
 
 ## ToDo
@@ -96,8 +98,8 @@ For a complete list of terminals available on your machine, execute
 1. <del>Implement the computation of a curve point $\mathbf x(t)$ using Bernstein polynomials.</del>
 2. Implement the De Casteljau algorithm for a parameter $t$.
 3. Evaluate the curve using <del>both methods and compare their performance</del> the De Casteljau algorithm for various sampling densities.
-4. Visualise the curve and its Bézier polygon. Use all input files from the <code class="language-bash">data/</code> folder.
-5. Visualise the intermediate polygons $\mathbf b_i^k$ from the De Casteljau algorithm for a fixed parameter $t$. (Only the <code class="language-bash">simple.bcv</code> is enough.)
+4. Visualise the curve and its Bézier polygon. Use all input files from the `data/` folder.
+5. Visualise the intermediate polygons $\mathbf b_i^k$ from the De Casteljau algorithm for a fixed parameter $t$. (Only the `simple.bcv` is enough.)
 
 ## Resources
 

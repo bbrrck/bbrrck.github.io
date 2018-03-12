@@ -8,30 +8,30 @@ permalink: /teaching/geo-num-2016/tp3.html
 [eigen-quick]: http://eigen.tuxfamily.org/dox-devel/AsciiQuickReference.txt
 
 
-## Code 
+## Code
 Update your local repo
-{% highlight bash %}
+```bash
 git pull
-{% endhighlight %}
+```
 or clone everything if needed
-{% highlight bash %}
+```bash
 git clone https://github.com/bbrrck/geo-num-2016.git
-{% endhighlight %}
+```
 As usual,
-{% highlight bash %}
+```bash
 cd TP3/
 mkdir build
 cd build
 cmake ..
 make
 ./geonum_TP3 simple
-{% endhighlight %}
+```
 We're still using [Eigen][eigen] so keep the [quick reference][eigen-quick] open and ready.
 Python script for rendering is included in the `plots/` folder.
 You can now pass the data name as an argument
-{% highlight bash %}
+```bash
 python ../plots/plot.py spiral
-{% endhighlight %}
+```
 If you want to use gnuplot, you will need to modify the script from TP1 yourself.
 
 ## B-splines
@@ -149,11 +149,11 @@ Here's the good news: even with the homogeneous coordinates, we can apply exactl
 * Use a matrix of type `MatX3` to store the control points (the first and second column are the x and y coordinates, respectively; the third column hold the weights). For reading the `circle.nurbs` file, you can still use the method `readBSpline`, no change here; just make sure the second argument you pass is a three-column matrix. Let's call this matrix `ControlPoints3`.
 
 * `DeBoor3:` you can copy-paste everything from the 2D version, just be sure to change the types to `Vec3` and `MatX3`.
-   
+
 * Before you begin the evaluation, you need to multiply the x and y coordinates (first two columns of the `ControlPoints3` matrix) by the weights (third column). You can do this with `ControlPoints3.col(i) = ControlPoints3.col(i).array() * ControlPoints3.col(2).array();`for `i=0,1.` The `.array()` tells the Eigen to perform the operation element-wise.
-   
+
 * Proceed by evaluating the `SplinePoints3` with three coordinates.
-   
+
 * The last step is to return to the plane coordinates. To do that, you need to divide by the weights. Much like before, this is done with `SplinePoints2.col(i) = SplinePoints3.col(i).array() / SplinePoints3.col(2).array();`
 
 ## Bonus ToDo
@@ -167,7 +167,7 @@ Here's the good news: even with the homogeneous coordinates, we can apply exactl
 {:.resources}
 * [B-spline](https://en.wikipedia.org/wiki/B-spline) and [De Boor's algorithm](https://en.wikipedia.org/wiki/De_Boor's_algorithm)
 * [1.4.2 B-spline curve](http://web.mit.edu/hyperbook/Patrikalakis-Maekawa-Cho/node17.html)
-   and 
+   and
    [1.4.3 Algorithms for B-spline curves](http://web.mit.edu/hyperbook/Patrikalakis-Maekawa-Cho/node18.html),
    online chapters from the book *Shape Interrogation for Computer Aided Design and Manufacturing* by N. Patrikalakis, T. Maekawa &amp; W. Cho
 * [NURBS](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline) on wikipedia (includes the circle example)

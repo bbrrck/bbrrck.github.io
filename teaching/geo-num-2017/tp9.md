@@ -73,7 +73,7 @@ To represent a triangle mesh with arbitrary topology, we use two matrices.
 ### Example: sphere
 
 <div style="width:40%; float:left;">
-{% highlight matlab %}
+```matlab
 V = [
    0.0000  -1.0000   0.0000
    0.7236  -0.4472   0.5257
@@ -111,7 +111,7 @@ F = [
   9  8 11
  10  9 11
 ];
-{% endhighlight %}
+```
 </div>
 
 <div style="width:55%; text-align:center; margin: 1%; float:left;">

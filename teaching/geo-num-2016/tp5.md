@@ -7,22 +7,22 @@ permalink: /teaching/geo-num-2016/tp5.html
 
 ## Code
 Do
-{% highlight bash %}
+```bash
 git pull
-{% endhighlight %}
+```
 or, if you don't have the local repo,
-{% highlight bash %}
+```bash
 git clone https://github.com/bbrrck/geo-num-2016.git
-{% endhighlight %}
+```
 As usual, test by
-{% highlight bash %}
+```bash
 cd TP5/
 mkdir build
 cd build
 cmake ..
 make
 ./geonum_TP5 simple
-{% endhighlight %}
+```
 
 ## Uniform B-splines
 In [TP3](/teaching/geo-num-2016/tp3.html), you have implemented the De Boor's algorithm for evaluation of general B-splines.
@@ -71,10 +71,10 @@ With increasing degree, the Stanford bunny becomes smoother and smoother. Here, 
 
 ## ToDo
 1. Implement the subdivision algorithm for (closed) uniform B-spline curves. Test with various values of the degree $k$.
-2. Simplify the scheme for $k=2$. What do you observe? 
+2. Simplify the scheme for $k=2$. What do you observe?
 
 ## Resources
 
 {:.resources}
 * [Subdivision curves](http://www.numerical-tours.com/matlab/meshwav_1_subdivision_curves/) on Numerical Tours by Gabriel Peyré
-* [Subdivision spline curves](https://www.ibiblio.org/e-notes/Splines/subdivision.html) 
+* [Subdivision spline curves](https://www.ibiblio.org/e-notes/Splines/subdivision.html)

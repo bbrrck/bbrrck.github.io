@@ -6,17 +6,17 @@ permalink: /teaching/geo-num-2016/tp2.html
 ---
 [eigen]: http://eigen.tuxfamily.org/
 [eigen-quick]: http://eigen.tuxfamily.org/dox-devel/AsciiQuickReference.txt
- 
+
 ## Code
 If you have the git repo from TP1, update it by executing
-{% highlight bash %}
+```bash
 git pull
-{% endhighlight %}
+```
 Otherwise, do the
-{% highlight bash %}
+```bash
 git clone https://github.com/bbrrck/geo-num-2016.git
-{% endhighlight %}
-Then `cd TP2`. 
+```
+Then `cd TP2`.
 We're still using [Eigen][eigen] so keep the [quick reference][eigen-quick] open and ready.
 Python script for rendering is included in the `plots/` folder.
 If you want to use gnuplot, you will need to modify the script from TP1 yourself.
@@ -25,7 +25,7 @@ The de Casteljau algorithm is included in the
 but you can as well use your own implementation.
 
 Here are a few tips to make the Eigen code easier to read.
-{% highlight c++ %}
+```c++
 // if A, B have the same number of cols,
 // don't do this
 A(i,0) = B(i,0);
@@ -36,7 +36,7 @@ A.row(i) = B.row(i);
 // and you wanna copy the contents of one to another, don't run a for loop!
 // just do
 A = B;
-{% endhighlight %}
+```
 
 ## Bézier splines
 Bézier curves become harder to work with as the number of control points gets bigger.
@@ -56,17 +56,17 @@ The most commonly used is the $\mathcal C^k$ smoothness.
 ![infinity dataset C0](/assets/geo-num-2016/infinity_c0.png)
 ![infinity dataset C1](/assets/geo-num-2016/infinity_c1.png)
 ![infinity dataset C2](/assets/geo-num-2016/infinity_c2.png)
-    
+
 {:.img3grid}
 ![spiral dataset C0](/assets/geo-num-2016/spiral_c0.png)
 ![spiral dataset C1](/assets/geo-num-2016/spiral_c1.png)
 ![spiral dataset C2](/assets/geo-num-2016/spiral_c2.png)
-    
+
 {:.img3grid}
 ![semi dataset C0](/assets/geo-num-2016/semi_c0.png)
 ![semi dataset C1](/assets/geo-num-2016/semi_c1.png)
 ![semi dataset C2](/assets/geo-num-2016/semi_c2.png)
-    
+
 {:.imgCaption}
 A collection of &nbsp; $ \mathcal C^k$-smooth splines, row-wise interpolating the same data, left to right $k=0,1,2$.
 
@@ -135,7 +135,7 @@ and from there, directly
 
 $$
 \begin{align}
-\mathbf b_1^{i+1} &= \mathbf b_2^{i} - \mathbf b_1^{i} + \mathbf b_0^{i+1} \\ 
+\mathbf b_1^{i+1} &= \mathbf b_2^{i} - \mathbf b_1^{i} + \mathbf b_0^{i+1} \\
               &= 2 \mathbf p_{i+1} - \mathbf b_1^{i} .
 \end{align}
 $$
@@ -213,7 +213,7 @@ And two equations for $\mathcal C^2$:
 $$
 \begin{align}
 D - 2C + B =& F - 2E + D  \\
-G - 2F + E =& I - 2H + G 
+G - 2F + E =& I - 2H + G
 \end{align}
 $$
 

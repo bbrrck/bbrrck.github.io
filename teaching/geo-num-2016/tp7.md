@@ -7,26 +7,26 @@ permalink: /teaching/geo-num-2016/tp7.html
 
 ## Code
 Do
-{% highlight bash %}
+```bash
 git pull
-{% endhighlight %}
+```
 or, if you don't have the local repo,
-{% highlight bash %}
+```bash
 git clone https://github.com/bbrrck/geo-num-2016.git
-{% endhighlight %}
+```
 As usual, test by
-{% highlight bash %}
+```bash
 cd TP7/
 mkdir build
 cd build
 cmake ..
 make
-{% endhighlight %}
+```
 
 To test the viewer, try running
-{% highlight bash %}
+```bash
 ./geonum_TP7 simple
-{% endhighlight %}
+```
 If everything goes well, you should see a cube. The viewer can be controlled with the mouse: click and drag to rotate, scroll to zoom (also works with pageup/pagedown keys).
 
 In case the SimpleViewer does not work, you can still export and visualise the surfaces via the python script, included in <code>plots/<code>.
@@ -39,7 +39,7 @@ A B-spline curved is defined by the following:
 $$
 k : \text{ degree } \\
 \mathbf d_{0},\dots, \mathbf d_{n}  : \text{ control polygon } \\
-t_{0},\dots,t_{m+k+1} : \text{ knot vector } 
+t_{0},\dots,t_{m+k+1} : \text{ knot vector }
 $$
 
 ## Tensor product B-spline surfaces
@@ -65,7 +65,7 @@ u_0,\dots,u_{m+k+1} : \text{ knot vector in } u
 v_0,\dots,v_{n+l+1} : \text{ knot vector in } v
 $$
 
-The B-spline surface is defined for $(u,v) \in [u_k,u_{m+1}] \times [v_l,v_{n+1}]$ as 
+The B-spline surface is defined for $(u,v) \in [u_k,u_{m+1}] \times [v_l,v_{n+1}]$ as
 
 $$
 S(u,v) = \sum_{i=0}^m \sum_{j=0}^n \mathbf d_i^j N_{i}^{k}(u) N_{j}^{l}(v).
@@ -74,7 +74,7 @@ $$
 
 ## Surface Patches
 Recall that a B-spline curve is made from many smaller pieces, defined over parameter intervals $[t_i,t_{i+1}]$.
-Analogically, a B-spline surface consists of $(m-k+1) \times (n-l+1)$ patches, each defined over a parameter rectangle 
+Analogically, a B-spline surface consists of $(m-k+1) \times (n-l+1)$ patches, each defined over a parameter rectangle
 $[u_i,u_{i+1}] \times [v_j,v_j+1]$ :
 
 $$
@@ -99,7 +99,7 @@ We will use the same paradigm as in the previous TP, i.e. the points will be sto
 ## Algorithm
 The implementation of a B-spline surface can be summarized in the following pseudocode.
 
-{% highlight python %}
+```python
 # loop over all patches
 for i in (k,k+1,...,m) :
     for j in (l,l+1,...,n) :
@@ -108,7 +108,7 @@ for i in (k,k+1,...,m) :
         for u in uniform_sampling( u_{i}, u_{i+1}, number_of_samples ) :
             for v in uniform_sampling( v_{j}, v_{j+1}, number_of_samples ) :
                 compute_S(u,v) # a surface point on the current patch
-{% endhighlight %} 
+```
 
 ## ToDo
 

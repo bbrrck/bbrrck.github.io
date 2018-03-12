@@ -7,37 +7,37 @@ permalink: /teaching/geo-num-2016/tp9.html
 
 ## Code
 As always, do
-{% highlight bash %}
+```bash
 git pull
-{% endhighlight %}
+```
 or, if you don't have the local repo,
-{% highlight bash %}
+```bash
 git clone https://github.com/bbrrck/geo-num-2016.git
-{% endhighlight %}
+```
 Then
-{% highlight bash %}
+```bash
 cd TP9/
 mkdir build
 cd build
 cmake ..
 make
-./geonum_TP9 sphere 
-{% endhighlight %}
+./geonum_TP9 sphere
+```
 
 Later, you can specify number of subdivision steps via additional command line parameter.
-{% highlight bash %}
+```bash
 ./geonum_TP9 sphere 3
-{% endhighlight %}
+```
 
 <code>SimpleViewer</code> controls are listed below (should be the same on AZERTY keyboard).
-{% highlight bash %}
+```bash
 face toggle  : F
 edge toggle  : E
 light on/off : L
 smooth/flat  : S
 zoom         : (mouse scroll) or [pageup]/[pagedown]
 rotate       : (mouse click & drag)
-{% endhighlight %}
+```
 
 **Important:** For those still having problems with <code>SimpleViewer</code>, a code with python binding to OpenGL is provided.
 More info on how to configure everything is at the [end of the text](#pyopengl).
@@ -109,11 +109,11 @@ To represent a triangle mesh with arbitrary topology, we use two matrices.
 ### Example: sphere
 
 <div style="width:40%; float:left;">
-{% highlight matlab %}
+```matlab
 V = [
    0.0000  -1.0000   0.0000
    0.7236  -0.4472   0.5257
-  -0.2764  -0.4472   0.8506 
+  -0.2764  -0.4472   0.8506
   -0.8944  -0.4472   0.0000
   -0.2764  -0.4472  -0.8506
    0.7236  -0.4472  -0.5257
@@ -147,7 +147,7 @@ F = [
   9  8 11
  10  9 11
 ];
-{% endhighlight %}
+```
 </div>
 
 <div style="width:55%; text-align:center; margin: 1%; float:left;">
@@ -156,7 +156,7 @@ F = [
         <source src="/assets//geo-num-2016/tp9/loop.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    
+
     <div class="imgCaption" style="font-size: 90%;">
     Four iterations of the Loop scheme on the sphere.
     </div>
@@ -225,7 +225,7 @@ Here are the instructions on how to configure [PyOpenGL](http://pyopengl.sourcef
 based on the [code by Matthijs Douze](http://sed.inrialpes.fr/~douze/numpy_training/s2/#longer).
 Modify the configuration as needed. Be sure to use absolute paths!
 
-{% highlight bash %}
+```bash
 curl -O https://pypi.python.org/packages/source/P/PyOpenGL/PyOpenGL-3.1.0b3.tar.gz
 tar xvzf PyOpenGL-3.1.0b3.tar.gz
 cd PyOpenGL-3.1.0b3
@@ -234,13 +234,13 @@ export PYTHONPATH=/home/tibor/TP-geo-num/TP9/plots/lib/python2.7/site-packages/
 python setup.py install --prefix=/home/tibor/TP-geo-num/TP9/plots
 cd /home/tibor/TP-geo-num/TP9/plots
 python viewsurface.py sphere
-{% endhighlight %}
+```
 
 This assumes you already have an exported <code>sphere.off</code> in your plots folder.
 You can also test using the input data:
 
-{% highlight bash %}
+```bash
 python viewsurface.py ../data/sphere
-{% endhighlight %}
+```
 
 Don't forget to use <code>cmake/CMakeLists2.txt</code> and to comment the lines 2, 61-65 in <code>main.cpp</code>.

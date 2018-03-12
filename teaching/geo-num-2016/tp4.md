@@ -7,22 +7,22 @@ permalink: /teaching/geo-num-2016/tp4.html
 
 ## Code
 Do
-{% highlight bash %}
+```bash
 git pull
-{% endhighlight %}
+```
 or, if you don't have the local repo,
-{% highlight bash %}
+```bash
 git clone https://github.com/bbrrck/geo-num-2016.git
-{% endhighlight %}
+```
 As usual, test by
-{% highlight bash %}
+```bash
 cd TP4/
 mkdir build
 cd build
 cmake ..
 make
 ./geonum_TP4 simple
-{% endhighlight %}
+```
 
 ## Subdivision Curves
 A subdivision curve is defined as the limit of recursive refinement of the input polyline $\mathbf x_i = \mathbf x_i^0$.
@@ -39,7 +39,7 @@ $$
 \end{align}
 \right.
 $$
-    
+
 ### Corner-cutting
 
 $ 0 < a < b < 1 $ :
@@ -78,7 +78,7 @@ Test your implementation on the `simple` and `infinity` datasets. To visualise:
 2. Experiment with different values of $a,b$ in corner cutting. Specifically, try using
      - $b=a+\frac12$
      - $b \neq a+\frac12$
-   
+
    What do you observe?
 3. (bonus) A generalized four-point scheme uses the mask $[-\omega,\frac12+\omega,\frac12+\omega,-\omega].$
 The above version of the algorithm uses $\omega=\frac1{16}.$
