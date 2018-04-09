@@ -22,6 +22,7 @@ source 'https://rubygems.org'
 
 group :jekyll_plugins do
   gem 'jekyll-paginate'
+  gem 'jekyll-twitter-plugin'
 #  gem "jekyll-paginate-v2", "~> 1.7"
 #  gem 'octopress-paginate'
 end

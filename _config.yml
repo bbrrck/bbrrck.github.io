@@ -34,3 +34,6 @@ goodreads_username: 6403898-tibor-stanko
 instagram_username : bbrrck
 linkedin_cc: sk
 linkedin_username: tiborstanko
+
+plugins:
+  - jekyll-twitter-plugin

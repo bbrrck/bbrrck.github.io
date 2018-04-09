@@ -30,6 +30,9 @@ layout: page
 </div>
 {% for news in allnews limit:3 %}
   <div class="row news">
+
+  {% twitter oembed https://twitter.com/DepressedDarth/status/683671063855759360 %}
+  
     <div class="col-md-2 col-sm-3 news-date">
     {{ news.date | date: "%b %d, %Y " }}</div>
     <div class="col-md-10 col-sm-9 news-content">
