@@ -1,9 +1,11 @@
 ---
-layout:         post
-title:            How to export a curve network with normals in Blender
-date:             2018-04-09 00:00:00
-permalink:    blender-export-curves-and-normals.html
-category:     blender
+layout:             post
+title:              How to export a curve network with normals in Blender
+date:               2018-04-09 00:00:00
+permalink:          blender-export-curves-and-normals.html
+category:           blender
+has_excerpt:        true
+excerpt_separator:  <!--more-->
 ---
 
 Most curve network datasets found online contain only positions and *not* surface normals along the curves ([Cycles](http://www.cs.wustl.edu/~taoju/zoum/projects/CycleDisc/),
@@ -16,6 +18,8 @@ When I needed to create a bunch of synthetic curve networks with normals to test
 3. Export the network as an OBJ file (including the normals)
 
 It turned out to be much more tricky than that.
+
+<!--more-->
 
 The problem is to export the right normals. **The above approach doesn’t work** since Blender recomputes the normals after applying the Separation tool, and the new normals along the curve network are not the surface normals.
 
