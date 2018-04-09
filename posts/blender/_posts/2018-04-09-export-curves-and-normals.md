@@ -42,27 +42,27 @@ A brute-force solution might be to export the network and the mesh into separate
 Instead, I’ve written a short python script to export the curves directly. Each curve in the network is stored as a unique vertex group. Here’s the gist of it, I’ve put the complete script on [github](https://github.com/bbrrck/blendernet).
 
 ```python
-def getBlenderNetwork(dname,groups):
-    # getBlenderNetwork(dname,groups) – export a curve network with normals
-    #
-    # Input :
-    #   [String]       dname   name of the mesh with traced network on it   
-    #   [Strings]      groups  list of vertex groups, which represent the curve network
-    #
-    # Output :
-    #   [#Vx3, float]  V       positions of vertices in the network
-    #   [#Vx3, float]  N       normals of vertices in the network
-    #   [#Ex4, int]    E       edge matrix with columns
-    #                            0 : curve index
-    #                            1 : True=boundary edge, False=interior edge
-    #                            2 : index of first vertex
-    #                            3 : index of second vertex
-    #
-    # Author : Tibor Stanko [https://tiborstanko.sk/]
-    #
+def getBlenderNetwork(name,groups):
+  # getBlenderNetwork(dname,groups) – export a curve network with normals
+  #
+  # Input :
+  #   [String]       name    name of the mesh with traced network on it   
+  #   [Strings]      groups  list of vertex groups representing a curve network
+  #
+  # Output :
+  #   [#Vx3, float]  V       positions of vertices in the network
+  #   [#Vx3, float]  N       normals of vertices in the network
+  #   [#Ex4, int]    E       edge matrix with columns
+  #                            0 : curve index
+  #                            1 : True=boundary edge, False=interior edge
+  #                            2 : index of first vertex
+  #                            3 : index of second vertex
+  #
+  # Author : Tibor Stanko [https://tiborstanko.sk/]
+  #
 
     # get mesh by the name
-    obj = bpy.data.objects[dataname]
+    obj = bpy.data.objects[name]
     mesh = obj.data
 
     # number of curves = number of vertex groups
