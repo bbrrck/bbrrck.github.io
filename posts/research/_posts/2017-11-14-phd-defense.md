@@ -8,11 +8,8 @@ has_excerpt : true
 excerpt_separator: <!--more-->
 ---
 
-I am pleased to invite you to the public defense of my PhD thesis:
-
-<div style="display:inline-block;font-size:125%; padding:0.25em 0.1em 1em; font-style:italic;">
-&ldquo;Shape reconstruction of meshed smooth surfaces<br />&nbsp;&nbsp;equipped with inertial sensors&rdquo;
-</div>
+I am pleased to invite you to the public defense of my PhD thesis  
+*&ldquo;Shape reconstruction of meshed smooth surfaces equipped with inertial sensors&rdquo;*
 
 **when :** December 8, 14h00
 

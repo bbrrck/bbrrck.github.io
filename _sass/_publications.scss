@@ -44,14 +44,12 @@
     .title {
       color: #111;
       display: block;
-      margin: 0;
+      // margin: 0;
       line-height:150%;
       font-size: 100%;
-      //font-family: $header-font;
-      //font-weight: $header-font-weight;
-      //font-variant: $header-font-variant;
-      font-weight: 500;
-      letter-spacing: -1px;
+      // font-weight: $header-font-weight;
+      // font-family: $header-font-family;
+      // letter-spacing: $h2-letter-spacing;
     }
     .advisor:before {
       content: "advised by ";
@@ -60,6 +58,7 @@
     .advisor {
       color: $grey-color-dark;
       padding: 0.05em 0;
+      font-size: 100%;
     }
     .links {
       font-size: 90%;

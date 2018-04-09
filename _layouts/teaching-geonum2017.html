@@ -11,7 +11,13 @@ layout: default
 
 <div class="row">
 <div class="col-xs-12">
-    {% include teaching-geonum2017-news.html %}
+    {% assign allnews = (site.data.teaching-geonum2017.news  | sort: 'date' | reverse) %}
+    {% for news in allnews limit:1 %}
+    <div class="teaching-{{ news.type }}">
+        <!--span class="date">{{ news.date | date: "(%d/%m)" }}</span-->
+        {{ news.text }}
+    </div>
+    {% endfor %}
 </div>
 <div class="col-xs-12 col-md-3 col-md-push-9">
     <div class="syllabus-wrapper">
@@ -21,7 +27,7 @@ layout: default
     {% for class in course.syllabus %}
     {% unless class.break or class.nolink %}
     {% capture classtime %}{{class.date | date: '%s'}}{% endcapture %}
-                
+
     <li{% if class.break %} class="break"{% endif %}>{% if classtime < nowunix %}<a href="/teaching/{{ course.slug }}/{{ type | downcase }}{{ class.number }}.html">{% endif %}{{ class.short }}{% if classtime < nowunix %}</a>{% endif %}</li>
     {% endunless %}
     {% endfor %}

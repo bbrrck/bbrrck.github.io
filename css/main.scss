@@ -2,18 +2,18 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import 'https://fonts.googleapis.com/css?family=Fira+Sans:300,400|Encode+Sans:400,500';
+@import 'https://fonts.googleapis.com/css?family=Fira+Sans:300,400|Catamaran:200,300,400|Open+Sans:200,300,400';
 
-$header-font:         'Fira Sans';
+$header-font:         'Catamaran';
 $header-font-weight:  400;
 $header-font-variant: normal;
-$base-font:           'Encode Sans';
+$base-font:           'Open Sans';
 $base-font-weight:    400;
 
 // Our variables
 $base-font-family: $base-font, sans-serif;
 $header-font-family: $header-font, sans-serif;
-$base-font-size:   150%;
+$base-font-size:   2rem;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -28,10 +28,10 @@ $brand-color:      #1f87ea;
 $site-title-color: $brand-color;
 
 // Headings
-$h1-size: 220%; $h1-margin: 0.75em 0 0; $h1-color: #666;
-$h2-size: 180%; $h2-margin: 0.75em 0 0; $h2-color: #333;
-$h3-size: 160%; $h3-margin: 0.75em 0 0; $h3-color: #111;
-$h4-size: 140%; $h4-margin: 0.75em 0 0; $h4-color: #666;
+$h1-size: 180%; $h1-margin: 0.75em 0 0; $h1-color: #666; $h1-letter-spacing: -0.05rem;
+$h2-size: 180%; $h2-margin: 0.75em 0 0; $h2-color: #333; $h2-letter-spacing: $h1-letter-spacing;
+$h3-size: 160%; $h3-margin: 0.75em 0 0; $h3-color: #111; $h3-letter-spacing: $h1-letter-spacing;
+$h4-size: 140%; $h4-margin: 0.75em 0 0; $h4-color: #666; $h4-letter-spacing: $h1-letter-spacing;
 
 // Links
 $link-color:       $brand-color;
@@ -61,7 +61,8 @@ $quote-visited: $quote-link;
 }
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base",
-        "layout",
         "blog",
-        "teaching",
-        "pubs";
+        "img",
+        "layout",
+        "publications",
+        "teaching";

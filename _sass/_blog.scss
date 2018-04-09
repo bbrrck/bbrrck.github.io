@@ -9,7 +9,6 @@ ul#blog-page {
     border: 1px solid #eee;
     padding: 0.5em 1em;
     margin-right: 1em;
-    //&.blog-page-older {float:right;}
     &.blog-page-newer {float:left;}
   }
 }
@@ -40,47 +39,32 @@ ul.post-list {
 }
 
 article {
-  &.multiple+article {
-    margin-top: 5em;
+  padding: 2em 0;
+  &.multiple+article{
+    border-top: 1px solid #eee;
   }
   h1.post-title, h2.post-title {
     font-size: $h1-size;
     margin: $h1-margin;
-  }
-  .backlink {
-    margin-top: 0.2em;
-    font-size: 90%;
-    color: #999;
-    &:before {
-      content: "« ";
-    }
-  }
-  .meta {
-    color: #999;
-    text-transform: uppercase;
-    margin: 0 0 1em 0.33em;
-    font-size: 95%;
-    span+span:before {
-      content: "|";
-      margin: 0 0.4em 0 0.2em;
-      color: #ccc;
-    }
-    span.category:before {
-      content: "in ";
-    }
+    letter-spacing: $h1-letter-spacing;
   }
   .content {
-    a.read-more-button {
-      display: inline-block;
-      margin-top: 0.5em;
-      font-size: 90%;
-      //border: 1px solid #ccc;
-      &:after {
-        content: " →";
-      }
-    }
+    padding: 0.5em 0.2em 0;
   }
-  //.excerpt p:last-child:after {content:"…"}
+  .readmore {
+    font-size: 90%;
+    color: #999;
+    &:before { content: "["; margin: 0.1em; }
+    &:after  { content: "]"; margin: 0.1em; }
+  }
+  .meta {
+    // text-transform: uppercase;
+    margin: 0 0 0 0.1em;
+    padding: 0.5em 0 1em;
+    color: #888;
+    font-size: 80%;
+    span+span:before { content: "|"; margin: 0 0.2em; color: #ccc;}
+  }
   .comments {
     margin-top: 4em;
   }

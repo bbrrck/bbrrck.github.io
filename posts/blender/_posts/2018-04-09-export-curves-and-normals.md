@@ -5,7 +5,8 @@ date:               2018-04-09 00:00:00
 permalink:          blender-export-curves-and-normals.html
 category:           blender
 has_excerpt:        true
-excerpt_separator:  <!--more-->
+tags:               curve network normals mesh
+#thumb:              /assets/lilium-curves.png
 ---
 
 Most curve network datasets found online contain only positions and *not* surface normals along the curves ([Cycles](http://www.cs.wustl.edu/~taoju/zoum/projects/CycleDisc/),

@@ -18,6 +18,8 @@ kramdown:
   input: GFM
   hard_wrap: false
 
+excerpt_separator: <!--more-->
+
 paginate: 5
 paginate_path: /posts/:num/
 permalink: none
@@ -27,6 +29,14 @@ url: https://tiborstanko.sk # the base hostname & protocol for your site
 
 # Navigation
 links:
+# - url: /#news
+#   title: news
+# - url: /#publications
+#   title: publications
+# - url: /#bio
+#   title: bio
+# - url: /#teaching
+#   title: teaching
 - url: /posts/
   title: blog
 
