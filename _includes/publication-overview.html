@@ -32,7 +32,7 @@
               <span class="pub-braces"><a href="/publications/{{ pub.ppage }}">Project page</a></span>
             {% endif %}
             {% for pp in pub.pdf %}
-              <span class="pub-braces"><a onclick="trackPubLink('{{ pp.url }}');" href="{{ pp.url }}">{{ pp.name | capitalize }}</a></span>
+              <span class="pub-braces"><a href="{{ pp.url }}">{{ pp.name | capitalize }}</a></span>
             {% endfor %}
             <!-- {% if pub.bibtex.doi %}
                 <span class="pub-braces"><a title="Link to publisher's site" href="https://doi.org/{{ pub.bibtex.doi }}">pub</a></span>
