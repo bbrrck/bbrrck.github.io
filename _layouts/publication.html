@@ -15,7 +15,7 @@
 
 <div style="text-align:center;margin:1em 0 0.5em;">
   {% for author in pub.bibtex.authors %}
-  {% if author.url %}<a href="{{ author.url }}">{% endif %}{{ author.first }} {{ author.last }}{% if author.url %}</a>{% endif %}{% if pub.affiliations.size > 1 %}<sup>{% for aff in author.affiliation %}{{ aff.id }}{% if forloop.last == false %},{% endif %}{% endfor %}</sup>{% endif %}{% if forloop.last == false %}, {% endif %}
+  {% if author.url %}<a class="pub-link" href="{{ author.url }}">{% endif %}{{ author.first }} {{ author.last }}{% if author.url %}</a>{% endif %}{% if pub.affiliations.size > 1 %}<sup>{% for aff in author.affiliation %}{{ aff.id }}{% if forloop.last == false %},{% endif %}{% endfor %}</sup>{% endif %}{% if forloop.last == false %}, {% endif %}
   {% endfor %}
 </div>
 
@@ -42,7 +42,7 @@
 <h2 style="padding:1em 0 1em;">Downloads</h2>
 <ul style="font-size:120%;color:#666;">
   {% for pp in pub.pdf %}
-  <li><a href="{{ pp.url }}">{{ pp.name }}</a> ~ {{ pp.size }} MB</li>
+  <li><a class="pub-link" href="{{ pp.url }}">{{ pp.name }}</a> ~ {{ pp.size }} MB</li>
   {% endfor %}
 </ul>
 
