@@ -16,7 +16,7 @@
         </div>
         <div class="authors">
   {% for a in pub.bibtex.authors %}
-    {% if a.last == 'Stanko' %}{% else %}{% if a.url %}<a class="pub-link" href="{{ author.url }}">{% endif %}{% endif %}
+    {% if a.last == 'Stanko' %}{% else %}{% if a.url %}<a class="pub-link" href="{{ a.url }}">{% endif %}{% endif %}
     {% assign fp = (a.first | split: '-') %}
     {% for f in fp %}{{ f | split: '' | first }}{% endfor %} {{ a.last }}{% if a.last == 'Stanko' %}{% else %}{% if a.url %}</a>{% endif %}{% endif %}{% if forloop.last == false %}, {% endif %}
   {% endfor %}</div>
