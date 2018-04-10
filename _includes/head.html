@@ -1,35 +1,29 @@
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% if page.redirect %}<meta http-equiv="refresh" content="0; url={{ page.redirect }}" />{% endif %}
-    <title>{% if page.title %}{{ page.title }} &middot; {% else %}{% if pub.stitle %}{{ pub.stitle }} &middot; {% else %}{% if pub.bibtex.title %}{{ pub.bibtex.title }} &middot; {% endif %}{% endif %}{% endif %}{{ site.title }}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.url }}" />
-    <link rel="shortcut icon" href="{{ '/assets/favicon.png' | prepend: site.baseurl }}" type="image/png" />
-    <link rel="stylesheet" href="{{ '/bootstrap/css/bootstrap.min.css' | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ '/js/prism.css' | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ '/academicons/css/academicons.css' | prepend: site.baseurl }}"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
-    <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous"> -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.7/jquery.lazy.min.js"></script>
-    <script type="text/javascript">
-        var host = "tiborstanko.sk";
-        if ((host == window.location.host) && (window.location.protocol != "https:"))
-        window.location.protocol = "https";
-    </script>
-</head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1595579-8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% if page.redirect %}<meta http-equiv="refresh" content="0; url={{ page.redirect }}" />{% endif %}
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  gtag('config', 'UA-1595579-8');
-</script>
-<div id="top"></div>
+<title>{% if page.title %}{{ page.title }} &middot; {% else %}{% if pub.stitle %}{{ pub.stitle }} &middot; {% else %}{% if pub.bibtex.title %}{{ pub.bibtex.title }} &middot; {% endif %}{% endif %}{% endif %}{{ site.title }}</title>
+
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.url }}" />
+<link rel="shortcut icon" href="{{ '/assets/favicon.png' | prepend: site.baseurl }}" type="image/png" />
+<link rel="stylesheet" href="{{ '/bootstrap/css/bootstrap.min.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/js/prism.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/academicons/css/academicons.css' | prepend: site.baseurl }}"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQVZSLM');</script>
+<!-- End Google Tag Manager -->
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.7/jquery.lazy.min.js"></script>
+<script type="text/javascript">var host = "tiborstanko.sk";if ((host == window.location.host) && (window.location.protocol != "https:")) window.location.protocol = "https";</script>

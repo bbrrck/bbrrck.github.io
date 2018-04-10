@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
+  <head>
+    {% include head.html %}
+  </head>
   <body>
+    {% include body-start-hook.html %}
+    <div id="top" />
     <header class="site-header">
         <div class="container">
-{% include navigation.html %}
+          {% include navigation.html %}
         </div>
     </header>
     <div class="site-main">
         <div class="container">
-{{ content }}
+          {{ content }}
         </div>
     </div>
-    
     <footer class="site-footer">
         <div class="container">
-{% include footer.html %}
+          {% include footer.html %}
         </div>
     </footer>
-    
-{% include footer-scripts.html %}
+    {% include body-end-hook.html %}
   </body>
 </html>
