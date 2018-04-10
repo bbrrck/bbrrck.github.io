@@ -5,7 +5,6 @@ date        : 2017-11-14 00:00:00
 permalink   : phd-defense.html
 category    : research
 has_excerpt : true
-excerpt_separator: <!--more-->
 ---
 
 I am pleased to invite you to the public defense of my PhD thesis  

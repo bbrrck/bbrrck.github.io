@@ -5,7 +5,6 @@ date        : 2017-05-05 00:00:00
 permalink   : compress-paper-pdf.html
 category    : research
 has_excerpt : true
-excerpt_separator: <!--more-->
 ---
 
 When searching for ways to compress the size of a ~50MB paper pdf,

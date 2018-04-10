@@ -8,65 +8,79 @@
 <html>
   {% include head.html %}
   <body>
+    {% include body-start-hook.html %}
     <div class="site-main">
-        <div class="container">
+      <div class="container">
 
-<h1 style="color:black;font-size:200%;margin:1em 0 0.25em;text-align:center;line-height:150%;">{{ pub.bibtex.title }}</h1>
+        <!--  TITLE -->
+        <h1 style="color:black;font-size:220%;margin:1em 0 0.25em;text-align:center;line-height:150%;">{{ pub.bibtex.title }}</h1>
 
-<div style="text-align:center;margin:1em 0 0.5em;">
-  {% for author in pub.bibtex.authors %}
-  {% if author.url %}<a class="pub-link" href="{{ author.url }}">{% endif %}{{ author.first }} {{ author.last }}{% if author.url %}</a>{% endif %}{% if pub.affiliations.size > 1 %}<sup>{% for aff in author.affiliation %}{{ aff.id }}{% if forloop.last == false %},{% endif %}{% endfor %}</sup>{% endif %}{% if forloop.last == false %}, {% endif %}
-  {% endfor %}
-</div>
-
-{% for affiliation in pub.affiliations %}
-<div style="text-align:center;margin:0 0;">
-  {% if pub.affiliations.size > 1 %}<sup>{{ affiliation.id }}</sup> {% endif %}<span style="color:#666">{{ affiliation.name }}</span>
-</div>
-{% endfor %}
-
-<div style="color:black;margin:1em 0 2em;text-align:center;">
-  {% if pub.conditional %}<span style="color:#666">conditionally accepted to </span>{% endif %}{{ pub.description }}
-  {% if pub.award %}<br /><span class="pub-award">{{ pub.award }}</span>{% endif %}
-</div>
-
-{% if pub.teaser %}
-<div id="teaser" style="margin:1em 0;"><img src="{{ pub.teaser }}" width="100%" alt="teaser {{ pub.bibtex.title }}" /></div>
-{% endif %}
-
-<div id="abstract" style="text-align:justify;">
-  <p>{{ pub.abstract }}</p>
-</div>
-
-
-<h2 style="padding:1em 0 1em;">Downloads</h2>
-<ul style="font-size:120%;color:#666;">
-  {% for pp in pub.pdf %}
-  <li><a class="pub-link" href="{{ pp.url }}">{{ pp.name }}</a> ~ {{ pp.size }} MB</li>
-  {% endfor %}
-</ul>
-
-
-  {% if pub.video %}
-  <div id="video">
-    <h2 style="padding:1em 0 1em;">Video</h2>
-    {% comment %}560:315 | 960:540 | 640:360 | 720:405 | 880:495 {% endcomment %}
-    <iframe width="100%" height="340" src="https://www.youtube.com/embed/{{ pub.video }}" frameborder="0" allowfullscreen></iframe>
-  </div>
-  {% endif %}
-
-  {% if pub.support %}
-  <h2 style="padding:1em 0 1em;">Acknowledgments</h2>
-  <p>{{ pub.support }}</p>
-  {% endif %}
-
-<h2 style="padding:2em 0 1em;">BibTeX</h2>
-<pre style="font-size:75%;padding:0.5em;" id="bibtex-{{ pub.pdf.slug }}">{% include bibtex.html %}</pre>
-
-{{ content }}
-
-            </div>
+        <!--  AUTHORS -->
+        <div style="text-align:center;margin:1em 0 0.5em;">
+          {% for pubauth in pub.bibtex.authors %}
+          {% assign author = site.data.authors | where:"id", pubauth.id %}{% assign author = author[0] %}
+          {% if author.url %}<a class="pub-link" href="{{ author.url }}">{% endif %}
+            {{ author.first }}
+            {{ author.last }}{% if author.url %}</a>{% endif %}{% if pub.af.size > 1 %}<sup>{{ pubauth.af }}</sup>{% endif %}{% if forloop.last == false %}, {% endif %}
+          {% endfor %}
         </div>
+
+        <!--  AFFILIATIONS -->
+        {% for pubaff in pub.af %}
+        {% assign aff = site.data.affiliations | where:"id", pubaff.id %}{% assign aff = aff[0] %}
+        <div style="text-align:center;margin:0 0;">
+          {% if forloop.length > 1 %}<sup>{{ forloop.index }}</sup> {% endif %}<span style="color:#666">{{ aff.full }}</span>
+        </div>
+        {% endfor %}
+
+        <!-- AWARDS & CONDITIONAL ACCEPTANCE -->
+        <div style="color:black;margin:1em 0 2em;text-align:center;">
+          {% if pub.conditional %}<span style="color:#666">conditionally accepted to </span>{% endif %}{{ pub.description }}
+          {% if pub.award %}<br /><span class="pub-award">{{ pub.award }}</span>{% endif %}
+        </div>
+
+        <!--  TEASER -->
+        {% if pub.teaser %}
+        <div id="teaser" style="margin:1em 0;">
+          <img src="{{ pub.teaser }}" width="100%" alt="teaser {{ pub.bibtex.title }}" />
+        </div>
+        {% endif %}
+        <!--  ABSTRACT -->
+        <div id="abstract" style="text-align:justify;">
+          <p>{{ pub.abstract }}</p>
+        </div>
+
+        <!--  DOWNLOADS -->
+        <h2 style="padding:1em 0 1em;">Downloads</h2>
+        <ul style="font-size:120%;color:#666;">
+          {% for pp in pub.pdf %}
+          <li><a class="pub-link" href="{{ pp.url }}">{{ pp.name }}</a> ~ {{ pp.size }} MB</li>
+          {% endfor %}
+        </ul>
+
+        <!--  VIDEO -->
+          {% if pub.video %}
+          <div id="video">
+            <h2 style="padding:1em 0 1em;">Video</h2>
+            {% comment %}560:315 | 960:540 | 640:360 | 720:405 | 880:495 {% endcomment %}
+            <iframe width="100%" height="340" src="https://www.youtube.com/embed/{{ pub.video }}" frameborder="0" allowfullscreen></iframe>
+          </div>
+          {% endif %}
+
+        <!--  SUPPORT -->
+        {% if pub.support %}
+        <h2 style="padding:1em 0 1em;">Acknowledgments</h2>
+        <p>{{ pub.support }}</p>
+        {% endif %}
+
+        <!--  BIBTEX -->
+        <h2 style="padding:2em 0 1em;">BibTeX</h2>
+        <pre style="font-size:75%;padding:0.5em;" id="bibtex-{{ pub.pdf.slug }}">{% include bibtex.html %}</pre>
+
+        <!--  CONTENT -->
+        {{ content }}
+        
+      </div>
     </div>
   </body>
 </html>

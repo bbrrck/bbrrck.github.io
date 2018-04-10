@@ -1,86 +1,57 @@
 ---
-#########
-# PAPERS
-#########
-- type : phdthesis
-  anchor: phd-thesis-2017
-  slug   : "Stanko:2017:PhD"
-  description: "2017, PhD thesis, Université Grenoble Alpes"
-  thumb: 2017-phd
+#------------------------------------------------------------------------------#
+#  Publications in reverse chronological order                                 #
+#------------------------------------------------------------------------------#
+
+#------------------#
+#  2017 Thesis PhD #
+#------------------#
+- anchor      : phd-thesis-2017
+  description : 2017, PhD thesis, Université Grenoble Alpes
+  slug        : Stanko:2017:PhD
+  thumb       : 2017-phd
+  type        : phdthesis
+  # files to download
   pdf :
-    - name : thesis
-      url : https://hal.inria.fr/tel-01673779
-    - name : thesis, lowres
-      url : /assets/tibor-stanko-2017-thesis-lowres.pdf
-      size : 9.1
-    - name : slides, pptx
-      url : https://www.dropbox.com/s/f4ilkbf6g3qgxa7/tibor-stanko-phd-defence-2017.pptx?dl=0
-    - name : slides, video
-      url : https://youtu.be/2jcmzaEaAcg
+    - name  : thesis
+      url   : https://hal.inria.fr/tel-01673779
+    - name  : thesis, lowres
+      url   : /assets/tibor-stanko-2017-thesis-lowres.pdf
+      size  : 9.1
+    - name  : slides, pptx
+      url   : https://www.dropbox.com/s/f4ilkbf6g3qgxa7/tibor-stanko-phd-defence-2017.pptx?dl=0
+    - name  : slides, video
+      url   : https://youtu.be/2jcmzaEaAcg
+  # biblio info
   bibtex:
       title  : Shape reconstruction of meshed smooth surfaces equipped with inertial sensors
       authors:
-          - last : Stanko
-            first: Tibor
+          - id : TSTANKO
       school : Université Grenoble Alpes
       month  : December
       year   : 2017
 
-- type: inproceedings
-  front: true
-  slug: "Stanko:2017:IEEESensors"
-  stitle: 'Morphorider' # short title for <title>
-  wtitle: 'Morphorider: Acquisition &amp; Reconstruction of 3D Curves with Mobile Sensors'
-  description: "2017, IEEE Sensors"
-  thumb: mrider-2017-sensors
-  pdf:
+#---------------------#
+#  2017 IEEE Sensors  #
+#---------------------#
+- description : 2017, IEEE Sensors
+  slug        : Stanko:2017:IEEESensors
+  thumb       : mrider-2017-sensors
+  type        : inproceedings
+  # files to download
+  pdf :
     - name : paper
       url  : /assets/mrider-2017-sensors.pdf
       size : 0.5
-  abstract:
-   "This paper introduces a new method for real-time
-shape sensing. Using a single inertial measurement unit (IMU),
-our method enables to scan physical objects and to reconstruct
-digital 3D models. By moving the IMU along the surface, a
-network of local orientation data is acquired together with
-traveled distances and network topology. We then reconstruct
-a consistent network of curves and fit these curves by a globally
-smooth surface. To demonstrate the feasibility of our approach,
-we have constructed a mobile device called the Morphorider,
-which is equipped with a 3A3M-sensor node and an odometer
-for distance tracking."
-  affiliations:
-    - id: 1
-      name: "CEA, LETI, MINATEC Campus, Université Grenoble Alpes"
-    - id: 2
-      name: "Université Grenoble Alpes, CNRS (Laboratoire Jean Kuntzmann), INRIA"
-  bibtex:
+  # biblio info
+  bibtex :
       title: "Morphorider: Acquisition and Reconstruction of 3D Curves with Mobile Sensors"
       authors:
-          - last : Stanko
-            first: Tibor
-            url  : "https://tiborstanko.sk"
-            affiliation:
-              - id: 1
-              - id: 2
-          - last : Saguin-Sprynski
-            first: Nathalie
-            affiliation:
-              - id: 1
-          - last : Jouanet
-            first: Laurent
-            affiliation:
-              - id: 1
-          - last : Hahmann
-            first: Stefanie
-            url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
-            affiliation:
-              - id: 2
-          - last : Bonneau
-            first: Georges-Pierre
-            url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
-            affiliation:
-              - id: 2
+          - id : TSTANKO
+          - id : NSAGUIN
+          - id : LJOUANET
+          - id : SHAHMANN
+          - id : GPBONNEAU
       journal  : "Proc. IEEE Sensors 2017"
       publisher: IEEE
       month    : 10
@@ -88,26 +59,51 @@ for distance tracking."
       pages    : 1170-1172
       doi      : 10.1109/ICSENS.2017.8234266
 
-
-- type: article
-  front: true
-  slug: "Stanko:2017:SMI"
-  stitle: 'Shape from sensors' # short title for <title>
-  description: "2017, Computers &amp; Graphics (Proc. SMI)"
-  award: "Best Paper Award"
-  thumb: smi2017/shape-sensors
+#---------------------#
+#  2017 SMI           #
+#---------------------#
+- award       : Best Paper Award
+  description : "2017, Computers &amp; Graphics (Proc. SMI)"
+  slug        : Stanko:2017:SMI
+  stitle      : Shape from sensors # short for <title>
+  thumb       : smi2017/shape-sensors
+  type        : article
+  # files to download
   pdf:
-      - name : paper
-        url  : /assets/smi2017/shape-sensors.pdf
-        size : 10.4
-      - name : paper, lowres
-        url  : /assets/smi2017/shape-sensors.compressed.pdf
-        size : 2.7
-  ppage: "smi2017.html"
-  teaser  : /assets/smi2017/teaser.jpg
-  video   : js2fQlbvzyc
-  support : "This research was partially funded by the ERC advanced grant no. 291184 EXPRESSIVE."
-  abstract:
+      - name  : paper
+        url   : /assets/smi2017/shape-sensors.pdf
+        size  : 10.4
+      - name  : paper, lowres
+        url   : /assets/smi2017/shape-sensors.compressed.pdf
+        size  : 2.7
+  # biblio info
+  bibtex:
+      title: "Shape from sensors: Curve networks on surfaces from 3D orientations"
+      authors:
+          - id : TSTANKO
+            af : "1,2"
+          - id : SHAHMANN
+            af : 2
+          - id : GPBONNEAU
+            af : 2
+          - id : NSAGUIN
+            af : 1
+      journal  : "Computers &#92;& Graphics (Proc. SMI)"
+      publisher: Elsevier
+      volume   : 66
+      pages    : 74-84
+      month    : 8
+      year     : 2017
+      doi      : 10.1016/j.cag.2017.05.013
+  # PP details
+  af:
+      - id: CEA-UGA       # 1
+      - id: UGA-LJK-INRIA # 2
+  ppage       : smi2017.html
+  teaser      : /assets/smi2017/teaser.jpg
+  video       : js2fQlbvzyc
+  support     : "This research was partially funded by the ERC advanced grant no. 291184 EXPRESSIVE."
+  abstract    :
    "We present a novel framework for acquisition and reconstruction
     of 3D curves using orientations provided by inertial sensors. While the
     idea of sensor shape reconstruction is not new, we present the first
@@ -119,58 +115,48 @@ for distance tracking."
     shapes, the framework can be used for “sketching” new shapes directly in
     3D space. We test the performance of the method using two types of
     acquisition devices: a standard smartphone, and a custom-made device."
-  affiliations:
-    - id: 1
-      name: "CEA, LETI, MINATEC Campus, Université Grenoble Alpes"
-    - id: 2
-      name: "Université Grenoble Alpes, CNRS (Laboratoire Jean Kuntzmann), INRIA"
-  bibtex:
-      title: "Shape from sensors: Curve networks on surfaces from 3D orientations"
-      authors:
-          - last : Stanko
-            first: Tibor
-            url  : "https://tiborstanko.sk"
-            affiliation:
-              - id: 1
-              - id: 2
-          - last : Hahmann
-            first: Stefanie
-            url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
-            affiliation:
-              - id: 2
-          - last : Bonneau
-            first: Georges-Pierre
-            url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
-            affiliation:
-              - id: 2
-          - last : Saguin-Sprynski
-            first: Nathalie
-            affiliation:
-              - id: 1
-      journal  : "Computers &#92;& Graphics (Proc. SMI)"
-      publisher: Elsevier
-      volume   : 66
-      pages    : 74-84
-      month    : 8
-      year     : 2017
-      doi      : 10.1016/j.cag.2017.05.013
 
 
-- type: article
-  front: true
-  slug: "Stanko:2016:CAG"
-  description: "2016, Computers &amp; Graphics"
-  thumb: 2016-cag
+#---------------------#
+#  2016 CAG           #
+#---------------------#
+- description : "2016, Computers &amp; Graphics"
+  slug        : Stanko:2016:CAG
+  thumb       : 2016-cag
+  type        : article
+  # files to download
   pdf:
-    - name : paper
-      url  : /assets/cag2016/paper.pdf
-      size : 16.7
-  ppage: "cag2016.html"
+    - name    : paper
+      url     : /assets/cag2016/paper.pdf
+      size    : 16.7
+  # biblio info
+  bibtex:
+      title: Surfacing curve networks with normal control
+      authors:
+          - id : TSTANKO
+            af : "1,2"
+          - id : SHAHMANN
+            af : 2
+          - id : GPBONNEAU
+            af : 2
+          - id : NSAGUIN
+            af : 1
+      journal  : "Computers &#92;& Graphics"
+      publisher: Elsevier
+      volume   : 60
+      pages    : 001-008
+      month    : 11
+      year     : 2016
+      doi      : 10.1016/j.cag.2016.07.001
+  # PP details
+  af :
+    - id: CEA-UGA       # 1
+    - id: UGA-LJK-INRIA # 2
+  ppage   : cag2016.html
+  support : "This research was partially funded by the ERC advanced grant no. 291184 EXPRESSIVE."
   teaser  : /assets/cag2016/teaser.png
   video   : bjcr11O4AcM
-  support : "This research was partially funded by the ERC advanced grant no. 291184 EXPRESSIVE."
-  abstract:
-    "Recent surface acquisition technologies based on microsensors produce three-space tangential curve data which can be
+  abstract: "Recent surface acquisition technologies based on microsensors produce three-space tangential curve data which can be
 transformed into a network of space curves with surface normals. This paper addresses the problem of surfacing an
 arbitrary closed 3D curve network with given surface normals. Thanks to the normal vector input, the patch finding
 problem can be solved unambiguously and an initial piecewise smooth triangle mesh is computed. The input normals
@@ -179,65 +165,27 @@ curvature vectors. We then compute the final mesh as the solution of a new varia
 on the mean curvature vectors. The intuition behind this original approach is to guide the standard Laplacian-based
 variational methods by the curvature information extracted from the input normals. The normal input increases shape
 fidelity and allows to achieve globally smooth and visually pleasing shapes."
-  affiliations:
-    - id: 1
-      name: "CEA, LETI, MINATEC Campus, Université Grenoble Alpes"
-    - id: 2
-      name: "Université Grenoble Alpes, CNRS (Laboratoire Jean Kuntzmann), INRIA"
-  bibtex:
-      title: Surfacing curve networks with normal control
-      authors:
-          - last : Stanko
-            first: Tibor
-            url  : "https://tiborstanko.sk"
-            affiliation:
-              - id: 1
-              - id: 2
-          - last : Hahmann
-            first: Stefanie
-            affiliation:
-              - id: 2
-            url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
-          - last : Bonneau
-            first: Georges-Pierre
-            affiliation:
-              - id: 2
-            url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
-          - last : Saguin-Sprynski
-            first: Nathalie
-            affiliation:
-              - id: 1
-      journal  : "Computers &#92;& Graphics"
-      publisher: Elsevier
-      volume   : 60
-      pages    : 001-008
-      month    : 11
-      year     : 2016
-      doi      : 10.1016/j.cag.2016.07.001
 
-################################################################################
-- type: inproceedings
-  front: true
-  slug: "Stanko:2016:EG"
-  description: "2016, Eurographics — short papers"
-  thumb : 2016-eg
-  pdf:
-    - name : paper
-      url: /assets/2016-eg.pdf
-      size: 7.0
-  bibtex:
+#---------------------#
+#  2016 EG short      #
+#---------------------#
+- description : 2016, Eurographics — short papers
+  slug        : Stanko:2016:EG
+  thumb       : 2016-eg
+  type        : inproceedings
+  # files to download
+  pdf :
+    - name    : paper
+      url     : /assets/2016-eg.pdf
+      size    : 7.0
+  # biblio info
+  bibtex :
       title: Smooth interpolation of curve networks with surface normals
       authors:
-          - last : Stanko
-            first: Tibor
-          - last : Hahmann
-            first: Stefanie
-            url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
-          - last : Bonneau
-            first: Georges-Pierre
-            url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
-          - last : Saguin-Sprynski
-            first: Nathalie
+          - id : TSTANKO
+          - id : SHAHMANN
+          - id : GPBONNEAU
+          - id : NSAGUIN
       booktitle: EG 2016 -- Short Papers
       pages    : 021-024
       doi      : 10.2312/egsh.20161005
@@ -248,29 +196,56 @@ fidelity and allows to achieve globally smooth and visually pleasing shapes."
       month    : May
       year     : 2016
 
-- type : masterthesis
-  slug   : "Stanko:2014:MSc"
-  description: "2014, MSc thesis, Comenius University in Bratislava"
-  thumb : 2014-msc
-  pdf:
+#---------------------#
+#  2014 Thesis Master #
+#---------------------#
+- description : 2014, MSc thesis, Comenius University in Bratislava
+  slug        : Stanko:2014:MSc
+  thumb       : 2014-msc
+  type        : masterthesis
+  # files to download
+  pdf :
     - name : thesis
       url  : /assets/2014-msc.pdf
       size : 5.9
-  bibtex:
+  # biblio info
+  bibtex :
       title  : Refining procedures on mesh via algebraic fitting
       authors:
-          - last : Stanko
-            first: Tibor
+          - id : TSTANKO
       school : Comenius University, Bratislava
       month  : June
       year   : 2014
 
-- type: inproceedings
-  front: true
-  description: "2014, CESCG"
-  slug: "Stanko:2014:CESCG"
-  ppage: "cescg2014.html"
-  abstract: "A new nonlinear refinement algorithm for surfaces is presented in
+
+#---------------------#
+#  2014 CESCG         #
+#---------------------#
+- type          : inproceedings
+  description   : 2014, CESCG
+  slug          : Stanko:2014:CESCG
+  thumb         : 2014-cescg
+  # files to download
+  pdf :
+    - name : paper
+      url  : /assets/2014-cescg.pdf
+      size : 2.4
+  # biblio info
+  bibtex :
+      title    : Refining procedures on mesh via algebraic fitting
+      authors:
+          - id : TSTANKO
+          - id : PCHALMO
+      booktitle: Proc. CESCG 2014
+      editor   : M. Wimmer and J. Hladůvka and M. Ilčík
+      isbn     : 978-3-9502533-6-8
+      month    : April
+      year     : 2014
+  # PP details
+  ppage         : cescg2014.html
+  af  :
+    - id: COMENIUS
+  abstract      : "A new nonlinear refinement algorithm for surfaces is presented in
   this work. Our scheme operates on triangular meshes and interpolates input
   data. Each triangle is associated with a small set of neighbouring points and
   normals. A low degree algebraic surface (quadric) is fitted to this set with
@@ -280,85 +255,24 @@ fidelity and allows to achieve globally smooth and visually pleasing shapes."
   quadratic surfaces from a coarse approximating mesh. A comparison of the
   proposed method with the linear schemes is shown, as well as an application to
   the compression of a large-scale mesh."
-  thumb : 2014-cescg
-  pdf:
-    - name : paper
-      url  : /assets/2014-cescg.pdf
-      size : 2.4
-  affiliations:
-    - id: 1
-      name: "Comenius University in Bratislava, Slovakia"
-  bibtex:
-      title    : Refining procedures on mesh via algebraic fitting
-      authors:
-          - last : Stanko
-            first: Tibor
-            url  : "https://tiborstanko.sk"
-            affiliation:
-              - id: 1
-          - last : Chalmovianský
-            first: Pavel
-            url  : "http://www.sccg.sk/~chalmo/"
-            affiliation:
-              - id: 1
-      booktitle: Proc. CESCG 2014
-      editor   : M. Wimmer and J. Hladůvka and M. Ilčík
-      isbn     : 978-3-9502533-6-8
-      month    : April
-      year     : 2014
-#
-# - type: talk
-#   slug: "Stanko:2016:j•FIG"
-#   description: "presented at j•FIG 2016"
-#   url: "http://jfig2016.acroe-ica.org/programme_sessions#Session8"
-#   pdf:
-#     - name : poster
-#       url  : /assets/2016-jfig.pdf
-#       size: 3.8
-#   bibtex:
-#       title: Surfacing curve networks with normal control
-#       authors:
-#           - last : Stanko
-#             first: Tibor
-#           - last : Hahmann
-#             first: Stefanie
-#             url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
-#           - last : Bonneau
-#             first: Georges-Pierre
-#             url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
-#           - last : Saguin-Sprynski
-#             first: Nathalie
-# - type: talk
-#   slug: "Stanko:2016:GTMG"
-#   description: "presented at Journées GTMG 2016"
-#   url: "https://gtmg2016.sciencesconf.org/"
-#   bibtex:
-#       title: Smooth interpolation of curve networks with surface normals
-#       authors:
-#           - last : Stanko
-#             first: Tibor
-#           - last : Hahmann
-#             first: Stefanie
-#             url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
-#           - last : Bonneau
-#             first: Georges-Pierre
-#             url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
-#           - last : Saguin-Sprynski
-#             first: Nathalie
 
-- type: masterthesis
-  slug: "Stanko:2012:BSc"
-  description: "2012, BSc thesis, Comenius University in Bratislava"
-  thumb: 2012-bsc
+#-----------------------#
+#  2012 Thesis Bachelor #
+#-----------------------#
+- description : 2012, BSc thesis, Comenius University in Bratislava
+  type        : masterthesis
+  slug        : Stanko:2012:BSc
+  thumb       : 2012-bsc
+  # files to download
   pdf:
     - name : thesis
       url  : /assets/2012-bsc.pdf
       size : 2.3
+  # biblio info
   bibtex:
       title  : Online application for data visualisation
       authors:
-          - last : Stanko
-            first: Tibor
+          - id : TSTANKO
       school : Comenius University, Bratislava
       type   : bachelor's thesis
       month  : June

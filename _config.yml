@@ -20,7 +20,7 @@ kramdown:
 
 excerpt_separator: <!--more-->
 
-paginate: 5
+paginate: 10
 paginate_path: /posts/:num/
 permalink: none
 safe: true

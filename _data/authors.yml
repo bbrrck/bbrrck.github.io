@@ -1,0 +1,27 @@
+- id   : PCHALMO
+  last : Chalmovianský
+  first: Pavel
+  url  : "http://www.sccg.sk/~chalmo/"
+
+- id   : GPBONNEAU
+  last : Bonneau
+  first: Georges-Pierre
+  url  : "http://www-evasion.imag.fr/Membres/Georges-Pierre.Bonneau/"
+
+- id   : SHAHMANN
+  last : Hahmann
+  first: Stefanie
+  url  : "https://team.inria.fr/imagine/stefanie-hahmann/"
+
+- id   : LJOUANET
+  last : Jouanet
+  first: Laurent
+
+- id   : TSTANKO
+  last : Stanko
+  first: Tibor
+  url  : "https://tiborstanko.sk"
+
+- id   : NSAGUIN
+  last : Saguin-Sprynski
+  first: Nathalie
