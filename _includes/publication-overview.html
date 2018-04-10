@@ -10,13 +10,13 @@
     </div>
     <div class="pub-content col-md-10 col-sm-8 col-xs-12">
         <div class="title">
-        {% if pub.ppage %}<a href="/publications/{{ pub.ppage }}">{% endif %}
+        {% if pub.ppage %}<a class="pub-link" href="/publications/{{ pub.ppage }}">{% endif %}
         {% if pub.wtitle %}{{ pub.wtitle }}{% else %}{{ pub.bibtex.title }}{% endif %}
         {% if pub.ppage %}</a>{% endif %}
         </div>
         <div class="authors">
   {% for a in pub.bibtex.authors %}
-    {% if a.last == 'Stanko' %}{% else %}{% if a.url %}<a href="{{ author.url }}">{% endif %}{% endif %}
+    {% if a.last == 'Stanko' %}{% else %}{% if a.url %}<a class="pub-link" href="{{ author.url }}">{% endif %}{% endif %}
     {% assign fp = (a.first | split: '-') %}
     {% for f in fp %}{{ f | split: '' | first }}{% endfor %} {{ a.last }}{% if a.last == 'Stanko' %}{% else %}{% if a.url %}</a>{% endif %}{% endif %}{% if forloop.last == false %}, {% endif %}
   {% endfor %}</div>
@@ -29,10 +29,10 @@
         <!-- {% if pub.advisor %}<div class="advisor"><a href="{{ pub.advisor.url }}">{{ pub.advisor.name }}</a></div>{% endif %} -->
         <div class="links">
             {% if pub.ppage %}
-              <span class="pub-braces"><a href="/publications/{{ pub.ppage }}">Project page</a></span>
+              <span class="pub-braces"><a class="pub-link" href="/publications/{{ pub.ppage }}">Project page</a></span>
             {% endif %}
             {% for pp in pub.pdf %}
-              <span class="pub-braces"><a href="{{ pp.url }}">{{ pp.name | capitalize }}</a></span>
+              <span class="pub-braces"><a class="pub-link" href="{{ pp.url }}">{{ pp.name | capitalize }}</a></span>
             {% endfor %}
             <!-- {% if pub.bibtex.doi %}
                 <span class="pub-braces"><a title="Link to publisher's site" href="https://doi.org/{{ pub.bibtex.doi }}">pub</a></span>
