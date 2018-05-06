@@ -30,11 +30,3 @@ GLSL Implementation
 
 Examples
 - test various objects and various textures
-
-
-
-{% highlight cplusplus %}
-{% endhighlight %}
-
-{% highlight glsl %}
-{% endhighlight %}
