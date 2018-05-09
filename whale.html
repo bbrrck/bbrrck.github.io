@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Whale</title>
+	<meta charset="utf-8">
+</head>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: 'Verdana', 'Arial', sans-serif;
+		font-size: 0.95em;
+		color: #333;
+	}
+	canvas#canvas {
+		background-color: #fff;
+		position: absolute;
+    top: 0px;
+    left: 0px;
+	}
+	label {
+		margin: 1em 0.5em 0 1em;
+		position: relative;
+		float: left;
+		/* clear: both; */
+		z-index: 1;
+	}
+	#slider {
+		width: 30em;
+		padding-top: 0.2em;
+	}
+</style>
+<body>
+	<canvas id="canvas" width="900" height="300">Your browser does not support the HTML5 canvas tag.</canvas>
+	<label>Natural parametrization of a curve by <a href="https://tiborstanko.sk/">tiborstanko.sk</a></label>
+
+	<label style="clear:left; color: #999;">show tangents</label>
+	<label style="color:#ff4438"><input id="checkT0" type="checkbox" name="checkbox" value="T0" \> initial</label>
+	<label style="color:#38a8ff"><input id="checkT"  type="checkbox" name="checkbox" value="T"  \> intermediate</label>
+	<label style="color:#02cc5b"><input id="checkT1" type="checkbox" name="checkbox" value="T1" \> final</label>
+
+	<label style="clear:left;"><input id="slider" type="range" min="0" max="100" value="0" /></label>
+
+	<script type="text/javascript" src="https://cdn.rawgit.com/GeometryCollective/geometry-processing-js/8d90fd7a/linear-algebra/linear-algebra-asm.js"></script>
+	<script type="text/javascript" src="https://cdn.rawgit.com/GeometryCollective/geometry-processing-js/8d90fd7a/linear-algebra/emscripten-memory-manager.js"></script>
+	<script type="text/javascript" src="https://cdn.rawgit.com/GeometryCollective/geometry-processing-js/8d90fd7a/linear-algebra/dense-matrix.js"></script>
+	<script type="text/javascript" src="https://cdn.rawgit.com/GeometryCollective/geometry-processing-js/8d90fd7a/linear-algebra/sparse-matrix.js"></script>
+	<script>
+	const canvas = document.getElementById('canvas');
+	const slider = document.getElementById("slider");
+	const checkT0 = document.getElementById("checkT0");
+	const checkT  = document.getElementById("checkT");
+	const checkT1 = document.getElementById("checkT1");
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+	const ctx = canvas.getContext('2d');
+	var requestAnimationFrame = function(callback) { return setTimeout(callback, 40); };
+
+	// memory manager
+	let memoryManager = new EmscriptenMemoryManager();
+
+	// parameters
+	var params = {
+		// anchor = first curve point
+		cx: 100,
+		cy: canvas.height / 2,
+		// scaling factor
+		sc: 1,
+		// vector scale
+		lv: 0.05,
+		// render T0?
+		t0: checkT0.checked,
+		// render T?
+		t: checkT.checked,
+		// render T1?
+		t1: checkT1.checked,
+  };
+
+	// input : x coords
+	const x = [-0.001981001,-0.00356024999999999,-0.00473774999999999,-0.00544224999999998,-0.00567374999999998,-0.00536175,-0.00450624999999999,-0.00303599999999998,-0.00095099999999998,0.001819002,0.005274,0.009485002,0.014452,0.020246,0.026867,0.0343855,0.0428015,0.05218625,0.06253975,0.07393225,0.08636375,0.0999055,0.1145575,0.1290305,0.1433245,0.15622225,0.16772375,0.1780065,0.1870705,0.19509425,0.20207775,0.20819875,0.21345725,0.21803125,0.22192075,0.225304,0.228181,0.23072925,0.23294875,0.235018,0.236937,0.23888325,0.24085675,0.243036,0.245421,0.2481895,0.2513415,0.25496,0.259045,0.2635185,0.2683805,0.2735675,0.2790795,0.28485325,0.29088875,0.29712225,0.30355375,0.31012025,0.31682175,0.3235945,0.3304385,0.33729025,0.34414975,0.35095375,0.35770225,0.364332,0.370843,0.3771715,0.3833175,0.38921775,0.39487225,0.3996315,0.4034955,0.40603425,0.40724775,0.40740075,0.40649325,0.40479075,0.40229325,0.3992655,0.3957075,0.3918845,0.3877965,0.3837085,0.3796205,0.3757975,0.3722395,0.369212,0.366715,0.36501325,0.36410675,0.36426075,0.36547525,0.368015,0.37188,0.37623225,0.38107175,0.38543625,0.38932575,0.39282025,0.39591975,0.39870425,0.40117375,0.40340875,0.40540925,0.40725475,0.40894525,0.41056125,0.41210275,0.4136495,0.4152015,0.416839,0.418562,0.4204505,0.4225045,0.424804,0.427349,0.4302195,0.4334155,0.43677,0.440283,0.4437385,0.4471365,0.45048575,0.45378625,0.4570455,0.4602635,0.46344825,0.46659975,0.4697265,0.4728285,0.4759135,0.4789815,0.4820405,0.4850905,0.48813975,0.49118825,0.494244,0.497307,0.50038525,0.50347875,0.5065955,0.5097355,0.5125355,0.5149955,0.5167975,0.5179415,0.518503,0.518482,0.5179535,0.5169175,0.51544975,0.51355025,0.5112945,0.5086825,0.5057895,0.5026155,0.499236,0.495651,0.49193575,0.48809025,0.48419025,0.48023575,0.47630175,0.47238825,0.46857125,0.46485075,0.46153075,0.45861125,0.456245,0.454432,0.4530195,0.4520075,0.45124325,0.45072675,0.4503055,0.4499795,0.44959575,0.44915425,0.4485025,0.4476405,0.44641525,0.44482675,0.44272275,0.44010325,0.436815,0.432858,0.42808,0.422481,0.41590825,0.40836175,0.40005375,0.39098425,0.38150675,0.37162125,0.3613865,0.3508025];
+	// input : y coords
+	const y = [0.005046,0.010887,0.017523,0.0247625,0.0326055,0.0408615,0.0495305,0.05842125,0.06753375,0.0766775,0.0858525,0.09486775,0.10372325,0.112228,0.120382,0.1279945,0.1350655,0.14140425,0.14701075,0.15169375,0.15545325,0.1580985,0.1596295,0.16000375,0.15922125,0.15745975,0.15471925,0.15113875,0.14671825,0.14159775,0.13577725,0.1293955,0.1224525,0.11508825,0.10730275,0.09923525,0.09088575,0.08239375,0.07375925,0.0651215,0.0564805,0.047976,0.039608,0.0315155,0.0236985,0.016297,0.009311,0.0027145,-0.0034925,-0.0094015,-0.0150125,-0.0202865,-0.0252235,-0.02978475,-0.03397025,-0.0377405,-0.0410955,-0.043996,-0.046442,-0.0483945,-0.0498535,-0.05077975,-0.05117325,-0.050995,-0.050245,-0.04888375,-0.04691125,-0.04428875,-0.04101625,-0.0370545,-0.0324035,-0.0273585,-0.0219195,-0.0164305,-0.0108915,-0.00533625,0.00023525,0.00578925,0.01132575,0.0168115,0.0222465,0.02759725,0.03286375,0.038012,0.043042,0.0479205,0.0526475,0.057189,0.061545,0.0656825,0.0696015,0.073268,0.076682,0.07981,0.082652,0.084882,0.0865,0.08729625,0.08727075,0.086564,0.085176,0.083248,0.08078,0.07791225,0.07464475,0.071119,0.067335,0.063433,0.059413,0.05541625,0.05144275,0.047633,0.043987,0.04064575,0.03760925,0.0350185,0.0328735,0.03131475,0.03034225,0.03012175,0.03065325,0.03189325,0.03384175,0.0363265,0.0393475,0.042732,0.04648,0.050419,0.054549,0.058697,0.062863,0.066875,0.070733,0.074264,0.077468,0.08017225,0.08237675,0.0839095,0.0847705,0.08478675,0.08395825,0.08211225,0.07924875,0.07590425,0.07207875,0.0684105,0.0648995,0.06152725,0.05829375,0.05518,0.052186,0.049293,0.046501,0.0437915,0.0411645,0.03860075,0.03610025,0.03364475,0.03123425,0.0288495,0.0264905,0.024139,0.021795,0.01943925,0.01707175,0.014674,0.012246,0.00968175,0.00698125,0.0040695,0.0009465,-0.00236,-0.00585,-0.00949575,-0.01329725,-0.017227,-0.021285,-0.02544325,-0.02970175,-0.034033,-0.038437,-0.042886,-0.04738,-0.05189125,-0.05641975,-0.0609375,-0.0654445,-0.0699135,-0.0743445,-0.07870975,-0.08300925,-0.08704975,-0.09083125,-0.09420575,-0.09717325,-0.099774,-0.102008];
+
+	// number of points
+	const nv = x.length
+	// the curve
+	var X = DenseMatrix.zeros(nv,2);
+	// input tangent vectors : initial
+	var T0 = DenseMatrix.zeros(nv-1,2);
+	// final tangent vectors : parallel to the x-axis
+	var T1 = (DenseMatrix.ones(nv-1,1)).hcat(DenseMatrix.zeros(nv-1,1));
+	// interpolated tangents
+	var T = T0;
+	// edge weights
+	var w = [];
+	// total length
+	var total_length = 0;
+	// boundary constraints:
+	// -- first curve point: fixed to [0,0]
+	// -- last curve point
+	// ---- initial position
+	var p1x_start;
+	var p1y_start;
+	// ---- final position
+	var p1x_final;
+	var p1y_final;
+
+	function initData() {
+		for (var i=0; i<nv; i++) {
+			// move the first point to [0,0]
+			X.set(x[i]-x[0],i,0);
+			X.set(y[i]-y[0],i,1);
+			if (i < nv-1){
+				const dx = x[i+1]-x[i];
+				const dy = y[i+1]-y[i];
+				const l = Math.sqrt(dx*dx+dy*dy);
+				// push unit tangent
+				T0.set(dx/l,i,0);
+				T0.set(dy/l,i,1);
+				// push inverse edge length
+				w.push(1./l);
+				total_length += l;
+			}
+		}
+		// set bd constraints for the last point
+		p1x_start = X.get(nv-1,0)
+		p1y_start = X.get(nv-1,1)
+		p1x_final = total_length;
+		p1y_final = 0.;
+	}
+
+	var buildLaplacian = function(){
+		let wij = new Triplet(nv-2,nv-2);
+		for (var r=0; r<nv-2; r++)
+		{
+			// cols
+			let c0 = r-1;
+			let c1 = r;
+			let c2 = r+1;
+			// weights
+			let w0 = -w[c1];
+			let w1 = +w[c1]+w[c2];
+			let w2 =       -w[c2];
+			wij.addEntry(w1,r,c1);
+			if(r > 0)
+				wij.addEntry(w0,r,c0);
+			if (r < nv-3)
+				wij.addEntry(w2,r,c2);
+		}
+		// Laplacian : build from triplets
+		const A = SparseMatrix.fromTriplet(wij);
+		// return the factorization
+		return A.chol();
+	}
+
+	function getCurrentPosition(t){
+			p1x = (1-t)*p1x_start + t*p1x_final;
+			p1y = (1-t)*p1y_start + t*p1y_final;
+	}
+
+	function getCurrentTangents(t){
+		T = DenseMatrix.zeros(nv-1,2);
+		for (var i=0; i<nv-1; i++) {
+
+			t0x = T0.get(i,0);
+			t0y = T0.get(i,1);
+
+			t1x = T1.get(i,0);
+			t1y = T1.get(i,1);
+
+			// Slerp : weights
+			theta = Math.acos(t0x*t1x+t0y*t1y);
+			var w0 = Math.sin((1-t) * theta) / Math.sin(theta);
+			var w1 = Math.sin(   t  * theta) / Math.sin(theta);
+
+			// Slerp : interpolate
+			tx = w0 * t0x + w1 * t1x;
+			ty = w0 * t0y + w1 * t1y;
+
+			// store
+			T.set(tx,i,0);
+			T.set(ty,i,1);
+		}
+	}
+
+	var getRhs = function(){
+		// Rhs : bd constraints
+		var bd = DenseMatrix.zeros(nv-2,2);
+		// bd.set(w[0]*p0x,0,0)
+		// bd.set(w[0]*p0y,0,1)
+		bd.set( w[nv-2]*p1x, nv-3,0);
+		bd.set( w[nv-2]*p1y, nv-3,1);
+
+		// Rhs : divergence of the unit tangent field
+		const divT = T.subMatrix(1,nv-1,0,2).minus(T.subMatrix(0,nv-2,0,2));
+
+		// Rhs = bd-divT
+		return bd.minus(divT)
+	}
+
+	function copyData(Xint){
+		X = DenseMatrix.zeros(nv,2);
+		// bd
+		// X.set(p0x,0,0)
+		// X.set(p0y,0,1)
+		X.set(p1x,nv-1,0)
+		X.set(p1y,nv-1,1)
+		// int
+		for (var i=1; i<nv-1; i++) {
+			X.set( Xint.get(i-1,0), i,0)
+			X.set( Xint.get(i-1,1), i,1)
+		}
+	}
+
+	function solvePoisson(t){
+		getCurrentPosition(t);
+		getCurrentTangents(t);
+		const B = getRhs();
+		const Xint = llt.solvePositiveDefinite(B);
+		copyData(Xint);
+	}
+	//////////////////////////////////////////////////////////////////////////////
+	// Render helper functions
+	//////////////////////////////////////////////////////////////////////////////
+	function renderLine(x0,y0,x1,y1){
+		ctx.moveTo(
+			params.cx+params.sc*x0,
+			params.cy-params.sc*y0
+		);
+		ctx.lineTo(
+			params.cx+params.sc*x1,
+			params.cy-params.sc*y1
+		);
+	}
+	function renderVector(xi,yi,txi,tyi,clr){
+		ctx.beginPath();
+		ctx.strokeStyle=clr;
+		ctx.lineWidth=4;
+		renderLine( xi, yi, xi+params.lv*txi, yi+params.lv*tyi );
+		ctx.stroke();
+	}
+	function render(){
+		// update rendering params
+		params.sc = (canvas.width-2*params.cx) / total_length;
+		params.cy = 0.52*canvas.height;
+		// clear
+		ctx.clearRect(0, 0, canvas.width, canvas.height);
+		// tangents
+		for (var s=0; s<=1.00001; s+=0.05) {
+			// index from param
+			const i = Math.round(s*(nv-2));
+			// position
+			xi = X.get(i,0);
+			yi = X.get(i,1);
+			// T0
+			if( params.t0 ){
+				txi = T0.get(i,0);
+				tyi = T0.get(i,1);
+				renderVector(xi,yi,txi,tyi,"#ff4438");
+			}
+			// T
+			if( params.t ){
+				txi = T.get(i,0);
+				tyi = T.get(i,1);
+				renderVector(xi,yi,txi,tyi,"#38a8ff");
+			}
+			// T1
+			if( params.t1 ){
+				txi = T1.get(i,0);
+				tyi = T1.get(i,1);
+				renderVector(xi,yi,txi,tyi,"#02cc5b");
+			}
+		}
+		// curve
+		ctx.beginPath();
+		ctx.strokeStyle="#000";
+		ctx.lineWidth=2;
+		for (var i=0; i<nv-1; i++)
+			renderLine(
+				X.get(i,0), X.get(i,1),
+				X.get(i+1,0), X.get(i+1,1)
+			);
+		ctx.stroke();
+		// NO NEED TO REDRAW CONTINUOUSLY
+		// requestAnimationFrame(render);
+	}
+
+	//////////////////////////////////////////////////////////////////////////////
+	// Main
+	//////////////////////////////////////////////////////////////////////////////
+	// initialize the data
+	initData();
+	// build and factorize the Laplacian matrix
+	const llt = buildLaplacian();
+	// render
+	render();
+	// callback : slider
+	slider.oninput = function() {
+		// update param
+		t = this.value / 100.;
+		// update positions
+		solvePoisson(t);
+		render();
+	}
+	// callback : T0
+	checkT0.onclick = function(event){
+		params.t0 = this.checked;
+		render();
+	}
+	// callback : T
+	checkT.onclick = function(event){
+		params.t = this.checked;
+		render();
+	}
+	// callback : T
+	checkT1.onclick = function(event){
+		params.t1 = this.checked;
+		render();
+	}
+	// callback : resize
+	window.onresize = function(event) {
+		canvas.width = window.innerWidth;
+		canvas.height = window.innerHeight;
+		params.cy = canvas.height / 2;
+		render();
+	};
+	</script>
+</body>
+</html>
