@@ -25,7 +25,13 @@
         <div class="description">
           {{ pub.description }}
           {% if pub.award %}
-            <br /><span class="pub-braces"><span class="pub-award">{{ pub.award }}</span></span>
+            <br />
+            <span class="pub-braces">{% if pub.award_link %}
+              <a href="{{ pub.award_link }}" class="pub-award">{{ pub.award }}</a>
+            {% else %}
+              <span class="pub-award">{{ pub.award }}</span>
+            {% endif %}
+          </span>
           {% endif %}
         </div>
         <!-- {% if pub.advisor %}<div class="advisor"><a href="{{ pub.advisor.url }}">{{ pub.advisor.name }}</a></div>{% endif %} -->

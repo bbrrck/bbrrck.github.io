@@ -6,7 +6,9 @@
 #------------------#
 #  2017 Thesis PhD #
 #------------------#
-- anchor      : phd-thesis-2017
+- award       : Prix de thèse IG-RV 2018
+  award_link  : https://prixigrv2018.sciencesconf.org/
+  anchor      : phd-thesis-2017
   description : 2017, PhD thesis, Université Grenoble Alpes
   slug        : Stanko:2017:PhD
   thumb       : 2017-phd

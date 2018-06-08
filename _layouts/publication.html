@@ -36,7 +36,13 @@
         <!-- AWARDS & CONDITIONAL ACCEPTANCE -->
         <div style="color:black;margin:1em 0 2em;text-align:center;">
           {% if pub.conditional %}<span style="color:#666">conditionally accepted to </span>{% endif %}{{ pub.description }}
-          {% if pub.award %}<br /><span class="pub-award">{{ pub.award }}</span>{% endif %}
+          {% if pub.award %}
+              {% if pub.award_link %}
+                <a href="{{ pub.award_link }}" class="pub-award">{{ pub.award }}</a>
+              {% else %}
+                <span class="pub-award">{{ pub.award }}</span>
+              {% endif %}
+            {% endif %}
         </div>
 
         <!--  TEASER -->
@@ -79,7 +85,7 @@
 
         <!--  CONTENT -->
         {{ content }}
-        
+
       </div>
     </div>
   </body>

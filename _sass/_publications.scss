@@ -7,7 +7,8 @@
     font-variant: $header-font-variant;
   }
 }
-.pub-award { color: rgb(255,100,0); }
+.pub-award { color: rgb(255,100,0) !important; }
+// a.pub-award {text-decoration: underline;}
 .publication {
   font-size: 100%;
   &:after {
