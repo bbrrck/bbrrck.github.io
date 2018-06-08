@@ -25,7 +25,7 @@ layout: page
 {% assign allnews = site.data.news | sort: 'date' | reverse %}
 <div class="row">
   <div class="col-sm-12">
-    <h2><a href="./news.html">∀</a> News</h2>
+    <h2>News <a href="./news.html">∀</a></h2>
   </div>
 </div>
 {% for news in allnews limit:3 %}
@@ -44,7 +44,7 @@ layout: page
 {% assign papers = site.data.publications %}
 <div class="row">
   <div class="col-xs-12">
-    <h2><a href="https://scholar.google.fr/citations?user=YUJ9374AAAAJ">∆</a> Publications</h2>
+    <h2>Publications</h2>
   </div>
 </div>
 {% for pub in papers limit:999 %}
@@ -56,7 +56,7 @@ layout: page
 <section id="bio">
 <div class="row">
 <div class="col-xs-12">
-  <h2><a href="/assets/cv.pdf">∮</a> Short Bio</h2>
+  <h2>Short Bio <a href="/assets/cv.pdf">∮</a></h2>
 <p>
   I’m currently a postdoc at <a href="https://team.inria.fr/graphdeco/">GraphDeco</a> (Inria Sophia Antipolis)
   working with <a href="http://www-sop.inria.fr/members/Adrien.Bousseau/">Adrien Bousseau</a> and <a href="https://www.aices.rwth-aachen.de/en/people/bommes">David Bommes</a>.
