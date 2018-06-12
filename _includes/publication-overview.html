@@ -27,7 +27,7 @@
           {% if pub.award %}
             <br />
             <span class="pub-braces">{% if pub.award_link %}
-              <a href="{{ pub.award_link }}" class="pub-award">{{ pub.award }}</a>
+              <a href="{{ pub.award_link }}" class="pub-award">{{ pub.award }}</a> <span class="pub-award-mention">{{ pub.award_note }}</span>
             {% else %}
               <span class="pub-award">{{ pub.award }}</span>
             {% endif %}
