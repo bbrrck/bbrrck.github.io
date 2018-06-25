@@ -8,7 +8,7 @@
 #------------------#
 - award       : Prix de thèse IG-RV 2018
   award_note  : honorable mention
-  award_link  : https://prixigrv2018.sciencesconf.org/
+  award_link  : http://icube-web.unistra.fr/gdr-igrv/index.php/Prix_de_th%C3%A8se_du_GdR_IG-RV #https://prixigrv2018.sciencesconf.org/
   anchor      : phd-thesis-2017
   description : 2017, PhD thesis, Université Grenoble Alpes
   slug        : Stanko:2017:PhD
