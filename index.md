@@ -106,10 +106,10 @@ layout: page
     <h2>Stuff</h2>
     <div class="row">
       <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="whale.html"><img src="/assets/stuff/whale.png" /></a>
+        <a href="whale.html"><img src="/assets/stuff/whale.png" alt="whale" /></a>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="confocal.html"><img src="/assets/stuff/confocal.png" /></a>
+        <a href="confocal.html"><img src="/assets/stuff/confocal.png" alt="confocal" /></a>
       </div>
     </div>
   </div>
