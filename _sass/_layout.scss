@@ -20,6 +20,13 @@
       padding: 0;
     }
   }
+  section#stuff {
+    a:hover img {
+      opacity: 0.5; 
+      // border: 1px dashed #eee;
+
+    }
+  }
 }
 .site-header {
   padding-top: 0.25em;
