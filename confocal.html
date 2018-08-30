@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Confocal curves</title>
+	<meta charset="utf-8">
+</head>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: 'Verdana', 'Arial', sans-serif;
+		font-size: 0.95em;
+		color: #333;
+	}
+	canvas#canvas {
+		background-color: #fff;
+		position: absolute;
+    top: 0px;
+    left: 0px;
+	}
+	label {
+		margin: 0.75em 0.5em 0 0.75em;
+		position: relative;
+		float: left;
+		/* clear: both; */
+		z-index: 1;
+	}
+	#slider {
+		width: 20em;
+		padding-top: 0.2em;
+	}
+	button {
+		position:absolute;
+		left: 0.5em;
+		top: 2em;
+		font-size: 100%;
+		padding: 0.2em;
+	}
+</style>
+<body>
+	<canvas id="canvas" width="900" height="300">Your browser does not support the HTML5 canvas tag.</canvas>
+	<label style="/*clear:left;*/"><input id="slider" type="range" min="0" max="100" value="0" /></label>
+	<button type="button" id="animate-button">animate</button>
+
+	<script>
+	// animation slider
+	const slider = document.getElementById("slider");
+	// animation button
+	const button = document.getElementById("animate-button");
+	// canvas
+	const canvas = document.getElementById('canvas');
+	const ctx = canvas.getContext('2d');
+	let requestAnimationFrame = function(callback) { return setTimeout(callback, 40); };
+
+	//////////////////////////////////////////////////////////////////////////////
+	// Global vars
+	//////////////////////////////////////////////////////////////////////////////
+	// number of points
+	const ns = 1000;
+	const dt = 2*Math.PI/ns;
+	const sc = 50;
+
+	const c_min = 0.5;
+	const c_max = 6;
+	let c  = c_min;
+	let dc = 0.1;
+	let paused = true;
+
+	let anim_t = 0;
+	let anim_dt = 0.01;
+
+	//////////////////////////////////////////////////////////////////////////////
+	// Render helpers
+	//////////////////////////////////////////////////////////////////////////////
+
+	function renderEllipse(a,b){
+		ctx.beginPath();
+		ctx.strokeStyle="#f00";
+		ctx.lineWidth=2;
+		cx = 0.5 * canvas.width;
+		cy = 0.5 * canvas.height;
+		ctx.moveTo(cx+sc*a,cy+sc*0);
+		for (let t=dt; t<=2*Math.PI; t+=dt)
+			ctx.lineTo( cx + sc*a*Math.cos(t), cy - sc*b*Math.sin(t));
+		ctx.stroke();
+	}
+
+	function renderHyperbola(a,b){
+		ctx.beginPath();
+		ctx.strokeStyle="#00f";
+		ctx.lineWidth=2;
+		cx = 0.5 * canvas.width;
+		cy = 0.5 * canvas.height;
+		ctx.moveTo(
+			cx + sc * a/Math.cos(-0.4999*Math.PI),
+			cy - sc * b*Math.tan(-0.4999*Math.PI));
+		for (let t=-0.4999*Math.PI; t<=0.4999*Math.PI; t+=dt)
+			ctx.lineTo(
+				cx + sc * a/Math.cos(t),
+				cy - sc * b*Math.tan(t));
+		ctx.moveTo(
+			cx - sc * a/Math.cos(-0.4999*Math.PI),
+			cy - sc * b*Math.tan(-0.4999*Math.PI));
+		for (let t=-0.4999*Math.PI; t<=0.4999*Math.PI; t+=dt)
+			ctx.lineTo(
+				cx - sc * a/Math.cos(t),
+				cy - sc * b*Math.tan(t));
+		ctx.stroke();
+	}
+
+	function render(){
+		// clear
+		ctx.clearRect(0, 0, canvas.width, canvas.height);
+		// hyperbolas
+		for (let a=0.00001; a<c; a+=c/7)
+			renderHyperbola(a,Math.sqrt(c*c-a*a));
+		a = c-0.00000001;
+		renderHyperbola(a,Math.sqrt(c*c-a*a));
+		// ellipses
+		const a_max = 50;
+		for (let a=c+0.000001; a<a_max; a+=(a_max-c)/50)
+			renderEllipse(a,Math.sqrt(a*a-c*c));
+		// foci
+		ctx.beginPath();
+		const R = 7;
+		let cx = 0.5 * canvas.width;
+		let cy = 0.5 * canvas.height;
+    ctx.fillStyle = 'k';
+    ctx.arc(cx+sc*c,cy+0,R,0,2*Math.PI, false);
+    ctx.fill();
+		ctx.arc(cx-sc*c,cy+0,R,0,2*Math.PI, false);
+    ctx.fill();
+	}
+
+
+	//////////////////////////////////////////////////////////////////////////////
+	// Main
+	//////////////////////////////////////////////////////////////////////////////
+	var resizeCallback = function(event) {
+		canvas.width = window.innerWidth;
+		canvas.height = window.innerHeight;
+		c=(slider.value/100.)*(c_max-c_min)+c_min;
+		render();
+	};
+
+	window.onresize = resizeCallback;
+	slider.oninput  = resizeCallback;
+	resizeCallback();
+
+	function animate(){
+		window.requestAnimationFrame(animate);
+		if (paused) return;
+
+		if (anim_t >= 1.0) anim_dt=-0.01;
+		if (anim_t <= 0.0) anim_dt=+0.01;
+		anim_t += anim_dt;
+
+		const w0 = Math.cos(anim_t*Math.PI/2);
+		const w1 = Math.sin(anim_t*Math.PI/2);
+
+		c = w0*w0*c_min + w1*w1*c_max;
+
+		slider.value = (c-c_min)/(c_max-c_min)*100.;
+		if (c <= c_min) dc=-dc;
+		render(c);
+	}
+
+	function toggle_pause(){
+		paused = !paused;
+	}
+	button.onclick = toggle_pause;
+
+	animate();
+	</script>
+</body>
+</html>
