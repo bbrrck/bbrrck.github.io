@@ -2,7 +2,7 @@
 layout: default
 title: Géométrie numérique 2017
 ---
-{% assign course = site.data.teaching-geonum2017 %}
+{% assign course = site.data.teaching.geo-num-2017 %}
 
 <article class="single course page">
 
@@ -20,7 +20,7 @@ title: Géométrie numérique 2017
         </div>
 
         <div class="col-xs-12">
-          {% assign allnews = (site.data.teaching-geonum2017.news  | sort: 'date' | reverse) %}
+          {% assign allnews = (course.news  | sort: 'date' | reverse) %}
           {% for news in allnews limit:1 %}
           <div class="teaching-{{ news.type }}">
               <!--span class="date">{{ news.date | date: "(%d/%m)" }}</span-->

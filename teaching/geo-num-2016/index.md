@@ -2,10 +2,10 @@
 layout: default
 title: Géométrie numérique
 ---
-{% assign course = site.data.teaching-geonum2016 %}
+{% assign course = site.data.teaching.geo-num-2016 %}
 
 <article class="single course page">
-    
+
     <div class="row">
         <div class="col-xs-12">
             <h1>{{ course.name }} <a href="{{ course.url }}">{{ course.code }}</a></h1>
@@ -19,7 +19,7 @@ title: Géométrie numérique
             </div>
         </div>
     </div>
-    
+
     <div class="row">
         <div class="col-md-6">
             <h2>Description</h2>
@@ -31,7 +31,7 @@ title: Géométrie numérique
             <p>
             You can either work alone or in pairs.
             A <a href="https://github.com/bbrrck/geo-num-2016">c++ codebase</a> is provided, but not obligatory – use your favourite language in case you're not a fan of c++ .
-            For linear algebra (vectors, matrices), we'll be using the Eigen library; take a look at its 
+            For linear algebra (vectors, matrices), we'll be using the Eigen library; take a look at its
             <a href="http://eigen.tuxfamily.org/index.php?title=Main_Page">docs</a>. Here's also a very useful
             <a href="http://eigen.tuxfamily.org/dox-devel/AsciiQuickReference.txt">quick reference for Eigen</a>.
             </p>
@@ -56,7 +56,7 @@ title: Géométrie numérique
             </ul>
         </div>
     </div>
-    
+
     <div class="row">
         <div class="col-md-6">
             <h2 id="submissions">Submissions</h2>
@@ -73,13 +73,13 @@ title: Géométrie numérique
                 <li>Send your mail to {% include email.html %}.</li>
             </ul>
         </div>
-        
+
         <div class="col-md-6">
             <h2>Past years</h2>
             <ul class="past">
             {% for past in course.past %}
             <li>
-            <span class="date">{{ past.year }}</span> 
+            <span class="date">{{ past.year }}</span>
             <span class="title"><a href="{{ past.url }}">{{ past.who }}</a></span>
             </li>
             {% endfor %}

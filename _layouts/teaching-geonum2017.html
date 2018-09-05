@@ -6,12 +6,12 @@ layout: default
 {% assign title = page.title %}
 {% assign url = page.url %}
 
-{% assign course = site.data.teaching-geonum2017 %}
+{% assign course = site.data.teaching.geo-num-2017 %}
 {% assign type = "TP" %}
 
 <div class="row">
 <div class="col-xs-12">
-    {% assign allnews = (site.data.teaching-geonum2017.news  | sort: 'date' | reverse) %}
+    {% assign allnews = (course.news  | sort: 'date' | reverse) %}
     {% for news in allnews limit:1 %}
     <div class="teaching-{{ news.type }}">
         <!--span class="date">{{ news.date | date: "(%d/%m)" }}</span-->

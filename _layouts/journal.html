@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $("#toggle-session-names").click(function(event){
+        event.preventDefault();
+        $(".session-name").toggle();
+      });
+        $("#toggle-abstract").click(function(event){
+          event.preventDefault();
+          $(".paper-abstract").toggle();
+        });
+      $("#toggle-authors").click(function(event){
+        event.preventDefault();
+        $(".paper-authors").toggle();
+      });
+    });
+    </script>
+    <style>
+        body {
+          counter-reset: papers 0 sessions 0;
+          padding: 0 0 3em;
+        }
+        header {
+          counter-increment: papers -1;
+        }
+        div.toggle-controls {
+          font-size: 80%;
+        }
+        div.toggle-controls a {
+          color: #666;
+        }
+        section.session {
+          margin: 0;
+        }
+        h1 {
+          margin: 1em 0 0.5em;
+          font-size: 150%;
+        }
+        h2.session-name {
+          color: #096;
+          font-size: 133%;
+          font-weight: 400;
+          margin: 1em 0 0.5em;
+        }
+        h2.session-name::before {
+          counter-increment: sessions;
+          content: "S" counter(sessions);
+          display: inline-block;
+          text-align: right;
+          margin: 0 0 0 -120px;
+          padding: 0 10px;
+          width: 120px;
+        }
+        section.paper {
+          margin: 0;
+          padding: 0.3em;
+        }
+        section.paper:nth-child(odd)  h3.paper-title::before {color: #666}
+        section.paper:nth-child(even) h3.paper-title::before {color: #999}
+        h3.paper-title {
+          font-size: 100% !important;
+          margin: 0.2em 0;
+        }
+        h3.paper-title::before {
+          counter-increment: papers;
+        }
+        h3.paper-title::before {
+          display: inline-block;
+          text-align: right;
+          margin: 0 0 0 -120px;
+          padding: 0 1em;
+          width: 120px;
+          font-size: 90%;
+          content: counter(papers);
+        }
+        h3.paper-title a {
+          color: #000;
+        }
+        div.paper-authors {
+          font-size: 85% !important;
+        }
+        div.paper-authors a {
+          color: #333;
+        }
+        p.paper-abstract {
+          display: none;
+          font-size: 85%;
+          padding: 0.5em 0 1em;
+        }
+        a.paper-link {display: inline-block;}
+        a {text-decoration: none;}
+        a:hover {text-decoration: underline;}
+        </style>
+  </head>
+  <body>
+    {% include body-start-hook.html %}
+    <div id="top" />
+    <header class="site-header">
+        <div class="container">
+          {% include navigation.html %}
+        </div>
+    </header>
+    <div class="site-main">
+        <div class="container">
+          <div class="toggle-controls">
+            <a href="../">&laquo; back to library</a>
+            <span style="display: inline-block; float:right;">toggle :
+              [ <a id="toggle-authors" href="#">authors</a> ]
+              [ <a id="toggle-abstract" href="#">abstracts</a> ]
+              [ <a id="toggle-session-names" href="#">session names</a> ]
+            </span>
+          </div>
+          {{ content }}
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+          {% include footer.html %}
+        </div>
+    </footer>
+    {% include body-end-hook.html %}
+  </body>
+</html>

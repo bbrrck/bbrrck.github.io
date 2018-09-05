@@ -8,7 +8,7 @@ layout: page
 <div class="row">
   <div class="col-sm-8 col-xs-12">
         Postdoctoral researcher
-  <br /><a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, <a href="https://www.inria.fr/en/centre/sophia">Inria Sophia-Antipolis</a>  
+  <br /><a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, <a href="https://www.inria.fr/en/centre/sophia">Inria Sophia-Antipolis</a>
   <br /><br />
   e-mail:&nbsp;&nbsp;{% include email.html %}
   <br />phone:&nbsp;&nbsp;<a href="tel:0033492387840">(+33) 4 92 38 78 40</a>
@@ -99,11 +99,20 @@ layout: page
 </div>
 </section>
 
+<!--  BOOKMARKS -->
+<section id="bookmarks">
+<div class="row">
+  <div class="col-xs-12">
+    <h2>Misc <a href="links.html">graphics &amp; geometry bookmarks</a> for work and fun</h2>
+  </div>
+</div>
+</section>
+
 <!--  STUFF -->
 <section id="stuff">
 <div class="row">
   <div class="col-xs-12">
-    <h2>Stuff</h2>
+    <h2></h2>
     <div class="row">
       <div class="col-md-4 col-sm-6 col-xs-12">
         <a href="whale.html"><img src="/assets/stuff/whale.png" alt="whale" /></a>
