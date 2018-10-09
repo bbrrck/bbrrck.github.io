@@ -9,19 +9,21 @@ layout: page
 {:.publications-table}
 |journals|conferences|
 |---|---|
-| [TOG](https://dblp.org/db/journals/tog/index.html) <small>incl. SIGGRAPH '02+, SIGGRAPH Asia '08+</small> | [SIGGRAPH](https://dblp.org/db/conf/siggraph/)        |
-|                                                     | [SIGGRAPH Asia](https://dblp.org/db/conf/siggrapha/)  |
-| [CGF](https://dblp.org/db/journals/cgf/)    <small>incl. EG '92+, SGP '08+</small>           | [EG](https://dblp.org/db/conf/eurographics/)          |
-|                                                     | [SGP](https://dblp.org/db/conf/sgp/)                  |
-| [C&G](https://dblp.org/db/journals/cg/)     <small>incl. SMI '09+</small>   | [SMI](https://dblp.org/db/conf/smi/)                  |
-| [CAD](https://dblp.org/db/journals/cad/)    <small>incl. SPM</small>        | [SPM](https://dblp.org/db/conf/sma/) <small>'91–'10</small> |
-| [CAGD](https://dblp.org/db/journals/cagd/)  <small>incl. GMP</small>        | [GMP](https://dblp.org/db/conf/gmp/) <small>'00–'10</small>|
-| [TVCG](https://dblp.org/db/journals/tvcg/) ||
-| [VC](https://dblp.org/db/journals/vc/)  ||
-| [GMod](https://dblp.org/db/journals/cvgip/) ||
+| [TOG](https://dblp.org/db/journals/tog/)    ([pub](https://tog.acm.org/)) <small>incl. SIGGRAPH '02+, SIGGRAPH Asia '08+</small>                | [SIGGRAPH](https://dblp.org/db/conf/siggraph/)              |
+|                                                                                                                                                 | [SIGGRAPH Asia](https://dblp.org/db/conf/siggrapha/)        |
+| [CGF](https://dblp.org/db/journals/cgf/)    ([pub](https://onlinelibrary.wiley.com/journal/14678659)) <small>incl. EG '92+, SGP '08+</small>    | [EG](https://dblp.org/db/conf/eurographics/)                |
+|                                                                                                                                                 | [SGP](https://dblp.org/db/conf/sgp/)                        |
+| [C&G](https://dblp.org/db/journals/cg/)     ([pub](https://www.journals.elsevier.com/computers-and-graphics/)) <small>incl. SMI '09+</small>    | [SMI](https://dblp.org/db/conf/smi/)                        |
+| [CAD](https://dblp.org/db/journals/cad/)    ([pub](https://www.journals.elsevier.com/computer-aided-design)) <small>incl. SPM</small>           | [SPM](https://dblp.org/db/conf/sma/) <small>'91–'10</small> |
+| [CAGD](https://dblp.org/db/journals/cagd/)  ([pub](https://www.journals.elsevier.com/computer-aided-geometric-design)) <small>incl. GMP</small> | [GMP](https://dblp.org/db/conf/gmp/) <small>'00–'10</small> |
+| [TVCG](https://dblp.org/db/journals/tvcg/)  ([pub](https://www.computer.org/web/tvcg))                                                          |                                                             |
+| [VC](https://dblp.org/db/journals/vc/)      ([pub](https://link.springer.com/journal/371))                                                      |                                                             |
+| [GMod](https://dblp.org/db/journals/cvgip/) ([pub](https://www.journals.elsevier.com/graphical-models))                                         |                                                             |
 
 ## Publications -- other sites
 
+* [SIGGRAPH on dl.acm.org](https://dl.acm.org/sig.cfm?id=SP932)
+* [SIGGRAPH conference content open access](https://www.siggraph.org//learn/conference-content)
 * [Ke-Sen's repo](http://kesen.realtimerendering.com/)
 * [Top Graphics publications](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computergraphics) on Google Scholar
 * [CG/CAD Journal Rankings](https://www.scimagojr.com/journalrank.php?category=1704) on SJR
