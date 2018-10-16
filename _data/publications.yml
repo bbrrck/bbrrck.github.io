@@ -16,6 +16,8 @@
   type        : phdthesis
   # files to download
   pdf :
+    - name  : video
+      url   : https://www.youtube.com/watch?v=o03eTFT3-ms
     - name  : thesis
       url   : https://hal.inria.fr/tel-01673779
     - name  : thesis, lowres

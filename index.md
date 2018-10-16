@@ -115,10 +115,13 @@ layout: page
     <h2></h2>
     <div class="row">
       <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="whale.html"><img src="/assets/stuff/whale.png" alt="whale" /></a>
+        <a title="conformal flattening of a whale curve" href="whale.html"><img src="/assets/stuff/whale.png" alt="whale" /></a>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="confocal.html"><img src="/assets/stuff/confocal.png" alt="confocal" /></a>
+        <a title="confocal ellipses &amp; hyperbolas" href="confocal.html"><img src="/assets/stuff/confocal.png" alt="confocal" /></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a title="Shape from Sensors - video summary of my PhD" href="https://www.youtube.com/watch?v=o03eTFT3-ms"><img src="/assets/stuff/smartphone.gif" alt="shape from sensors - smartphone" /></a>
       </div>
     </div>
   </div>
