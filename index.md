@@ -59,7 +59,7 @@ layout: page
   <h2>Short Bio <a href="/assets/cv.pdf">∮</a></h2>
 <p>
   I’m currently a postdoc at <a href="https://team.inria.fr/graphdeco/">GraphDeco</a> (Inria Sophia Antipolis)
-  working with <a href="http://www-sop.inria.fr/members/Adrien.Bousseau/">Adrien Bousseau</a> and <a href="https://www.aices.rwth-aachen.de/en/people/bommes">David Bommes</a>.
+  working with <a href="http://www-sop.inria.fr/members/Adrien.Bousseau/">Adrien Bousseau</a> and <a href="http://www.cgg.unibe.ch/">David Bommes</a> (University of Bern).
 </p>
 <p>
   I got my PhD from Université Grenoble Alpes, my advisors were
