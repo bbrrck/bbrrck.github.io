@@ -114,8 +114,6 @@ layout: page
         <em>Shape from Sensors</em> in the 2018 report (TBA)
       </li>
     </ul>
-
-    </ul>
   </div>
 </div>
 </section>
