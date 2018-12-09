@@ -104,6 +104,18 @@ layout: page
 <div class="row">
   <div class="col-xs-12">
     <h2>Misc <a href="links.html">graphics &amp; geometry bookmarks</a> for work and fun</h2>
+
+    <h2>My PhD work featured in <a href="http://www.leti-cea.com/cea-tech/leti/english/Pages/Applied-Research/Results/scientific-reports.aspx">CEA-Leti annual reports</a> (2017, 2018)</h2>
+    <ul>
+      <li>
+        <em>Morphorider: Capturing Shapes with Precision</em> in the <a href="http://www.cea.fr/cea-tech/leti/Documents/Rapport%20scientifique/Rapports%202016/RapportLETI-2017-num.pdf">2017 report</a> (p.54)
+      </li>
+      <li>
+        <em>Shape from Sensors</em> in the 2018 report (TBA)
+      </li>
+    </ul>
+
+    </ul>
   </div>
 </div>
 </section>
