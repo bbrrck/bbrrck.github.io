@@ -99,21 +99,33 @@ layout: page
 </div>
 </section>
 
-<!--  BOOKMARKS -->
-<section id="bookmarks">
+<!--  MISC -->
+<section id="misc">
 <div class="row">
-  <div class="col-xs-12">
-    <h2>Misc <a href="links.html">graphics &amp; geometry bookmarks</a> for work and fun</h2>
 
-    <h2>My PhD work featured in <a href="http://www.leti-cea.com/cea-tech/leti/english/Pages/Applied-Research/Results/scientific-reports.aspx">CEA-Leti annual reports</a> (2017, 2018)</h2>
-    <ul>
-      <li>
-        <em>Morphorider: Capturing Shapes with Precision</em> in the <a href="http://www.cea.fr/cea-tech/leti/Documents/Rapport%20scientifique/Rapports%202016/RapportLETI-2017-num.pdf">2017 report</a> (p.54)
-      </li>
-      <li>
-        <em>Shape from Sensors</em> in the 2018 report (TBA)
-      </li>
-    </ul>
+    <div class="col-xs-12">
+      <h2>Misc <a href="links.html">graphics &amp; geometry bookmarks</a></h2>
+
+      <h2>My PhD work featured in <a href="http://www.leti-cea.com/cea-tech/leti/english/Pages/Applied-Research/Results/scientific-reports.aspx">CEA-Leti annual reports</a></h2>
+      <ul>
+        <li>
+          <a href="http://www.cea.fr/cea-tech/leti/Documents/Rapport%20scientifique/Rapports%202016/RapportLETI-2017-num.pdf">2017, p.54</a>: <em>Morphorider: Capturing Shapes with Precision</em>
+        </li>
+        <li>
+          2018, TBA: <em>Shape from Sensors</em>
+        </li>
+      </ul>
+
+      <h2>Choir singing is fun!</h2>
+      <p>
+        I am currently a member of the <a href="http://www.choeur-philharmonique-nice.fr/">Choeur Philharmonique de Nice</a>. Before, I was singing in <a href="http://www.zbortechnik.sk/english/">University Choir Technik STU</a> and <a href="https://www.facebook.com/canticanova.tt/">Cantica Nova</a>.
+        Some of my favorite compositions include
+        <a href="https://open.spotify.com/album/35J3H2XNpCmFqk2KxmvWzs?si=9I22pGCiQBya7CQ5XL5S7g">Fauré's '<em>Requiem</em></a>
+        and
+        <a href="https://open.spotify.com/album/6MY9yVtW2gkkE1og4av96t?si=bEVfabAoTtC3vzeXA-Jb6Q">Rutter's <em>Magnificat</em></a>.
+      </p>
+    </div>
+
   </div>
 </div>
 </section>

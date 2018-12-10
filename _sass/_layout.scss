@@ -8,9 +8,15 @@
     border-bottom: 2px dashed #eee;
   }
   h2 {
-    margin:1em 0 0.25em;
-    color:#333;
+    margin: 0.8em 0 0.25em;
+    color:#666;
     font-size: 110%;
+  }
+  #misc h2 {
+    margin-top: 1.5em;
+  }
+  #misc h2:first-child {
+    margin-top: 0.5em;
   }
   ul {
     margin: 0;
