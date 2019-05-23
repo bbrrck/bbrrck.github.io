@@ -73,13 +73,14 @@ layout: page
 </div>
 </section>
 
-<!--  STUDENTS -->
-<section id="students">
+<!--  REVIEWING -->
+<section id="reviewing">
 <div class="row">
   <div class="col-xs-12">
-    <h2>Students</h2>
+    <h2>Reviewing</h2>
     <ul>
-      <li>Lucas Lesage (internship at Inria Grenoble, summer 2017)</li>
+      <li>Journal: <a href="https://www.journals.elsevier.com/computers-and-graphics">Computers &amp; Graphics</a></li>
+      <li>Conference: <a href="https://dgci2019.sciencesconf.org/">DGCI 2019</a></li>
     </ul>
   </div>
 </div>
@@ -94,6 +95,18 @@ layout: page
       <li><a href="/teaching/analyse-num-2017/">Numerical analysis</a>, Grenoble INP, spring 2017</li>
       <li><a href="/teaching/geo-num-2017/">Numerical geometry</a>, UGA, spring 2017</li>
       <li><a href="/teaching/geo-num-2016/">Numerical geometry</a>, UGA, spring 2016</li>
+    </ul>
+  </div>
+</div>
+</section>
+
+<!--  STUDENTS -->
+<section id="students">
+<div class="row">
+  <div class="col-xs-12">
+    <h2>Students</h2>
+    <ul>
+      <li>Lucas Lesage (internship at Inria Grenoble, summer 2017)</li>
     </ul>
   </div>
 </div>
