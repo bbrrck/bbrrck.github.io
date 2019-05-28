@@ -77,7 +77,7 @@ layout: page
 <section id="reviewing">
 <div class="row">
   <div class="col-xs-12">
-    <h2>Reviewing</h2>
+    <h2>Reviewing service</h2>
     <ul>
       <li>Journal: <a href="https://www.journals.elsevier.com/computers-and-graphics">Computers &amp; Graphics</a></li>
       <li>Conference: <a href="https://dgci2019.sciencesconf.org/">DGCI 2019</a></li>
@@ -159,5 +159,4 @@ layout: page
   </div>
 </div>
 </section>
-
 </div>

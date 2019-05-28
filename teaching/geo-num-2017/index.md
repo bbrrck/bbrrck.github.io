@@ -20,7 +20,7 @@ title: Géométrie numérique 2017
         </div>
 
         <div class="col-xs-12">
-          {% assign allnews = (course.news  | sort: 'date' | reverse) %}
+          {% assign allnews = course.news  | sort: 'date' | reverse %}
           {% for news in allnews limit:1 %}
           <div class="teaching-{{ news.type }}">
               <!--span class="date">{{ news.date | date: "(%d/%m)" }}</span-->
