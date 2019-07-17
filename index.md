@@ -58,7 +58,7 @@ layout: page
 <div class="col-xs-12">
   <h2>Short Bio <a href="/assets/cv.pdf">∮</a></h2>
 <p>
-  I’m currently a postdoc at <a href="https://team.inria.fr/graphdeco/">GraphDeco</a> (Inria Sophia Antipolis)
+  I am currently a postdoc at <a href="https://team.inria.fr/graphdeco/">GraphDeco</a> (Inria Sophia Antipolis)
   working with <a href="http://www-sop.inria.fr/members/Adrien.Bousseau/">Adrien Bousseau</a> and <a href="http://www.cgg.unibe.ch/">David Bommes</a> (University of Bern).
 </p>
 <p>
@@ -118,19 +118,15 @@ layout: page
   <div class="col-xs-12">
     <h2>Misc <a href="links.html">graphics &amp; geometry bookmarks</a></h2>
 
-    <h2>My PhD work featured in <a href="http://www.leti-cea.com/cea-tech/leti/english/Pages/Applied-Research/Results/scientific-reports.aspx">CEA-Leti annual reports</a></h2>
-    <ul>
-      <li>
-        <a href="http://www.cea.fr/cea-tech/leti/Documents/Rapport%20scientifique/Rapports%202016/RapportLETI-2017-num.pdf">2017, p.54</a>: <em>Morphorider: Capturing Shapes with Precision</em>
-      </li>
-      <li>
-        2018, TBA: <em>Shape from Sensors</em>
-      </li>
-    </ul>
+    <!-- <p>My PhD work was featured in CEA-Leti annual reports:
+    <a href="http://www.cea.fr/cea-tech/leti/Documents/Rapport%20scientifique/Rapports%202016/RapportLETI-2017-num.pdf">2017</a> (p. 54)
+    and
+    <a href="http://www.cea.fr/cea-tech/leti/Documents/plaquettes/Rapports-Scientifique/Leti_Scientific_Repport_2018.pdf">2018</a> (p. 89)
+    </p> -->
 
     <h2>Choir singing is fun!</h2>
     <p>
-      I am currently a member of the <a href="http://www.choeur-philharmonique-nice.fr/">Choeur Philharmonique de Nice</a>. Before, I was singing in <a href="http://www.zbortechnik.sk/english/">University Choir Technik STU</a> and <a href="https://www.facebook.com/canticanova.tt/">Cantica Nova</a>.
+      I am a member of the <a href="http://www.choeur-philharmonique-nice.fr/">Choeur Philharmonique de Nice</a>. Before, I was singing in <a href="http://www.zbortechnik.sk/english/">University Choir Technik STU</a> and <a href="https://www.facebook.com/canticanova.tt/">Cantica Nova</a>.
       Some of my favorite compositions include
       <a href="https://open.spotify.com/album/35J3H2XNpCmFqk2KxmvWzs?si=9I22pGCiQBya7CQ5XL5S7g">Fauré's '<em>Requiem</em></a>
       and
