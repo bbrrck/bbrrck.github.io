@@ -48,7 +48,7 @@ title: Géométrie numérique
             {{ class.title }}
             {% else %}
             {{ type }}{{ class.number }} :
-            <a href="/teaching/{{ course.slug }}/{{ type | downcase }}{{ class.number }}.html">{{ class.title }}</a>
+            <a href="/teaching/{{ course.slug }}/{{ type | downcase }}{{ class.number }}.html">{{ class.short }}</a>
             {% endif %}
             </span>
             </li>

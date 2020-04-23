@@ -11,15 +11,15 @@ div.syllabus-wrapper {
   padding: 0 0 2em 1em;
 }
 ul.syllabus, ol.syllabus {
-  font-size: 90%;
+  font-size: 100%;
   margin: 0 0 0 1em;
   line-height: 1.6;
   margin: 0;
   color: #666;
   li {
+    text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
   }
   .date {
     color: #999;

@@ -79,8 +79,9 @@ layout: page
   <div class="col-xs-12">
     <h2>Reviewing service</h2>
     <ul>
-      <li>Journal: <a href="https://www.journals.elsevier.com/computers-and-graphics">Computers &amp; Graphics</a></li>
-      <li>Conference: <a href="https://dgci2019.sciencesconf.org/">DGCI 2019</a></li>
+      <li>2020: <a href="https://www.journals.elsevier.com/computer-aided-design" title="CAD journal">Computer-Aided Design</a></li>
+      <li>2019: <a href="https://www.journals.elsevier.com/computer-aided-geometric-design" title="CAGD journal">Computer-Aided Geometric Design</a></li>
+      <li>2018: <a href="https://www.journals.elsevier.com/computers-and-graphics" title="C&amp;G journal">Computers &amp; Graphics</a>, <a href="https://dgci2019.sciencesconf.org/" title="DGCI 2019 conference">DGCI 2019</a></li>
     </ul>
   </div>
 </div>
@@ -90,11 +91,20 @@ layout: page
 <section id="teaching">
 <div class="row">
   <div class="col-xs-12">
-    <h2>Teaching</h2>
+    <h2>Teaching (TA)</h2>
+    <p style="color:#999; font-size:90%;">
+    UCA: Université Côte d'Azur              <br />
+    UGA: Université Grenoble Alpes           <br />
+    INPG: Institut polytechnique de Grenoble       <br />
+    </p>
     <ul>
-      <li><a href="/teaching/analyse-num-2017/">Numerical analysis</a>, Grenoble INP, spring 2017</li>
-      <li><a href="/teaching/geo-num-2017/">Numerical geometry</a>, UGA, spring 2017</li>
-      <li><a href="/teaching/geo-num-2016/">Numerical geometry</a>, UGA, spring 2016</li>
+      <li>2020, UCA : Mathematics for biologists (<a href="https://math.unice.fr/~hoering/l1sv-s2-20.html">contents</a>)</li>
+      <li>2019, UCA : Foundations of mathematics 1 (contents:
+        <a href="https://math.unice.fr/~emiliton/fondement1/fondement1.html">calculus</a>,
+        <a href="https://math.unice.fr/~phm/enseignement.html#FMalgebre">linear algebra</a>)</li>
+      <li>2017, INPG : <a href="/teaching/analyse-num-2017/">Numerical analysis</a></li>
+      <li>2017, UGA : <a href="/teaching/geo-num-2017/">Numerical geometry</a></li>
+      <li>2016, UGA : <a href="/teaching/geo-num-2016/">Numerical geometry</a></li>
     </ul>
   </div>
 </div>
@@ -104,9 +114,10 @@ layout: page
 <section id="students">
 <div class="row">
   <div class="col-xs-12">
-    <h2>Students</h2>
+    <h2>Students co-supervised</h2>
     <ul>
-      <li>Lucas Lesage (internship at Inria Grenoble, summer 2017)</li>
+      <li> Emilie Yu (M2 internship at Inria Sophia-Antipolis, 2020) </li>
+      <li> Lucas Lesage (M1 internship at Inria Grenoble, summer 2017) </li>
     </ul>
   </div>
 </div>
@@ -126,7 +137,7 @@ layout: page
 
     <h2>Choir singing is fun!</h2>
     <p>
-      I am a member of the <a href="http://www.choeur-philharmonique-nice.fr/">Choeur Philharmonique de Nice</a>. Before, I was singing in <a href="http://www.zbortechnik.sk/english/">University Choir Technik STU</a> and <a href="https://www.facebook.com/canticanova.tt/">Cantica Nova</a>.
+      I <s>am</s> was a member of the <a href="http://www.choeur-philharmonique-nice.fr/">Choeur Philharmonique de Nice</a>. Before, I was singing in <a href="http://www.zbortechnik.sk/english/">University Choir Technik STU</a> and <a href="https://www.facebook.com/canticanova.tt/">Cantica Nova</a>.
       Some of my favorite compositions include
       <a href="https://open.spotify.com/album/35J3H2XNpCmFqk2KxmvWzs?si=9I22pGCiQBya7CQ5XL5S7g">Fauré's '<em>Requiem</em></a>
       and
@@ -140,7 +151,7 @@ layout: page
 <section id="stuff">
 <div class="row">
   <div class="col-xs-12">
-    <h2></h2>
+    <h2>Random stuff</h2>
     <div class="row">
       <div class="col-md-4 col-sm-6 col-xs-12">
         <a title="conformal flattening of a whale curve" href="whale.html"><img src="/assets/stuff/whale.png" alt="whale" /></a>

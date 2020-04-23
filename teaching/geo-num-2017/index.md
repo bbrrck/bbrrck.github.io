@@ -60,7 +60,7 @@ title: Géométrie numérique 2017
             {% else %}
                 {% capture classtime %}{{class.date | date: '%s'}}{% endcapture %}
                 {{ type }}{{ class.number }} :
-                {% if classtime < nowunix %}<a href="/teaching/{{ course.slug }}/{{ type | downcase }}{{ class.number }}.html">{% endif %}{{ class.title }}{% if classtime < nowunix %}</a>{% endif %}
+                {% if classtime < nowunix %}<a href="/teaching/{{ course.slug }}/{{ type | downcase }}{{ class.number }}.html">{% endif %}{{ class.short }}{% if classtime < nowunix %}</a>{% endif %}
 
             {% endif %}
             </span>

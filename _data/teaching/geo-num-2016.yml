@@ -1,16 +1,16 @@
----      
+---
 name    : "Géométrie numérique"
 code    : "GINF42C6"
 url     : "http://ufrima.imag.fr/ue/WebFormation/ue.php?code=GINF42C6&ismat=&lang=fr"
 slug    : geo-num-2016
-  
+
 meta    :
   - semester: "spring 2016"
     type    : "TP"
     group   : "M1 Info"
     time    : "Friday, 15h15 – 16h45"
     room    : "F217, UFR IM²AG"
-    
+
 news      :
 
   - date  : 2016-04-11 12:00:00
@@ -22,16 +22,16 @@ news      :
   - date  : 2016-04-04 12:00:00
     type  : 'deadline'
     text  : 'The deadline for submitting your <a href="/teaching/geo-num-2016/tp8.html">TP8</a> is Thursday, April 7, 23h59.'
-    
+
   - date  : 2016-03-21 12:00:00
     type  : 'news'
-    text  : "A new version of <a href='https://github.com/bbrrck/geo-num-2016/blob/master/TP6/CMakeLists.txt'><code>CMakeLists.txt</code></a> is available, you can pull it from the repo. 
+    text  : "A new version of <a href='https://github.com/bbrrck/geo-num-2016/blob/master/TP6/CMakeLists.txt'><code>CMakeLists.txt</code></a> is available, you can pull it from the repo.
             The <code>SimpleViewer</code> should work now; if it doesn't, please send me a detailed description of the problem."
 
   - date  : 2016-03-20 12:00:00
     type  : 'deadline'
     text  : 'The deadline for submitting your <a href="/teaching/geo-num-2016/tp6.html">TP6</a> is Thursday, March 24, 23h59.'
-  
+
   - date  : 2016-03-16 12:00:00
     type  : 'deadline'
     text  : 'The deadline for submitting your <a href="/teaching/geo-num-2016/tp5.html">TP4</a> is Thursday, March 17, 23h59.'
@@ -46,66 +46,77 @@ news      :
 
   - date  : 2016-02-12 12:00:00
     type  : 'deadline'
-    text  : "Don't forget to submit your work from <a href='/teaching/geo-num-2016/tp2.html'>TP2</a>, 
+    text  : "Don't forget to submit your work from <a href='/teaching/geo-num-2016/tp2.html'>TP2</a>,
     only the first part with $C^1$ splines is obligatory. The deadline is Thursday, February 18, 23h59."
 
   - date  : 2016-02-06 12:00:00
     type  : 'deadline'
-    text  : "Don't forget to submit your work from TP1, the deadline is Thursday (Feb 11) 23h59. 
+    text  : "Don't forget to submit your work from TP1, the deadline is Thursday (Feb 11) 23h59.
     Make sure you've completed all <a href='/teaching/geo-num-2016/tp1.html#todo'>assignements</a> (they've been revised)
     and follow the <a href='/teaching/geo-num-2016/#submissions'>submission instructions</a>."
 
 syllabus:
   - date  : 2016-02-05 15:15:00
     title : "Bézier curves, De Casteljau’s algorithm"
+    short : "Bézier curves"
     number: 1
-    
+
   - date  : 2016-02-12 15:15:00
     title : "Bézier splines, $C^k$ smoothness"
+    short : "Bézier splines"
     number: 2
-    
+
   - date  : 2016-02-19 15:15:00
     title : "B-splines, De Boor's algorithm"
+    short : "B-splines"
     number: 3
-    
+
   - date  : 2016-02-26 15:15:00
     title : "winter break"
+    short : "winter break"
     break : true
-    
+
   - date  : 2016-03-04 15:15:00
     title : "Subdivision Curves"
+    short : "Subdivision curves"
     number: 4
-    
+
   - date  : 2016-03-11 15:15:00
     title : "Uniform B-splines as Subvidision Curves"
+    short : "Uniform B-spline Curves"
     number: 5
-    
+
   - date  : 2016-03-18 15:15:00
     title : "Bézier Surfaces"
+    short : "Bézier Surfaces"
     number: 6
-    
+
   - date  : 2016-03-25 15:15:00
     title : "B-spline Surfaces"
+    short : "B-spline Surfaces"
     number: 7
-    
+
   - date  : 2016-04-01 15:15:00
     title : "Uniform B-splines as Subdivision Surfaces"
+    short : "Uniform B-spline Surfaces"
     number: 8
-    
+
   - date  : 2016-04-08 15:15:00
     title : "Subdivision Surfaces on Triangle Meshes"
+    short : "Subdivision on Meshes"
     number: 9
-    
+
   - date  : 2016-04-15 15:15:00
     title : "revisions"
+    short : "revisions"
     nolink: true
     number: 10
-    
+
 past:
   - year : 2015
     who  : Ulysse Vimont
     url  : https://team.inria.fr/imagine/geometrie-numerique-m1-info-im2ag-20142015/
-    
+
   - year : 2014
     who  : Pierre-Luc Manteaux
     url  : http://manteapi.github.io/teaching/imag_geonum/index.html
