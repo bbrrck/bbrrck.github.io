@@ -34,3 +34,5 @@
   text: 'I’m attending <a href="https://jfig2018.sciencesconf.org/">J-FIG 2018</a> in Poitiers.'
 - date: 2019-03-11
   text: 'I spent two weeks at University of Montreal (Feb 25 – Mar 8).'
+- date: 2020-06-05
+  text: 'Our paper on <em>Integer-Grid Sketch Simplication and Vectorization</em> is conditionally accepted to SGP! More info soon.'
