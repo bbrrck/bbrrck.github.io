@@ -42,7 +42,7 @@
       - id: UCA-INRIA   # 1
       - id: UNIMONTREAL # 2
       - id: UNIBERN     # 3
-  ppage       : grid-vectorization.html
+  ppage_ext   : https://repo-sam.inria.fr/d3/grid-vectorization/
   teaser      : /assets/sgp2020/igssv-teaser.png
   abstract    : "A major challenge in line drawing vectorization is segmenting the input bitmap into separate curves. This segmentation is especially problematic for rough sketches, where curves are depicted using multiple overdrawn strokes. Inspired by feature-aligned mesh quadrangulation methods in geometry processing, we propose to extract vector curve networks by parametrizing the image with local drawing-aligned integer grids. The regular structure of the grid facilitates the extraction of clean line junctions; due to the grid's discrete nature, nearby strokes are implicitly grouped together. We demonstrate that our method successfully vectorizes both clean and rough line drawings, whereas previous methods focused on only one of those drawing types."
 
