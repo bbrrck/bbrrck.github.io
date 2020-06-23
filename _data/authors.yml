@@ -25,3 +25,18 @@
 - id   : NSAGUIN
   last : Saguin-Sprynski
   first: Nathalie
+
+- id   : DBOMMES
+  last : Bommes
+  first: David
+  url  : "https://cgg.unibe.ch/"
+
+- id   : MBESSMELTSEV
+  last : Bessmeltsev
+  first: Mikhail
+  url  : "http://www-labs.iro.umontreal.ca/~bmpix/"
+
+- id   : ABOUSSEAU
+  last : Bousseau
+  first: Adrien
+  url  : "http://www-sop.inria.fr/members/Adrien.Bousseau/"

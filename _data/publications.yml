@@ -3,6 +3,50 @@
 #  Publications in reverse chronological order                                 #
 #------------------------------------------------------------------------------#
 
+
+#---------------------#
+#  2020 SGP           #
+#---------------------#
+- description : "2020, Computer Graphics Forum (Proc. SGP)"
+  slug        : Stanko:2020:SGP
+  stitle      : Integer-Grid Sketch Simplification and Vectorization # short for <title>
+  thumb       : sgp2020/igssv-thumb2-800x800
+  type        : article
+  # files to download
+  pdf:
+      - name  : paper
+        TBA   : true
+      - name  : supplemental materials
+        TBA   : true
+      - name  : code
+        TBA   : true
+  # biblio info
+  bibtex:
+      title: "Integer-Grid Sketch Simplification and Vectorization"
+      authors:
+          - id : TSTANKO
+            af : 1
+          - id : MBESSMELTSEV
+            af : 2
+          - id : DBOMMES
+            af : 3
+          - id : ABOUSSEAU
+            af : 1
+      journal  : "Computer Graphics Forum (Proc. SGP)"
+      volume   : 39
+      number   : 5
+      month    : 7
+      year     : 2020
+  # PP details
+  af:
+      - id: UCA-INRIA   # 1
+      - id: UNIMONTREAL # 2
+      - id: UNIBERN     # 3
+  ppage       : grid-vectorization.html
+  teaser      : /assets/sgp2020/igssv-teaser.png
+  abstract    : "A major challenge in line drawing vectorization is segmenting the input bitmap into separate curves. This segmentation is especially problematic for rough sketches, where curves are depicted using multiple overdrawn strokes. Inspired by feature-aligned mesh quadrangulation methods in geometry processing, we propose to extract vector curve networks by parametrizing the image with local drawing-aligned integer grids. The regular structure of the grid facilitates the extraction of clean line junctions; due to the grid's discrete nature, nearby strokes are implicitly grouped together. We demonstrate that our method successfully vectorizes both clean and rough line drawings, whereas previous methods focused on only one of those drawing types."
+
+
 #------------------#
 #  2017 Thesis PhD #
 #------------------#

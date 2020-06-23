@@ -61,7 +61,11 @@
         <h2 style="padding:1em 0 1em;">Downloads</h2>
         <ul style="font-size:120%;color:#666;">
           {% for pp in pub.pdf %}
+          {% if pp.TBA %}
+          <li><span style="color:#c93">[available soon]</span> {{ pp.name }} </li>
+          {% else %}
           <li><a class="pub-link" href="{{ pp.url }}">{{ pp.name }}</a> ~ {{ pp.size }} MB</li>
+          {% endif %}
           {% endfor %}
         </ul>
 
