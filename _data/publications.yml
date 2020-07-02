@@ -15,11 +15,13 @@
   # files to download
   pdf:
       - name  : paper
-        TBA   : true
-      - name  : supplemental materials
-        TBA   : true
+        url   : http://www-sop.inria.fr/reves/Basilic/2020/SBBB20/paper.pdf
       - name  : code
-        TBA   : true
+        url   : https://gitlab.inria.fr/D3/grid-vectorization/
+      - name  : video talk
+        url   : https://www.youtube.com/watch?v=H59fsaBd_Qg
+      - name  : supplemental
+        url   : http://www-sop.inria.fr/reves/Basilic/2020/SBBB20/supplemental.pdf
   # biblio info
   bibtex:
       title: "Integer-Grid Sketch Simplification and Vectorization"

@@ -36,3 +36,5 @@
   text: 'I spent two weeks at University of Montreal (Feb 25 – Mar 8).'
 - date: 2020-06-05
   text: 'Our paper on <em>Integer-Grid Sketch Simplication and Vectorization</em> is conditionally accepted to SGP! More info soon.'
+- date: 2020-07-02
+  text: 'Code and video talk for IGSV are now online! Links on the <a href="https://repo-sam.inria.fr/d3/grid-vectorization/">project page</a>.'
