@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <link rel="stylesheet" href="{{ '/js/magnific-popup.css' | prepend: site.baseurl }}">
+  <style>
+    h2 {margin: 2em 0 0.5em;}
+    table {margin: 0 0 2em;}
+    table tr td {padding: 1em 0.5em;}
+    table .col-1 {width:30%; color: black;}
+    table .col-2 {width:40%; color: black;}
+    table .col-3 {width:10%; color: red; text-align: center;}
+    table .col-4 {width:10%; color: #666; text-align: center;}
+    table .col-5 {width:10%; color: #666; text-align: center;}
+    div#for-sale-intro {margin: 2em;}
+    ul.list-of-items-in-category {
+      font-size: 90%;
+      display:inline;
+      padding:0;
+      margin:0 0 2em;
+    }
+    ul.list-of-items-in-category li {
+      display:inline;
+      padding: 0;
+      margin: 0;
+    }
+    ul.list-of-items-in-category li+li:before {
+      content: " • ";
+      color: #ddd;
+    }
+    ul.list-of-items-in-category li:nth-of-type(odd) {
+      color: #666;
+    }
+    ul.list-of-items-in-category li:nth-of-type(even) {
+      color: #999;
+    }
+  </style>
+  <body>
+    {% include body-start-hook.html %}
+    <div class="site-main">
+      <div class="container" style="width:100%; max-width:1000px;">
+
+        <div id="for-sale-intro">{{ site.data.selling.intro}}</div>
+
+        {% for type in site.data.selling.categories %}
+        <h2>{{ type.type }}</h2>
+        <ul class="list-of-items-in-category">{% for item in type.items %}<li>{{ item.name }}</li>{% endfor %}</ul>
+        <table style="width:100%; margin-top:1em;">
+          <tr>
+            <th class="col-1">photos</th>
+            <th class="col-2">description</th>
+            <th class="col-3">price</th>
+            <th class="col-4">original price</th>
+            <th class="col-5">date bought</th>
+          </tr>
+        {% for item in type.items %}
+          <tr>
+            <td class="col-1">
+              {% for photo in item.photos %}
+              <a class="magnific-popup" href="/assets/things-for-sale/2020/{{ photo.src }}.jpg"><img style="width:100px;" src="/assets/things-for-sale/2020/{{ photo.src }}.jpg" alt="" /></a>
+              {% endfor %}
+              {% for photo in item.photos_external %}
+              <a class="magnific-popup" href="{{ photo.src }}"><img style="width:100px;" src="{{ photo.src }}" alt="" /></a>
+              {% endfor %}
+            </td>
+            <td class="col-2">
+              <strong>{{ item.name }}</strong>
+              {% for part in item.parts %}
+              <br />{% if part.url %}<a href="{{ part.url }}">{{ part.brand }} {{ part.model }}</a>{% else %}{{ part.brand }} {{ part.model }}{% endif %} {% if part.details %}{{ part.details }}{% endif %}
+              {% endfor %}
+              <br />
+              <br />
+              <em>{{ item.description }}</em>
+            </td>
+            <td class="col-3">{{ item.sell_price }} €</td>
+            <td class="col-4">{{ item.buy_price }} €</td>
+            <td class="col-5">{% if item.buy_month %}{{ item.buy_month }}/{% endif %}{{ item.buy_year }}</td>
+          </tr>
+        {% endfor %}
+        </table>
+        {% endfor %}
+      </div>
+    </div>
+  </body>
+  <!-- Magnific Popup core JS file -->
+  <script src="{{ '/js/magnific-popup.js' | prepend: site.baseurl }}"></script>
+  <script>
+$(document).ready(function() {
+	$('.magnific-popup').magnificPopup({
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return 'title:'+item.el.attr('data-title');
+			}
+		}
+	});
+});
+  </script>
+</html>

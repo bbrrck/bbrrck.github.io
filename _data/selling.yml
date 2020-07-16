@@ -1,0 +1,362 @@
+# TYPE : KITCHEN APPLIANCES
+intro: "
+<p>Hi there!</p>
+<p>After six wonderful years in France, we'll soon be moving to Slovakia. We're selling a lot of the stuff that we acquired during those six years – have a look below!</p>
+<p>Everything is in good condition; some of the stuff is even quite new. None of the electronics ever had any problems, and besides having a few scratches here and there, they all work well. </p>
+<p>We think the prices are fair, but if any of them seems too high to you, just let us know – surely we'll find a common ground.</p>
+<p>Best,</p>
+<p>Lujza &amp; Tibor</p>
+<br />
+<p>
+         <span style='color:#999;'>If you'd like to purchase anything, please let us know as soon as possible:</span>
+  <br /> <a href='mailto:tibor.stanko@inria.fr'>tibor.stanko@inria.fr</a>
+  <br /> <a href='mailto:tibor.stanko@gmail.com'>tibor.stanko@gmail.com</a>
+  <br /> (+33) 07.50.26.15.46 <span style='color:#999;'>(phone, WhatsApp)</span>
+</p>
+"
+categories:
+- type: "kitchen appliances, other electronics"
+  items:
+  - name: induction cooker with oven
+    parts:
+      - brand: Beko
+        model: FSE58300ACS
+        url: "https://www.electromenager-compare.com/cuisiniere-BEKFSE58300ACS-BEKO-FSE58300ACS.htm"
+    buy_year: 2018
+    buy_month: "02"
+    buy_price: 400
+    buy_where: CDiscount
+    sell_price: 190
+    # description: "In perfect condition. For some reason the price is now higher than when we bought it (see the link), so this is a great bargain!"
+    photos:
+      - src: sporak_0
+    photos_external:
+      - src: https://images.fr.shopping.rakuten.com/photo/1135881663.jpg
+
+  - name: dishwasher
+    parts:
+      - brand: AYA
+        model: LV1248DB
+        url: "https://www.electromenager-compare.com/lave-vaisselle-AYALV1248DB-AYA-LV1248DB.htm"
+    buy_year: 2015
+    buy_month: "09"
+    buy_price: 200
+    buy_where: But
+    sell_price: 45
+    # description: "Works great, we never had any problems with it. Only has a few scratches on the plastic front."
+    photos:
+      - src: umyvacka_1
+      - src: umyvacka_0
+    photos_external:
+      - src: https://media.shopping-compare.com/files/products/photos/electromenager/AYALV1248DB_ENERGY.jpg
+
+  - name: washing machine
+    parts:
+      - brand: AYA
+        model: ALF5801-1
+        url: "https://www.electromenager-compare.com/lave-linge-AYAALF58011-AYA-ALF5801-1.htm"
+    buy_year: 2014
+    buy_month: "10"
+    buy_price: 200
+    buy_where: Conforama?
+    sell_price: 45
+    description:
+    photos:
+      - src: pracka_0
+    photos_external:
+      - src: https://media.shopping-compare.com/files/products/photos/electromenager/AYAALF58011_1.jpg
+      - src: https://media.shopping-compare.com/files/products/photos/electromenager/AYAALF58011_2.jpg
+
+  - name: fridge with build-in freezer
+    parts:
+      - brand: AYA
+        model: AFD2000A+
+        url: "https://www.electromenager-compare.com/refrigerateur-AYAAFD2000AP-AYA-AFD2000A.htm"
+    buy_year: 2014
+    buy_month: "10"
+    buy_price: 200
+    buy_where: But
+    sell_price: 45
+    description:
+    photos:
+      - src: chladnicka_0
+    photos_external:
+      - src : https://media.shopping-compare.com/files/products/photos/electromenager/AYAAFD2000AP_1.jpg
+      - src : https://media.shopping-compare.com/files/products/photos/electromenager/AYAAFD2000AP_2.jpg
+      - src : https://media.shopping-compare.com/files/products/photos/electromenager/AYAAFD2000AP_ENERGY.jpg
+
+  - name: microwave oven
+    parts:
+      - brand: Samsung
+        model: MS23F301EFS
+        url: "https://www.electromenager-compare.com/four-SAMMS23F301EFSEF-SAMSUNG-MS23F301EFS.htm"
+    buy_year: 2014
+    buy_month: "10"
+    buy_price: 100
+    buy_where: But
+    sell_price: 40
+    description:
+    photos:
+      - src: mikrovlnka_0
+    photos_external:
+      - src: https://media.shopping-compare.com/files/products/photos/electromenager/SAMMS23F301EFSEF_1.jpg
+
+  - name: TV
+    parts:
+      - brand: Panasonic
+        model: TX-L32XM6E
+        url: "https://www.lcd-compare.com/televiseur-PANTXL32XM6E-PANASONIC-TX-L32XM6E.htm"
+    buy_year: 2015
+    buy_month: "01"
+    buy_price: 220
+    buy_where: Conforama
+    sell_price: 90
+    description:
+    photos:
+      - src: tv_stolik_0
+    photos_external:
+      - src: https://dfxqtqxztmxwe.cloudfront.net/images/dynamic/Televiseurs/articles/Panasonic/PANATXL32XM6E/Panasonic-TX-L32XM6E_P_600.jpg
+
+# TYPE : FURNITURE
+- type: furniture
+  items:
+  - name: TV bench
+    parts:
+      - brand: Ikea
+        model: Brusali
+        url: "https://www.ikea.com/fr/fr/p/brusali-banc-tv-blanc-70302297/"
+    buy_year: 2015
+    buy_month: "01"
+    buy_price: 70
+    buy_where: Ikea
+    sell_price: 30
+    description:
+    photos:
+      - src: tv_stolik_0
+    photos_external:
+      - src: https://www.ikea.com/fr/fr/images/products/brusali-tv-bench-white__0351586_PE538333_S5.JPG?f=xl
+      - src: https://www.ikea.com/fr/fr/images/products/brusali-tv-bench-white__0850150_PE561992_S5.JPG?f=xl
+
+  - name: bookcase 40cm (3x)
+    parts:
+      - brand: Ikea
+        model: Billy (40x28x202 cm)
+        url: "https://www.ikea.com/fr/fr/p/billy-bibliotheque-blanc-50263838/"
+    buy_year: 2014
+    buy_month: "10"
+    buy_price: 30
+    buy_where: Ikea
+    sell_price: 5
+    description:
+    photos:
+      - src: kniznica_velka_3
+      - src: kniznica_mala_0
+    photos_external:
+      - src: https://www.ikea.com/fr/fr/images/products/billy-bookcase-white__0644260_PE702536_S5.JPG?f=xl
+      - src: https://www.ikea.com/fr/fr/images/products/billy-bookcase-white__0394564_PE561387_S5.JPG?f=xl
+
+  - name: bookcase 40cm glass door
+    parts:
+      - brand: Ikea
+        model: Oxberg (40x192 cm)
+        url: "https://www.ikea.com/fr/fr/p/oxberg-porte-vitree-plaque-bouleau-00275607/"
+    buy_year: 2015
+    buy_month: ""
+    buy_price: 45
+    buy_where: Ikea
+    sell_price: 15
+    description:
+    photos_external:
+      - src: https://www.ikea.com/fr/fr/images/products/oxberg-glass-door-birch-veneer__0638826_PE699189_S5.JPG?f=g
+
+  - name: bookcase 80cm (1x)
+    parts:
+      - brand: Ikea
+        model: Billy (80x28x202 cm)
+        url: "https://www.ikea.com/fr/fr/p/billy-bibliotheque-blanc-00263850/"
+    buy_year: 2014
+    buy_month: "10"
+    buy_price: 40
+    buy_where: Ikea
+    sell_price: 9
+    description:
+    photos:
+      - src: kniznica_velka_3
+    photos_external:
+      - src: https://www.ikea.com/fr/fr/images/products/billy-bookcase-white__0625599_PE692385_S5.JPG?f=xl
+      - src: https://www.ikea.com/fr/fr/images/products/billy-bookcase-white__0394567_PE561390_S5.JPG?f=xl
+
+  - name: couch
+    parts:
+      - brand: Ikea
+        model: Friheten
+        url: "https://www.ikea.com/fr/fr/p/friheten-canape-conv-dangle-avec-rangement-skiftebo-gris-fonce-s39216754/"
+    buy_year: 2014
+    buy_month: "10"
+    buy_price: 400
+    buy_where: Ikea
+    sell_price: 120
+    description:
+    photos:
+      - src: gauc_0
+      - src: gauc_2
+    photos_external:
+      - src: https://i.pinimg.com/564x/b4/f0/c3/b4f0c39ff359aff076878996f3afc8b8.jpg
+
+  - name: desk with drawers
+    parts:
+      - brand: Ikea
+        model: Alex (drawers)
+        url: "https://www.ikea.com/fr/fr/p/alex-caisson-a-tiroirs-blanc-10192824/"
+      - brand: Ikea
+        model: Linnmon (desk top)
+        url: "https://www.ikea.com/fr/fr/p/linnmon-plateau-blanc-60251137/"
+      - brand: Ikea
+        model: Adils (desk legs)
+        url: "https://www.ikea.com/fr/fr/p/adils-pied-blanc-90217972/"
+    buy_year: 2016
+    buy_month: "08"
+    buy_price: 95
+    buy_where: Ikea
+    sell_price: 35
+    description: ""
+    photos:
+      - src: pracovny_stol_0
+      - src: pracovny_stol_1
+    photos_external:
+      - src: https://www.ikea.com/fr/fr/images/products/alex-drawer-unit__0087723_PE217289_S5.JPG?f=xl
+      - src: https://www.ikea.com/fr/fr/images/products/alex-drawer-unit__0256657_PE400799_S5.JPG?f=xl
+
+  - name: shoe rack
+    parts:
+      - brand: Ikea
+        model: Bissa
+        url: "https://www.ikea.com/fr/fr/p/bissa-armoire-a-chaussures-3-casiers-noir-brun-50248428/"
+    buy_year: 2014
+    buy_month: "10"
+    buy_price: 45
+    buy_where: Ikea
+    sell_price: 9
+    description: ""
+    photos:
+      - src: botnik_0
+    photos_external:
+      - src: https://www.ikea.com/fr/fr/images/products/bissa-shoe-cabinet-with-3-compartments-black-brown__0421775_PE577982_S5.JPG?f=xl
+
+  - name: wardrobe
+    parts:
+      - brand: Ikea
+        model: Brusali
+        url: "https://www.ikeaddict.com/ikeapedia/fr/Product/00250169/fr-fr/brusali-armoire-3-portes-blanc/Entry/"
+    buy_year: 2018
+    buy_month: "01"
+    buy_price: 150
+    buy_where: Ikea
+    sell_price: 75
+    description: ""
+    photos:
+      - src: skrina_3
+    photos_external:
+      - src: https://webimg.secondhandapp.com/w-i-mgl/5b58be315d532c0e5ce0762d
+
+  - name: "double bed 140x200cm"
+    parts:
+      - what: bed frame
+        brand: Ikea
+        model: Brimnes (frame)
+        url: "https://www.ikea.com/fr/fr/p/brimnes-cadre-de-lit-rangement-tete-de-lit-blanc-luroey-s59157447/"
+      - what: bedspring
+        brand: Ikea
+        model: Luröy (bedspring)
+        url: "https://www.ikea.com/fr/fr/p/brimnes-cadre-de-lit-rangement-tete-de-lit-blanc-luroey-s59157447/"
+      - what: mattress 140x190
+        brand: Merinos
+        model: Buggy (mattress 140x190)
+      - what: headboard (<em>not shown on the photos</em>)
+        brand: Ikea
+        model: Brimnes (headboard)
+        details: "<br /><em>[headboard not shown in our photos]</em>"
+        url: "https://www.ikea.com/fr/fr/p/brimnes-tete-de-lit-avec-rangement-blanc-80228711/"
+    buy_year: 2018, 01/2015 (mattress)
+    buy_month: "01"
+    buy_price: 590 # 290 + 300
+    buy_where: Ikea, Conforama
+    sell_price: 190
+    description: "<em style='color:#666'>child sold separately</em>"
+    photos:
+      - src: postel_LT_4
+      - src: postel_LT_3
+      - src: matrac_0
+    photos_external:
+      - src: https://www.ikea.com/fr/fr/images/products/brimnes-bed-frame-w-storage-and-headboard-white-luroey__0638600_PE699029_S5.JPG?f=xl
+      - src: https://www.ikea.com/fr/fr/images/products/brimnes-bed-frame-w-storage-and-headboard-white-luroey__0268303_PE406267_S5.JPG?f=xl
+
+  - name: children's bed
+    parts:
+      - what: bed frame
+        brand: Ikea
+        model: Singlar (frame)
+        url: "https://www.ikea.com/fr/fr/p/sniglar-cadre-lit-sommier-lattes-hetre-s19185433/"
+      - what: mattress
+        brand: Ikea
+        model: Underlig (mattress)
+        url: "https://www.ikea.com/fr/fr/p/underlig-matelas-mousse-pour-lit-enfant-blanc-30339392/"
+    buy_year: 2019
+    buy_month: "09"
+    buy_price: 95
+    buy_where: Ikea
+    sell_price: 45
+    description: ""
+    photos:
+      - src: postel_J_0
+    photos_external:
+      - src: https://www.ikea.com/fr/fr/images/products/sniglar-bed-frame-with-slatted-bed-base__0637773_PE698533_S5.JPG?f=xl
+
+  - name: baby bed
+    parts:
+      - brand: At4
+        model: Essentiel
+        url: "https://www.amazon.fr/gp/product/B01N9SM03M/"
+    buy_year: 2020
+    buy_month: "02"
+    buy_price: 75
+    buy_where: Amazon
+    sell_price: 35
+    description: ""
+    photos:
+      - src: postel_Z_0
+    photos_external:
+      - src: https://www.amazon.fr/images/I/612dxUz9x0L._AC_SX679_.jpg
+
+  - name: toddler bed
+    parts:
+      - brand: Ikea
+        model: Sundvik
+        url: "https://www.ikea.com/fr/fr/p/sundvik-lit-bebe-blanc-00248567/"
+    buy_year: 2016
+    buy_month: "07"
+    buy_price: 100
+    buy_where: Ikea
+    sell_price: 35
+    description: ""
+    photos_external:
+      - src: https://www.ikea.com/fr/fr/images/products/sundvik-cot__0637925_PE698610_S5.JPG
+
+# TYPE : MISC
+- type: misc
+  items:
+  - name: car seat
+    parts:
+      - brand: Britax Römer
+        model: First Class Plus
+        url: "https://www.bebe9.com/siege-auto-gr0-1-first-class-plus-fire-red.html"
+    buy_year: 2017
+    buy_month: "06"
+    buy_price: 165
+    buy_where: Ikea
+    sell_price: 80
+    description: "group 0+/1: from 0 to 4 years (0-18 kg)"
+    photos:
+      - src: autosedacka_0
+      - src: autosedacka_1
+      - src: autosedacka_2
