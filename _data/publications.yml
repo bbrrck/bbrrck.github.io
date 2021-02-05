@@ -3,6 +3,53 @@
 #  Publications in reverse chronological order                                 #
 #------------------------------------------------------------------------------#
 
+#---------------------#
+#  2021 CHI           #
+#---------------------#
+- description : "2021, ACM Conference on Human Factors in Computing Systems (CHI)"
+  slug        : Yu:2021:CHI
+  stitle      : "CASSIE: Curve and Surface Sketching in Immersive Environments" # short for <title>
+  thumb       : chi2021/chi2021-thumb
+  type        : inproceedings
+  # files to download
+  pdf:
+      - name  : paper
+        url   : http://www-sop.inria.fr/reves/Basilic/2021/YASBS21/CASSIE_author_version.pdf
+      - name  : supplemental
+        url   : http://www-sop.inria.fr/reves/Basilic/2021/YASBS21/CASSIE_Supplemental_Material.pdf
+      - name  : video
+        url   : https://www.youtube.com/watch?v=X26Q8oQ7j6M
+      #- name  : video - comparison
+      #  url   : http://www-sop.inria.fr/reves/Basilic/2021/YASBS21/CASSIE_Comparison_with_GravitySketch.mp4
+      #- name  : video - sessions
+      #  url   : http://www-sop.inria.fr/reves/Basilic/2021/YASBS21/CASSIE_Sketching_Sessions.mp4
+  # biblio info
+  bibtex:
+      title: "CASSIE: Curve and Surface Sketching in Immersive Environments"
+      authors:
+          - id : EMILIEYU
+            af : 1
+          - id : RARORA
+            af : 2
+          - id : TSTANKO
+            af : 1
+          - id : JBAERENTZEN
+            af : 3
+          - id : KSINGH
+            af : 2
+          - id : ABOUSSEAU
+            af : 1
+      booktitle : "ACM Conference on Human Factors in Computing Systems (CHI)"
+      year      : 2021
+  # PP details
+  af:
+      - id: UCA-INRIA   # 1
+      - id: UNITORONTO  # 2
+      - id: TUDENMARK   # 3
+  ppage_ext   : http://www-sop.inria.fr/reves/Basilic/2021/YASBS21/
+  #teaser      : /assets/sgp2020/igssv-teaser.png
+  #abstract    : "A major challenge in line drawing vectorization is segmenting the input bitmap into separate curves. This segmentation is especially problematic for rough sketches, where curves are depicted using multiple overdrawn strokes. Inspired by feature-aligned mesh quadrangulation methods in geometry processing, we propose to extract vector curve networks by parametrizing the image with local drawing-aligned integer grids. The regular structure of the grid facilitates the extraction of clean line junctions; due to the grid's discrete nature, nearby strokes are implicitly grouped together. We demonstrate that our method successfully vectorizes both clean and rough line drawings, whereas previous methods focused on only one of those drawing types."
+
 
 #---------------------#
 #  2020 SGP           #

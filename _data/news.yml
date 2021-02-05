@@ -38,3 +38,5 @@
   text: 'Our paper on <em>Integer-Grid Sketch Simplication and Vectorization</em> is conditionally accepted to SGP! More info soon.'
 - date: 2020-07-02
   text: 'Code and video talk for IGSV are now online! Links on the <a href="https://repo-sam.inria.fr/d3/grid-vectorization/">project page</a>.'
+- date: 2021-02-05
+  text: '<a href="http://www-sop.inria.fr/reves/Basilic/2021/YASBS21/">CASSIE</a>, Emilie''s paper on sketching in VR, has been accepted to CHI2021! [<a href="https://twitter.com/ermahler/status/1351955214383906817">thread</a>]'

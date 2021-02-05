@@ -7,12 +7,16 @@ layout: page
 <section id="contact">
 <div class="row">
   <div class="col-sm-8 col-xs-12">
-        Postdoctoral researcher
-  <br /><a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, <a href="https://www.inria.fr/en/centre/sophia">Inria Sophia-Antipolis</a>
-  <br /><br />
-  e-mail:&nbsp;&nbsp;{% include email.html %}
-  <br />phone:&nbsp;&nbsp;<a href="tel:0033492387840">(+33) 4 92 38 78 40</a>
-  <br /><span style="display:inline-block;">office:&nbsp;&nbsp;<br />&nbsp;<br />&nbsp;</span><span style="display:inline-block;">Inria Sophia-Antipolis<br />2004 Route des Lucioles, BP 93<br />06902 Sophia Antipolis, France</span>
+    <em>Data Engineer @
+    <a href="https://slovakia.zurich.com/en">Zurich Insurance</a></em>
+    <br />
+    <br />
+    Since September 2020, I am no longer active in the academic world. Nevertheless, feel free to send me an email if you have any comments about my papers or questions about how to compile my code, I'd be happy to help!
+    <br />
+    <br />
+    email: {% include email.html %} <br />
+    <br />
+    {% include social-media-list.html %}
   </div>
   <div class="col-sm-4 col-xs-12">
     <img class="avatar" src="https://68.media.tumblr.com/da1535f6b683262c546957245f5cd922/tumblr_ojzacmvGtV1u2r5sio1_1280.jpg" alt="labiaci" />
@@ -56,18 +60,17 @@ layout: page
 <section id="bio">
 <div class="row">
 <div class="col-xs-12">
-  <h2>Short Bio <a href="/assets/cv.pdf">∮</a></h2>
+  <h2>Academic Life <a href="/assets/cv.pdf">∮</a></h2>
 <p>
-  I am currently a postdoc at <a href="https://team.inria.fr/graphdeco/">GraphDeco</a> (Inria Sophia Antipolis)
-  working with <a href="http://www-sop.inria.fr/members/Adrien.Bousseau/">Adrien Bousseau</a> and <a href="http://www.cgg.unibe.ch/">David Bommes</a> (University of Bern).
+  Until 2020, I was a postdoc at <a href="https://team.inria.fr/graphdeco/">GraphDeco</a> (Inria Sophia Antipolis) working with <a href="http://www-sop.inria.fr/members/Adrien.Bousseau/">Adrien Bousseau</a> and <a href="http://www.cgg.unibe.ch/">David Bommes</a> (University of Bern).
 </p>
 <p>
-  I got my PhD from Université Grenoble Alpes, my advisors were
+  I got my PhD in 2017 from Université Grenoble Alpes, my advisors were
   <a title="personal page" href="https://team.inria.fr/imagine/stefanie-hahmann/">Stefanie Hahmann</a>,
   <a title="personal page" href="http://www-evasion.inrialpes.fr/~Georges-Pierre.Bonneau/">Georges-Pierre Bonneau</a>
   (Inria Grenoble) and Nathalie Saguin-Sprynski (CEA-Leti).
   My thesis was one of the three recognized with the <a href="https://prixigrv2018.sciencesconf.org/">Prix de thèse IG-RV 2018</a>.
-  Before that, I got my BSc and MSc from Comenius University in Bratislava, my advisor was <a title="researchgate profile" href="https://www.researchgate.net/profile/Pavel_Chalmoviansky">Pavel Chalmovianský</a>.
+  Before that, I got my BSc (2012) and MSc (2014) from Comenius University in Bratislava, my advisor was <a title="researchgate profile" href="https://www.researchgate.net/profile/Pavel_Chalmoviansky">Pavel Chalmovianský</a>.
 </p>
 </div>
 </div>

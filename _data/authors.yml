@@ -40,3 +40,23 @@
   last : Bousseau
   first: Adrien
   url  : "http://www-sop.inria.fr/members/Adrien.Bousseau/"
+
+- id   : EMILIEYU
+  last : Yu
+  first: Emilie
+  url  : "https://em-yu.github.io/"
+
+- id   : RARORA
+  last : Arora
+  first: Rahul
+  url  : "http://www.dgp.toronto.edu/~arorar/en/"
+
+- id   : KSINGH
+  last : Singh
+  first: Karan
+  url  : "http://www.dgp.toronto.edu/~karan/"
+
+- id   : JBAERENTZEN
+  last : Bærentzen
+  first: "J. Andreas"
+  url  : "http://people.compute.dtu.dk/janba/"

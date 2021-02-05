@@ -75,6 +75,33 @@
 .site-main {
   padding: 1em 0;
 }
+ul {
+  &.contact-list,
+  &.social-media-list {
+    li {display: inline-block;}
+    text-align:left;
+    list-style: none;
+    margin-left: 0;
+    img, svg {
+        margin-right: 0.2em;
+    }
+    &#nowplay-currentread li {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: $footer-icon-color;
+    }
+    // nowplaying animation
+    @keyframes nowplaying {
+        0%, 100% {fill: $footer-icon-color;}
+        50% {fill: $footer-icon-pulse;}
+    }
+    li.nowplaying path {
+        animation: nowplaying 2.5s ease-out infinite;
+    }
+  }
+}
 .site-footer {
   color: $footer-text;
   font-size: 80%;
@@ -83,31 +110,7 @@
   ul {
     list-style-type:none;
     &.contact-list {text-align:right;}
-    &.social-media-list {text-align:left;}
     li {display: inline-block;}
-    &.contact-list,
-    &.social-media-list {
-      list-style: none;
-      margin-left: 0;
-      img, svg {
-          margin-right: 0.2em;
-      }
-      &#nowplay-currentread li {
-          width: 100%;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          color: $footer-icon-color;
-      }
-      // nowplaying animation
-      @keyframes nowplaying {
-          0%, 100% {fill: $footer-icon-color;}
-          50% {fill: $footer-icon-pulse;}
-      }
-      li.nowplaying path {
-          animation: nowplaying 2.5s ease-out infinite;
-      }
-    }
   }
 }
 .news-date {
