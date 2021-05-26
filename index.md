@@ -82,9 +82,21 @@ layout: page
   <div class="col-xs-12">
     <h2>Reviewing service</h2>
     <ul>
-      <li>2020: <a href="https://www.journals.elsevier.com/computer-aided-design" title="CAD journal">Computer-Aided Design</a></li>
-      <li>2019: <a href="https://www.journals.elsevier.com/computer-aided-geometric-design" title="CAGD journal">Computer-Aided Geometric Design</a></li>
-      <li>2018: <a href="https://www.journals.elsevier.com/computers-and-graphics" title="C&amp;G journal">Computers &amp; Graphics</a>, <a href="https://dgci2019.sciencesconf.org/" title="DGCI 2019 conference">DGCI 2019</a></li>
+      <li>2021: 
+        <a href="https://s2021.siggraph.org/program/posters/">SIGGRAPH 2021 Posters</a>
+      </li>
+      <li>2020: 
+        <a href="https://advancesindifferenceequations.springeropen.com/">Advances in Difference Equations</a>, 
+        <a href="https://www.journals.elsevier.com/computer-aided-design" title="CAD journal">Computer-Aided Design</a>, 
+        <a href="https://pg2020.org/">Pacific Graphics 2020</a>
+      </li>
+      <li>2019: 
+        <a href="https://www.journals.elsevier.com/computer-aided-geometric-design" title="CAGD journal">Computer-Aided Geometric Design</a>
+      </li>
+      <li>2018: 
+        <a href="https://www.journals.elsevier.com/computers-and-graphics" title="C&amp;G journal">Computers &amp; Graphics</a>, 
+        <a href="https://dgci2019.sciencesconf.org/" title="DGCI 2019 conference">DGCI 2019</a>
+      </li>
     </ul>
   </div>
 </div>
